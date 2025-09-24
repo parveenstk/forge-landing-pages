@@ -178,12 +178,11 @@
                         <p class="extrablod">Your child catches every bug that goes around
                         </p>
 
-                        <p> your picky eater is always coming down with something, their immune system might be out
-                            of whack. Limited diets often lack vitamins like A, C, and D that help build strong
-                            immunity.</p>
+                        <p>If your picky eater is always coming down with something, their immune system might be out of
+                            whack. Limited diets often lack vitamins like A, C, and D that help build strong immunity.
+                        </p>
 
-                        <p>While other kids bounce back quickly, picky eaters tend to stay sick for longer. They're
-                            the
+                        <p>While other kids bounce back quickly, picky eaters tend to stay sick for longer. They're the
                             ones missing school days and keeping the family up at night.</p>
 
                         <p>The Hidden Hunger connection? Without proper nutrition, their bodies can't defend against
@@ -354,8 +353,7 @@
             <!-- Column data 2 -->
 
 
-
-            <div class="border-1 border-[#1EB9F0] rounded-xl p-5 mt-20 relative">
+            <div class="border-1 border-[#1EB9F0] rounded-xl lg:p-5 p-3 lg:mt-20 mt-15 relative">
                 <p
                     class="bg-[#FFEB00] absolute -top-5 left-1/2 -translate-x-1/2 py-1 lg:px-30 px-10 font-bold lg:text-lg text-base rounded-b-lg">
                     FOR SALE
@@ -391,11 +389,12 @@
 
             </div>
 
-
-            <p class="extrablod lg:mt-20 mt-5">Sources:</p>
-            <p class="break-all">https://pmc.ncbi.nlm.nih.gov/articles/PMC6316224/</p>
-            <p class="break-all">https://pmc.ncbi.nlm.nih.gov/articles/PMC11547883/</p>
-            <p class="break-all">https://pmc.ncbi.nlm.nih.gov/articles/PMC9102588/</p>
+            <div class="lg:text-lg text-sm">
+                <p class="extrablod lg:mt-20 mt-5">Sources:</p>
+                <p class="break-all">https://pmc.ncbi.nlm.nih.gov/articles/PMC6316224/</p>
+                <p class="break-all">https://pmc.ncbi.nlm.nih.gov/articles/PMC11547883/</p>
+                <p class="break-all mb-5">https://pmc.ncbi.nlm.nih.gov/articles/PMC9102588/</p>
+            </div>
 
 
 

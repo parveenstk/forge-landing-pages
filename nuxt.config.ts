@@ -5,7 +5,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   app: {
     head: {
-      title: 'YOMZ - Checkout-2',
+      title: 'Forge Landing Pages',
     },
     baseURL:'/cfyomz'
   },
