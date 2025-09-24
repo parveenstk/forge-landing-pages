@@ -1,21 +1,75 @@
-# 🚀 Nuxt 4 App
+# Nuxt Minimal Starter
 
-A modern web app built with [Nuxt 4](https://nuxt.com) – powered by Vue 3, Vite, and Nitro.
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## 🛠️ Setup
+## Setup
+
+Make sure to install dependencies:
 
 ```bash
-# Install dependencies
+# npm
 npm install
 
-# Run dev server
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
 npm run dev
 
-# Build for production
+# pnpm
+pnpm dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+# npm
 npm run build
 
-# Start production server
-npm run start
+# pnpm
+pnpm build
 
-# Or generate static site
-npm run generate
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
