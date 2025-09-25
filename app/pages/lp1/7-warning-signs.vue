@@ -20,7 +20,9 @@
     </div>
 
     <div class="bg-[#1EB9F0] py-1">
-        <p class="text-black text-center lg:text-xl text-lg font-bold">SIGN UP AND SAVE UP TO 50% OFF</p>
+        <p class="text-black text-center lg:text-xl text-lg font-bold hidden lg:block">SIGN UP AND SAVE UP TO 50% OFF
+        </p>
+        <p class="text-black text-center lg:text-xl text-lg font-bold lg:hidden">SIGN UP AND SAVE UP TO 60% OFF</p>
     </div>
     <!-- top-header -->
 
@@ -30,10 +32,21 @@
 
         <!-- Column A -->
         <div class="lg:mx-2 mx-3">
-            <h1 class="lg:text-4xl text-3xl extrablod lg:mr-10 mr-0">7 Warning Signs Your 'Picky Eater' Has Hidden
-                Hunger (And What Smart
-                Moms
-                Are Doing about It)</h1>
+            <!-- Desktop version -->
+            <h1 class="hidden lg:block lg:text-4xl text-3xl extrablod lg:mr-10 mr-0">
+                7 Warning Signs Your 'Picky Eater' Has Hidden Hunger
+                (And What Smart Moms Are Doing about It)
+            </h1>
+
+            <!-- Mobile version -->
+            <div class="block lg:hidden">
+                <h1 class="extrablod mr-0 text-[calc(9.4vw-0px)] leading-[calc(1em+1vw)]">
+                    7 Warning Signs<br>Your 'Picky Eater'<br>Has Hidden Hunger
+                </h1>
+                <p class="font-bold mt-2 text-[calc(4.3vw-0px)] leading-[calc(1em+1vw)]">And What Smart Moms Are Doing
+                    about It</p>
+            </div>
+
             <p class="flex items-center gap-3 extrablod mt-3"><img src="/images/star.svg"> <span class="font-bold">6,782
                     ratings</span></p>
 
@@ -44,33 +57,58 @@
                     <span>Last updated Sep 17, 2025</span>
                 </div>
             </div>
+
+
+
+
             <div class="space-y-4">
                 <p>If your kids only eat beige foods and turn their nose up at anything green, you're not alone.</p>
 
-                <p>But here's a secret nobody tells you: being "picky" isn't a phase or behavior problem. It could
-                    be
+                <p class="hidden lg:block">But here's a secret nobody tells you: being "picky" isn't a phase or behavior
+                    problem. It could be
                     your child's body sending you a warning signal about something much deeper.</p>
+
+                <p class="lg:hidden">But here's a secret nobody tells you: being "picky" isn't always a phase or
+                    behavior problem. </p>
+
+                <p class="lg:hidden">It could be your child's body sending a <span class="text-[#E6193C] extrablod">
+                        warning signal</span> about something much deeper.</p>
+
 
                 <p class="extrablod">What if those daily dinner battles aren't about stubbornness at all?</p>
 
-                <p>New research reveals that up to 70% of picky eaters have serious nutrient gaps. This hinders
-                    everything from mood to immunity. Sure, they’re getting enough calories. But they’re still
-                    missing
+                <p class="hidden lg:block">New research reveals that up to 70% of picky eaters have serious nutrient
+                    gaps. This hinders
+                    everything from mood to immunity. Sure, they’re getting enough calories. But they’re still missing
                     the vital nutrients their growing bodies need. Scientists call this "Hidden Hunger".</p>
 
+                <p class="lg:hidden">New research reveals that up to 70% of picky eaters have serious nutrient gaps.
+                    This hinders
+                    everything from mood to immunity. </p>
+
+                <p class="lg:hidden">Sure, they’re getting enough calories. But they’re still missing the vital
+                    nutrients their growing
+                    bodies need. Scientists call this <span class="extrablod">Hidden Hunger.</span></p>
+
                 <p>The good news? Once you spot these warning signs, you can give your child (and yourself) the
-                    relief
-                    you both deserve.</p>
+                    relief you both deserve.
+                </p>
             </div>
 
-
-            <hr class="lg:my-10 my-5">
+            <hr class="lg:my-10 my-5 text-[#CCCCCC]">
 
             <!-- Column data 1 -->
             <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
                 <div>
-                    <h3 class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block leading-7.5">1. The 3pm Energy
-                        Crash (That Makes Everyone Miserable)</h3>
+                    <div class="lg:hidden block">
+                        <h3 class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
+                            1. The 3pm Energy
+                            Crash</h3>
+                        <p class="mb-4 italic text-[calc(5.4vw-0px)] leading-[calc(1em+1vw)]">That Makes Everyone
+                            Miserable</p>
+                    </div>
+
+
                     <img src="/images/p1-1.jpg" class="w-full rounded-xl">
                 </div>
                 <div>
@@ -83,7 +121,10 @@
                         <p>Sound familiar? One minute they're running around like they were shot out of a cannon.
                             The next they're melting down because they're "too tired". </p>
 
-                        <p>This isn't normal childhood behavior. It's a red flag.
+                        <p class="lg:hidden">This isn't normal childhood behavior. It's a red <span
+                                class="text-[#E6193C] extrablod">flag.</span></p>
+
+                        <p><span class="hidden lg:inline"> This isn't normal childhood behavior. It's a red flag.</span>
                             When picky eaters survive on a narrow list of foods, their blood sugar becomes a roller
                             coaster.
                             Without steady fuel from a variety of real nutrients, their bodies can't maintain
@@ -100,10 +141,20 @@
             <!-- Column data 2 -->
             <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
                 <div>
-                    <h3 class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block leading-7.5">2. Tummy Troubles
-                        That Never Go Away</h3>
+
+
+                    <div class="lg:hidden block mb-4">
+                        <h3 class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
+                            2. Tummy Troubles
+                            That Never Go Away</h3>
+                    </div>
+
                     <img src="/images/p1-2.jpg" class="w-full rounded-xl">
                 </div>
+
+
+
+
                 <div>
                     <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">2. Tummy Troubles That Never Go
                         Away</h3>
@@ -112,16 +163,28 @@
                             constipation
                         </p>
 
-                        <p>If your child's default response to new foods is "my stomach doesn't feel good," it's
+                        <p class="hidden lg:block">If your child's default response to new foods is "my stomach doesn't
+                            feel good," it's
                             more
                             than pickiness. Limited diets often lack the fiber and nutrients needed for healthy
                             digestion.</p>
 
-                        <p>When kids only eat bread, pasta, and chicken nuggets, their gut health suffers. They're
-                            not
-                            getting the proper nutrition. And their digestive system struggles to process even the
-                            foods
-                            they do eat.</p>
+                        <p class="lg:hidden">If your child's default response to new foods is "my stomach doesn't feel
+                            good," it's more than pickiness. Limited diets lack the fiber and nutrients needed for
+                            healthy digestion.</p>
+
+                        <p class="hidden lg:block">When kids only eat bread, pasta, and chicken nuggets, their gut
+                            health suffers. They're not
+                            getting the proper nutrition. And their digestive system struggles to process even the foods
+                            they do eat.
+                        </p>
+
+                        <p class="lg:hidden">When kids only eat bread, pasta, and chicken nuggets, their gut health
+                            suffers. They're not
+                            getting the proper nutrition. And their system struggles to digest even the foods they
+                            <i><u>do</u></i>
+                            eat.
+                        </p>
 
                         <p>That means frequent tummy aches. Irregular bowel movements. And a child who associates
                             eating with discomfort. No wonder they become even more selective about food.</p>
@@ -132,18 +195,37 @@
             <!-- Column data 3 -->
             <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
                 <div>
-                    <h3 class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block leading-7.5">3. Mood Swings That
-                        Come from Nowhere</h3>
+
+                    <div class="lg:hidden block mb-4">
+                        <h3 class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
+                            3. Mood Swings That
+                            Come from Nowhere</h3>
+
+                    </div>
+
+
                     <img src="/images/p1-3.jpg" class="w-full rounded-xl">
                 </div>
                 <div>
                     <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">3. Mood Swings That Come from
                         Nowhere</h3>
                     <div class="lg:space-y-4 space-y-2">
-                        <p class="extrablod">Happy one minute, meltdown the next - especially around mealtimes
+                        <p class="extrablod hidden lg:block">Happy one minute, meltdown the next - especially around
+                            mealtimes
                         </p>
 
-                        <p>Here's an overlooked fact: you can't feel good if your gut feels bad. The connection
+                        <p class="extrablod lg:hidden">Happy one minute, meltdown the next, especially around mealtimes
+                        </p>
+
+                        <p class="lg:hidden">Here's an overlooked fact: <span class="extrablod italic">you can't feel
+                                good if your gut feels
+                                bad.</span> The connection
+                            between
+                            nutrition and mood is real. And picky eaters are particularly vulnerable.</p>
+
+                        <p class="hidden lg:block">Here's an overlooked fact: you can't feel good if your gut feels bad.
+                            The
+                            connection
                             between
                             nutrition and mood is real. And picky eaters are particularly vulnerable.</p>
 
@@ -154,11 +236,17 @@
                         <p>Yet, once they start getting consistent nutrition, those meltdowns become less frequent.
                             Even disappear. And dinnertime stops being stressful.</p>
 
-                        <p>That’s why things like vitamin C, fiber, and micronutrients are crucial. So are
+                        <p class="hidden lg:block">That’s why things like vitamin C, fiber, and micronutrients are
+                            crucial. So are
                             phytonutrients. These are plant-based nutrients, such as polyphenols and flavonoids. And
                             growing research indicates that they’re key to a healthy brain, heart, immune system,
                             and
                             more.</p>
+
+                        <p class="lg:hidden">That’s why things like vitamin C, fiber, and micronutrients are crucial.
+                            Phytonutrients are,
+                            too. These are plant-based nutrients, such as polyphenols and flavonoids. And growing
+                            research indicates that they’re key to a healthy brain, heart, immune system, and more.</p>
 
                     </div>
                 </div>
@@ -167,8 +255,13 @@
             <!-- Column data 4 -->
             <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
                 <div>
-                    <h3 class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block leading-7.5">4. Sick All the Time
-                        (While Other Kids Stay Healthy)</h3>
+                    <div class="lg:hidden block">
+                        <h3 class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
+                            4. Sick All the Time</h3>
+                        <p class="mb-4 italic text-[calc(5.4vw-0px)] leading-[calc(1em+1vw)]">(While Other Kids Stay
+                            Healthy)</p>
+                    </div>
+
                     <img src="/images/p1-4.jpg" class="w-full rounded-xl">
                 </div>
                 <div>
@@ -178,8 +271,12 @@
                         <p class="extrablod">Your child catches every bug that goes around
                         </p>
 
-                        <p>If your picky eater is always coming down with something, their immune system might be out of
-                            whack. Limited diets often lack vitamins like A, C, and D that help build strong immunity.
+                        <p>
+                            If your picky eater is always coming down with something, their immune system might be out
+                            of
+                            whack. Limited diets
+                            <span class="hidden lg:inline">often</span>
+                            lack vitamins like A, C, and D that help build strong immunity.
                         </p>
 
                         <p>While other kids bounce back quickly, picky eaters tend to stay sick for longer. They're the
@@ -195,8 +292,18 @@
             <!-- Column data 5 -->
             <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
                 <div>
-                    <h3 class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block leading-7.5">5. Focus and
-                        Attention Problems (That Aren't ADHD)</h3>
+
+
+                    <div class="lg:hidden block mb-4">
+                        <h3 class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
+                            5. Focus and
+                            Attention Problems (That Aren't ADHD)</h3>
+
+                    </div>
+
+
+
+
                     <img src="/images/p1-5.jpg" class="w-full rounded-xl">
                 </div>
                 <div>
@@ -206,7 +313,12 @@
                         <p class="extrablod">Spacing out in class, difficulty focusing on homework
                         </p>
 
-                        <p>Brain fog isn't normal in kids. It's a red flag. Their developing brains aren't getting
+                        <p class="lg:hidden">Brain fog isn't normal in kids. It's a <span
+                                class="text-[#E6193C] extrablod">red flag.</span> Their developing brains aren't getting
+                            the fuel they need.</p>
+
+                        <p class="hidden lg:block">Brain fog isn't normal in kids. It's a red flag. Their developing
+                            brains aren't getting
                             the fuel they need.</p>
 
                         <p>Antioxidants and vitamins like C and D are critical for focus and concentration. That's
@@ -224,8 +336,16 @@
 
             <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
                 <div>
-                    <h3 class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block leading-7.5">6. Sleep Problems
-                        and Nighttime Battles</h3>
+
+                    <div class="lg:hidden block mb-4">
+                        <h3 class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
+                            6. Sleep Problems
+                            and Nighttime Battles</h3>
+
+                    </div>
+
+
+
                     <img src="/images/p1-6.jpg" class="w-full rounded-xl">
                 </div>
                 <div>
@@ -252,8 +372,15 @@
 
             <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
                 <div>
-                    <h3 class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block leading-7.5">7. The "Failure to
-                        Thrive" Warning Your Doctor Is Missing</h3>
+
+                    <div class="lg:hidden block mb-4">
+                        <h3 class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
+                            7. The "Failure to
+                            Thrive" Warning Your Doctor Is Missing</h3>
+
+                    </div>
+
+
                     <img src="/images/p1-7.jpg" class="w-full rounded-xl">
                 </div>
                 <div>
@@ -268,12 +395,21 @@
                             calories that leave them
                             undernourished.</p>
 
-                        <p>Research shows that 31% of picky eaters receive a "failure to thrive" diagnosis. They
+                        <p class="hidden lg:block">Research shows that 31% of picky eaters receive a "failure to thrive"
+                            diagnosis. They
                             get enough calories, but not enough of the building blocks their bodies need to grow.
                         </p>
 
-                        <p>The most heartbreaking part? Parents blame themselves for "not trying hard enough" when
+                        <p class="hidden lg:block">The most heartbreaking part? Parents blame themselves for "not trying
+                            hard enough" when
                             Hidden Hunger is the real issue.</p>
+
+                        <p class="lg:hidden">
+                            Research shows that 31% of picky eaters receive a "failure to thrive" diagnosis. They get
+                            enough calories, but not enough of the building blocks their bodies need to grow.
+                            The most heartbreaking part? Parents blame themselves for "not trying hard enough" when
+                            Hidden Hunger is the real issue.
+                        </p>
 
                     </div>
                 </div>
@@ -283,8 +419,16 @@
 
             <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
                 <div>
-                    <h3 class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block leading-7.5">What Smart Moms Are
-                        Doing About It</h3>
+
+
+                    <div class="lg:hidden block mb-4">
+                        <h3 class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(9.4vw-0px)] leading-[calc(1em+1vw)]">
+                            What Smart Moms Are
+                            Doing About It</h3>
+
+                    </div>
+
+
                     <img src="/images/p1-8.jpg" class="w-full rounded-xl">
                 </div>
                 <div>
@@ -292,7 +436,17 @@
                     </h3>
                     <div class="lg:space-y-4 space-y-2">
 
-                        <p>If you recognize your child in these warning signs, you're not alone. And you're not
+                        <p class="lg:hidden">If you recognize your child in these warning signs, you're not alone. And
+                            you're not
+                            failing
+                            as a mom. Millions of families deal with picky eating. And the solution <span
+                                class="extrablod italic"> isn't</span> forcing
+                            more
+                            vegetables on them (plus, it usually backfires).</p>
+
+
+                        <p class="hidden lg:block">If you recognize your child in these warning signs, you're not alone.
+                            And you're not
                             failing
                             as a mom. Millions of families deal with picky eating. And the solution isn't forcing
                             more
@@ -308,8 +462,15 @@
                             equal of 2 servings of fruits and vegetables. All from 18 superfoods. Without artificial
                             dyes, flavors, or other junk.</p>
 
-                        <p>YOMZ was co-developed by nutrition expert Dr. Pam and YouTube star Nastya (whose 380+
+                        <p class="hidden lg:block">YOMZ was co-developed by nutrition expert Dr. Pam and YouTube star
+                            Nastya (whose 380+
                             million young fans love them). They actually taste like a treat kids ASK for instead of
+                            fight about.</p>
+
+                        <p class="lg:hidden">YOMZ was co-developed by nutrition expert Dr. Pam and YouTube star Nastya
+                            (whose 380+
+                            million young fans love them). They actually taste like a treat kids <span
+                                class="extrablod">ASK</span> for instead of
                             fight about.</p>
 
                         <p class="extrablod">The results speak for themselves:</p>
@@ -331,20 +492,16 @@
 
                         </ul>
 
-                        <p class="extrablod">Plus, YOMZ comes with their famous 90-Day Picky Momz 200% Happiness
+                        <p class="extrablod hidden lg:block">Plus, YOMZ comes with their famous 90-Day Picky Momz 200%
+                            Happiness
                             Guarantee.</p>
 
-
-
+                        <p class="extrablod text-2xl lg:hidden">Plus, YOMZ comes with their famous <span
+                                class="text-[#1A84F0] extrablod"> 90-Day Picky Momz 200% Happiness
+                                Guarantee.</span></p>
 
                         <p>Yes, if your child doesn't love them or you don't see improvements in 90 days, you get
                             double your money back.</p>
-
-
-
-
-
-
 
                     </div>
                 </div>
@@ -352,28 +509,39 @@
             </div>
             <!-- Column data 2 -->
 
-
-            <div class="border-1 border-[#1EB9F0] rounded-xl lg:p-5 p-3 lg:mt-20 mt-15 relative">
+            <div class="border-1 lg:border-[#1EB9F0] border-[#fff] rounded-xl lg:p-5 p-0 lg:mt-20 mt-15 relative">
                 <p
-                    class="bg-[#FFEB00] absolute -top-5 left-1/2 -translate-x-1/2 py-1 lg:px-30 px-10 font-bold lg:text-lg text-base rounded-b-lg">
+                    class="bg-[#FFEB00] absolute -top-5 left-1/2 -translate-x-1/2 py-1 lg:px-30 px-10 font-bold lg:text-lg text-base rounded-b-lg hidden lg:block">
                     FOR SALE
+                </p>
+
+                <p
+                    class="bg-[#FFEB00] absolute -top-5 left-1/2 -translate-x-1/2 py-1 lg:px-30 px-10 font-bold lg:text-lg text-base rounded-b-lg block lg:hidden">
+                    TRY NOW
                 </p>
                 <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-5 gap-2 items-center">
 
                     <div>
-                        <img src="/images/yomz-pack.png" class="w-full p-3">
+                        <img src="/images/yomz-pack.png" class="w-full lgp-3 p-1 lg:pt-3 pt-6">
                     </div>
 
-                    <div class="text-center lg:space-y-4 space-y-2">
-                        <h4 class="text-3xl extrablod">Ready to end the daily dinner battles and give your picky
+                    <div
+                        class="text-center lg:space-y-4 space-y-2 border-1 lg:border-[#fff] border-[#1EB9F0] lg:p-0 p-6">
+                        <h4 class="lg:text-3xl text-2xl extrablod">Ready to end the daily dinner battles and give your
+                            picky
                             eater nutrition they’ll
                             actually beg for?</h4>
                         <p>Join thousands of smart moms who've discovered the secret of YOMZ. It's filling the gaps
                             with nutrition that actually tastes good.</p>
 
                         <button type="button"
-                            class="bg-black  w-full rounded-full  extrablod text-white uppercase p-3 text-xl">
+                            class="bg-black hidden lg:inline w-full rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-lg">
                             Try YOMZ Risk-Free for <span class="block">50% OFF Today</span>
+                        </button>
+
+                        <button type="button"
+                            class="bg-black lg:hidden  w-full rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-lg">
+                            Try YOMZ Risk-Free for <span class="block">60% OFF Today</span>
                         </button>
 
                         <p class="bg-[#F7F8EA]">Sell Out Risk: <span class="text-[#E6193C]">HIGH</span> | Inventory:
@@ -386,7 +554,6 @@
 
                 </div>
 
-
             </div>
 
             <div class="lg:text-lg text-sm">
@@ -396,20 +563,13 @@
                 <p class="break-all mb-5">https://pmc.ncbi.nlm.nih.gov/articles/PMC9102588/</p>
             </div>
 
-
-
-
-
         </div>
 
         <!-- Column B -->
 
-
     </div>
 
     <!-- BodyContent -->
-
-
 
     <footer class="bg-[#1EB9F0] lg:py-7 py-3">
         <div class="mx-auto max-w-5xl text-center"><img src="/images/logo.png" class="max-w-30 mx-auto mb-4">
