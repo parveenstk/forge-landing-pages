@@ -13,8 +13,7 @@
     src: url('/font/centurygothicpaneuropeanregular-webfont.woff2') format('woff2'),
         url('/font/centurygothicpaneuropeanregular-webfont.woff') format('woff'),
         url('/font/centurygothicpaneuropeanregular-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+ 
 }
 
 @font-face {
@@ -22,8 +21,6 @@
     src: url('/font/centurygothicpaneuropeanlight-webfont.woff2') format('woff2'),
         url('/font/centurygothicpaneuropeanlight-webfont.woff') format('woff'),
         url('/font/centurygothicpaneuropeanlight-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
 }
 
 @font-face {
@@ -31,8 +28,6 @@
     src: url('/font/centurygothicpaneuropeanextrabold-webfont.woff2') format('woff2'),
         url('/font/centurygothicpaneuropeanextrabold-webfont.woff') format('woff'),
         url('/font/centurygothicpaneuropeanextrabold-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
 }
 
 @font-face {
@@ -47,4 +42,13 @@
 
 .extrablod {
     font-family: 'century_gothic_paneuropeanXBd'
+}
+
+@media screen and (max-width: 767px) {
+
+.allpragraph-fontsize p{font-size: 19px !important; }
+.allpragraph-fontsize li{font-size: 19px !important;}
+
+.sources-text p{font-size: 16px !important;}
+
 }
