@@ -40,7 +40,7 @@
 
             <!-- Mobile version -->
             <div class="block lg:hidden">
-                <h1 class="extrablod mr-0 text-[calc(9.0vw-0px)] leading-[calc(1em+1vw)]">
+                <h1 class="extrablod mr-0 text-[calc(8.5vw-0px)] leading-[calc(1em+1vw)]">
                     8 Shocking Reasons "Behavior Problems" Are Actually Gut Problems
                 </h1>
                 <p class="font-bold mt-2 text-[calc(4.3vw-0px)] leading-[calc(1em+1vw)]">8 truths every mom should know
