@@ -40,10 +40,10 @@
 
             <!-- Mobile version -->
             <div class="block lg:hidden">
-                <h1 class="extrablod mr-0 text-[calc(9.4vw-0px)] leading-[calc(1em+1vw)]">
+                <h1 class="extrablod mr-0 text-[calc(9vw-0px)] leading-[calc(1em+1vw)]">
                     7 Warning Signs<br>Your 'Picky Eater'<br>Has <span class="text-[#E6193C]"> Hidden Hunger</span>
                 </h1>
-                <p class="font-bold mt-2 text-[calc(4.3vw-0px)] leading-[calc(1em+1vw)]">Here's what smart moms are
+                <p class="font-bold mt-2 none-pra text-[calc(3vw-0px)] leading-[calc(1em+1vw)]">Here's what smart moms are
                     doing</p>
             </div>
 
@@ -582,17 +582,17 @@
 
                         <p class="extrablod">The results speak for themselves:</p>
                         <ul class="pl-2 lg:space-y-1 space-y-1">
-                            <li class="flex gap-2"><img src="/images/blk-check.svg"> Tummy troubles clear up in days
+                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2"> Tummy troubles clear up in days
                             </li>
-                            <li class="flex gap-2"><img src="/images/blk-check.svg"> Energy levels become more
+                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2"> Energy levels become more
                                 stable
                             </li>
-                            <li class="flex gap-2"><img src="/images/blk-check.svg">Fewer meltdowns and mood swings
+                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2">Fewer meltdowns and mood swings
                             </li>
-                            <li class="flex gap-2"><img src="/images/blk-check.svg"> Better sleep for the whole
+                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2"> Better sleep for the whole
                                 family
                             </li>
-                            <li class="flex gap-2"><img src="/images/blk-check.svg"> Stronger immunity (fewer sick
+                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2">  Stronger immunity (fewer sick
                                 days!)
                             </li>
 
@@ -622,7 +622,7 @@
                 </p>
 
                 <p
-                    class="bg-[#FFEB00] absolute -top-5 left-1/2 -translate-x-1/2 py-1 lg:px-30 px-10 font-bold lg:text-lg text-base rounded-b-lg block lg:hidden">
+                    class="bg-[#FFEB00] absolute -top-5 left-1/2 -translate-x-1/2 py-1 lg:px-30 px-5 font-bold lg:text-lg text-base rounded-b-lg block lg:hidden">
                     TRY NOW
                 </p>
                 <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-5 gap-2 items-center">
@@ -650,7 +650,7 @@
                             Try YOMZ Risk-Free for <span class="block">60% OFF Today</span>
                         </button>
 
-                        <p class="bg-[#F7F8EA]">Sell Out Risk: <span class="text-[#E6193C]">HIGH</span> | Inventory:
+                        <p class="bg-[#F7F8EA] risk">Sell Out Risk: <span class="text-[#E6193C]">HIGH</span> | Inventory:
                             <span class="text-[#E6193C]">LOW</span>
                         </p>
 

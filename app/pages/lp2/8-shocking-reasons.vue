@@ -740,7 +740,7 @@
                             Try YOMZ Risk-Free
                         </button>
 
-                        <p class="bg-[#F7F8EA] lg:text-lg text-sm">Sell Out Risk: <span
+                        <p class="bg-[#F7F8EA] lg:text-lg text-sm risk">Sell Out Risk: <span
                                 class="text-[#E6193C]">HIGH</span> | Inventory:
                             <span class="text-[#E6193C]">LOW</span>
                         </p>
