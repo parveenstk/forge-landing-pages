@@ -89,7 +89,7 @@
                 <p class="lg:hidden">So when you survive on processed foods, you miss key nutrients. And your gut health
                     suffers.</p>
 
-                <p class="lg:hidden">But it's your mood that pays the price.</p>
+                <p class="lg:hidden">But it's your <span class="extrablod">mood</span> that pays the price.</p>
 
                 <p class="hidden lg:block">The result? You suffer from the blues and the blahs, with no motivation or
                     focus. Your kids seem
