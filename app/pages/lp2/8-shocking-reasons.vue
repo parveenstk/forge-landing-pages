@@ -28,7 +28,6 @@
 
     <div class="max-w-4xl lg:py-6 py-4 mx-auto">
 
-        <!-- Column A -->
         <div class="lg:mx-2 mx-3 allpragraph-fontsize">
             <h1 class="lg:text-4xl text-3xl extrablod lg:mr-10 mr-0"></h1>
 
