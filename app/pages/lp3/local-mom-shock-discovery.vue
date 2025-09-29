@@ -98,13 +98,12 @@
 
 
 
-                <h2 class="text-4xl block mb-6 hidden lg:inline"><span class="extrablod">The Silent Crisis
-                        Hurting</span> at Least 47
-                    Million
-                    Americans</h2>
 
-                <h2 class="lg:text-4xl text-3xl block mb-6 lg:hidden">The <span class="extrablod">Silent Crisis</span> Harming at
-                    least 47 Million Americans</h2>
+
+                <h2 class="text-4xl mb-6 hidden lg:inline"><span class="extrablod">The Silent Crisis Hurting</span> at Least 47
+                    Million Americans</h2>
+
+                <h2 class="lg:text-4xl text-3xl  block mb-6 lg:hidden">The <span class="extrablod">Silent Crisis</span> Harming at least 47 Million Americans</h2>
 
                 <img src="/images/fl-1.jpg" class="w-full mb-5">
 
@@ -157,7 +156,7 @@
 
                 <div class="bg-[#F2F6FB] py-7 rounded-xl font-bold">
                     <ul class="pl-3 lg:space-y-1 space-y-1 semibold">
-                        <li class="flex gap-2 items-start hidden lg:flex"><img src="/images/blk-check.svg" class="pt-1">
+                        <li class="gap-2 items-start hidden lg:flex"><img src="/images/blk-check.svg" class="pt-1">
                             Approximately
                             95% of Americans don’t get enough fiber
                         </li>
@@ -206,7 +205,8 @@
                 </div>
 
 
-                <h3 class="lg:text-4xl text-3xl extrablod mt-8">Why Modern Americans Are Starving in a Land of Plenty</h3>
+                <h3 class="lg:text-4xl text-3xl extrablod mt-8">Why Modern Americans Are Starving in a Land of Plenty
+                </h3>
                 <img src="/images/fl-3.jpg" class="w-full py-6">
                 <div class="lg:space-y-4 space-y-2 mb-8">
                     <p class="hidden lg:block"> <span class="extrablod">The problem isn't lack of food</span> - it's
@@ -417,7 +417,7 @@
                         meltdowns disappeared. One month in, her teacher commented on how much better she was focusing
                         in class."
                     </p>
-                    <p class="flex justify-between font-bold text-xl">  - Sarah <span
+                    <p class="flex justify-between font-bold text-xl"> - Sarah <span
                             class="flex gap-1 text-sm items-center text-[#0EB400]"><img src="/images/subtract.svg"
                                 class="h-4"> Verified Customer</span></p>
                 </div>
@@ -513,7 +513,7 @@
                                 nutritionist
                                 and tested by millions.</span>
                         </li>
-                        
+
                         <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-1 h-5">
                             <span><span class="font-bold">Gut Health Support:</span> Meets FDA guidelines as “excellent
                                 source
@@ -564,7 +564,8 @@
                             90-Day Picky Momz 200% Happiness Guarantee."</span>
                     </p>
 
-                    <p class="lg:hidden">If you don’t see improvements in your family's health or if no one loves the taste, you get back
+                    <p class="lg:hidden">If you don’t see improvements in your family's health or if no one loves the
+                        taste, you get back
                         <span class="extrablod">double</span>what you paid.
                     </p>
                 </div>
