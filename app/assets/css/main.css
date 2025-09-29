@@ -17,6 +17,15 @@
 }
 
 @font-face {
+    font-family: 'century_gothic_paneuropean';
+    src: url('/font/centurygothicpaneuropeanregular-webfont.woff2') format('woff2'),
+         url('/font/centurygothicpaneuropeanregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
     font-family: 'century_gothic_paneuropeanLt';
     src: url('/font/centurygothicpaneuropeanlight-webfont.woff2') format('woff2'),
         url('/font/centurygothicpaneuropeanlight-webfont.woff') format('woff'),
@@ -31,7 +40,7 @@
 }
 
 @font-face {
-    font-family: 'century_gothic_paneuropean_Rg';
+    font-family: 'century_gothic_paneuropean_Rgsemibold';
     src: url('/font/centurygothicpaneuropeansemibold-webfont.woff2') format('woff2'),
         url('/font/centurygothicpaneuropeansemibold-webfont.woff') format('woff'),
         url('/font/centurygothicpaneuropeansemibold-webfont.ttf') format('truetype');
@@ -43,6 +52,7 @@
 .extrablod {
     font-family: 'century_gothic_paneuropeanXBd'
 }
+.semibold{font-family: 'century_gothic_paneuropean_Rgsemibold';}
 
 @media screen and (max-width: 767px) {
 
