@@ -42,7 +42,8 @@
                 <h1 class="extrablod mr-0 text-[calc(9vw-0px)] leading-[calc(1em+1vw)]">
                     7 Warning Signs<br>Your 'Picky Eater'<br>Has <span class="text-[#E6193C]"> Hidden Hunger</span>
                 </h1>
-                <p class="font-bold mt-2 none-pra text-[calc(3vw-0px)] leading-[calc(1em+1vw)]">Here's what smart moms are
+                <p class="font-bold mt-2 none-pra text-[calc(3vw-0px)] leading-[calc(1em+1vw)]">Here's what smart moms
+                    are
                     doing</p>
             </div>
 
@@ -308,15 +309,17 @@
                         <p>
                             If your picky eater is always coming down with something, their immune system might be out
                             of
-                            whack. Limited diets
+                            whack. <span class="extrablod">Limited diets</span>
                             <span class="hidden lg:inline">often</span>
                             lack vitamins like A, C, and D that help build strong immunity.
                         </p>
 
                         <p>While other kids bounce back quickly, picky eaters tend to stay sick for longer. They're the
-                            ones missing school days and keeping the family up at night.</p>
+                            ones <span class="extrablod">missing school days</span> and keeping the family up at night.
+                        </p>
 
-                        <p>The Hidden Hunger connection? Without proper nutrition, their bodies can't defend against
+                        <p>The Hidden Hunger <span class="extrablod">connection</span>? Without proper nutrition, their
+                            bodies can't defend against
                             everyday germs and viruses.</p>
 
                     </div>
@@ -343,7 +346,7 @@
                         <p class="extrablod">Spacing out in class, difficulty focusing on homework
                         </p>
 
-                        <p class="lg:hidden">Brain fog isn't normal in kids. It's a <span
+                        <p class="lg:hidden">Brain fog isn't normal in kids. It's another <span
                                 class="text-[#E6193C] extrablod">red flag.</span> Their developing brains aren't getting
                             the <span class="extrablod">fuel</span> they need.</p>
 
@@ -418,11 +421,11 @@
                                 levels continue their roller coaster ride <span class="extrablod">all night long.</span>
                             </p>
 
-                            <p>Plus, many nutrients play crucial roles in sleep regulation. Vitamin D, antioxidants, and
-                                fiber all help <span class="extrablod">stabilize</span> blood sugar for better sleep.
+                            <p>Many nutrients play crucial roles in sleep regulation. Vitamin D, antioxidants, and fiber
+                                all help <span class="extrablod">stabilize</span> blood sugar for better sleep.
                             </p>
 
-                            <p>When kids start getting consistent nutrition, those bedtime battles decrease.
+                            <p>When kids get consistent nutrition, those bedtime battles decrease.
                             </p>
 
                             <p>And better sleep <span class="extrablod italic">increases.</span></p>
@@ -467,7 +470,7 @@
                             actually <span class="extrablod"><i>over</i></span>weight.
                         </p>
                         <p class="lg:hidden">
-                            That's because they eat too many processed calories, which leave them <span
+                            That's because they eat too many processed calories, which leaves them <span
                                 class="extrablod">undernourished.</span>
                         </p>
 
@@ -493,7 +496,7 @@
                             enough"...
                         </p>
 
-                        <p class="lg:hidden">When Hidden Hunger is the real issue.
+                        <p class="lg:hidden">When Hidden Hunger is the <span class="extrablod italic">real</span> issue.
                         </p>
 
                     </div>
@@ -560,10 +563,11 @@
                                 with</span> vital nutrients necessary to fight Hidden Hunger.
                         </p>
 
-                        <p class="lg:hidden">Each serving delivers the phytonutrition equal of <span class="extrablod">2
-                                servings</span> of fruits and vegetables. All
-                            from <span class="extrablod">18 superfoods.</span> <i><u>Without</u></i> artificial dyes,
-                            flavors, or other junk.</p>
+                        <p class="lg:hidden">Each serving delivers the phytonutrition equal of 2 servings of fruits and
+                            veggies. All from <span class="extrablod">18 superfoods.</span></p>
+                            <p class="lg:hidden">YOMZ is crafted
+                            from <span class="extrablod">18 superfoods.</span> Each serving delivers the phytonutrition
+                            equal of <span class="extrablod">2 servings</span> of fruits and veggies.</p>
 
                         <p class="hidden lg:block">YOMZ was co-developed by nutrition expert Dr. Pam and YouTube star
                             Nastya (whose 380+
@@ -571,27 +575,32 @@
                             fight about.</p>
 
                         <p class="lg:hidden">YOMZ was co-developed by nutrition expert Dr. Pam and YouTube star Nastya.
-                            They actually taste like a treat kids <span class="extrablod italic">ASK</span> for instead
-                            of fight about.
+                            Together, they made sure that YOMZ actually tastes like a treat kids <span
+                                class="extrablod italic">ask</span> for, not fight about.
                         </p>
 
-                        <p class="lg:hidden">
+                        <p class="hidden">
                             Just ask Nastya's 380+ million young fans.
                         </p>
 
                         <p class="extrablod">The results speak for themselves:</p>
                         <ul class="pl-2 lg:space-y-1 space-y-1">
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2"> Tummy troubles clear up in days
+                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2"> Tummy
+                                troubles clear up in days
                             </li>
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2"> Energy levels become more
+                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2"> Energy
+                                levels become more
                                 stable
                             </li>
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2">Fewer meltdowns and mood swings
+                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2">Fewer
+                                meltdowns and mood swings
                             </li>
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2"> Better sleep for the whole
+                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2"> Better
+                                sleep for the whole
                                 family
                             </li>
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2">  Stronger immunity (fewer sick
+                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2"> Stronger
+                                immunity (fewer sick
                                 days!)
                             </li>
 
@@ -601,9 +610,8 @@
                             Happiness
                             Guarantee.</p>
 
-                        <p class="extrablod text-2xl lg:hidden">Plus, YOMZ comes with their famous <span
-                                class="text-[#1A84F0] extrablod"> 90-Day Picky Momz 200% Happiness
-                                Guarantee.</span></p>
+                        <p class="text-2xl lg:hidden">Plus, every order is backed by the industry-best YOMZ <span
+                                class="text-[#1A84F0] extrablod">90-Day Picky Momz 200% Happiness Guarantee.</span></p>
 
                         <p>Yes, if your child doesn't love them or you don't see improvements in 90 days, you get
                             double your money back.</p>
@@ -649,7 +657,8 @@
                             Try YOMZ Risk-Free for <span class="block">60% OFF Today</span>
                         </button>
 
-                        <p class="bg-[#F7F8EA] risk">Sell Out Risk: <span class="text-[#E6193C]">HIGH</span> | Inventory:
+                        <p class="bg-[#F7F8EA] risk">Sell Out Risk: <span class="text-[#E6193C]">HIGH</span> |
+                            Inventory:
                             <span class="text-[#E6193C]">LOW</span>
                         </p>
 
@@ -678,9 +687,11 @@
 
     <footer class="bg-[#1EB9F0] lg:py-7 py-3">
         <div class="mx-auto max-w-5xl text-center"><img src="/images/logo.png" class="max-w-30 mx-auto mb-4">
-            <p class="text-white lg:text-lg text-sm">By filling out the field, you consent for YOMZ™
+            <p class="text-white lg:text-lg text-sm hidden lg:block">By filling out the field, you consent for YOMZ™
                 to use automated technology, including texts and prerecorded messages, to contact you at the number and
                 email provided about YOMZ™ offers. </p>
+
+                <p class="text-white lg:text-lg text-sm lg:hidden">*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.</p>
         </div>
     </footer>
 

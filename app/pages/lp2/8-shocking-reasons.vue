@@ -28,7 +28,7 @@
 
     <div class="max-w-4xl lg:py-6 py-4 mx-auto">
 
-        <div class="lg:mx-2 mx-3 allpragraph-fontsize">
+        <div class="lg:mx-2 mx-3 allpragra ph-fontsize">
             <h1 class="lg:text-4xl text-3xl extrablod lg:mr-10 mr-0"></h1>
 
             <!-- Desktop version -->
@@ -95,11 +95,10 @@
                     "difficult" or “hard to handle”. Yet, it's an imbalanced gut everyone’s struggling with. It's what’s
                     fraying your nerves and ruining your kids’ emotional world.</p>
 
-                <p class="lg:hidden">The result?<br>
-                    You suffer from the blues and the blahs. No motivation. No focus. Your kids seem "difficult". Or
-                    “hard to handle”.</p>
-                <p class="lg:hidden">Yet, what everyone's really struggling with is an imbalanced. It's what’s fraying
-                    your nerves and ruining your kids’ emotional world.</p>
+                <p class="lg:hidden">The result?
+                    You <span class="extrablod">suffer</span>  from the blues and the blahs. No motivation. No focus.</p>
+                    <p class="lg:hidden">And your kids? They seem "difficult". Or “hard to handle”.</p>
+                <p class="lg:hidden">Yet, what everyone's <span class="extrablod italic">really</span> struggling with is an imbalanced gut. It's what’s fraying your nerves and ruining your kids’ emotional world.</p>
 
             </div>
 
@@ -131,13 +130,17 @@
                             wrong color cup.
                         </p>
 
-                        <p class="lg:hidden">If it happens when they're hungry, you're witnessing the gut-brain
-                            connection in action.</p>
+                        <p class="lg:hidden">If it happens when they're hungry, you're witnessing the  <span class="extrablod">gut-brain
+                            connection</span> in action.</p>
 
                         <p class="hidden lg:block">Processed snacks and meals make those blood sugar crashes hit hard.
-                            But here's a secret:
-                            those dramatic mood swings aren't about being "hangry."</p>
+                            But here's a secret: those dramatic mood swings aren't about being "hangry."</p>
 
+                        <p class="lg:hidden">Processed snacks and meals make those blood sugar crashes hit  <span class="extrablod italic">hard.</span> </p>
+                        <p class="lg:hidden">But here's a secret:</p>
+                        <p class="lg:hidden">
+                        Those dramatic mood swings and meltdowns aren't about being "hangry."
+                        </p>
                         <p>Processed snacks and meals make those blood sugar crashes hit <span
                                 class="extrablod italic">hard.</span> But here's a secret:
                         </p>
@@ -351,12 +354,10 @@
                                 without bouncing off the chair.</p>
 
                             <p class="lg:hidden">Many families report <span class="extrablod">remarkable</span>
-                                improvements once their gut health improves.
+                                improvements once their gut health is better.
                             </p>
 
-                            <p class="lg:hidden">Your focus at work or in daily activities sharpens. The hyperactive kid
-                                now sits through
-                                dinner without bouncing off the chair.</p>
+                            <p class="lg:hidden">Your focus at work or in daily activities sharpens. And the hyperactive kid now sits through dinner without bouncing off the chair.</p>
 
                         </div>
 
@@ -404,8 +405,7 @@
                             <p>Here's another secret: gut health <span class="extrablod">damages</span> sleep quality.
                             </p>
 
-                            <p>That’s because unhealthy gut can't produce enough melatonin (the sleep hormone). And even
-                                if it does, it can’t process it correctly.
+                            <p>That’s because an unhealthy gut can't produce enough melatonin (the sleep hormone). And even if it does, it can’t process it correctly.
                             </p>
 
                             <p>Additionally, when you eat lots of sugar and artificial additives, your gut works
@@ -415,8 +415,7 @@
                             <p>This creates internal "stress" that makes it hard to fall asleep and stay there.
                             </p>
 
-                            <p>Poor sleep then makes <span class="extrablod">mood regulation</span> even harder the next
-                                day. It's <span class="extrablod">another vicious cycle:</span>
+                            <p>Poor sleep then makes <span class="extrablod">mood regulation</span> even harder the next day. It's <span class="extrablod">another vicious cycle:</span>
                             </p>
 
                             <p>Gut problems, sleep problems, and behavior problems all feed into each other.
@@ -472,9 +471,7 @@
                             <p>Anyone in your family <span class="extrablod">addicted</span> to things like crackers,
                                 chicken nuggets, or sweets?
                             </p>
-                            <p>Then they may not be picky or spoiled. It could be their <span class="extrablod">gut
-                                    bacteria</span> driving those
-                                cravings.</p>
+                            <p>It may not be pickiness or emotional eating. It could be their gut bacteria driving those cravings.</p>
 
                             <p>Harmful gut bacteria <span class="extrablod">thrive</span> on sugar and processed foods.
                                 When these "bad" bacteria
@@ -482,8 +479,7 @@
                                 the "good", they influence food cravings and mood.</p>
 
                             <p>Your body's in distress without these foods because your gut <span
-                                    class="extrablod"><i>demands</i></span> them. This is
-                                especially true for kids.</p>
+                                    class="extrablod"><i>demands</i></span> them. It's even worse for kids.</p>
 
                             <p>So how to calm the emotional meltdowns over "forbidden" snacks? Restored <span
                                     class="extrablod">gut balance.</span></p>
@@ -545,8 +541,7 @@
                                 change for the better.
                             </p>
 
-                            <p>You’re more outgoing and confident. With kids, playdates are easier and they’re more
-                                resilient in social situations.</p>
+                            <p>You’re <span class="extrablod">more outgoing</span> and confident. With kids, playdates are easier, and they’re <span class="extrablod">more resilient</span> in social situations.</p>
 
                         </div>
 
@@ -568,7 +563,7 @@
                         About
                     </h3>
                     <div class="lg:space-y-4 space-y-2">
-                        <p class="extrablod">Your child’s going backward <span class="hidden lg:inline gt">-</span><span
+                        <p class="extrablod">Your child’s going backward<span class="hidden lg:inline gt">-</span><span
                                 class="inline lg:hidden extrablod">:</span> more clingy, emotional, or immature
                         </p>
 
@@ -593,7 +588,7 @@
                             <p>Do your kids have more tantrums now? Have they become clingy? Has potty training
                                 regressed?</p>
 
-                            <p>It might be poor gut health. Inflammation from it <span class="extrablod">hampers</span>
+                            <p>Poor gut health could be to blame. Inflammation from it <span class="extrablod">hampers</span>
                                 brain development and emotional
                                 maturation.</p>
 
@@ -665,7 +660,8 @@
                             They're not loaded with
                             sugar that feeds 3pm crashes. No artificial junk that makes gut problems worse.</p>
 
-                        <p>That's why there’s YOMZ. </p>
+                        <p class="hidden lg:block">That's why there’s YOMZ. </p>
+                        <p class="lg:hidden">That's why there’s <span class="extrablod">YOMZ.</span> </p>
                         <p>They're not your typical gummies. They taste like <span class="extrablod">candy,</span> yet
                             are <span class="extrablod">packed with</span> vital nutrients
                             from <span class="extrablod">18 superfoods.</span></p>
@@ -693,7 +689,9 @@
                                 “excellent fiber source” standards.</span></li>
 
                         </ul>
-                   
+                   <p class="lg:hidden"><span>Plus, YOMZ has <span class="extrablod"> 5g
+                                    fiber.</span> This meets FDA
+                                “excellent fiber source” standards.</span></p>
                         <p class="extrablod hidden lg:block">The transformation families are reporting:</p>
                         <p class="extrablod lg:hidden">The transformations that families are reporting:</p>
 
@@ -707,8 +705,9 @@
 
                         </ul>
 
-                        <p class="extrablod">Kids BEG for them because they taste like candy. You’ll
+                        <p class="extrablod hidden lg:block">Kids BEG for them because they taste like candy. You’ll
                             love them because they work.</p>
+                             <p class="lg:hidden">Kids <span class="extrablod">beg for</span>  YOMZ because they taste like candy. You’ll love them because they <span class="extrablod italic">work.</span></p>
 
                     </div>
                 </div>
@@ -762,9 +761,10 @@
 
     <footer class="bg-[#1EB9F0] lg:py-7 py-3 mt-10">
         <div class="mx-auto max-w-5xl text-center"><img src="/images/logo.png" class="max-w-30 mx-auto mb-4">
-            <p class="text-white lg:text-lg text-sm">By filling out the field, you consent for YOMZ™
+            <p class="text-white lg:text-lg text-sm hidden lg:block">By filling out the field, you consent for YOMZ™
                 to use automated technology, including texts and prerecorded messages, to contact you at the number and
                 email provided about YOMZ™ offers. </p>
+                 <p class="text-white lg:text-lg text-sm lg:hidden">*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.</p>
         </div>
     </footer>
 

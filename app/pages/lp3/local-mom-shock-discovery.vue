@@ -28,20 +28,22 @@
                         Family
                         Was Actually Malnourished"</span></h1>
 
-                <h1 class="block lg:hidden text-[calc(8vw-0px)] leading-[calc(1em+1vw)]">Local Mom's Shocking Discovery:
+                <h1 class="block lg:hidden text-[calc(6.5vw-0px)] leading-[calc(1em+1vw)]"><span class="text-base underline font-semibold">Local Mom's Shocking Discovery:</span><br>
                     <span class="extrablod">"My
                         Healthy-Looking
                         Family
                         Was Actually Malnourished"</span>
                 </h1>
 
-                <p class="bg-[#FFEB00] text-black font-bold p-2 text-xl mt-4 lg:mr-15 mr-0 italic lg:not-italic">New
+                <p class="bg-[#FFEB00] text-black font-bold p-2 text-xl mt-4 lg:mr-15 mr-0 italic lg:not-italic hidden lg:block">New
                     Research Reveals Tens of
                     Millions of Americans Suffer from 'Hidden Hunger'.</p>
 
+                     <p class="block lg:hidden text-black font-bold p-0 text-xl mt-2 lg:mr-15 mr-0 italic lg:not-italic">New research reveals tens of millions of Americans suffer from 'Hidden Hunger'. Even those who look perfectly healthy. </p>
+
                 <p class="mt-3 font-bold italic lg:not-italic hidden lg:block"> - Even Those Who Look Perfectly Healthy
                 </p>
-                <p class="mt-3 font-bold italic lg:not-italic lg:hidden">Even Those Who Look Perfectly Healthy</p>
+            
 
 
                 <p class="flex items-center gap-3 extrablod mt-3"><img src="/images/star.svg"> <span
@@ -103,7 +105,7 @@
                 <h2 class="text-4xl mb-6 hidden lg:inline"><span class="extrablod">The Silent Crisis Hurting</span> at Least 47
                     Million Americans</h2>
 
-                <h2 class="lg:text-4xl text-3xl  block mb-6 lg:hidden">The <span class="extrablod">Silent Crisis</span> Harming at least 47 Million Americans</h2>
+                <h2 class="lg:text-4xl text-3xl  block mb-6 lg:hidden">The <span class="extrablod">Silent Crisis</span> Harming Over 47 Million Americans</h2>
 
                 <img src="/images/fl-1.jpg" class="w-full mb-5">
 
@@ -123,11 +125,7 @@
                     </p>
 
                     <p class="lg:hidden">"Hidden Hunger is a ‘silent pandemic’ because it’s more widespread than we
-                        think. An estimated 47
-                        million Americans have <i>‘food insecurity’.</i> A lack of consistent access to enough food
-                        daily for
-                        an active, healthy life,” Dr. Pam explains. “Without a doubt, they’re suffering from Hidden
-                        Hunger.</p>
+                        think. Over 47 million Americans have <span class="italic">‘food insecurity’</span>. That is, a lack of consistent access to enough food for an active, healthy life,” Dr. Pam explains. “Without a doubt, they’re suffering from Hidden Hunger.</p>
 
                     <p class="hidden lg:block">“Yet, Hidden Hunger is not only about a lack of consistent access to
                         enough food every day,” she
@@ -137,10 +135,7 @@
                         bodies
                         need.</p>
 
-                    <p class="lg:hidden">“Yet, Hidden Hunger is not only about that,” she continues. “We see plenty of
-                        ‘food secure’ kids
-                        who get plenty of calories - often too many. Yet they lack essential vitamins and nutrients,
-                        especially micronutrients... things their growing bodies need.</p>
+                    <p class="lg:hidden">“Yet, Hidden Hunger is <span class="extrablod">not</span> about lack of access,” she continues. “Plenty of ‘food secure’ kids who get plenty of calories, often too many, have disturbingly <span class="extrablod">low levels</span> of essential vitamins and nutrients, especially micronutrients... things their growing bodies need.</p>
 
                     <p class="hidden lg:block">“That’s why I’m certain way more than 47 million Americans have Hidden
                         Hunger."</p>
@@ -169,10 +164,12 @@
                         <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-1">An estimated
                             56% of preschool-aged kids have at least one micronutrient deficiency
                         </li>
-                        <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-1"> Even children
+                        <li class="lg:flex gap-2 items-start hidden"><img src="/images/blk-check.svg" class="pt-1"> Even children
                             who appear healthy and well-fed often suffer inside
                         </li>
-
+                    <li class="lg:hidden flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-1"> Even children
+                            who appear healthy and well-fed suffer inside
+                        </li>
                     </ul>
 
                     <img src="/images/fl-2.jpg" class="w-full py-6">
@@ -183,7 +180,7 @@
                             undernourished children I see are actually overweight.</p>
 
                         <p class="lg:hidden"><span class="extrablod">"Malnutrition doesn't always look skinny,"</span>
-                            Dr. Pam emphasizes. "In fact, some of the most
+                            stresses Dr. Pam. "In fact, some of the most
                             undernourished children I see are actually <span class="extrablod"><i>over</i>weight.</span>
                         </p>
 
@@ -195,9 +192,8 @@
                             So it’s a family problem,
                             not a kid’s problem."</p>
 
-                        <p class="lg:hidden">Hidden Hunger is also <span class="extrablod">endangering</span> the health
-                            of millions of adults. </p>
-                        <p class="lg:hidden">So it’s a family problem, not a kid’s problem."</p>
+                        <p class="lg:hidden">Hidden Hunger is endangering the health of millions of adults, too.</p>
+                        <p class="lg:hidden">"So it’s a family problem, not a kid’s problem."</p>
 
                     </div>
 
@@ -205,8 +201,9 @@
                 </div>
 
 
-                <h3 class="lg:text-4xl text-3xl extrablod mt-8">Why Modern Americans Are Starving in a Land of Plenty
+                <h3 class="lg:text-4xl text-2xl extrablod mt-8">Why Modern Americans Are Starving in a Land of Plenty
                 </h3>
+                
                 <img src="/images/fl-3.jpg" class="w-full py-6">
                 <div class="lg:space-y-4 space-y-2 mb-8">
                     <p class="hidden lg:block"> <span class="extrablod">The problem isn't lack of food</span> - it's
@@ -245,7 +242,7 @@
                     </p>
 
                     <p class="lg:hidden">
-                        “Even if you you try to provide your family with healthy options, it’s an uphill battle. There's
+                        “Even if you you try to provide your family with healthy options, it’s an <span class="extrablod">uphill battle.</span> There's
                         depleted soil, long shipping times, and foods engineered for shelf-life, not nutrition."
                     </p>
 
@@ -256,7 +253,8 @@
                 </div>
 
 
-                <h3 class="lg:text-4xl text-3xl extrablod mt-8">Hidden Signs Most Parents (and Doctors) Miss</h3>
+                <h3 class="lg:text-4xl text-2xl extrablod mt-8">Hidden Signs Most Parents (and Doctors) Miss</h3>
+              
                 <img src="/images/fl-4.jpg" class="w-full py-6 pb-0">
                 <div class="lg:space-y-4 space-y-2 mb-8 bg-[#FAFAFA] lg:p-5 p-2 lg:py-9 py-4">
                     <p class="hidden lg:block">Hidden Hunger doesn't announce itself with obvious symptoms. Instead, it
@@ -265,8 +263,7 @@
                         childhood issues. Ones that most parents, and many doctors, dismiss as "normal":</p>
 
                     <p class="lg:hidden">Hidden Hunger doesn't reveal itself with obvious symptoms. Instead, it
-                        disguises itself as common
-                        childhood issues. </p>
+                        disguises itself as common issues. </p>
 
                     <p class="lg:hidden">Ones that most parents, and many doctors, dismiss as "normal":</p>
 
@@ -276,7 +273,7 @@
                     <p><span class="extrablod">Mood and behavior swings:</span> It's hard to control emotions and
                         behavior without good nutrition.</p>
 
-                    <p><span class="extrablod">Difficulty concentrating:</span> The developing brain needs specific
+                    <p><span class="extrablod">Difficulty focusing:</span> The developing brain needs specific
                         nutrients to function well.</p>
 
                     <p><span class="extrablod">Frequent illness:</span> Kids with nutrient deficiencies get sick more
@@ -297,7 +294,7 @@
                         frequent tummy aches,
                         constipation, or food sensitivities.</p>
 
-                    <p class="lg:hidden"><span class="extrablod">Gut health issues:</span> Show up as frequent tummy
+                    <p class="lg:hidden"><span class="extrablod">Gut health issues:</span> Show up frequent tummy
                         aches, food sensitivities, or constipation.</p>
 
 
@@ -311,9 +308,8 @@
                         to what she was eating."</p>
 
                     <p class="lg:hidden">
-                        "I thought Emma's issues were due to her personality," Sarah says. "The afternoon meltdowns, the
-                        trouble sleeping, constant colds... I thought that was how she was. I never connected it to what
-                        she was eating."
+                      "<span class="extrablod">I thought</span> Emma's issues were due to her personality," Sarah says. "The afternoon meltdowns, the trouble sleeping, constant colds... </p>
+                    <p class="lg:hidden">I thought that was how she was. I never <span class="extrablod">connected</span> it to what she was eating."
                     </p>
                 </div>
 
@@ -345,18 +341,28 @@
 
                     <p>Together, Dr. Pam and Nastya developed YOMZ. It's a gummy backed by science to fill the nutrition
                         gaps facing millions of Americans every day.</p>
+                        <p class="lg:hidden">Together, Dr. Pam and Nastya created 
+YOMZ. It's a <span class="extrablod">mouthwatering</span> gummy 
+backed by science to fill the nutrition 
+gaps facing millions of Americans 
+every day.</p>
 
                     <p class="hidden lg:block">"First, it had to taste amazing - like a treat kids would actually ask
                         for," Dr. Pam explains.
                         “Otherwise, no one would want it.”</p>
 
-                    <p class="lg:hidden">"First, it had to taste amazing - like a treat kids would actually ask for,"
+                    <p class="lg:hidden">"First, it had to taste amazing - a treat kids would actually ask for,"
                         Dr. Pam explains. </p>
 
-                    <p class="lg:hidden">“It didn’t make sense to make something healthy but not delicious. Otherwise,
+                    <p class="lg:hidden">“It <span class="extrablod">didn’t make sense</span> to make something healthy but not delicious. Otherwise,
                         who’d want it?”</p>
 
                     <p>"But we <span class="hidden lg:inline">also</span> refused to compromise on nutrition. No
+                        artificial dyes, no artificial flavors, no
+                        junk.
+                        Just pure, bioavailable nutrients in a form both kids and adults would love."</p>
+
+                        <p class="lg:hidden">"But we <span class="extrablod">refused</span> to compromise on nutrition. No
                         artificial dyes, no artificial flavors, no
                         junk.
                         Just pure, bioavailable nutrients in a form both kids and adults would love."</p>
@@ -367,7 +373,7 @@
                         that would lead the fight against Hidden Hunger.</p>
 
                     <p class="lg:hidden">So Dr. Pam and Nastya partnered with the world’s #1 gummy manufacturer. </p>
-                    <p class="lg:hidden">Their mission? Make a gummy that would lead the fight against Hidden Hunger.
+                    <p class="lg:hidden"><span class="extrablod">Their mission?</span> Make a gummy that would lead the fight against Hidden Hunger.
                     </p>
 
                     <p class="hidden lg:block">That’s why YOMZ OG Gummies come in 3 mouthwatering flavors: Peachy,
@@ -392,7 +398,7 @@
 
                     <p class="lg:hidden">Each serving of YOMZ has the phytonutrient equal of <span class="extrablod">2
                             servings</span> of fruits and
-                        vegetables. It's also packed with essential vitamins, fiber, antioxidants, polyphenols, and
+                        vegetables. It's also packed with essential vitamins, 5g of fiber, antioxidants, polyphenols, and
                         gut-supporting ingredients</p>
 
                 </div>
@@ -482,46 +488,46 @@
                         artificial
                         ingredients. They're crafted for the challenges your family faces:</p>
 
-                    <p class="lg:hidden px-5">YOMZ is unlike traditional supplements. It's not loaded with junk or
+                    <p class="lg:hidden px-5">YOMZ is <span class="extrablod">unlike</span> traditional supplements. It's not loaded with junk or
                         artificial
                         ingredients. It's
                         crafted for the challenges your family faces:</p>
 
-                    <p class="lg:hidden px-5">Yet, YOMZ isn’t a traditional candy gummy, either. Even if it tastes like
-                        one.
+                    <p class="lg:hidden px-5">Yet, YOMZ isn’t a traditional candy gummy, either. <span class="extrablod italic">Even if it tastes like
+                        one.</span>
                         Think of it as
                         candy, but better for you.</p>
 
 
                     <ul class="lg:space-y-1 space-y-1 pl-5">
                         <li class="flex gap-2 items-start"> <img src="/images/blk-check.svg" class="pt-1 h-5">
-                            <span><span class="font-bold">Kid-Approved Taste:</span> To them, it’s candy. To you, it’s
+                            <span><span class="font-bold lg:block hidden">Kid-Approved Taste:</span><span class="font-bold underline lg:hidden">Kid-Approved Taste:</span> To them, it’s candy. To you, it’s
                                 their
                                 daily servings.</span>
                         </li>
                         <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-1 h-5">
-                            <span><span class="font-bold">Real Nutrition:</span> Delivers nutrients from actual fruits
+                            <span><span class="font-bold lg:block hidden">Real Nutrition:</span><span class="font-bold underline lg:hidden">Real Nutrition:</span>  Delivers nutrients from actual fruits
                                 and vegetables.</span>
                         </li>
                         <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-1 h-5">
-                            <span><span class="font-bold">18 Superfoods:</span> From leafy greens to berries, it’s a
+                            <span><span class="font-bold lg:block hidden">18 Superfoods:</span><span class="font-bold underline lg:hidden">18 Superfoods:</span>  From leafy greens to berries, it’s a
                                 “farmer’s
                                 market in a gummy”.</span>
                         </li>
                         <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-1 h-5">
-                            <span><span class="font-bold">Expert-Developed:</span> Created by an award-winning
+                            <span><span class="font-bold lg:block hidden">Expert-Developed:</span><span class="font-bold underline lg:hidden">Expert-Developed:</span>  Created by an award-winning
                                 nutritionist
                                 and tested by millions.</span>
                         </li>
 
                         <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-1 h-5">
-                            <span><span class="font-bold">Gut Health Support:</span> Meets FDA guidelines as “excellent
+                            <span><span class="font-bold lg:block hidden">Gut Health Support:</span><span class="font-bold underline lg:hidden">Gut Health Support:</span>  Meets FDA guidelines as “excellent
                                 source
                                 of fiber”.</span>
                         </li>
                         <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-1 h-5">
-                            <span><span class="font-bold">Family-Friendly:</span> Safe and beneficial for ages 2 to
-                                102.</span>
+                            <span class="lg:block hidden"><span class="font-bold lg:block hidden">Family-Friendly:</span> Safe and beneficial for ages 2 to 102.</span>
+                        <span class="lg:hidden"><span class="font-bold underline lg:hidden">Family-Friendly:</span> Nutritious, delicious, and safe for ages 2 to 102.</span> 
                         </li>
 
                     </ul>
@@ -538,14 +544,20 @@
                         getting essential nutrition."
                     </p>
 
-                    <p class="lg:hidden">"The most rewarding part of developing YOMZ? Hearing from parents who finally
-                        have peace of mind,"
-                        <span class="extrablod">Dr. Pam says.</span> "Even if every meal is a battle, parents are
-                        assured their kids are still getting essential nutrition."
+                    <p class="lg:hidden">The most rewarding part of developing YOMZ? Hearing from parents who finally have peace of mind," 
+                        <span class="extrablod">Dr. Pam says.</span></p>
+                        <p class="lg:hidden">"Even if every meal is a battle, parents are assured their kids are still getting essential nutrition."
                     </p>
 
                     <p>For Sarah, YOMZ has been life-changing. "I used to lie awake at night worrying about Emma's
                         nutrition. Now I know that no matter what she eats during the day, <span
+                            class="hidden lg:inline">she's getting</span>
+                        <span class="lg:hidden">YOMZ is giving her</span> what her body
+                        needs
+                        to grow and thrive."
+                    </p>
+                    <p class="lg:hidden">For Sarah, YOMZ has been life-changing. "I used to lie awake at night worrying about Emma's
+                        nutrition. Now I know that  <span class="extrablod">no matter what</span> she eats during the day, <span
                             class="hidden lg:inline">she's getting</span>
                         <span class="lg:hidden">YOMZ is giving her</span> what her body
                         needs
@@ -566,7 +578,7 @@
 
                     <p class="lg:hidden">If you don’t see improvements in your family's health or if no one loves the
                         taste, you get back
-                        <span class="extrablod">double</span>what you paid.
+                        <span class="extrablod">double</span> what you paid.
                     </p>
                 </div>
 
@@ -599,7 +611,8 @@
                     </p>
 
                     <p class="lg:hidden">
-                        We have the knowledge and tools to fix this. Now we have to deliver proper nutrition to the
+                        We have the knowledge and tools to fix this. Now we have to deliver <span
+                                class="extrablod">proper nutrition</span> to the
                         families who need it most."
                     </p>
 
@@ -618,13 +631,18 @@
                         troubles dominate your every day... Or if you simply worry daily about your family's
                         nutrition...</p>
 
-                    <p>YOMZ offers hope.</p>
+                    <p class="hidden lg:block">YOMZ offers hope.</p>
+                      <p class="lg:hidden extrablod">YOMZ offers hope.</p>
 
+                    <p>"You're not failing as a parent," Dr. Pam emphasizes. "You're dealing with a system that makes it
+                        <span class="hidden lg:inline">difficult</span> <span class="lg:hidden extrablod">difficult</span> to nourish your child. YOMZ is a tool to help you succeed despite those challenges."
+                    </p>
+
+                    
                     <p>"You're not failing as a parent," Dr. Pam emphasizes. "You're dealing with a system that makes it
                         difficult to nourish your child. YOMZ is a tool to help you succeed despite those challenges."
                     </p>
-
-                    <p>Besides their incredible 200% Happiness Guarantee, there’s 2 more reasons to try YOMZ.</p>
+                    <p>Besides their incredible 200% Happiness Guarantee, there’s <span class="hidden lg:inline">2 more reasons</span> <span class="lg:hidden extrablod">2 more reasons</span> to try YOMZ.</p>
 
                     <p>First, It’s crafted with patented and proprietary ingredients of the highest quality.
 
@@ -645,19 +663,19 @@
                 <img src="/images/fl-9.jpg" class="w-full py-6">
                 <div class="lg:space-y-4 space-y-2 mb-8">
                     <p>To discover more about YOMZ and Hidden Hunger, visit the YOMZ official website. You'll find more
-                        information and take advantage of current promotional offers.</p>
+                        information and <span class="hidden lg:inline">take advantage</span><span class="lg:hidden extrablod">take advantage</span> of current promotional offers.</p>
 
                     <p>YOMZ is backed by scientific research, expert development, and millions of kids' approval. It
                         represents a breakthrough in the fight against Hidden Hunger.</p>
 
                     <div class="hidden lg:block lg:space-y-4 space-y-2">
-                        <p>For Sarah and Emma, the transformation has been profound. "Emma is thriving now. She sleeps
+                        <p>For Sarah and Emma, the transformation has been <span class="hidden lg:inline">profound</span><span class="lg:hidden extrablod">profound</span>. "Emma is thriving now. She sleeps
                             better,
                             focuses better, and rarely gets sick,"</p>
 
                         <p>Sarah explains. "It’s changed me, too. I'm not worried about her nutrition anymore. I can
                             actually
-                            enjoy being her mom."</p>
+                            enjoy being <span class="hidden lg:inline">her mom.</span><span class="lg:hidden extrablod">her mom.</span>"</p>
 
                         <p>Sarah had one last thing to say: “Don’t fall for the slick ads that promise the world… like I
                             used
@@ -666,7 +684,7 @@
                             how
                             YOMZ fights it.</p>
 
-                        <p>Now that you know this, it’s up to you as a good parent to do something about it. And it’s so
+                        <p>Now that you know this, <span class="hidden lg:inline">it’s up to you</span><span class="lg:hidden extrablod">it’s up to you</span> as a good parent to do something about it. And it’s so
                             easy.”</p>
                     </div>
 
@@ -714,19 +732,10 @@
                     <p class="break-all">https://pmc.ncbi.nlm.nih.gov/articles/PMC9573946/</p>
                     <p class="break-all mb-5">https://pmc.ncbi.nlm.nih.gov/articles/PMC6124841/</p>
                 </div>
-
-
-
-
-
-
-
-
-
             </div>
 
             <!-- Column right -->
-            <div class="col-span-10 lg:col-span-3 lg:p-4 p-2">
+            <div class="col-span-10 lg:col-span-3 lg:p-4 p-2 hidden lg:block">
                 <div class="border-1 border-[#1EB9F0] p-2 bg-[#F3FBFE] rounded-xl">
                     <h4 class="text-center text-xl font-bold pt-4 extrablod">FINALLY GET YOUR STRENGTH
                         AND ENERGY BACK AFTER 40</h4>
