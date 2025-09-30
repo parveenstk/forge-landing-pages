@@ -141,12 +141,6 @@
                         <p class="lg:hidden">
                         Those dramatic mood swings and meltdowns aren't about being "hangry."
                         </p>
-                        <p>Processed snacks and meals make those blood sugar crashes hit <span
-                                class="extrablod italic">hard.</span> But here's a secret:
-                        </p>
-
-                        <p>Those dramatic mood swings and meltdowns aren't about being "hangry."</p>
-
                         <p class="hidden lg:block">It’s about an unhealthy gut that can't regulate blood sugar well. Or
                             produce the calming
                             neurotransmitters needed to handle frustration. The result? Explosive overreactions to minor
@@ -415,7 +409,7 @@
                             <p>This creates internal "stress" that makes it hard to fall asleep and stay there.
                             </p>
 
-                            <p>Poor sleep then makes <span class="extrablod">mood regulation</span> even harder the next day. It's <span class="extrablod">another vicious cycle:</span>
+                            <p>Poor sleep makes <span class="extrablod">mood regulation</span> even harder the next day. It's <span class="extrablod">another vicious cycle:</span>
                             </p>
 
                             <p>Gut problems, sleep problems, and behavior problems all feed into each other.
@@ -684,7 +678,7 @@
                             <li class="flex gap-2 items-start"><img src="/images/ellipse.svg" class="pt-2"> Prebiotics to feed “good” gut
                                 bacteria</li>
 
-                            <li class="flex gap-2 items-start"><img src="/images/ellipse.svg" class="pt-2"> <span>YOMZ has <span class="extrablod"> 5g
+                            <li class="lg:flex gap-2 items-start hidden"><img src="/images/ellipse.svg" class="pt-2"> <span>YOMZ has <span class="extrablod"> 5g
                                     fiber.</span> This meets FDA
                                 “excellent fiber source” standards.</span></li>
 
