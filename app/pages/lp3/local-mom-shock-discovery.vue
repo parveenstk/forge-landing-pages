@@ -294,7 +294,7 @@
                         frequent tummy aches,
                         constipation, or food sensitivities.</p>
 
-                    <p class="lg:hidden"><span class="extrablod">Gut health issues:</span> Show up frequent tummy
+                    <p class="lg:hidden"><span class="extrablod">Gut health issues:</span> Show as frequent tummy
                         aches, food sensitivities, or constipation.</p>
 
 
@@ -544,9 +544,9 @@ every day.</p>
                         getting essential nutrition."
                     </p>
 
-                    <p class="lg:hidden">The most rewarding part of developing YOMZ? Hearing from parents who finally have peace of mind," 
+                    <p class="lg:hidden">"The most rewarding part of developing YOMZ? Hearing from parents who finally have peace of mind," 
                         <span class="extrablod">Dr. Pam says.</span></p>
-                        <p class="lg:hidden">"Even if every meal is a battle, parents are assured their kids are still getting essential nutrition."
+                        <p class="lg:hidden">"Even if every meal is a battle, parents are assured their kids are <span class="extrablod">still</span> getting essential nutrition."
                     </p>
 
                     <p>For Sarah, YOMZ has been life-changing. "I used to lie awake at night worrying about Emma's
@@ -644,7 +644,7 @@ every day.</p>
                     </p>
                     <p>Besides their incredible 200% Happiness Guarantee, there’s <span class="hidden lg:inline">2 more reasons</span> <span class="lg:hidden extrablod">2 more reasons</span> to try YOMZ.</p>
 
-                    <p>First, It’s crafted with patented and proprietary ingredients of the highest quality.
+                    <p>First, it’s crafted with patented and proprietary ingredients of the highest quality.
 
 
                         <span class="lg:inline block lg:mt-0 mt-3"> And second,
@@ -689,11 +689,11 @@ every day.</p>
                     </div>
 
                     <div class="lg:hidden lg:space-y-4 space-y-2">
-                        <p>The transformation for Sarah and Emma has been profound. "She’s thriving. She sleeps better,
+                        <p>The transformation for Sarah and Emma has been <span class="hidden lg:inline">profound</span><span class="lg:hidden extrablod">profound</span>. "She’s thriving. She sleeps better,
                             focuses better, and rarely gets sick,"</p>
 
                         <p>Sarah continues. "It’s changed me, too. I'm not worried about her nutrition anymore. I can
-                            actually enjoy being her mom."</p>
+                            actually enjoy being <span class="hidden lg:inline">her mom.</span><span class="lg:hidden extrablod">her mom.</span>"</p>
 
                         <p>Sarah had one last thing to say: “Don’t fall for the slick ads that promise the world… like I
                             used to.</p>
@@ -701,7 +701,7 @@ every day.</p>
                         <p>“We tried many things before we found YOMZ. So I’m spreading the word about Hidden Hunger and
                             how YOMZ fights it.</p>
 
-                        <p>Now that you know this, it’s up to you as a good parent to do something. And it’s so easy.”
+                        <p>Now that you know this, <span class="hidden lg:inline">it’s up to you</span><span class="lg:hidden extrablod">it’s up to you</span> as a good parent to do something. And it’s so easy.”
                         </p>
                     </div>
 
