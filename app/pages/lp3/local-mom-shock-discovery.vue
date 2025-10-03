@@ -1,3 +1,16 @@
+<script setup>
+import { ref } from 'vue'
+
+// get today's date
+const today = new Date()
+// subtract 5 days
+today.setDate(today.getDate() - 5)
+
+// format date like "Sep 17, 2025"
+const options = { year: 'numeric', month: 'short', day: 'numeric' }
+const formattedDate = ref(today.toLocaleDateString('en-US', options))
+</script>
+
 <template>
 
     <!-- top-header -->
@@ -48,21 +61,27 @@
                 <p class="mt-3 font-bold italic lg:not-italic hidden lg:block"> - Even Those Who Look Perfectly Healthy
                 </p>
 
-
-
                 <p class="flex items-center gap-3 extrablod mt-3"><img src="/images/star.svg"> <span
                         class="font-bold">6,782
                         ratings</span></p>
 
                 <div class="flex gap-3 items-center py-4">
                     <img src="/images/person.png" class="rounded-full w-15">
-                    <div>
+                    <!-- <div>
                         <span class="extrablod flex">Dr. Pam . <img src="/images/check.png"></span>
                         <span>Last updated Sep 17, 2025</span>
+                    </div> -->
+
+                    <div>
+                        <span class="extrabold flex">
+                            Dr. Pam
+                            <img src="/images/check.png" class="ml-1" />
+                        </span>
+                        <span>
+                            Last updated {{ formattedDate }}
+                        </span>
                     </div>
                 </div>
-
-
 
                 <div class="lg:space-y-4 space-y-2 mb-8">
                     <p><span class="extrablod">DENVER, CO</span> - Sarah Owens took her 6-year-old daughter Emma for her
@@ -83,8 +102,6 @@
                     <p class="lg:hidden">"She's <span class="extrablod">low</span> in vitamins C and D and missing key
                         micronutrients."</p>
 
-
-
                     <p>The news devastated Sarah. Emma wasn't skinny or sickly-looking. She ate regularly - chicken
                         nuggets, mac & cheese, and grilled cheese sandwiches were her favorites.</p>
 
@@ -103,10 +120,6 @@
                         starving for real nutrition."</p>
                 </div>
 
-
-
-
-
                 <h2 class="text-4xl mb-6 hidden lg:inline"><span class="extrablod">The Silent Crisis Hurting</span> at
                     Least 47
                     Million Americans</h2>
@@ -115,7 +128,6 @@
                     Harming Over 47 Million Americans</h2>
 
                 <img src="/images/fl-1.jpg" class="w-full mb-5">
-
 
                 <div class="lg:space-y-4 space-y-2 mb-8">
 
@@ -170,7 +182,6 @@
                     <p>The statistics are alarming:</p>
                 </div>
 
-
                 <div class="bg-[#F2F6FB] py-7 rounded-xl font-bold">
                     <ul class="pl-3 lg:space-y-1 space-y-1 semibold">
                         <li class="gap-2 items-start hidden lg:flex"><img src="/images/blk-check.svg" class="pt-1">
@@ -222,9 +233,7 @@
 
                     </div>
 
-
                 </div>
-
 
                 <h3 class="lg:text-4xl text-2xl extrablod mt-8">Why Modern Americans Are Starving in a Land of Plenty
                 </h3>
@@ -272,12 +281,7 @@
                     <p>"In addition to the bad soil, there's long shipping times and foods engineered for shelf-life,
                         not nutrition."</p>
 
-
-
-
-
                 </div>
-
 
                 <h3 class="lg:text-4xl text-2xl extrablod mt-8">Hidden Signs Most Parents (and Doctors) Miss</h3>
 
@@ -292,9 +296,6 @@
                         common issues. </p>
 
                     <p class="lg:hidden">Ones that most parents, and many doctors, dismiss as "normal":</p>
-
-
-
 
                     <p><span class="extrablod">Mood and behavior swings:</span> It's hard to control emotions and
                         behavior without good nutrition.</p>
@@ -324,9 +325,6 @@
                     <p class="lg:hidden"><span class="extrablod">Gut health issues:</span> Show as frequent tummy
                         aches, food sensitivities, or constipation.</p>
 
-
-
-
                     <p class="hidden lg:block">"I thought Emma's issues were due to her personality," Sarah reflects.
                         "The afternoon meltdowns,
                         the
@@ -340,7 +338,6 @@
                     <p class="lg:hidden">"I never <span class="extrablod">connected</span> it to what she was eating."
                     </p>
                 </div>
-
 
                 <h3 class="text-4xl extrablod mt-8">Breakthrough Discovery Changes Everything</h3>
                 <img src="/images/fl-5.jpg" class="w-full py-6">
@@ -360,14 +357,10 @@
                         fans as Nastya, star of the top YouTube children’s series <span class="extrablod"><i>Like
                                 Nastya.</i></span></p>
 
-
-
                     <p>When Nastya learned about Hidden Hunger, she knew she had to help. "Some of the <span
                             class="lg:not-italic italic">Like Nastya</span>
                         family
                         might be suffering," she realized.</p>
-
-
 
                     <p class="lg:hidden">Together, Dr. Pam and Nastya created
                         YOMZ. It's a <span class="extrablod">mouthwatering</span> gummy
@@ -385,8 +378,6 @@
                     <p class="lg:hidden">“It <span class="extrablod">didn’t make sense</span> to make something healthy
                         but not delicious. Otherwise,
                         who’d want it?”</p>
-
-
 
                     <p class="lg:hidden">"But we <span class="extrablod">refused</span> to compromise on nutrition. No
                         artificial dyes, no artificial flavors, no
@@ -416,7 +407,6 @@
                         eye-watering <span class="extrablod">Sour</span> form.
                     </p>
 
-
                     <p class="hidden lg:block">Each serving of YOMZ has the phytonutrient equal of 2 servings of fruits
                         and vegetables. It's
                         also
@@ -427,12 +417,11 @@
                         vegetables.
                     </p>
 
-                    <p class="lg:hidden">It's also <span class="extrablod">packed with</span> essential vitamins, 5g of fiber, antioxidants, polyphenols, and other
+                    <p class="lg:hidden">It's also <span class="extrablod">packed with</span> essential vitamins, 5g of
+                        fiber, antioxidants, polyphenols, and other
                         gut-supporting ingredients</p>
 
                 </div>
-
-
 
                 <h3 class="text-3xl extrablod">Real Families, Real Results</h3>
                 <p class=" mt-2 mb-4">The results have been remarkable. Parents like you are reporting
@@ -507,8 +496,6 @@
                                 class="h-4"> Verified Customer</span></p>
                 </div>
 
-
-
                 <div class="lg:space-y-4 space-y-2 mb-8 bg-[#DCF0E1] pb-7 shadow-lg rounded-xl overflow-hidden">
                     <img src="/images/fl-6.jpg" class="w-full">
                     <h3 class="lg:text-4xl text-3xl  extrablod mt-6 px-5">Why YOMZ Is Different</h3>
@@ -528,7 +515,6 @@
                             one.</span>
                         Think of it as
                         candy, but better for you.</p>
-
 
                     <ul class="lg:space-y-1 space-y-1 pl-5">
                         <li class="flex gap-2 items-start"> <img src="/images/blk-check.svg" class="pt-1 h-5">
@@ -576,7 +562,6 @@
 
                     </ul>
                 </div>
-
 
                 <h3 class="lg:text-4xl text-3xl extrablod mt-8">Don’t You Deserve Peace of Mind?</h3>
                 <img src="/images/fl-7.jpg" class="w-full py-6">
@@ -630,9 +615,6 @@
                     </p>
                 </div>
 
-
-
-
                 <h3 class="lg:text-4xl text-3xl extrablod mt-8">A Mission Bigger Than Business</h3>
                 <img src="/images/fl-8.jpg" class="w-full py-6">
                 <div class="lg:space-y-4 space-y-2 mb-8">
@@ -645,8 +627,6 @@
 
                     <p class="lg:hidden">Their mission is to end Hidden Hunger for <span class="extrablod"> 100 million
                             people</span> worldwide.</p>
-
-
 
                     <p class="hidden lg:block">"Every child deserves to reach their full potential," Dr. Pam states.
                         "Hidden Hunger robs
@@ -663,9 +643,6 @@
                             class="extrablod">proper nutrition</span> to the
                         families who need it most."
                     </p>
-
-
-
 
                     <p>Adds Nastya: “YOMZ is for families. So together, let’s smash Hidden <span
                             class="hidden lg:inline">Hunger.</span><span class="lg:hidden">Hunger!</span>”</p>
@@ -688,7 +665,6 @@
                         you succeed despite those challenges."
                     </p>
 
-
                     <p>"You're not failing as a parent," Dr. Pam emphasizes. "You're dealing with a system that makes it
                         difficult to nourish your child. YOMZ is a tool to help you succeed despite those challenges."
                     </p>
@@ -696,7 +672,6 @@
                             reasons</span> <span class="lg:hidden extrablod">2 more reasons</span> to try YOMZ.</p>
 
                     <p>First, it’s crafted with patented and proprietary ingredients of the highest quality.
-
 
                         <span class="lg:inline block lg:mt-0 mt-3"> And second,
                             it's made in the world’s #1 gummy-making facility. This state-of-the-art facility is fully
@@ -706,9 +681,6 @@
                             Practices (cGMP).</span>
                     </p>
                 </div>
-
-
-
 
                 <h3 class="lg:text-4xl text-3xl extrablod mt-8">Taking Action</h3>
                 <img src="/images/fl-9.jpg" class="w-full py-6">
@@ -767,12 +739,7 @@
                         </p>
                     </div>
 
-
-
-
                 </div>
-
-
 
                 <p class="bg-[#EFEFEF] p-3 font-bold">As with any supplement, parents should consult with their child's
                     healthcare provider before making
@@ -783,7 +750,6 @@
                         Try YOMZ Risk-Free
                     </button>
                 </div>
-
 
                 <div class="lg:text-lg text-sm sources-text font-bold lg:space-y-1 space-y-2">
                     <p class="extrablod lg:mt-20 mt-5">Sources:</p>
@@ -865,7 +831,6 @@
                             </div>
                         </div>
 
-
                         <p class="text-lg extrablod mb-2 mt-4">By Feature</p>
 
                         <p class="flex justify-between items-center">Results <span class="flex items-center gap-0">
@@ -900,11 +865,6 @@
                                 <img src="/images/yl-star.svg" class="h-4 mr-1">
                                 4.9</span></p>
 
-
-
-
-
-
                     </div>
 
                     <button
@@ -912,17 +872,10 @@
                         Try YOMZ Risk-Free
                     </button>
 
-
-
                 </div>
             </div>
         </div>
     </div>
-
-
-
-
-
 
     <!-- BodyContent -->
 
