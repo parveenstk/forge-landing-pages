@@ -105,15 +105,15 @@
 
             <div class="space-y-4 lg:hidden">
 
-               <p>You've tried <span class="extrablod italic">everything</span></p> 
+               <p>You've tried <span class="extrablod italic">everything</span>.</p> 
  <p>Time outs. Grounding. Taking away privileges. Extra chores. Even stern talks.</p>
 <p>And you might not admit it, but the  <span class="extrablod">taboo</span> of spanking may have crossed your mind…</p>
 <p>Even if you haven’t gone through with it.</p>
-<p>But you’ve  <span class="extrablod">run out of answers</span> on how to fix your kid’s meltdowns, mood swings, and brain fogs.</p>
+<p>But you’ve <span class="extrablod">run out of answers</span> on how to fix your kid’s meltdowns, mood swings, and brain fogs.</p>
 <p>No matter what you've tried, nothing’s changed.</p>
-<p>Here’s the scientific truth:</p>
+<p>Here’s the scientific <u>truth:</u></p>
 <p class="extrablod">You can't feel good if your gut feels bad.</p>
-<p>Scientists have found that up to 90% of serotonin (your "happy hormone") comes from the gut, <span class="extrablod">not</span> the brain. </p>
+<p>Scientists have found that up to <span class="extrablod">90%</span> of serotonin (your "happy hormone") comes from the gut, <span class="extrablod">not</span> the brain. </p>
 <p>Survive on fast food and processed foods means missing key nutrients. </p>
 <p>Your gut health suffers. And your <span class="extrablod italic">mood</span> pays the price.</p>
 <p>The result? You suffer from the blues and the blahs, with no motivation or focus. </p>
