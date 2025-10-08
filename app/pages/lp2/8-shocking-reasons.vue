@@ -20,7 +20,8 @@
     </div>
 
     <div class="bg-[#1EB9F0] py-1">
-        <p class="text-black text-center lg:text-xl text-lg font-bold">SIGN UP AND SAVE UP TO 50% OFF</p>
+        <p class="text-black text-center lg:text-xl text-lg font-bold hidden lg:block">SIGN UP AND SAVE UP TO 50% OFF</p>
+         <p class="text-black text-center lg:text-xl text-lg font-bold lg:hidden">TRY YOMS & GET UP TO 60% OFF</p>
     </div>
     <!-- top-header -->
 
@@ -40,9 +41,9 @@
             <!-- Mobile version -->
             <div class="block lg:hidden">
                 <h1 class="extrablod mr-0 text-[calc(8.5vw-0px)] leading-[calc(1em+1vw)]">
-                    8 Shocking Reasons "Behavior Problems" Are Actually Gut Problems
+                  8 <span class="text-[#E6193C] ">Shocking</span> Reasons <br>for Child "Behavior <br>Problems"
                 </h1>
-                <p class="font-bold mt-2 text-[calc(4.3vw-0px)] leading-[calc(1em+1vw)]">8 truths every mom should know
+                <p class="font-bold mt-2 text-[calc(4.3vw-0px)] leading-[calc(1em+1vw)] italic">Guess what? You're not one of them...
                 </p>
             </div>
 
@@ -56,7 +57,7 @@
                     <span>Last updated Sep 17, 2025</span>
                 </div>
             </div>
-            <div class="space-y-4">
+            <div class="space-y-4 hidden lg:block">
 
                 <p class="hidden lg:block">You've tried everything to fix random meltdowns, mood swings, and brain fog.
                     Supplements and
@@ -100,6 +101,25 @@
                     <p class="lg:hidden">And your kids? They seem "difficult". Or “hard to handle”.</p>
                 <p class="lg:hidden">Yet, what everyone's <span class="extrablod italic">really</span> struggling with is an imbalanced gut. It's what’s fraying your nerves and ruining your kids’ emotional world.</p>
 
+            </div>
+
+            <div class="space-y-4 lg:hidden">
+
+               <p>You've tried <span class="extrablod italic">everything</span></p> 
+ <p>Time outs. Grounding. Taking away privileges. Extra chores. Even stern talks.</p>
+<p>And you might not admit it, but the  <span class="extrablod">taboo</span> of spanking may have crossed your mind…</p>
+<p>Even if you haven’t gone through with it.</p>
+<p>But you’ve  <span class="extrablod">run out of answers</span> on how to fix your kid’s meltdowns, mood swings, and brain fogs.</p>
+<p>No matter what you've tried, nothing’s changed.</p>
+<p>Here’s the scientific truth:</p>
+<p class="extrablod">You can't feel good if your gut feels bad.</p>
+<p>Scientists have found that up to 90% of serotonin (your "happy hormone") comes from the gut, <span class="extrablod">not</span> the brain. </p>
+<p>Survive on fast food and processed foods means missing key nutrients. </p>
+<p>Your gut health suffers. And your <span class="extrablod italic">mood</span> pays the price.</p>
+<p>The result? You suffer from the blues and the blahs, with no motivation or focus. </p>
+<p><span class="extrablod">Your kids</span> seem "difficult" or “hard to handle”. </p>
+<p>Yet, it's an imbalanced gut <span class="extrablod italic">everyone’s</span> struggling with.</p> 
+<p>It's what’s fraying your nerves and ruining your kids’ emotional world.</p>
             </div>
 
             <hr class="lg:my-10 my-5">

@@ -1,15 +1,18 @@
 <script setup>
+import { RouterLink } from 'vue-router';
+
 const { request } = useKonnectiveApi();
 // const { data, error, pending } = await useFetch('https://api.example.com/posts');
-const { data, error, pending } = await useFetch('https://api.checkoutchamp.com/upsale/import/');
+// const { data, error, pending } = await useFetch('https://api.checkoutchamp.com/upsale/import/');
 
+const route = useRouter();
+route.push('/lp1/7-warning-signs')
 
-
-const customer = await request('createCustomer', 'POST', {
-    firstName: 'John',
-    lastName: 'Doe',
-    email: 'john@example.com'
-}, true); // <- encrypted = true
+// const customer = await request('createCustomer', 'POST', {
+//     firstName: 'John',
+//     lastName: 'Doe',
+//     email: 'john@example.com'
+// }, true); // <- encrypted = true
 </script>
 
 <template>
