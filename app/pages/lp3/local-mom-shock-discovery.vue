@@ -53,9 +53,7 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                     New Research Reveals Tens of Millions of Americans Suffer from 'Hidden Hunger'.</p>
 
                 <p
-                    class="block new-text-studies lg:hidden text-black font-bold p-0 text-sm mt-2 lg:mr-15 mr-0 italic lg:not-italic">
-                    Studies reveal tens of millions of Americans suffer from 'Hidden Hunger'. Even those who seem
-                    perfectly healthy.
+                    class="block new-text-studies lg:hidden text-black font-bold p-0 text-sm mt-2 lg:mr-15 mr-0 italic lg:not-italic">47 million perfectly "healthy" Americans suffer from the same issue.
                 </p>
 
                 <p class="mt-3 font-bold italic lg:not-italic hidden lg:block"> - Even Those Who Look Perfectly Healthy
@@ -119,7 +117,7 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                     <p>"Emma looked healthy on the outside. <span class="extrablod">But inside</span>, her body was
                         starving for real nutrition."</p>
                 </div>
-
+                
                 <h2 class="text-4xl mb-6 hidden lg:inline"><span class="extrablod">The Silent Crisis Hurting</span> at
                     Least 47
                     Million Americans</h2>
@@ -746,9 +744,21 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                     changes to their nutrition routine.</p>
 
                 <div class="w-full flex justify-center mt-7">
-                    <button class="bg-black text-white w-140 lg:p-5 p-3 text-2xl font-extrabold uppercase rounded-2xl">
+                    <a href="https://yomz-checkout-2.vercel.app/" target="_blank" class="hidden lg:flex justify-center h-full bg-black text-white w-140 lg:p-5 p-3 text-2xl font-extrabold uppercase rounded-2xl">
                         Try YOMZ Risk-Free
-                    </button>
+                    </a>
+                    <a href="https://yomz-checkout-2.vercel.app/" target="_blank" class="lg:hidden flex justify-center h-full bg-[#0AA03C] text-white w-140 lg:p-5 p-3 text-3xl font-extrabold uppercase rounded-2xl">
+                        Try YOMZ Risk-Free
+                    </a>
+                    <!-- <a href="https://yomz-checkout-2.vercel.app/"
+                            class="lg:flex justify-center w-full h-full bg-black hidden rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-lg">
+                            Try YOMZ Risk-Free
+                        </a>
+                        <a href="https://yomz-checkout-2.vercel.app/"
+                            class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-3xl">
+                            TRY YOMZ TODAY
+                        </a> -->
+                    
                 </div>
 
                 <div class="lg:text-lg text-sm sources-text font-bold lg:space-y-1 space-y-2">

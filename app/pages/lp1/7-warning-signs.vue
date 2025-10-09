@@ -808,19 +808,18 @@ Each serving delivers the phytonutritional equal of <span class="extrablod">2 se
             <!-- Column data 2 -->
 
             <div class="border-1 lg:border-[#1EB9F0] border-[#fff] rounded-xl lg:p-5 p-0 lg:mt-20 mt-15 relative">
-                <p
-                    class="bg-[#FFEB00] absolute -top-5 left-1/2 -translate-x-1/2 py-1 lg:px-30 px-10 font-bold lg:text-lg text-base rounded-b-lg hidden lg:block">
-                    FOR SALE
-                </p>
-
+                <a href="https://yomz-checkout-2.vercel.app/"
+                    class="bg-[#FFEB00] absolute -top-5 left-1/2 -translate-x-1/2 py-1 lg:px-30 px-10 font-bold lg:text-lg text-base rounded-b-lg">
+                    TRY NOW
+                </a>
+                <a href="https://yomz-checkout-2.vercel.app/"
+                    class="bg-[#0AA03C] text-white absolute -top-5 py-2 w-full extrablod lg:text-lg text-base text-center block lg:hidden">
+                    TRY YOMZ NOW
+                </a>
                 <!-- <p
                     class="bg-[#FFEB00] absolute -top-5 left-1/2 -translate-x-1/2 py-1 lg:px-30 px-5 font-bold lg:text-lg text-base rounded-b-lg block lg:hidden">
                     TRY NOW
                 </p> -->
-                <p
-                    class="bg-[#0AA03C] text-white absolute -top-5 py-2 w-full extrablod lg:text-lg text-base text-center block lg:hidden">
-                     TRY YOMZ NOW
-                </p>
                 <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-5 gap-2 items-center">
 
                     <div>
@@ -836,7 +835,7 @@ Each serving delivers the phytonutritional equal of <span class="extrablod">2 se
                         <p>Join thousands of smart moms who've discovered the secret of YOMZ. It's filling the gaps with
                             nutrition that tastes really good.</p>
 
-                        <button type="button"
+                        <!-- <button type="button"
                             class="bg-black hidden lg:inline w-full rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-lg">
                             Try YOMZ Risk-Free for <span class="block">50% OFF Today</span>
                         </button>
@@ -844,7 +843,15 @@ Each serving delivers the phytonutritional equal of <span class="extrablod">2 se
                         <button type="button"
                             class="bg-[#0AA03C] lg:hidden  w-full rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-3xl">
                            TRY YOMZ TODAY
-                        </button>
+                        </button> -->
+                        <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                            class="lg:flex justify-center w-full h-full bg-black hidden rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-lg">
+                            Try YOMZ Risk-Free <span class="ml-1 block">50% OFF Today</span>
+                        </a>
+                        <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                            class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-3xl">
+                            TRY YOMZ TODAY
+                        </a>
 
                         <p class="bg-[#F7F8EA] risk">Sell Out Risk: <span class="text-[#E6193C]">HIGH</span> |
                             Inventory:
@@ -900,7 +907,7 @@ Each serving delivers the phytonutritional equal of <span class="extrablod">2 se
       :style="{ bottom: isFooterVisible ? `${footerHeight}px` : '1rem', left: 0, right: 0 }"
     >
       <a
-        href="#"
+        href="https://yomz-checkout-2.vercel.app/" target="_blank"
         class="block w-80 text-center text-white font-semibold text-2xl py-3 bg-[#1EB9F0] rounded-full"
       >
         Try YOMZ today
