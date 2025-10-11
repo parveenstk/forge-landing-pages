@@ -531,7 +531,7 @@
                     <h3
                         class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
                         7. Social Anxiety</h3>
-                    <!-- <img src="/images/p2-7.jpg" class="w-full rounded-xl"> -->
+                    <img src="/images/p2-7.jpg" class="w-full rounded-xl">
                 </div>
                 <div>
                     <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">7. Social Skills Start in the Gut
