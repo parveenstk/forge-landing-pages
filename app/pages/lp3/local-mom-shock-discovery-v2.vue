@@ -35,11 +35,11 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                 <p class="mb-2 hidden lg:block">Home > Health > Muscle Building</p>
                 <p class="mb-2 lg:hidden">Home > Health > Family Health</p>
 
-                <h1 class="lg:text-4xl text-3xl hidden lg:block">
-                    <span class="text-xl text-black p-1 underline font-semibold italic bg-[#FFEB00]">
-                        Local Mom's Shocking Discovery:</span><br> <span class="extrablod">
-                        "My Family <u><i>Looked</i></u> Healthy. But We Were Actually <span
-                            class="text-[#E6193C]">Malnourished</span>."</span></h1>
+                <h1 class="lg:text-4xl text-3xl hidden lg:block"> Local Mom's Shocking Discovery: <span
+                        class="extrablod">"My
+                        Healthy-Looking
+                        Family
+                        Was Actually Malnourished"</span></h1>
 
                 <h1 class="block lg:hidden text-[calc(6.5vw-0px)] leading-[calc(1em+1vw)]"><span
                         class="text-xl text-black p-1 underline font-semibold italic bg-[#FFEB00]">
@@ -48,13 +48,16 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                             class="text-[#E6193C]">Malnourished</span>."</span>
                 </h1>
 
-                <!-- <p
-                    class="bg-[#FFEB00] text-black font-bold p-2 text-xl mt-4 lg:mr-15 mr-0 italic hidden lg:block">
-                    New Research Reveals Tens of Millions of Americans Suffer from 'Hidden Hunger'.</p> -->
+                <p
+                    class="bg-[#FFEB00] text-black font-bold p-2 text-xl mt-4 lg:mr-15 mr-0 italic lg:not-italic hidden lg:block">
+                    New Research Reveals Tens of Millions of Americans Suffer from 'Hidden Hunger'.</p>
 
-                <p class="block new-text-studies lg:hidden text-black font-bold p-0 text-sm mt-2 lg:mr-15 mr-0 italic">47 million perfectly "healthy" Americans suffer from the same issue.</p>
+                <p
+                    class="block new-text-studies lg:hidden text-black font-bold p-0 text-sm mt-2 lg:mr-15 mr-0 italic lg:not-italic">47 million perfectly "healthy" Americans suffer from the same issue.
+                </p>
 
-                <p class="mt-3 font-bold italic hidden lg:block">47 million perfectly "healthy" Americans suffer from the same issue.</p>
+                <p class="mt-3 font-bold italic lg:not-italic hidden lg:block"> - Even Those Who Look Perfectly Healthy
+                </p>
 
                 <p class="flex items-center gap-3 extrablod mt-3"><img src="/images/star.svg"> <span
                         class="font-bold">6,782
@@ -78,76 +81,46 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                     </div>
                 </div>
 
-                <div class="lg:hidden lg:space-y-4 space-y-2 mb-8">
+                <div class="lg:space-y-4 space-y-2 mb-8">
                     <p><span class="extrablod">DENVER, CO</span> - Sarah Owens took her 6-year-old daughter Emma for her
                         annual checkup. She expected to
                         hear the usual: "She's growing well, everything looks normal."
 
                         <span class="lg:inline block lg:mt-0 mt-3">Instead, she got a <span
-                                class="extrablod">punch</span> to the gut.</span></p>
+                                class="extrablod">punch</span> to the gut.</span>
+                    </p>
 
-                    <p>
+                    <p class="hidden lg:block">"Your daughter shows signs of many nutrient deficiencies," Dr. Pam
+                        explained. "She's low in
+                        vitamin C and vitamin D, and she's missing key micronutrients."</p>
+
+                    <p class="lg:hidden">
                         "Your daughter shows signs of many <span class="extrablod">nutrient deficiencies,</span>" Dr.
                         Pam said. </p>
-                    <p>"She's <span class="extrablod">low</span> in vitamins C and D and missing key
+                    <p class="lg:hidden">"She's <span class="extrablod">low</span> in vitamins C and D and missing key
                         micronutrients."</p>
 
                     <p>The news devastated Sarah. Emma wasn't skinny or sickly-looking. She ate regularly - chicken
                         nuggets, mac & cheese, and grilled cheese sandwiches were her favorites.</p>
 
-                    <p class="italic">How could she be malnourished?</p>
+                    <p class="italic lg:not-italic">How could she be malnourished?</p>
 
-                    <p>"That’s when I learned about a ‘silent pandemic’ called <span
+                    <p class="hidden lg:block">"That’s when I learned about a ‘silent pandemic’ called <span
                             class="extrablod">Hidden
                             Hunger,"</span> Sarah recalls. "My child
                         looked healthy on the outside. But inside, her body was starving for real nutrition."</p>
 
-                
-                    <p>"Emma looked healthy on the outside. <span class="extrablod">But inside</span>, her body was
-                        starving for real nutrition."</p>
-
-                    <!-- <p class="hidden lg:block">"Your daughter shows signs of many nutrient deficiencies," Dr. Pam
-                        explained. "She's low in
-                        vitamin C and vitamin D, and she's missing key micronutrients."</p> -->
-
-                    
-                </div>
-                <div class="hidden lg:block lg:space-y-4 space-y-2 mb-8">
-                    <p><span class="extrablod">DENVER, CO</span> - Sarah Owens took her 6-year-old daughter Emma for her
-                        annual checkup. She expected to
-                        hear the usual: "She's growing well, everything looks normal."
-
-                        <span class="block mt-3">Instead, she got a <span
-                                class="extrablod">punch</span> to the gut.</span></p>
-
-                    <p>
-                        "Your daughter shows signs of many <span class="extrablod">nutrient deficiencies,</span>" Dr.
-                        Pam said. </p>
-                    <p>"She's <span class="extrablod">low</span> in vitamins C and D and missing key
-                        micronutrients."</p>
-
-                    <p>The news devastated Sarah. Emma wasn't skinny or sickly-looking. She ate regularly - chicken
-                        nuggets, mac & cheese, and grilled cheese sandwiches were her favorites.</p>
-
-                    <p class="italic">How could she be malnourished?</p>
-
-                    <p>"That’s when I learned about a ‘silent pandemic’ called <span
-                            class="extrablod">Hidden
-                            Hunger,"</span> Sarah recalls. "My child
-                        looked healthy on the outside. But inside, her body was starving for real nutrition."</p>
+                    <p class="lg:hidden">“That’s when I learned about a ‘silent pandemic’ called Hidden Hunger," Sarah
+                        recalls.
+                    </p>
 
                     <p>"Emma looked healthy on the outside. <span class="extrablod">But inside</span>, her body was
                         starving for real nutrition."</p>
-
-                    <!-- <p class="hidden lg:block">"Your daughter shows signs of many nutrient deficiencies," Dr. Pam
-                        explained. "She's low in
-                        vitamin C and vitamin D, and she's missing key micronutrients."</p> -->
-
-                    
                 </div>
                 
-                <h2 class="text-4xl mb-6 hidden lg:inline">The <span class="extrablod">Silent Crisis</span>
-                    Harming Over 47 Million Americans</h2>
+                <h2 class="text-4xl mb-6 hidden lg:inline"><span class="extrablod">The Silent Crisis Hurting</span> at
+                    Least 47
+                    Million Americans</h2>
 
                 <h2 class="lg:text-4xl text-3xl  block mb-6 lg:hidden">The <span class="extrablod">Silent Crisis</span>
                     Harming Over 47 Million Americans</h2>
@@ -160,29 +133,46 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                         studying childhood nutrition. She
                         says that Sarah's story is far from unique.</p>
 
-                    <p>"Hidden Hunger is a ‘silent pandemic’ because it’s more widespread than we
+                    <p class="hidden lg:block">"I call Hidden Hunger the ‘silent pandemic’ because it’s more widespread
+                        than we think. An estimated 47 million Americans have ‘food insecurity’. A lack of consistent
+                        access to enough food daily
+                        for an active, healthy life,” Dr. Pam explains. “Without a doubt, they’re suffering from Hidden
+                        Hunger.
+                    </p>
+
+                    <p class="lg:hidden">"Hidden Hunger is a ‘silent pandemic’ because it’s more widespread than we
                         think.
                     </p>
 
-                    <p>"Over 47 million Americans have <i>‘food insecurity’</i>. That is, a lack of
+                    <p class="lg:hidden">"Over 47 million Americans have <i>‘food insecurity’</i>. That is, a lack of
                         consistent access to enough
                         food for an active, healthy life,” Dr. Pam explains.
                     </p>
 
-                    <p>“No doubt they’re suffering from Hidden Hunger."</p>
+                    <p class="lg:hidden">“No doubt they’re suffering from Hidden Hunger."</p>
 
-                   
+                    <p class="hidden lg:block">“Yet, Hidden Hunger is not only about a lack of consistent access to
+                        enough food every day,” she
+                        continues. “We see plenty of ‘food secure’ kids who get plenty of calories - sometimes too many.
+                        But
+                        they lack essential vitamins and nutrients, especially micronutrients. Things their growing
+                        bodies
+                        need.</p>
 
-                    <p>“But Hidden Hunger is <span class="extrablod">not</span> about lack of access,”
+                    <p class="lg:hidden">“But Hidden Hunger is <span class="extrablod">not</span> about lack of access,”
                         she continues. “Plenty of
                         ‘food secure’ kids and their families have disturbingly <span class="extrablod">low
                             levels</span> of essential nutrients,
                         especially micronutrients...
                     </p>
 
-                    <p>"These are people who get plenty of calories. Often too many, in fact.</p>
-                    <p>"Yet, Hidden Hunger is wrecking their lives, too,"</p>
-                    <p>
+                    <p class="lg:hidden">"These are people who get plenty of calories. Often too many, in fact.</p>
+                    <p class="lg:hidden">"Yet, Hidden Hunger is wrecking their lives, too,"</p>
+
+                    <p class="hidden lg:block">“That’s why I’m certain way more than 47 million Americans have Hidden
+                        Hunger."</p>
+
+                    <p class="lg:hidden">
                         “That’s why I’m certain <span class="extrablod"><i>way</i> more</span> than 47 million Americans
                         are suffering from Hidden Hunger."
                     </p>
@@ -192,11 +182,11 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
 
                 <div class="bg-[#F2F6FB] py-7 rounded-xl font-bold">
                     <ul class="pl-3 lg:space-y-1 space-y-1 semibold">
-                        <!-- <li class="gap-2 items-start hidden lg:flex"><img src="/images/blk-check.svg" class="pt-1">
+                        <li class="gap-2 items-start hidden lg:flex"><img src="/images/blk-check.svg" class="pt-1">
                             Approximately
                             95% of Americans don’t get enough fiber
-                        </li> -->
-                        <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-1">
+                        </li>
+                        <li class="flex gap-2 items-start lg:hidden"><img src="/images/blk-check.svg" class="pt-1">
                             Roughly 95% of Americans don’t get enough fiber
                         </li>
                         <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-1"> 65.5% of
@@ -205,7 +195,11 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                         <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-1">An estimated
                             56% of preschool-aged kids have at least one micronutrient deficiency
                         </li>
-                        <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-1"> Even
+                        <li class="lg:flex gap-2 items-start hidden"><img src="/images/blk-check.svg" class="pt-1"> Even
+                            children
+                            who appear healthy and well-fed often suffer inside
+                        </li>
+                        <li class="lg:hidden flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-1"> Even
                             children
                             who appear healthy and well-fed suffer inside
                         </li>
@@ -214,19 +208,26 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                     <img src="/images/fl-2.jpg" class="w-full py-6">
 
                     <div class="lg:space-y-4 space-y-2 px-4 font-bold">
+                        <p class="hidden lg:block">"Malnutrition doesn't always look skinny," Dr. Pam emphasizes. "In
+                            fact, some of the most
+                            undernourished children I see are actually overweight.</p>
 
-                        <p><span class="extrablod">"Malnutrition doesn't always look skinny,"</span>
+                        <p class="lg:hidden"><span class="extrablod">"Malnutrition doesn't always look skinny,"</span>
                             stresses Dr. Pam. "In fact, some of the most undernourished children I see are <span
                                 class="extrablod"><i><u>over</u></i>weight.</span>
                         </p>
 
-                        <p><span class="extrablod">“<u>But let me be clear</u>:</span> it’s not just
+                        <p class="hidden lg:block">“But let me be clear - it’s not just destroying kids’ lives…</p>
+                        <p class="lg:hidden"><span class="extrablod">“<u>But let me be clear</u>:</span> it’s not just
                             destroying kids’ lives…</p>
 
+                        <p class="hidden lg:inline">Hidden Hunger is also endangering the health of millions of adults.
+                            So it’s a family problem,
+                            not a kid’s problem."</p>
 
-                        <p>"Hidden Hunger is <span class="extrablod">threatening</span> the health of
+                        <p class="lg:hidden">"Hidden Hunger is <span class="extrablod">threatening</span> the health of
                             millions of adults, too.</p>
-                        <p>"So it’s a family problem, not a kid problem."</p>
+                        <p class="lg:hidden">"So it’s a family problem, not a kid problem."</p>
 
                     </div>
 
@@ -237,20 +238,42 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
 
                 <img src="/images/fl-3.jpg" class="w-full py-6">
                 <div class="lg:space-y-4 space-y-2 mb-8">
-                    <p><span class="extrablod">The problem isn't lack of food.</span>
+                    <p class="hidden lg:block"> <span class="extrablod">The problem isn't lack of food</span> - it's
+                        lack of nutrition in the
+                        food we eat.</p>
+                    <p class="lg:hidden"><span class="extrablod">The problem isn't lack of food.</span>
                         It's lack of <u><i>nutrition</i></u> in the food we eat.</p>
-                    <p>"Modern farming practices have stripped nutrients from our soil," explains Dr. Pam.</p>
-                    <p>"Today, you need to eat <span class="extrablod">8 oranges</span> to get the <i>same</i> nutrition our grandparents got from a single orange 50 years ago."
+
+                    <p class="hidden lg:block">"Modern farming practices have stripped nutrients from our soil,"
+                        explains Dr. Pam. "Today, you’d
+                        need to eat 8 oranges to get the same nutrition your grandparents got from a single orange 50
+                        years ago."</p>
+
+                    <p class="lg:hidden">
+                        "Modern farming practices have stripped nutrients from our soil," explains Dr. Pam.
+                    </p>
+
+                    <p class="lg:hidden">
+                        "Today, you need to eat <span class="extrablod">8 oranges</span> to get the <i>same</i>
+                        nutrition our grandparents got from a single
+                        orange 50 years ago."
                     </p>
                     <p>That's on top of the reality of busy family life. Processed snacks, fast food meals, and the
                         daily
                         battles over eating anything green.</p>
-                    <p>
+
+                    <p class="hidden lg:block">"As a parent, you aren't failing your kids," Dr. Pam stresses. "The food
+                        system is failing them.
+                        Even if you’re a parent who tries to provide healthy options, you’re fighting an uphill battle.
+                        There's depleted soil, long shipping times, and foods engineered for shelf-life, not nutrition."
+                    </p>
+
+                    <p class="lg:hidden">
                         "As a parent, you aren't failing your kids," Dr. Pam stresses. "The food system is failing
                         them... <i>and <span class="extrablod">you.</span></i>
                     </p>
 
-                    <p>“Even if you you try to provide your family with healthy options, it’s an
+                    <p class="lg:hidden">“Even if you you try to provide your family with healthy options, it’s an
                         <span class="extrablod">uphill battle.</span>
                     </p>
                     <p>"In addition to the bad soil, there's long shipping times and foods engineered for shelf-life,
@@ -262,11 +285,15 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
 
                 <img src="/images/fl-4.jpg" class="w-full py-6 pb-0">
                 <div class="lg:space-y-4 space-y-2 mb-8 bg-[#FAFAFA] lg:p-5 p-2 lg:py-9 py-4">
-                    
-                    <p>Hidden Hunger doesn't show obvious symptoms. Instead, it disguises itself as
+                    <p class="hidden lg:block">Hidden Hunger doesn't announce itself with obvious symptoms. Instead, it
+                        disguises itself as
+                        common
+                        childhood issues. Ones that most parents, and many doctors, dismiss as "normal":</p>
+
+                    <p class="lg:hidden">Hidden Hunger doesn't show obvious symptoms. Instead, it disguises itself as
                         common issues. </p>
 
-                    <p>Ones that most parents, and many doctors, dismiss as "normal":</p>
+                    <p class="lg:hidden">Ones that most parents, and many doctors, dismiss as "normal":</p>
 
                     <p><span class="extrablod">Mood and behavior swings:</span> It's hard to control emotions and
                         behavior without good nutrition.</p>
@@ -278,25 +305,35 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                     <p><span class="extrablod">Frequent illness:</span> Kids with nutrient deficiencies get sick more
                         and recover slower.</p>
 
-                    
+                    <p class="hidden lg:block"><span class="extrablod">Energy crashes:</span> That 3pm meltdown isn't
+                        tiredness. It's often a
+                        sign of blood sugar instability from
+                        poor nutrition.</p>
 
-                    <p><span class="extrablod">Energy crashes:</span> That 3pm meltdown isn't
+                    <p class="lg:hidden"><span class="extrablod">Energy crashes:</span> That 3pm meltdown isn't
                         tiredness. It's a sign of blood sugar instability from poor nutrition.</p>
 
                     <p><span class="extrablod">Sleep problems:</span> Many nutrients play crucial roles in sleep
                         regulation and quality.</p>
 
-                   
+                    <p class="hidden lg:block"><span class="extrablod">Gut health issues:</span> They show up as
+                        frequent tummy aches,
+                        constipation, or food sensitivities.</p>
 
-                    <p><span class="extrablod">Gut health issues:</span> Show as frequent tummy
+                    <p class="lg:hidden"><span class="extrablod">Gut health issues:</span> Show as frequent tummy
                         aches, food sensitivities, or constipation.</p>
 
-                   
+                    <p class="hidden lg:block">"I thought Emma's issues were due to her personality," Sarah reflects.
+                        "The afternoon meltdowns,
+                        the
+                        trouble sleeping, always catching colds. I thought that was just how she was. I never connected
+                        it
+                        to what she was eating."</p>
 
-                    <p>
+                    <p class="lg:hidden">
                         "<span class="extrablod">I thought</span> Emma's issues were due to her personality," Sarah
                         says. "The afternoon meltdowns, the trouble sleeping, constant colds... </p>
-                    <p>"I never <span class="extrablod">connected</span> it to what she was eating."
+                    <p class="lg:hidden">"I never <span class="extrablod">connected</span> it to what she was eating."
                     </p>
                 </div>
 
@@ -307,62 +344,78 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                         partnered
                         with an unexpected ally:</p>
 
-                   
-                    <p>Anastasia Radzinskaya. </p>
+                    <p class="hidden lg:block">Anastasia Radzinskaya. She's better known to her nearly 400 million fans
+                        as Nastya, star of the
+                        top
+                        YouTube children’s series Like Nastya.</p>
 
-                    <p>She's better known to her nearly <span class="extrablod">400 million</span>
+                    <p class="lg:hidden">Anastasia Radzinskaya. </p>
+
+                    <p class="lg:hidden">She's better known to her nearly <span class="extrablod">400 million</span>
                         fans as Nastya, star of the top YouTube children’s series <span class="extrablod"><i>Like
                                 Nastya.</i></span></p>
 
                     <p>When Nastya learned about Hidden Hunger, she knew she had to help. "Some of the <span
-                            class="italic">Like Nastya</span>
+                            class="lg:not-italic italic">Like Nastya</span>
                         family
                         might be suffering," she realized.</p>
 
-                    <p>Together, Dr. Pam and Nastya created
+                    <p class="lg:hidden">Together, Dr. Pam and Nastya created
                         YOMZ. It's a <span class="extrablod">mouthwatering</span> gummy
                         backed by science to fill the nutrition
                         gaps facing millions of Americans
                         every day.</p>
 
-                    
+                    <p class="hidden lg:block">"First, it had to taste amazing - like a treat kids would actually ask
+                        for," Dr. Pam explains.
+                        “Otherwise, no one would want it.”</p>
 
-                    <p>"First, it had to taste amazing - a treat kids would actually ask for,"
+                    <p class="lg:hidden">"First, it had to taste amazing - a treat kids would actually ask for,"
                         Dr. Pam explains. </p>
 
-                    <p>“It <span class="extrablod">didn’t make sense</span> to make something healthy
+                    <p class="lg:hidden">“It <span class="extrablod">didn’t make sense</span> to make something healthy
                         but not delicious. Otherwise,
                         who’d want it?”</p>
 
-                    <p>"But we <span class="extrablod">refused</span> to compromise on nutrition. No
+                    <p class="lg:hidden">"But we <span class="extrablod">refused</span> to compromise on nutrition. No
                         artificial dyes, no artificial flavors, no
                         junk.
                         Just pure, bioavailable nutrients in a form both kids and adults would love."</p>
 
-                   
+                    <p class="hidden lg:block">So she and Nastya partnered with the world’s #1 gummy manufacturer. Their
+                        mission? To make a
+                        gummy
+                        that would lead the fight against Hidden Hunger.</p>
 
-                    <p>So Dr. Pam and Nastya partnered with the world’s #1 gummy manufacturer. </p>
-                    <p><span class="extrablod">Their mission?</span> Make a gummy that would lead the
+                    <p class="lg:hidden">So Dr. Pam and Nastya partnered with the world’s #1 gummy manufacturer. </p>
+                    <p class="lg:hidden"><span class="extrablod">Their mission?</span> Make a gummy that would lead the
                         fight against Hidden Hunger.
                     </p>
 
-                   
+                    <p class="hidden lg:block">That’s why YOMZ OG Gummies come in 3 mouthwatering flavors: Peachy,
+                        Strawbeary, and Berry Beary.
+                        And
+                        if you like your lips to pucker, those same flavors also come in an eye-watering Sour form.</p>
 
-                    <p>That’s why YOMZ <span class="extrablod">OG Gummies</span> come in 3
+                    <p class="lg:hidden">That’s why YOMZ <span class="extrablod">OG Gummies</span> come in 3
                         mouthwatering flavors: Peachy, Strawbeary, and Berry Beary.
                     </p>
 
-                    <p>And if you like your lips to pucker, those same flavors also come in an
+                    <p class="lg:hidden">And if you like your lips to pucker, those same flavors also come in an
                         eye-watering <span class="extrablod">Sour</span> form.
                     </p>
 
-                    
+                    <p class="hidden lg:block">Each serving of YOMZ has the phytonutrient equal of 2 servings of fruits
+                        and vegetables. It's
+                        also
+                        packed with essential vitamins, fiber, antioxidants, polyphenols, and gut-supporting
+                        ingredients.</p>
 
-                    <p>Each serving of YOMZ has the phytonutrient equal of 2 servings of fruits and
+                    <p class="lg:hidden">Each serving of YOMZ has the phytonutrient equal of 2 servings of fruits and
                         vegetables.
                     </p>
 
-                    <p>It's also <span class="extrablod">packed with</span> essential vitamins, 5g of
+                    <p class="lg:hidden">It's also <span class="extrablod">packed with</span> essential vitamins, 5g of
                         fiber, antioxidants, polyphenols, and other
                         gut-supporting ingredients</p>
 
@@ -444,13 +497,18 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                 <div class="lg:space-y-4 space-y-2 mb-8 bg-[#DCF0E1] pb-7 shadow-lg rounded-xl overflow-hidden">
                     <img src="/images/fl-6.jpg" class="w-full">
                     <h3 class="lg:text-4xl text-3xl  extrablod mt-6 px-5">Why YOMZ Is Different</h3>
-                    <p class="px-5">YOMZ is <span class="extrablod">unlike</span> traditional supplements.
+                    <p class="px-5 hidden lg:block">YOMZ is unlike traditional children's vitamins. They're not loaded
+                        with sugar or
+                        artificial
+                        ingredients. They're crafted for the challenges your family faces:</p>
+
+                    <p class="lg:hidden px-5">YOMZ is <span class="extrablod">unlike</span> traditional supplements.
                         It's not loaded with junk or
                         artificial
                         ingredients. It's
                         crafted for the challenges your family faces:</p>
 
-                    <p class="px-5">Yet, YOMZ isn’t a traditional candy gummy, either. <span
+                    <p class="lg:hidden px-5">Yet, YOMZ isn’t a traditional candy gummy, either. <span
                             class="extrablod italic">Even if it tastes like
                             one.</span>
                         Think of it as
@@ -458,8 +516,7 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
 
                     <ul class="lg:space-y-1 space-y-1 pl-5">
                         <li class="flex gap-2 items-start"> <img src="/images/blk-check.svg" class="pt-1 h-5">
-                            <span>
-                                <span class="font-bold lg:block hidden">Kid-Approved Taste:</span><span
+                            <span><span class="font-bold lg:block hidden">Kid-Approved Taste:</span><span
                                     class="font-bold underline lg:hidden">Kid-Approved Taste:</span> To them, it’s
                                 candy. To you, it’s
                                 their
@@ -494,7 +551,10 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                                 of fiber”.</span>
                         </li>
                         <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-1 h-5">
-                            <span><span class="font-bold underline">Family-Friendly:</span>
+                            <span class="lg:block hidden"><span
+                                    class="font-bold lg:block hidden">Family-Friendly:</span> Safe and beneficial for
+                                ages 2 to 102.</span>
+                            <span class="lg:hidden"><span class="font-bold underline lg:hidden">Family-Friendly:</span>
                                 Nutritious, delicious, and safe for ages 2 to 102.</span>
                         </li>
 
@@ -504,30 +564,50 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                 <h3 class="lg:text-4xl text-3xl extrablod mt-8">Don’t You Deserve Peace of Mind?</h3>
                 <img src="/images/fl-7.jpg" class="w-full py-6">
                 <div class="lg:space-y-4 space-y-2 mb-8">
-                   
-                    <p>"The most rewarding part of developing YOMZ? Hearing from parents who finally
+                    <p class="hidden lg:block">"The most rewarding part of developing YOMZ? Hearing from parents who
+                        finally have peace of
+                        mind,"
+                        <span class="extrablod">Dr. Pam reflects.</span> "Even if every meal is a battle, kids are still
+                        getting essential nutrition."
+                    </p>
+
+                    <p class="lg:hidden">"The most rewarding part of developing YOMZ? Hearing from parents who finally
                         have peace of mind,"
                         <span class="extrablod">Dr. Pam says.</span>
                     </p>
-                    <p>"Even if every meal is a battle, parents are assured their kids are <span
+                    <p class="lg:hidden">"Even if every meal is a battle, parents are assured their kids are <span
                             class="extrablod">still</span> getting essential nutrition."
                     </p>
 
-                    <p>For Sarah, YOMZ has been life-changing. "I used to lie awake at night worrying
-                        about Emma's
-                        nutrition. Now I know that <span class="extrablod">no matter what</span> she eats during the
-                        day,
-                        YOMZ is giving her what her body
+                    <p>For Sarah, YOMZ has been life-changing. "I used to lie awake at night worrying about Emma's
+                        nutrition. Now I know that no matter what she eats during the day, <span
+                            class="hidden lg:inline">she's getting</span>
+                        <span class="lg:hidden">YOMZ is giving her</span> what her body
                         needs
                         to grow and thrive."
                     </p>
-                    <p>
+                    <p class="lg:hidden">For Sarah, YOMZ has been life-changing. "I used to lie awake at night worrying
+                        about Emma's
+                        nutrition. Now I know that <span class="extrablod">no matter what</span> she eats during the
+                        day, <span class="hidden lg:inline">she's getting</span>
+                        <span class="lg:hidden">YOMZ is giving her</span> what her body
+                        needs
+                        to grow and thrive."
+                    </p>
+
+                    <p class="hidden lg:block">There’s no risk to try these delicious, nutritious gummies. That’s
+                        because <span class="extrablod">YOMZ comes with a 90-Day
+                            Picky Momz 200% Happiness Guarantee."</span> If you don’t see improvements in your family's
+                        health or if no
+                        one loves the taste, you get back <span class="extrablod">double</span> what you paid.</p>
+
+                    <p class="lg:hidden">
                         You risk nothing to try these delicious, nutritious gummies. That’s because <span
                             class="extrablod">YOMZ comes with a
                             90-Day Picky Momz 200% Happiness Guarantee."</span>
                     </p>
 
-                    <p>If you don’t see improvements in your family's health or if no one loves the
+                    <p class="lg:hidden">If you don’t see improvements in your family's health or if no one loves the
                         taste, you get back
                         <span class="extrablod">double</span> what you paid.
                     </p>
@@ -536,39 +616,62 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                 <h3 class="lg:text-4xl text-3xl extrablod mt-8">A Mission Bigger Than Business</h3>
                 <img src="/images/fl-8.jpg" class="w-full py-6">
                 <div class="lg:space-y-4 space-y-2 mb-8">
-                    <p>Dr. Pam and Nastya didn't create YOMZ to solve just <i><u>one</u></i> family's problems.</p>
-                    <p>Their mission is to end Hidden Hunger for <span class="extrablod"> 100 million
-                            people</span> worldwide.</p>
-                            
+                    <p>Dr. Pam and Nastya didn't create YOMZ to solve just <i><u>one</u></i> family's problems.
 
-                    <p>"Every child deserves to reach their full potential," Dr. Pam says. "Hidden
+                        <span class="hidden lg:inline"> Their mission is to end Hidden Hunger for <span
+                                class="extrablod">100 million</span> people
+                            worldwide.</span>
+                    </p>
+
+                    <p class="lg:hidden">Their mission is to end Hidden Hunger for <span class="extrablod"> 100 million
+                            people</span> worldwide.</p>
+
+                    <p class="hidden lg:block">"Every child deserves to reach their full potential," Dr. Pam states.
+                        "Hidden Hunger robs
+                        children—everyone, actually—of energy, focus, immunity, and happiness. We have the knowledge and
+                        tools to fix this. Now we have to deliver proper nutrition to the families who need it most."
+                    </p>
+
+                    <p class="lg:hidden">"Every child deserves to reach their full potential," Dr. Pam says. "Hidden
                         Hunger robs children... everyone, actually... of energy, focus, immunity, and happiness.
                     </p>
 
-                    <p>
+                    <p class="lg:hidden">
                         We have the knowledge and tools to fix this. Now we have to deliver <span
                             class="extrablod">proper nutrition</span> to the
                         families who need it most."
                     </p>
 
-                    <p>Adds Nastya: “YOMZ is for families. So together, let’s smash Hidden <span>Hunger!</span>”</p>
-                    <p>If you’re struggling with picky eaters or constant illness... If behavior
+                    <p>Adds Nastya: “YOMZ is for families. So together, let’s smash Hidden <span
+                            class="hidden lg:inline">Hunger.</span><span class="lg:hidden">Hunger!</span>”</p>
+
+                    <p class="hidden lg:block">If you’re struggling with picky eaters or constant illness... If
+                        behavioral challenges dominate
+                        your
+                        every day... Or if you simply worry daily about your family's nutrition...</p>
+
+                    <p class="lg:hidden">If you’re struggling with picky eaters or constant illness... If behavior
                         troubles dominate your every day... Or if you simply worry daily about your family's
                         nutrition...</p>
 
-                    
-                    <p class="extrablod">YOMZ offers hope.</p>
+                    <p class="hidden lg:block">YOMZ offers hope.</p>
+                    <p class="lg:hidden extrablod">YOMZ offers hope.</p>
 
                     <p>"You're not failing as a parent," Dr. Pam emphasizes. "You're dealing with a system that makes it
-                         <span class="extrablod">difficult</span> to nourish your child. YOMZ is a tool to help
+                        <span class="hidden lg:inline">difficult</span> <span
+                            class="lg:hidden extrablod">difficult</span> to nourish your child. YOMZ is a tool to help
                         you succeed despite those challenges."
                     </p>
 
-                    
-                    <p>Besides their incredible 200% Happiness Guarantee, there’s <span class="extrablod">2 more reasons</span> to try YOMZ.</p>
+                    <p>"You're not failing as a parent," Dr. Pam emphasizes. "You're dealing with a system that makes it
+                        difficult to nourish your child. YOMZ is a tool to help you succeed despite those challenges."
+                    </p>
+                    <p>Besides their incredible 200% Happiness Guarantee, there’s <span class="hidden lg:inline">2 more
+                            reasons</span> <span class="lg:hidden extrablod">2 more reasons</span> to try YOMZ.</p>
 
-                    <p>First, it’s crafted with patented and proprietary ingredients of the highest quality.</p>
-                    <p><span class="lg:inline block lg:mt-0 mt-3"> And second,
+                    <p>First, it’s crafted with patented and proprietary ingredients of the highest quality.
+
+                        <span class="lg:inline block lg:mt-0 mt-3"> And second,
                             it's made in the world’s #1 gummy-making facility. This state-of-the-art facility is fully
                             licensed
                             and regularly inspected by the FDA. It operates in full compliance with current Good
@@ -581,21 +684,46 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                 <img src="/images/fl-9.jpg" class="w-full py-6">
                 <div class="lg:space-y-4 space-y-2 mb-8">
                     <p>To discover more about YOMZ and Hidden Hunger, visit the YOMZ official website. You'll find more
-                        information and <span class="extrablod">take advantage</span> of current promotional offers.</p>
+                        information and <span class="hidden lg:inline">take advantage</span><span
+                            class="lg:hidden extrablod">take advantage</span> of current promotional offers.</p>
 
                     <p>YOMZ is backed by scientific research, expert development, and millions of kids' approval. It
                         represents a breakthrough in the fight against Hidden Hunger.</p>
 
-                    
+                    <div class="hidden lg:block lg:space-y-4 space-y-2">
+                        <p>For Sarah and Emma, the transformation has been <span
+                                class="hidden lg:inline">profound</span><span
+                                class="lg:hidden extrablod">profound</span>. "Emma is thriving now. She sleeps
+                            better,
+                            focuses better, and rarely gets sick,"</p>
 
-                    <div class="lg:space-y-4 space-y-2">
-                        <p>The transformation for Sarah and Emma has been <span>profound</span><span
-                                class="extrablod">profound</span>. "She’s thriving. She sleeps better,
+                        <p>Sarah explains. "It’s changed me, too. I'm not worried about her nutrition anymore. I can
+                            actually
+                            enjoy being <span class="hidden lg:inline">her mom.</span><span
+                                class="lg:hidden extrablod">her mom.</span>"</p>
+
+                        <p>Sarah had one last thing to say: “Don’t fall for the slick ads that promise the world… like I
+                            used
+                            to. We tried many things before we found YOMZ. So I’m spreading the word about Hidden Hunger
+                            and
+                            how
+                            YOMZ fights it.</p>
+
+                        <p>Now that you know this, <span class="hidden lg:inline">it’s up to you</span><span
+                                class="lg:hidden extrablod">it’s up to you</span> as a good parent to do something about
+                            it. And it’s so
+                            easy.”</p>
+                    </div>
+
+                    <div class="lg:hidden lg:space-y-4 space-y-2">
+                        <p>The transformation for Sarah and Emma has been <span
+                                class="hidden lg:inline">profound</span><span
+                                class="lg:hidden extrablod">profound</span>. "She’s thriving. She sleeps better,
                             focuses better, and rarely gets sick,"</p>
 
                         <p>Sarah continues. "It’s changed me, too. I'm not worried about her nutrition anymore. I can
-                            actually enjoy being <span>her mom.</span><span
-                                class="extrablod">her mom.</span>"</p>
+                            actually enjoy being <span class="hidden lg:inline">her mom.</span><span
+                                class="lg:hidden extrablod">her mom.</span>"</p>
 
                         <p>Sarah had one last thing to say: “Don’t fall for the slick ads that promise the world… like I
                             used to.</p>
@@ -603,8 +731,8 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                         <p>“We tried many things before we found YOMZ. So I’m spreading the word about Hidden Hunger and
                             how YOMZ fights it.</p>
 
-                        <p>Now that you know this,<span
-                                class="extrablod">it’s up to you</span> as a good parent to do something. And
+                        <p>Now that you know this, <span class="hidden lg:inline">it’s up to you</span><span
+                                class="lg:hidden extrablod">it’s up to you</span> as a good parent to do something. And
                             it’s so easy.”
                         </p>
                     </div>
