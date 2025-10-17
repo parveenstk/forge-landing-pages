@@ -64,10 +64,9 @@
 
                 <p>That’s because of a <span class="extrablod">secret</span> nobody tells you: </p>
                 <p class="extrablod">Being "picky" isn't a phase or behavior problem. </p>
-                <p>It’s your child's body sending <span class="extrablod text-[#E6193C]">warning shots.</span></p>
-                <p>Something urgent is up.</p>
+                <p>It’s your child's body sending <span class="extrablod text-[#E6193C]">warning shots.</span> Something urgent is up.</p>
                 <p>Research reveals that <span class="extrablod">up to 70%</span> of picky eaters have <span
-                        class="extrablod">serious</span> nutrient gaps.</p>
+                        class="extrablod italic">serious</span> nutrient gaps.</p>
                 <p>This <span class="extrablod">wrecks</span> everything from mood to immunity. </p>
                 <p>Sure, they get enough calories.</p>
                 <p>But they <span class="extrablod italic">don’t</span> get the vital nutrients needed for growth and development.</p>
@@ -82,8 +81,7 @@
                         thing</span> you ever read.</p>
                 <p>That’s because of a <span class="extrablod">secret</span> nobody tells you: </p>
                 <p class="extrablod">Being "picky" isn't a phase or behavior problem. </p>
-                <p>It’s your child's body sending <span class="extrablod text-[#E6193C]">warning shots.</span></p>
-                <p>Something urgent is up.</p>
+                <p>It’s your child's body sending <span class="extrablod text-[#E6193C]">warning shots.</span> Something urgent is up.</p>
                 <p>Research reveals that <span class="extrablod">up to 70%</span> of picky eaters have <span
                         class="extrablod">serious</span> nutrient gaps.</p>
                 <p>This <span class="extrablod">wrecks</span> everything from mood to immunity. </p>
@@ -284,6 +282,7 @@
                         <p>Meanwhile, <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
                                 class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">kids with strong immune systems</a> stay well or <span class="extrablod">bounce back</span> quickly when sick.</p>
                         <p><span class="extrablod italic">Worse,</span> they stay sick longer.</p>
+                        <p>But not picky eaters. They tend to be sick more frequently. </p>
                         <p>The Hidden Hunger connection?</p>
                         <p>Without the necessary nutrients, their poorly-armed bodies <span class="extrablod">can't
                                 defend</span> against everyday germs and viruses.</p>
@@ -298,6 +297,7 @@
                         <p>Because of a lack of vitamins like A, C, and D…</p>
                         <p>Meanwhile, <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
                                 class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">kids with strong immune systems</a> stay well or <span class="extrablod">bounce back</span> quickly when sick.</p>
+                                <p>But not picky eaters. They tend to be sick more frequently. </p>
                         <p><span class="extrablod italic">Worse,</span> they stay sick longer.</p>
                         <p>The Hidden Hunger connection?</p>
                         <p>Without the necessary nutrients, their poorly-armed bodies <span class="extrablod">can't
@@ -395,7 +395,7 @@
                             <p>Nutrients play <span class="extrablod">crucial roles</span> in sleep regulation.</p>
                             <p>Notably, vitamin D, antioxidants, and fiber all help <span class="extrablod">stabilize blood sugar</span> for better sleep.</p>
                             <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">With consistent nutrition,</a> bedtime battles decrease. <span class="extrablod">increases.</span></p>
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">With consistent nutrition,</a> bedtime battles decrease. And better sleep <span class="extrablod">increases.</span></p>
                         </div>
 
                         <div class="lg:hidden lg:space-y-4 space-y-2">
@@ -411,7 +411,7 @@
                             <p>Nutrients play <span class="extrablod">crucial roles</span> in sleep regulation.</p>
                             <p>Notably, vitamin D, antioxidants, and fiber all help <span class="extrablod">stabilize blood sugar</span> for better sleep.</p>
                             <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">With consistent nutrition,</a> And better sleep <span class="extrablod">increases.</span></p>
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">With consistent nutrition,</a> bedtime battles decrease. And better sleep <span class="extrablod">increases.</span></p>
                         </div>
 
                     </div>
@@ -442,7 +442,8 @@
                         <p>Many picky eaters are actually <span class="extrablod italic underline">over</span><span class="extrablod">weight</span></p>
                         <p>Because they eat too many processed calories. It leaves them <span
                                 class="extrablod">undernourished.</span></p>
-                        <p>They aren’t growing at expected rates. Or, they<span class="extrablod italic">are</span>
+                        <p>They aren’t growing at expected rates.</p>
+                        <p> Or, they<span class="extrablod italic">are</span>
                             growing, but look pale and haggard.</p>
                         <p>Research shows that <span class="extrablod">31% of picky eaters</span> receive a "failure to thrive" diagnosis. </p>
                         <p>They get enough calories.</p>
@@ -462,7 +463,8 @@
                         <p>Many picky eaters are actually <span class="extrablod italic underline">over</span> <span class="extrablod">weight</span></p>
                         <p>Because they eat too many processed calories. It leaves them <span
                                 class="extrablod">undernourished.</span></p>
-                        <p>They aren’t growing at expected rates. Or, they<span class="extrablod italic">are</span>
+                        <p>They aren’t growing at expected rates.</p>
+                            <p> Or, they<span class="extrablod italic">are</span>
                             growing, but look pale and haggard.</p>
                         <p>Research shows that <span class="extrablod">31% of picky eaters</span> receive a "failure to thrive" diagnosis. </p>
                         <p>They get enough calories.</p>
@@ -512,11 +514,11 @@
                         <p>That’s because of 3 <i>mouthwatering</i> flavors:
                         </p>
                         <ul class="pl-2 lg:space-y-4 space-y-2 extrablod">
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2"> Strawbeary
+                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Strawbeary
                             </li>
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2"> Beary
+                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Beary
                                 Berry </li>
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2"> Peachy
+                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Peachy
                             </li>
                         </ul>
                          <p>All <span class="italic underline">without</span> artificial dyes, flavors, or otherwise harmful junk.</p>
@@ -526,15 +528,15 @@
 
                         <p class="italic underline">The results speak for themselves:</p>
                         <ul class="pl-2 lg:space-y-4 space-y-2">
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2"> Tummy troubles clear up in days
+                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Tummy troubles clear up in days
                             </li>
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2"> Energy levels become more stable
+                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Energy levels become more stable
                             </li>
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2">Fewer meltdowns and mood swings
+                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="">Fewer meltdowns and mood swings
                             </li>
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2"> Better sleep for the whole family
+                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Better sleep for the whole family
                             </li>
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2"> Stronger immunity (fewer sick days!)
+                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Stronger immunity (fewer sick days!)
                             </li>
 
                         </ul>

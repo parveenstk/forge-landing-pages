@@ -589,12 +589,12 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                     
 
                     <div class="lg:space-y-4 space-y-2">
-                        <p>The transformation for Sarah and Emma has been <span>profound</span><span
+                        <p>The transformation for Sarah and Emma has been <span
                                 class="extrablod">profound</span>. "She’s thriving. She sleeps better,
                             focuses better, and rarely gets sick,"</p>
 
                         <p>Sarah continues. "It’s changed me, too. I'm not worried about her nutrition anymore. I can
-                            actually enjoy being <span>her mom.</span><span
+                            actually enjoy being <span
                                 class="extrablod">her mom.</span>"</p>
 
                         <p>Sarah had one last thing to say: “Don’t fall for the slick ads that promise the world… like I
@@ -603,7 +603,7 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                         <p>“We tried many things before we found YOMZ. So I’m spreading the word about Hidden Hunger and
                             how YOMZ fights it.</p>
 
-                        <p>Now that you know this,<span
+                        <p>Now that you know this, <span
                                 class="extrablod">it’s up to you</span> as a good parent to do something. And
                             it’s so easy.”
                         </p>
@@ -615,12 +615,20 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                     healthcare provider before making
                     changes to their nutrition routine.</p>
 
-                <div class="w-full flex justify-center mt-7">
-                    <a href="https://yomz-checkout-2.vercel.app/" target="_blank" class="hidden lg:flex justify-center h-full bg-black text-white w-140 lg:p-5 p-3 text-2xl font-extrabold uppercase rounded-2xl">
+                <div class="lg:w-80 flex justify-center mt-7 mx-auto">
+                    <!-- <a href="https://yomz-checkout-2.vercel.app/" target="_blank" class="hidden lg:flex justify-center h-full bg-black text-white w-140 lg:p-5 p-3 text-2xl font-extrabold uppercase rounded-2xl">
                         Try YOMZ Risk-Free
                     </a>
                     <a href="https://yomz-checkout-2.vercel.app/" target="_blank" class="lg:hidden flex justify-center h-full bg-[#0AA03C] text-white w-140 lg:p-5 p-3 text-3xl font-extrabold uppercase rounded-2xl">
                         Try YOMZ Risk-Free
+                    </a> -->
+                    <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                        class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-3xl">
+                        TRY YOMZ Risk-Free
+                    </a>
+                    <a href="https://yomz-checkout-2.vercel.app/"
+                        class="flex text-center justify-center w-full h-full bg-[#0AA03C] hidden lg:block rounded-full extrablod text-white uppercase p-3 lg:text-xl text-3xl">
+                        TRY YOMZ Risk-Free
                     </a>
                     <!-- <a href="https://yomz-checkout-2.vercel.app/"
                             class="lg:flex justify-center w-full h-full bg-black hidden rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-lg">
