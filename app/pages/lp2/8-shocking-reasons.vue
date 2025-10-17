@@ -259,7 +259,7 @@
                             <p>It's a <span class="extrablod">perfect storm</span> of gut problems, sleep problems, and
                                 behavior problems.</p>
                             <p>Better nutrition <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500" style="font-weight:600;">makes all the
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">makes all the
                                     difference.</a></p>
                         </div>
 
@@ -285,7 +285,7 @@
                             <p>It's a <span class="extrablod">perfect storm</span> of gut problems, sleep problems, and
                                 behavior problems.</p>
                             <p>Better nutrition <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500" style="font-weight:600;">makes all the
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">makes all the
                                     difference.</a></p>
 
                         </div>
@@ -330,7 +330,7 @@
 
                         <p><span class="extrablod">Breaking the cycle</span> starts with <a
                                 href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                class="text-blue-600 hover:text-red-500" style="font-weight:600;">healing the gut</a>.
+                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">healing the gut</a>.
                         </p>
 
 
@@ -361,7 +361,7 @@
 
                         <p><span class="extrablod">Breaking the cycle</span> starts with <a
                                 href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                class="text-blue-600 hover:text-red-500" style="font-weight:600;">healing the gut</a>.
+                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">healing the gut</a>.
                         </p>
 
 
@@ -405,7 +405,7 @@
                             <p>The hyperactive kid now pays attention in class.</p>
                             <p>Or sits through dinner without bouncing off the walls.</p>
                             <p>And it all starts with <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500" style="font-weight:600;">better
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">better
                                     nutrition.</a></p>
 
                         </div>
@@ -431,7 +431,7 @@
                             <p>The hyperactive kid now pays attention in class.</p>
                             <p>Or sits through dinner without bouncing off the walls.</p>
                             <p>And it all starts with <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500" style="font-weight:600;">better
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">better
                                     nutrition.</a></p>
 
                         </div>
@@ -472,7 +472,7 @@
                             <p>This is <span class="extrablod italic">especially</span> true for kids.</p>
                             <p>So how to end the emotional meltdowns?</p>
                             <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500" style="font-weight:600;">Restore gut
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Restore gut
                                     balance.</a></p>
                         </div>
 
@@ -494,7 +494,7 @@
                             <p>This is <span class="extrablod italic">especially</span> true for kids.</p>
                             <p>So how to end the emotional meltdowns?</p>
                             <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500" style="font-weight:600;">Restore gut
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Restore gut
                                     balance.</a></p>
                         </div>
 
@@ -532,7 +532,7 @@
                             <p>They struggle with friendships. Or feel overwhelmed in groups.</p>
                             <p>The good news?</p>
                             <p>Once <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500" style="font-weight:600;">gut health
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">gut health
                                     improves,</a> your kids will be <span class="extrablod">more confident and
                                     outgoing.</span></p>
                         </div>
@@ -555,7 +555,7 @@
                             <p>They struggle with friendships. Or feel overwhelmed in groups.</p>
                             <p>The good news?</p>
                             <p>Once <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500" style="font-weight:600;">gut health
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">gut health
                                     improves,</a> your kids will be <span class="extrablod">more confident and
                                     outgoing.</span></p>
 
@@ -588,7 +588,7 @@
 
                             <p>Which is when kids crave junk food even more. </p>
                             <p> <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500" style="font-weight:600;">Luckily, once
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Luckily, once
                                     nutrition improves,</a> gut health is restored. </p>
                             <p>And most kids return to their normal development path.</p>
                         </div>
@@ -604,7 +604,7 @@
 
                             <p>Which is when kids crave junk food even more. </p>
                             <p> <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500" style="font-weight:600;">Luckily, once
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Luckily, once
                                     nutrition improves,</a> gut health is restored. </p>
                             <p>And most kids return to their normal development path.</p>
                         </div>
