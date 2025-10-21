@@ -20,7 +20,8 @@
     </div>
 
     <div class="bg-[#1EB9F0] py-1">
-        <p class="text-black text-center lg:text-xl text-lg font-bold hidden lg:block">TRY YOMZ TODAY AND GET UP TO 60% OFF
+        <p class="text-black text-center lg:text-xl text-lg font-bold hidden lg:block">TRY YOMZ TODAY AND GET UP TO 60%
+            OFF
         </p>
         <p class="text-black text-center lg:text-xl text-lg font-bold lg:hidden">TRY YOMZ TODAY AND GET UP TO 60% OFF
         </p>
@@ -34,16 +35,18 @@
         <div class="lg:mx-2 mx-3 allpragraph-fontsize">
             <!-- Desktop version -->
             <h1 class="hidden lg:block lg:text-4xl text-3xl extrablod lg:mr-10 mr-0">
-                 7 Warning Signs Your 'Picky Eater' Has <br><span class="text-[#E6193C]"> Hidden Hunger</span>
+                7 Warning Signs Your 'Picky Eater' Has <br><span class="text-[#E6193C]"> Hidden Hunger</span>
             </h1>
-            <p class="hidden lg:block font-bold mt-2 none-pra text-[calc(1.5vw-0px)] leading-[calc(1em+1vw)] italic">Here's what smart moms are doing...</p>
+            <p class="hidden lg:block font-bold mt-2 none-pra text-[calc(1.5vw-0px)] leading-[calc(1em+1vw)] italic">
+                Here's what smart moms are doing...</p>
 
             <!-- Mobile version -->
             <div class="block lg:hidden">
                 <h1 class="extrablod mr-0 text-[calc(9vw-0px)] leading-[calc(1em+1vw)]">
                     7 Warning Signs<br>Your 'Picky Eater'<br>Has <span class="text-[#E6193C]"> Hidden Hunger</span>
                 </h1>
-                <p class="font-bold mt-2 none-pra text-[calc(3vw-0px)] leading-[calc(1em+1vw)] italic">Here's what smart moms are doing...</p>
+                <p class="font-bold mt-2 none-pra text-[calc(3vw-0px)] leading-[calc(1em+1vw)] italic">Here's what smart
+                    moms are doing...</p>
             </div>
 
             <p class="flex items-center gap-3 extrablod mt-3"><img src="/images/star.svg"> <span class="font-bold">6,782
@@ -52,7 +55,7 @@
             <div class="flex gap-3 items-center py-4">
                 <img src="/images/person.png" class="rounded-full w-15">
                 <div>
-                    <span class="extrablod flex">Dr. Pam <img src="/images/check.png"></span>
+                    <span class="extrablod flex">Sabrina Marshall <img src="/images/check.png"></span>
                     <!-- <span>Last updated Sep 17, 2025</span> -->
                     <span class="text-sm text-gray-600"> Last updated {{ formattedDate }}</span>
                 </div>
@@ -64,13 +67,17 @@
 
                 <p>That’s because of a <span class="extrablod">secret</span> nobody tells you: </p>
                 <p class="extrablod">Being "picky" isn't a phase or behavior problem. </p>
-                <p>It’s your child's body sending <span class="extrablod text-[#E6193C]">warning shots.</span> Something urgent is up.</p>
+                <p>It’s your child's body sending <span class="extrablod text-[#E6193C]">warning shots.</span> Something
+                    urgent is up.</p>
                 <p>Research reveals that <span class="extrablod">up to 70%</span> of picky eaters have <span
                         class="extrablod italic">serious</span> nutrient gaps.</p>
                 <p>This <span class="extrablod">wrecks</span> everything from mood to immunity. </p>
                 <p>Sure, they get enough calories.</p>
-                <p>But they <span class="extrablod italic">don’t</span> get the vital nutrients needed for growth and development.</p>
+                <p>But they <span class="extrablod italic">don’t</span> get the vital nutrients needed for growth and
+                    development.</p>
                 <p>This is <span class="extrablod">"Hidden Hunger"</span>.</p>
+                <p>Nearly <span class="underline italic">3 billion</span> people suffer from it.</p>
+                <p>Including <span class="extrablod">tens of millions</span>  of Americans.</p>
                 <p>The good news?</p>
                 <p>Once you know the <span class="extrablod text-[#E6193C]">red flags,</span> you can get the relief you both deserve.</p>
             </div>
@@ -81,13 +88,17 @@
                         thing</span> you ever read.</p>
                 <p>That’s because of a <span class="extrablod">secret</span> nobody tells you: </p>
                 <p class="extrablod">Being "picky" isn't a phase or behavior problem. </p>
-                <p>It’s your child's body sending <span class="extrablod text-[#E6193C]">warning shots.</span> Something urgent is up.</p>
+                <p>It’s your child's body sending <span class="extrablod text-[#E6193C]">warning shots.</span> Something
+                    urgent is up.</p>
                 <p>Research reveals that <span class="extrablod">up to 70%</span> of picky eaters have <span
                         class="extrablod">serious</span> nutrient gaps.</p>
                 <p>This <span class="extrablod">wrecks</span> everything from mood to immunity. </p>
                 <p>Sure, they get enough calories.</p>
-                <p>But they <span class="extrablod italic">don’t</span> get the vital nutrients needed for growth and development.</p>
+                <p>But they <span class="extrablod italic">don’t</span> get the vital nutrients needed for growth and
+                    development.</p>
                 <p>This is <span class="extrablod">"Hidden Hunger"</span>.</p>
+                <p>Nearly <span class="underline italic">3 billion</span> people suffer from it.</p>
+                <p>Including <span class="extrablod">tens of millions</span>  of Americans.</p>
                 <p>The good news?</p>
                 <p>Once you know the <span class="extrablod text-[#E6193C]">red flags,</span> you can get the relief you both deserve.</p>
             </div>
@@ -116,7 +127,8 @@
                     </p>
                     <div class="lg:space-y-4 space-y-2 lg:block hidden">
                         <p>One minute, it’s like they're shot <span class="extrablod">out of a cannon.</span></p>
-                        <p>The next, there’s a <span class="extrablod">meltdown</span> over whose turn it is in the video game.</p>
+                        <p>The next, there’s a <span class="extrablod">meltdown</span> over whose turn it is in the
+                            video game.</p>
                         <p>Sound familiar?</p>
                         <p>This isn't normal. It's an <span class="text-[#E6193C] extrablod">alarm bell.</span></p>
 
@@ -126,13 +138,16 @@
                         <p>Here’s what <span class="extrablod">smart moms are discovering:</span></p>
                         <p>Filling these nutrition gaps helps balance those highs and lows.</p>
                         <p>The result? </p>
-                        <p><span class="extrablod">Calmer</span> afternoons and <span class="extrablod">happier</span> families. </p>
-                        <p>But how to get steady fuel? Especially from <span class="extrablod">real</span> nutrients…?</p>
+                        <p><span class="extrablod">Calmer</span> afternoons and <span class="extrablod">happier</span>
+                            families. </p>
+                        <p>But how to get steady fuel? Especially from <span class="extrablod">real</span> nutrients…?
+                        </p>
                         <p>The answer might surprise you.</p>
                     </div>
                     <div class="lg:space-y-4 space-y-2 lg:hidden">
                         <p>One minute, it’s like they're shot <span class="extrablod">out of a cannon.</span></p>
-                        <p>The next, there’s a <span class="extrablod">meltdown</span> over whose turn it is in the video game.</p>
+                        <p>The next, there’s a <span class="extrablod">meltdown</span> over whose turn it is in the
+                            video game.</p>
                         <p>Sound familiar?</p>
                         <p>This isn't normal. It's an <span class="text-[#E6193C] extrablod">alarm bell.</span></p>
 
@@ -142,8 +157,10 @@
                         <p>Here’s what <span class="extrablod">smart moms are discovering:</span></p>
                         <p>Filling these nutrition gaps helps balance those highs and lows.</p>
                         <p>The result? </p>
-                        <p><span class="extrablod">Calmer</span> afternoons and <span class="extrablod">happier</span> families. </p>
-                        <p>But how to get steady fuel? Especially from <span class="extrablod">real</span> nutrients…?</p>
+                        <p><span class="extrablod">Calmer</span> afternoons and <span class="extrablod">happier</span>
+                            families. </p>
+                        <p>But how to get steady fuel? Especially from <span class="extrablod">real</span> nutrients…?
+                        </p>
                         <p>The answer might surprise you.</p>
                     </div>
                 </div>
@@ -173,7 +190,8 @@
                         <p>“Mom, I can’t <i>go.</i>”</p>
                         <p>If this is how your picky eater responds to <span class="extrablod">new foods…</span></p>
                         <p>It might be more than pickiness.</p>
-                        <p>Limited diets <span class="extrablod">lack the fiber</span> and nutrients needed for healthy digestion.</p>
+                        <p>Limited diets <span class="extrablod">lack the fiber</span> and nutrients needed for healthy
+                            digestion.</p>
                         <p>Bread, mac & cheese, and chicken nuggets might be their favorites…</p>
                         <p>But that kind of rotation <span class="extrablod">wrecks</span> their gut health.</p>
                         <p>It’s not proper nutrition.</p>
@@ -188,7 +206,8 @@
                         <p>“Mom, I can’t <i>go.</i>”</p>
                         <p>If this is how your picky eater responds to <span class="extrablod">new foods…</span></p>
                         <p>It might be more than pickiness.</p>
-                        <p>Limited diets <span class="extrablod">lack the fiber</span> and nutrients needed for healthy digestion.</p>
+                        <p>Limited diets <span class="extrablod">lack the fiber</span> and nutrients needed for healthy
+                            digestion.</p>
                         <p>Bread, mac & cheese, and chicken nuggets might be their favorites…</p>
                         <p>But that kind of rotation <span class="extrablod">wrecks</span> their gut health.</p>
                         <p>It’s not proper nutrition.</p>
@@ -218,40 +237,49 @@
                 <div>
                     <h3 class="text-3xl extrablod lg:block hidden leading-9">3. Mood Swings
                     </h3>
-                    <p class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] leading-[calc(1em+1vw)]">From seemingly nowhere</p>
+                    <p class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] leading-[calc(1em+1vw)]">From seemingly
+                        nowhere</p>
                     <div class="lg:space-y-4 space-y-2 hidden lg:block">
                         <p>Here's an overlooked scientific fact:</p>
-                        <p>You can't feel good if your gut feels bad.</p>
-                        <p>The connection between nutrition and mood is real.</p>
-                        <p>And picky eaters are especially at risk.</p>
-                        <p>That’s because their brains can't regulate emotions well.</p>
+                        <p class="extrablod">You can't feel good if your gut feels bad.</p>
+                        <p>The connection between nutrition and mood is <span class="extrablod italic">real.</span></p>
+                        <p>And picky eaters are <span class="italic underline">especially</span> at risk.</p>
+                        <p>That’s because their brains <span class="extrablod">can't regulate emotions</span> well.</p>
                         <p>Not without key nutrients.</p>
-                        <p>Add unstable blood sugar from processed foods, and extreme mood swings are no surprise.</p>
+                        <p>Add <span class="extrablod">unstable blood sugar</span> from processed foods, and <span
+                                class="extrablod">extreme mood swings</span> are no surprise.</p>
                         <p>That’s why things like vitamin C, fiber, and micronutrients are crucial. </p>
-                        <p>So are phytonutrients. These are plant-based nutrients, such as polyphenols and flavonoids. </p>
-                        <p>And research indicates they’re key to brain, heart, and immune health.</p>                        
+                        <p>So are <span class="extrablod">phytonutrients</span>. These are <span
+                                class="extrablod">plant-based</span> nutrients, such as polyphenols and flavonoids. </p>
+                        <p>And <span class="extrablod">research indicates</span> they’re key to brain, heart, and immune
+                            health.</p>
                         <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
                                 class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">
-                                Once picky eaters get consistent nutrition,</a> those meltdowns decrease. Even disappear.</p>
+                                Once picky eaters get consistent nutrition,</a> those meltdowns decrease. Even
+                            disappear.</p>
                         <p>That’s when dinnertime stops being stressful.</p>
-                        <p>And becomes fun family time again.</p>
+                        <p>And becomes <span class="extrablod">fun family time</span> again.</p>
                     </div>
                     <div class="lg:space-y-4 space-y-2 lg:hidden">
                         <p>Here's an overlooked scientific fact:</p>
-                        <p>You can't feel good if your gut feels bad.</p>
-                        <p>The connection between nutrition and mood is real.</p>
-                        <p>And picky eaters are especially at risk.</p>
-                        <p>That’s because their brains can't regulate emotions well.</p>
+                        <p class="extrablod">You can't feel good if your gut feels bad.</p>
+                        <p>The connection between nutrition and mood is <span class="extrablod italic">real.</span></p>
+                        <p>And picky eaters are <span class="italic underline">especially</span> at risk.</p>
+                        <p>That’s because their brains <span class="extrablod">can't regulate emotions</span> well.</p>
                         <p>Not without key nutrients.</p>
-                        <p>Add unstable blood sugar from processed foods, and extreme mood swings are no surprise.</p>
+                        <p>Add <span class="extrablod">unstable blood sugar</span> from processed foods, and <span
+                                class="extrablod">extreme mood swings</span> are no surprise.</p>
                         <p>That’s why things like vitamin C, fiber, and micronutrients are crucial. </p>
-                        <p>So are phytonutrients. These are plant-based nutrients, such as polyphenols and flavonoids. </p>
-                        <p>And research indicates they’re key to brain, heart, and immune health.</p>                        
+                        <p>So are <span class="extrablod">phytonutrients</span>. These are <span
+                                class="extrablod">plant-based</span> nutrients, such as polyphenols and flavonoids. </p>
+                        <p>And <span class="extrablod">research indicates</span> they’re key to brain, heart, and immune
+                            health.</p>
                         <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
                                 class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">
-                                Once picky eaters get consistent nutrition,</a> those meltdowns decrease. Even disappear.</p>
+                                Once picky eaters get consistent nutrition,</a> those meltdowns decrease. Even
+                            disappear.</p>
                         <p>That’s when dinnertime stops being stressful.</p>
-                        <p>And becomes fun family time again.</p>
+                        <p>And becomes <span class="extrablod">fun family time</span> again.</p>
                     </div>
                 </div>
 
@@ -277,10 +305,13 @@
                     <div class="lg:space-y-4 space-y-2 lg:block hidden">
                         <p>Constant sniffles. Hacking coughs. Feeling run down.</p>
                         <p>Is your picky eater always <span class="extrablod">under the weather?</span></p>
-                        <p>Could be their immune system <span class="extrablod text-[#E6193C]">out of whack.</span> Limited diets make it <span class="extrablod">hard</span> to build strong immunity.</p>
+                        <p>Could be their immune system <span class="extrablod text-[#E6193C]">out of whack.</span>
+                            Limited diets make it <span class="extrablod">hard</span> to build strong immunity.</p>
                         <p>Because of a lack of vitamins like A, C, and D…</p>
                         <p>Meanwhile, <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">kids with strong immune systems</a> stay well or <span class="extrablod">bounce back</span> quickly when sick.</p>
+                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">kids with
+                                strong immune systems</a> stay well or <span class="extrablod">bounce back</span>
+                            quickly when sick.</p>
                         <p><span class="extrablod italic">Worse,</span> they stay sick longer.</p>
                         <p>But not picky eaters. They tend to be sick more frequently. </p>
                         <p>The Hidden Hunger connection?</p>
@@ -293,11 +324,14 @@
                     <div class="lg:space-y-4 space-y-2 lg:hidden">
                         <p>Constant sniffles. Hacking coughs. Feeling run down.</p>
                         <p>Is your picky eater always <span class="extrablod">under the weather?</span></p>
-                        <p>Could be their immune system <span class="extrablod text-[#E6193C]">out of whack.</span> Limited diets make it <span class="extrablod">hard</span> to build strong immunity.</p>
+                        <p>Could be their immune system <span class="extrablod text-[#E6193C]">out of whack.</span>
+                            Limited diets make it <span class="extrablod">hard</span> to build strong immunity.</p>
                         <p>Because of a lack of vitamins like A, C, and D…</p>
                         <p>Meanwhile, <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">kids with strong immune systems</a> stay well or <span class="extrablod">bounce back</span> quickly when sick.</p>
-                                <p>But not picky eaters. They tend to be sick more frequently. </p>
+                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">kids with
+                                strong immune systems</a> stay well or <span class="extrablod">bounce back</span>
+                            quickly when sick.</p>
+                        <p>But not picky eaters. They tend to be sick more frequently. </p>
                         <p><span class="extrablod italic">Worse,</span> they stay sick longer.</p>
                         <p>The Hidden Hunger connection?</p>
                         <p>Without the necessary nutrients, their poorly-armed bodies <span class="extrablod">can't
@@ -324,34 +358,41 @@
                 <div>
                     <h3 class="text-3xl extrablod lg:block hidden leading-9">5. Attention Problems</h3>
                     <p class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] leading-[calc(1em+1vw)]">That
-                        <u>aren't</u> ADHD</p>
+                        <u>aren't</u> ADHD
+                    </p>
                     <div class="lg:space-y-4 space-y-2 lg:block hidden">
                         <p><span class="extrablod">Spacing out</span> in class.</p>
                         <p>Math homework now taking an hour instead of 30 minutes.</p>
-                        <p>Bored with anything new after 5 minutes.</p>                        
-                        <p><span class="extrablod">Brain fog</span> isn’t normal. It's a <span class="extrablod text-[#E6193C]">warning sign. </span></p>
+                        <p>Bored with anything new after 5 minutes.</p>
+                        <p><span class="extrablod">Brain fog</span> isn’t normal. It's a <span
+                                class="extrablod text-[#E6193C]">warning sign. </span></p>
                         <p>It means their developing brains aren't getting the fuel they need.</p>
-                        <p>Antioxidants and vitamins like C and D are <span class="extrablod">crucial</span> for concentration and focus.</p>
+                        <p>Antioxidants and vitamins like C and D are <span class="extrablod">crucial</span> for
+                            concentration and focus.</p>
                         <p>That's why nutrient-dense foods like fish and leafy greens are so important. </p>
                         <p>Otherwise, the brain's <span class="extrablod">running on empty.</span></p>
                         <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Kids can show dramatic reversals once nutrition gaps disappear.</a></p>
-                        <p>improved attention span. Better memory.</p>
+                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Kids can
+                                show dramatic reversals once nutrition gaps disappear.</a></p>
+                        <p>Improved attention span. Better memory.</p>
                         <p>The child who couldn't sit still for 5 minutes…?</p>
                         <p>Now finishes homework in one sitting.</p>
                     </div>
                     <div class="lg:space-y-4 space-y-2 lg:hidden">
                         <p><span class="extrablod">Spacing out</span> in class.</p>
                         <p>Math homework now taking an hour instead of 30 minutes.</p>
-                        <p>Bored with anything new after 5 minutes.</p>                        
-                        <p><span class="extrablod">Brain fog</span> isn’t normal. It's a <span class="extrablod text-[#E6193C]">warning sign. </span></p>
+                        <p>Bored with anything new after 5 minutes.</p>
+                        <p><span class="extrablod">Brain fog</span> isn’t normal. It's a <span
+                                class="extrablod text-[#E6193C]">warning sign. </span></p>
                         <p>It means their developing brains aren't getting the fuel they need.</p>
-                        <p>Antioxidants and vitamins like C and D are <span class="extrablod">crucial</span> for concentration and focus.</p>
+                        <p>Antioxidants and vitamins like C and D are <span class="extrablod">crucial</span> for
+                            concentration and focus.</p>
                         <p>That's why nutrient-dense foods like fish and leafy greens are so important. </p>
                         <p>Otherwise, the brain's <span class="extrablod">running on empty.</span></p>
                         <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Kids can show dramatic reversals once nutrition gaps disappear.</a></p>
-                        <p>improved attention span. Better memory.</p>
+                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Kids can
+                                show dramatic reversals once nutrition gaps disappear.</a></p>
+                        <p>Improved attention span. Better memory.</p>
                         <p>The child who couldn't sit still for 5 minutes…?</p>
                         <p>Now finishes homework in one sitting.</p>
                     </div>
@@ -389,13 +430,18 @@
                             <p>Waking up tired.</p>
                             <p>All <span class="extrablod text-[#E6193C]">possible signs</span> of Hidden Hunger.</p>
                             <p>Energy crashes <span class="extrablod">don't stop</span> just because it’s bedtime.</p>
-                            <p>Especially if they eat processed foods and sugary snacks between lunch and going to bed.</p>
-                            <p>Their  <span class="extrablod">blood sugar levels</span> go on a roller coaster ride that lasts deep into the night.</p>
+                            <p>Especially if they eat processed foods and sugary snacks between lunch and going to bed.
+                            </p>
+                            <p>Their <span class="extrablod">blood sugar levels</span> go on a roller coaster ride that
+                                lasts deep into the night.</p>
                             <p>The fact is…</p>
                             <p>Nutrients play <span class="extrablod">crucial roles</span> in sleep regulation.</p>
-                            <p>Notably, vitamin D, antioxidants, and fiber all help <span class="extrablod">stabilize blood sugar</span> for better sleep.</p>
+                            <p>Notably, vitamin D, antioxidants, and fiber all help <span class="extrablod">stabilize
+                                    blood sugar</span> for better sleep.</p>
                             <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">With consistent nutrition,</a> bedtime battles decrease. And better sleep <span class="extrablod">increases.</span></p>
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">With
+                                    consistent nutrition,</a> bedtime battles decrease.</p>
+                            <p> And better sleep <span class="extrablod">increases.</span></p>
                         </div>
 
                         <div class="lg:hidden lg:space-y-4 space-y-2">
@@ -405,13 +451,18 @@
                             <p>Waking up tired.</p>
                             <p>All <span class="extrablod text-[#E6193C]">possible signs</span> of Hidden Hunger.</p>
                             <p>Energy crashes <span class="extrablod">don't stop</span> just because it’s bedtime.</p>
-                            <p>Especially if they eat processed foods and sugary snacks between lunch and going to bed.</p>
-                            <p>Their  <span class="extrablod">blood sugar levels</span> go on a roller coaster ride that lasts deep into the night.</p>
+                            <p>Especially if they eat processed foods and sugary snacks between lunch and going to bed.
+                            </p>
+                            <p>Their <span class="extrablod">blood sugar levels</span> go on a roller coaster ride that
+                                lasts deep into the night.</p>
                             <p>The fact is…</p>
                             <p>Nutrients play <span class="extrablod">crucial roles</span> in sleep regulation.</p>
-                            <p>Notably, vitamin D, antioxidants, and fiber all help <span class="extrablod">stabilize blood sugar</span> for better sleep.</p>
+                            <p>Notably, vitamin D, antioxidants, and fiber all help <span class="extrablod">stabilize
+                                    blood sugar</span> for better sleep.</p>
                             <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">With consistent nutrition,</a> bedtime battles decrease. And better sleep <span class="extrablod">increases.</span></p>
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">With
+                                    consistent nutrition,</a> bedtime battles decrease.</p>
+                            <p> And better sleep <span class="extrablod">increases.</span></p>
                         </div>
 
                     </div>
@@ -439,42 +490,48 @@
                     <div class="lg:space-y-4 space-y-2 lg:block hidden">
                         <p>Here's a scary truth:</p>
                         <p class="extrablod">Malnutrition doesn't always look skinny.</p>
-                        <p>Many picky eaters are actually <span class="extrablod italic underline">over</span><span class="extrablod">weight</span></p>
+                        <p>Many picky eaters are actually <span class="extrablod"><u><i>over</i></u>weight</span></p>
                         <p>Because they eat too many processed calories. It leaves them <span
                                 class="extrablod">undernourished.</span></p>
                         <p>They aren’t growing at expected rates.</p>
                         <p> Or, they<span class="extrablod italic">are</span>
                             growing, but look pale and haggard.</p>
-                        <p>Research shows that <span class="extrablod">31% of picky eaters</span> receive a "failure to thrive" diagnosis. </p>
+                        <p>Research shows that <span class="extrablod">31% of picky eaters</span> receive a "failure to
+                            thrive" diagnosis. </p>
                         <p>They get enough calories.</p>
-                        <p>But <span class="extrablod italic">not enough</span> of the building blocks their bodies need to grow.</p>
+                        <p>But <span class="extrablod italic">not enough</span> of the building blocks their bodies need
+                            to grow.</p>
                         <p>In other words, Hidden Hunger is <span class="extrablod">wrecking their health.</span></p>
                         <p>The most heartbreaking part?</p>
                         <p>Parents blame themselves for "not trying hard enough"... </p>
                         <p>When Hidden Hunger is the <span class="extrablod italic">real</span> issue.</p>
                         <p>That all stops <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">with better nutrition.</a></p>
+                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">with better
+                                nutrition.</a></p>
 
                     </div>
 
                     <div class="lg:space-y-4 space-y-2 lg:hidden">
                         <p>Here's a scary truth:</p>
                         <p class="extrablod">Malnutrition doesn't always look skinny.</p>
-                        <p>Many picky eaters are actually <span class="extrablod italic underline">over</span> <span class="extrablod">weight</span></p>
+                        <p>Many picky eaters are actually <span class="extrablod"><u><i>over</i></u>weight</span></p>
                         <p>Because they eat too many processed calories. It leaves them <span
                                 class="extrablod">undernourished.</span></p>
                         <p>They aren’t growing at expected rates.</p>
-                            <p> Or, they<span class="extrablod italic">are</span>
+                        <p> Or, they<span class="extrablod italic">are</span>
                             growing, but look pale and haggard.</p>
-                        <p>Research shows that <span class="extrablod">31% of picky eaters</span> receive a "failure to thrive" diagnosis. </p>
+                        <p>Research shows that <span class="extrablod">31% of picky eaters</span> receive a "failure to
+                            thrive" diagnosis. </p>
                         <p>They get enough calories.</p>
-                        <p>But <span class="extrablod italic">not enough</span> of the building blocks their bodies need to grow.</p>
+                        <p>But <span class="extrablod italic">not enough</span> of the building blocks their bodies need
+                            to grow.</p>
                         <p>In other words, Hidden Hunger is <span class="extrablod">wrecking their health.</span></p>
                         <p>The most heartbreaking part?</p>
                         <p>Parents blame themselves for "not trying hard enough"... </p>
                         <p>When Hidden Hunger is the <span class="extrablod italic">real</span> issue.</p>
                         <p>That all stops <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">with better nutrition.</a></p>
+                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">with better
+                                nutrition.</a></p>
                     </div>
                 </div>
 
@@ -493,8 +550,9 @@
                 <div>
                     <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">What Smart Moms Are Doing About It
                     </h3>
-                    <div class="lg:space-y-4 space-y-2 hidden lg:block">
-                        <p>If you recognize your child in these warning signs, <span class="extrablod">you're not alone.</span></p>
+                    <div class="lg:space-y-4 space-y-2">
+                        <p>If you recognize your child in these warning signs, <span class="extrablod">you're not
+                                alone.</span></p>
                         <p>And you're not failing as a mom.</p>
                         <p>The system is failing <span class="extrablod italic">you.</span></p>
                         <p>Millions of families deal with picky eating. </p>
@@ -502,110 +560,78 @@
                             forcing more vegetables on them (it usually backfires anyway).</p>
                         <p>The <span class="extrablod">breakthrough</span> approach?
                         </p>
-
-                        <p>"Fill the nutrition gaps <span class="extrablod">first,"</span> says nutrition expert and YOMZ medical advisor Dr. Pam.</p>
-                        <p>"Then watch eating habits naturally improve."</p>
-                        <p class="extrablod">That's why there's YOMZ.</p>
-                        <p>These aren't your typical gummy supplements. </p>
-                        <p>Each serving delivers the phytonutritional equal of <span class="extrablod">2 servings</span> of fruits and vegetables.</p>
-
-                        <p>They’re not candy, either. But they <span class="extrablod">taste</span> like it.</p>
-                        <p>A treat kids <span class="extrablod italic">ask for</span> instead of fight over.</p>
-                        <p>That’s because of 3 <i>mouthwatering</i> flavors:
-                        </p>
-                        <ul class="pl-2 lg:space-y-4 space-y-2 extrablod">
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Strawbeary
-                            </li>
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Beary
-                                Berry </li>
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Peachy
-                            </li>
-                        </ul>
-                         <p>All <span class="italic underline">without</span> artificial dyes, flavors, or otherwise harmful junk.</p>
-                        <p>YOMZ was co-developed by YouTube star Nastya (whose 380+ million young fans know about sweets).</p>
-                        <p>Backed by Dr. Pam, Nastya helped create YOMZ to  <span class="extrablod">end Hidden Hunger</span>  for 100 million people.</p>
-
-
-                        <p class="italic underline">The results speak for themselves:</p>
-                        <ul class="pl-2 lg:space-y-4 space-y-2">
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Tummy troubles clear up in days
-                            </li>
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Energy levels become more stable
-                            </li>
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="">Fewer meltdowns and mood swings
-                            </li>
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Better sleep for the whole family
-                            </li>
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Stronger immunity (fewer sick days!)
-                            </li>
-
-                        </ul>
-                        <p>Plus, YOMZ comes with their Plus, YOMZ comes with their famous <a
-                                href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;"> 90-Day Picky Momz 200% Happiness Guarantee. </a></p>
-
-                        <p>Yes, if your child doesn't love them ...</p>
-                        <p>Or you don't see improvements in 90 days, you get double your money back.</p>
-
-                    </div>
-                    <div class="lg:space-y-4 space-y-2 lg:hidden">
-                        <p>If you recognize your child in these warning signs, <span class="extrablod">you're not alone.</span></p>
-                        <p>And you're not failing as a mom.</p>
-                        <p>The system is failing <span class="extrablod italic">you.</span></p>
-                        <p>Millions of families deal with picky eating. </p>
-                        <p>But the solution <span class="extrablod">isn't</span>
-                            forcing more vegetables on them (it usually backfires anyway).</p>
-                        <p>The <span class="extrablod">breakthrough</span> approach?
-                        </p>
-
-                        <p>"Fill the nutrition gaps <span class="extrablod">first,"</span> says nutrition expert and YOMZ medical advisor Dr. Pam.</p>
-                        <p>"Then watch eating habits naturally improve."</p>
-                        <p class="extrablod">That's why there's YOMZ.</p>
-                        <p>These aren't your typical gummy supplements. </p>
-                        <p>Each serving delivers the phytonutritional equal of <span class="extrablod">2 servings</span> of fruits and vegetables.</p>
-
-                        <p>They’re not candy, either. But they <span class="extrablod">taste</span> like it.</p>
-                        <p>A treat kids <span class="extrablod italic">ask for</span> instead of fight over.</p>
-                        <p>That’s because of 3 <i>mouthwatering</i> flavors:
-                        </p>
-                        <ul class="pl-2 lg:space-y-4 space-y-2 extrablod">
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2"> Strawbeary
-                            </li>
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2"> Beary
-                                Berry </li>
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2"> Peachy
-                            </li>
-                        </ul>
-                        <p>All <span class="italic underline">without</span> artificial dyes, flavors, or otherwise harmful junk.</p>
-                        <p>YOMZ was co-developed by YouTube star Nastya (whose 380+ million young fans know about sweets).</p>
-                        <p>Backed by Dr. Pam, Nastya helped create YOMZ to  <span class="extrablod">end Hidden Hunger</span>  for 100 million people.</p>
-
-
-                        <p class="italic underline">The results speak for themselves:</p>
-                        <ul class="pl-2 lg:space-y-4 space-y-2">
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2"> Tummy troubles clear up in days
-                            </li>
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2"> Energy levels become more stable
-                            </li>
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2">Fewer meltdowns and mood swings
-                            </li>
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2"> Better sleep for the whole family
-                            </li>
-                            <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="pt-2"> Stronger immunity (fewer sick days!)
-                            </li>
-
-                        </ul>
-                        <p class="text-2xl lg:hidden">Plus, YOMZ comes with their famous <a
-                                href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;"> 90-Day Picky Momz 200% Happiness Guarantee. </a></p>
-
-                        <p>Yes, if your child doesn't love them ...</p>
-                        <p>Or you don't see improvements in 90 days, you get double your money back.</p>
-
+                        <p>"Fill the nutrition gaps <span class="extrablod">first,</span>" says nutrition expert Dr.
+                            Pam.</p>
+                        <p>"Then watch eating habits naturally improve.</p>
+                        <p class="extrablod">"That's why there's YOMZ."</p>
                     </div>
                 </div>
-
             </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
+                <div>
+
+                    <div class="lg:hidden block mb-4">
+                        <h3 class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(9.4vw-0px)] leading-[calc(1em+1vw)]">
+                            YOMZ. <u><i>Not</i></u> Your</h3>
+                        <h3 class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(9.4vw-0px)] leading-[calc(1em+1vw)]">
+                            Typical Gummy.</h3>
+                    </div>
+                    <img src="/images/p1-9.jpg" class="w-full rounded-xl">
+                </div>
+                <div class="lg:space-y-4 space-y-2">
+                    <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">YOMZ. <u><i>Not</i></u> Your Typical
+                        Gummy.</h3>
+
+                    <p><span class="extrablod">YOMZ was co-founded</span> by social media superstar Nastya, of YouTube’s biggest kid series <i>Like Nastya.</i></p>
+                    <p>When Nastya heard about Hidden Hunger, she was concerned.</p>
+                    <p>Many of her nearly <span class="extrablod">400 million followers</span> might be suffering.</p>
+                    <p>So with the help of nutrition expert Dr. Pam, Nastya helped create YOMZ.</p>
+                    <p>It’s not candy. <i>But it tastes like it.</i></p>
+                    <p>Even with all its <span class="extrablod">vitamins, antioxidants, micronutrients, and 5g of fiber…</span></p>
+                    <p>Each serving delivers the phytonutritional equal of <span class="extrablod">2 servings</span> of fruits and vegetables.</p>
+                    <p>YOMZ is a tasty treat kids <span class="extrablod">ask for</span> instead of fight over.</p>
+                    <p>That’s because of 3 <i>mouthwatering</i> flavors:</p>
+                    <ul class="pl-2 lg:space-y-4 space-y-2">
+                        <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Strawbeary
+                        </li>
+                        <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Beary
+                            Berry </li>
+                        <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Peachy
+                        </li>
+                    </ul>
+                    <p>All <span class="italic underline">without</span> artificial dyes, flavors, or other harmful junk.</p>
+                    <p>YOMZ was co-developed by YouTube star Nastya (whose 380+ million young fans know about
+                        sweets).</p>
+                    <p>Backed by Dr. Pam, Nastya helped create YOMZ with this mission:</p>
+                    <p class="extrablod">End Hidden Hunger for 100 million people.</p>
+                    <p>And with your help, I bet they will.</p>
+                    <p>Especially since a portion of each order goes directly toward helping kids and families in need...</p>
+                    <p>Fight Hidden Hunger.</p>
+                    <p class="italic underline">The results speak for themselves:</p>
+                    <ul class="pl-2 lg:space-y-4 space-y-2 extrablod">
+                        <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Energy levels stabilize
+                        </li>
+                        <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Fewer meltdowns and mood swings
+                        </li>
+                        <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="">Stronger immunity (fewer sick days!)
+                        </li>
+                        <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Tummy troubles clear up in days
+                        </li>
+                        <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Better sleep for the whole family
+                        </li>
+
+                    </ul>
+                    <p>Plus, YOMZ is backed by their famous <a
+                            href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                            class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">90-Day Picky Momz 200% Happiness Guarantee.</a></p>
+
+                    <p>Yes, there's no risk for you.</p>
+                    <p>If your child doesn't love them ...</p>
+                    <p>Or you don't see improvements in 90 days, you get double your money back.</p>
+                </div>
+            </div>
+
             <!-- Column data 2 -->
 
             <div class="border-1 lg:border-[#1EB9F0] border-[#fff] rounded-xl lg:p-5 p-0 lg:mt-20 mt-15 relative">
@@ -614,13 +640,13 @@
                     TRY NOW
                 </a> -->
                 <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                        class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-3xl">
-                        TRY YOMZ TODAY
-                    </a>
-                    <a href="https://yomz-checkout-2.vercel.app/"
-                        class="hidden lg:block bg-[#0AA03C] text-white absolute -top-5 py-2 w-50 px-5 left-0 right-0 mx-auto extrablod lg:text-lg text-base text-center">
-                        TRY YOMZ NOW
-                    </a>
+                    class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-3xl">
+                    TRY YOMZ TODAY
+                </a>
+                <a href="https://yomz-checkout-2.vercel.app/"
+                    class="hidden lg:block bg-[#0AA03C] text-white absolute -top-5 py-2 w-50 px-5 left-0 right-0 mx-auto extrablod lg:text-lg text-base text-center">
+                    TRY YOMZ NOW
+                </a>
                 <!-- <p
                     class="bg-[#FFEB00] absolute -top-5 left-1/2 -translate-x-1/2 py-1 lg:px-30 px-5 font-bold lg:text-lg text-base rounded-b-lg block lg:hidden">
                     TRY NOW

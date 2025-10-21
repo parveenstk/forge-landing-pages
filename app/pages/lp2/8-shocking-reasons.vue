@@ -54,7 +54,7 @@
             <div class="flex gap-3 items-center py-4">
                 <img src="/images/person.png" class="rounded-full w-15">
                 <div>
-                    <span class="extrablod flex">Dr. Pam <img src="/images/check.png"></span>
+                    <span class="extrablod flex">Sabrina Marshall <img src="/images/check.png"></span>
                     <span class="text-sm text-gray-600"> Last updated {{ formattedDate }}</span>
                 </div>
             </div>
