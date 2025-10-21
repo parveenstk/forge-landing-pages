@@ -71,7 +71,7 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                     </div> -->
 
                     <div>
-                        <span class="extrabold flex">
+                        <span class="extrablod flex">
                             Sabrina Marshall
                             <img src="/images/check.png" class="ml-1" />
                         </span>
