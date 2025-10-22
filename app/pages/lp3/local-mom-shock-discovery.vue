@@ -38,14 +38,14 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                 <h1 class="lg:text-4xl text-3xl hidden lg:block">
                     <span class="text-xl text-black p-1 underline font-semibold italic bg-[#FFEB00]">
                         Local Mom's Shocking Discovery:</span><br> <span class="extrablod">
-                        "My Family <u><i>Looked</i></u> Healthy. But We Were Actually <span
+                        My “Healthy” Family  Was Actually <span
                             class="text-[#E6193C]">Malnourished</span>."</span>
                 </h1>
 
                 <h1 class="block lg:hidden text-[calc(6.5vw-0px)] leading-[calc(1em+1vw)]"><span
                         class="text-xl text-black p-1 underline font-semibold italic bg-[#FFEB00]">
                         Local Mom's Shocking Discovery:</span><br> <span class="extrablod">
-                        "My Family <u><i>Looked</i></u> Healthy. But We Were Actually <span
+                         My “Healthy” Family  Was Actually <span
                             class="text-[#E6193C]">Malnourished</span>."</span>
                 </h1>
 
@@ -53,11 +53,11 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                     class="bg-[#FFEB00] text-black font-bold p-2 text-xl mt-4 lg:mr-15 mr-0 italic hidden lg:block">
                     New Research Reveals Tens of Millions of Americans Suffer from 'Hidden Hunger'.</p> -->
 
-                <p class="block new-text-studies lg:hidden text-black font-bold p-0 text-sm mt-2 lg:mr-15 mr-0 italic">
+                <!-- <p class="block new-text-studies lg:hidden text-black font-bold p-0 text-sm mt-2 lg:mr-15 mr-0 italic">
                     47 million perfectly "healthy" Americans suffer from the same issue.</p>
 
                 <p class="mt-3 font-bold italic hidden lg:block">47 million perfectly "healthy" Americans suffer from
-                    the same issue.</p>
+                    the same issue.</p> -->
 
                 <p class="flex items-center gap-3 extrablod mt-3"><img src="/images/star.svg"> <span
                         class="font-bold">6,782
@@ -264,7 +264,7 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                     <p>"I never <span class="extrablod">connected it</span> to what she was eating."</p>
                 </div>
 
-                <h3 class="text-4xl extrablod mt-8">Breakthrough Discovery Changes Everything</h3>
+                <h3 class="text-3xl lg:text-4xl extrablod mt-8">Breakthrough Changes Everything</h3>
                 <img src="/images/fl-5.jpg" class="w-full py-6">
                 <div class="lg:space-y-4 space-y-2 mb-8">
                     <p><span class="extrablod">After seeing thousands</span> of families struggle with Hidden Hunger,
