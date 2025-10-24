@@ -1,3 +1,15 @@
+<script setup>
+useHead({
+    title: '7 Warning Signs – Landing Page 1',
+    meta: [
+        { name: 'description', content: 'Discover the 7 warning signs you’re missing in your business.' },
+        { property: 'og:title', content: '7 Warning Signs' },
+        { property: 'og:description', content: 'Spot these red flags before it’s too late!' },
+        { property: 'og:image', content: '/images/lp1-preview.jpg' },
+    ],
+})
+</script>
+
 <template>
 
     <!-- top-header -->
