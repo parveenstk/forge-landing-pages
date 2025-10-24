@@ -43,7 +43,7 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                 </h1>
 
                 <h1 class="block lg:hidden text-[calc(6.5vw-0px)] leading-[calc(1em+1vw)]"><span
-                        class="text-xl text-black p-1 underline font-semibold italic bg-[#FFEB00]">
+                        class="text-lg text-black p-1 underline font-semibold italic bg-[#FFEB00]">
                         Local Mom's Shocking Discovery:</span><br> <span class="extrablod">
                          My “Healthy” Family  Was Actually <span
                             class="text-[#E6193C]">Malnourished</span>."</span>
@@ -82,7 +82,7 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                 </div>
 
                 <div class="lg:hidden lg:space-y-4 space-y-2 mb-8">
-                    <p>6-year-old daughter Emma had her annual checkup.</p>
+                    <p>6-year-old Emma had her annual checkup.</p>
                     <p>Her mom Sarah expected nothing unusual.</p>
                     <p>Instead, she got a <span class="extrablod">punch to the gut.</span> </p>
                     <p>"Emma shows signs of <span class="extrablod">serious nutrient deficiency,"</span> Dr. Pam
@@ -105,7 +105,7 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
 
                 </div>
                 <div class="hidden lg:block lg:space-y-4 space-y-2 mb-8">
-                    <p>6-year-old daughter Emma had her annual checkup.</p>
+                    <p>6-year-old Emma had her annual checkup.</p>
                     <p>Her mom Sarah expected nothing unusual.</p>
                     <p>Instead, she got a <span class="extrablod">punch to the gut.</span> </p>
                     <p>"Emma shows signs of <span class="extrablod">serious nutrient deficiency,"</span> Dr. Pam
