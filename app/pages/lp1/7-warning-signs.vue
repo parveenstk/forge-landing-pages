@@ -49,13 +49,17 @@
                     moms are doing...</p>
             </div>
 
-            <p class="flex items-center gap-3 extrablod mt-3"><img src="/images/star.svg"> <span class="font-bold">6,782
-                    ratings</span></p>
+            <p class="flex items-center gap-3 extrablod mt-3">
+                <NuxtImg src="/images/star.svg" width="110" height="90" alt="star-img" />
+                <span class="font-bold">6,782 ratings</span>
+            </p>
 
             <div class="flex gap-3 items-center py-4">
-                <img src="/images/person.png" class="rounded-full w-15">
+                <NuxtImg src="/images/person.png" class="rounded-full w-15" alt="person.svg-img" />
                 <div>
-                    <span class="extrablod flex">Sabrina Marshall <img src="/images/check.png"></span>
+                    <span class="extrablod flex">Sabrina Marshall
+                        <NuxtImg src="/images/check.png" width="22" height="23" alt="check.png-img" />
+                    </span>
                     <!-- <span>Last updated Sep 17, 2025</span> -->
                     <span class="text-sm text-gray-600"> Last updated {{ formattedDate }}</span>
                 </div>
@@ -77,11 +81,11 @@
                     development.</p>
                 <p>This is <span class="extrablod">"Hidden Hunger"</span>.</p>
                 <p>Nearly <span class="underline italic">3 billion</span> people suffer from it.</p>
-                <p>Including <span class="extrablod">tens of millions</span>  of Americans.</p>
+                <p>Including <span class="extrablod">tens of millions</span> of Americans.</p>
                 <p>The good news?</p>
-                <p>Once you know the <span class="extrablod text-[#E6193C]">red flags,</span> you can get the relief you both deserve.</p>
+                <p>Once you know the <span class="extrablod text-[#E6193C]">red flags,</span> you can get the relief you
+                    both deserve.</p>
             </div>
-
 
             <div class="space-y-4 lg:hidden">
                 <p>If your kid’s a picky eater, this article could be the <span class="extrablod">most important
@@ -98,9 +102,10 @@
                     development.</p>
                 <p>This is <span class="extrablod">"Hidden Hunger"</span>.</p>
                 <p>Nearly <span class="underline italic">3 billion</span> people suffer from it.</p>
-                <p>Including <span class="extrablod">tens of millions</span>  of Americans.</p>
+                <p>Including <span class="extrablod">tens of millions</span> of Americans.</p>
                 <p>The good news?</p>
-                <p>Once you know the <span class="extrablod text-[#E6193C]">red flags,</span> you can get the relief you both deserve.</p>
+                <p>Once you know the <span class="extrablod text-[#E6193C]">red flags,</span> you can get the relief you
+                    both deserve.</p>
             </div>
 
             <hr class="lg:my-10 my-5 text-[#CCCCCC]">
@@ -117,7 +122,7 @@
                         </p>
                     </div>
 
-                    <img src="/images/p1-1.jpg" class="w-full rounded-xl">
+                    <NuxtImg src="/images/p1-1.jpg" class="w-full rounded-xl" alt="p1-1.jpg-img" />
                 </div>
                 <div>
                     <h3 class="text-3xl extrablod lg:block hidden leading-9">1. 3pm Energy
@@ -177,7 +182,7 @@
                         </p>
                     </div>
 
-                    <img src="/images/p1-2.jpg" class="w-full rounded-xl">
+                    <NuxtImg src="/images/p1-2.jpg" class="w-full rounded-xl" alt="p1-2.jpg-img" />
                 </div>
 
                 <div>
@@ -232,7 +237,7 @@
                         </p>
                     </div>
 
-                    <img src="/images/p1-3.jpg" class="w-full rounded-xl">
+                    <NuxtImg src="/images/p1-3.jpg" class="w-full rounded-xl" alt="p1-3.jpg-img" />
                 </div>
                 <div>
                     <h3 class="text-3xl extrablod lg:block hidden leading-9">3. Mood Swings
@@ -295,7 +300,7 @@
                         </p>
                     </div>
 
-                    <img src="/images/p1-4.jpg" class="w-full rounded-xl">
+                    <NuxtImg src="/images/p1-4.jpg" class="w-full rounded-xl" alt="p1-4.jpg-img" />
                 </div>
                 <div>
                     <h3 class="text-3xl extrablod lg:block hidden leading-9">4. Always Sick </h3>
@@ -353,7 +358,7 @@
                         </p>
                     </div>
 
-                    <img src="/images/p2-4.jpg" class="w-full rounded-xl">
+                    <NuxtImg src="/images/p2-4.jpg" class="w-full rounded-xl" alt="p2-4.jpg-img" />
                 </div>
                 <div>
                     <h3 class="text-3xl extrablod lg:block hidden leading-9">5. Attention Problems</h3>
@@ -412,7 +417,7 @@
                         </p>
                     </div>
 
-                    <img src="/images/p1-6.jpg" class="w-full rounded-xl">
+                    <NuxtImg src="/images/p1-6.jpg" class="w-full rounded-xl" alt="p1-6.jpg-img" />
                 </div>
                 <div>
                     <h3 class="text-3xl extrablod lg:block hidden leading-9">6. Sleep Problems</h3>
@@ -481,7 +486,7 @@
                             doctor's missing...</p>
                     </div>
 
-                    <img src="/images/p1-7.jpg" class="w-full rounded-xl">
+                    <NuxtImg src="/images/p1-7.jpg" class="w-full rounded-xl" alt="p1-7.jpg-img" />
                 </div>
                 <div>
                     <h3 class="text-3xl extrablod lg:block hidden leading-9">7. "Failure to Thrive"</h3>
@@ -545,7 +550,7 @@
                         <h3 class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(9.4vw-0px)] leading-[calc(1em+1vw)]">
                             What Smart Moms Are Doing About It</h3>
                     </div>
-                    <img src="/images/p1-8.jpg" class="w-full rounded-xl">
+                    <NuxtImg src="/images/p1-8.jpg" class="w-full rounded-xl" alt="p1-8.jpg-img" />
                 </div>
                 <div>
                     <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">What Smart Moms Are Doing About It
@@ -577,54 +582,78 @@
                         <h3 class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(9.4vw-0px)] leading-[calc(1em+1vw)]">
                             Typical Gummy.</h3>
                     </div>
-                    <img src="/images/p1-9.jpg" class="w-full rounded-xl">
+                    <NuxtImg src="/images/p1-9.jpg" class="w-full rounded-xl" alt="p1-9.jpg-img" />
                 </div>
                 <div class="lg:space-y-4 space-y-2">
                     <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">YOMZ. <u><i>Not</i></u> Your Typical
                         Gummy.</h3>
 
-                    <p><span class="extrablod">YOMZ was co-founded</span> by social media superstar Nastya, of YouTube’s biggest kid series <i>Like Nastya.</i></p>
+                    <p><span class="extrablod">YOMZ was co-founded</span> by social media superstar Nastya, of YouTube’s
+                        biggest kid series <i>Like Nastya.</i></p>
                     <p>When Nastya heard about Hidden Hunger, she was concerned.</p>
                     <p>Many of her nearly <span class="extrablod">400 million followers</span> might be suffering.</p>
                     <p>So with the help of nutrition expert Dr. Pam, Nastya helped create YOMZ.</p>
                     <p>It’s not candy. <i>But it tastes like it.</i></p>
-                    <p>Even with all its <span class="extrablod">vitamins, antioxidants, micronutrients, and 5g of fiber…</span></p>
-                    <p>Each serving delivers the phytonutritional equal of <span class="extrablod">2 servings</span> of fruits and vegetables.</p>
+                    <p>Even with all its <span class="extrablod">vitamins, antioxidants, micronutrients, and 5g of
+                            fiber…</span></p>
+                    <p>Each serving delivers the phytonutritional equal of <span class="extrablod">2 servings</span> of
+                        fruits and vegetables.</p>
                     <p>YOMZ is a tasty treat kids <span class="extrablod">ask for</span> instead of fight over.</p>
                     <p>That’s because of 3 <i>mouthwatering</i> flavors:</p>
                     <ul class="pl-2 lg:space-y-4 space-y-2">
-                        <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Strawbeary
+                        <li class="flex gap-2 items-center">
+                            <NuxtImg src="/images/blk-check.svg" width="20" height="20" alt="blk-check.svg" />
+                            Strawbeary
                         </li>
-                        <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Beary
-                            Berry </li>
-                        <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Peachy
+                        <li class="flex gap-2 items-center">
+                            <NuxtImg src="/images/blk-check.svg" width="20" height="20" alt="blk-check.svg" /> Beary
+                            Berry
+                        </li>
+                        <li class="flex gap-2 items-center">
+                            <NuxtImg src="/images/blk-check.svg" width="20" height="20" alt="blk-check.svg" /> Peachy
                         </li>
                     </ul>
-                    <p>All <span class="italic underline">without</span> artificial dyes, flavors, or other harmful junk.</p>
+                    <p>All <span class="italic underline">without</span> artificial dyes, flavors, or other harmful
+                        junk.</p>
                     <p>YOMZ was co-developed by YouTube star Nastya (whose 380+ million young fans know about
                         sweets).</p>
                     <p>Backed by Dr. Pam, Nastya helped create YOMZ with this mission:</p>
                     <p class="extrablod">End Hidden Hunger for 100 million people.</p>
                     <p>And with your help, I bet they will.</p>
-                    <p>Especially since a portion of each order goes directly toward helping kids and families in need...</p>
+                    <p>Especially since a portion of each order goes directly toward helping kids and families in
+                        need...</p>
                     <p>Fight Hidden Hunger.</p>
                     <p class="italic underline">The results speak for themselves:</p>
                     <ul class="pl-2 lg:space-y-4 space-y-2 extrablod">
-                        <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Energy levels stabilize
+                        <li class="flex gap-2 items-start md:items-center">
+                            <NuxtImg src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
+                            Energy levels stabilize
                         </li>
-                        <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Fewer meltdowns and mood swings
+                        <li class="flex gap-2 items-start md:items-center">
+                            <NuxtImg src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" /> Fewer
+                            meltdowns and mood
+                            swings
                         </li>
-                        <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class="">Stronger immunity (fewer sick days!)
+                        <li class="flex gap-2 items-start md:items-center">
+                            <NuxtImg src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
+                            Stronger immunity (fewer sick
+                            days!)
                         </li>
-                        <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Tummy troubles clear up in days
+                        <li class="flex gap-2 items-start md:items-center">
+                            <NuxtImg src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" /> Tummy
+                            troubles clear up in
+                            days
                         </li>
-                        <li class="flex gap-2 items-start"><img src="/images/blk-check.svg" class=""> Better sleep for the whole family
+                        <li class="flex gap-2 items-start md:items-center">
+                            <NuxtImg src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
+                            Better sleep for the whole
+                            family
                         </li>
 
                     </ul>
-                    <p>Plus, YOMZ is backed by their famous <a
-                            href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                            class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">90-Day Picky Momz 200% Happiness Guarantee.</a></p>
+                    <p>Plus, YOMZ is backed by their famous <a href="https://yomz-checkout-2.vercel.app/"
+                            target="_blank" class="text-blue-600 hover:text-red-500 extrablod"
+                            style="font-weight:600;">90-Day Picky Momz 200% Happiness Guarantee.</a></p>
 
                     <p>Yes, there's no risk for you.</p>
                     <p>If your child doesn't love them ...</p>
@@ -654,7 +683,8 @@
                 <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-5 gap-2 items-center">
 
                     <div>
-                        <img src="/images/yomz-pack.png" class="w-full lgp-3 p-1 lg:pt-3 pt-6">
+                        <NuxtImg src="/images/yomz-pack.png" alt="yomz-pack.png-img"
+                            class="w-full lgp-3 p-1 lg:pt-3 pt-6" />
                     </div>
 
                     <div
@@ -710,14 +740,13 @@
 
     </div>
 
-
     <!-- BodyContent -->
 
     <div>
         <!-- Your footer -->
         <footer ref="footerRef" class="bg-[#1EB9F0] lg:py-7 py-3">
             <div class="mx-auto max-w-5xl text-center">
-                <img src="/images/logo.png" class="max-w-30 mx-auto mb-4" />
+                <NuxtImg src="/images/logo.png" alt="logo.png-img" class="max-w-30 mx-auto mb-4" />
                 <p class="text-white lg:text-lg text-sm hidden lg:block">
                     By filling out the field, you consent for YOMZ™ to use automated technology,
                     including texts and prerecorded messages, to contact you at the number and
