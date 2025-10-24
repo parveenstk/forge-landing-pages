@@ -5,9 +5,12 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   app: {
     head: {
+      htmlAttrs: {
+        lang: 'en',
+      },
       title: 'Forge Landing Pages',
     },
-    baseURL:'/cfyomz'
+    baseURL: '/cfyomz'
   },
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
