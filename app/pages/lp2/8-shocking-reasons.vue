@@ -48,13 +48,17 @@
                     bad parenting...</p>
             </div>
 
-            <p class="flex items-center gap-3 extrablod mt-3"><img src="/images/star.svg"> <span class="font-bold">6,782
-                    ratings</span></p>
+            <p class="flex items-center gap-3 extrablod mt-3">
+                <Nuxt src="/images/star.svg" alt="star.svg-img" />
+                <span class="font-bold">6,782 ratings</span>
+            </p>
 
             <div class="flex gap-3 items-center py-4">
-                <img src="/images/person.png" class="rounded-full w-15">
+                <Nuxt src="/images/person.png" alt="person.png-img" class="rounded-full w-15" />
                 <div>
-                    <span class="extrablod flex">Sabrina Marshall <img src="/images/check.png"></span>
+                    <span class="extrablod flex">Sabrina Marshall
+                        <Nuxt src="/images/check.png" alt="check.png-img" />
+                    </span>
                     <span class="text-sm text-gray-600"> Last updated {{ formattedDate }}</span>
                 </div>
             </div>
@@ -102,7 +106,7 @@
                     <h3
                         class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
                         1. "Hangry" Meltdowns</h3>
-                    <img src="/images/p1-3.jpg" class="w-full rounded-xl">
+                    <Nuxt src="/images/p1-3.jpg" alt="p1-3.jpg-img" class="w-full rounded-xl" />
                 </div>
                 <div>
                     <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">1. "Hangry" Meltdowns
@@ -123,7 +127,6 @@
                                 class="extrablod italic">hard.</span> </p>
                         <p class="lg:hidden">But here's a secret:</p>
                         <p class="lg:hidden">Those dramatic mood swings aren't about being "hangry."</p>
-
 
                         <p class="lg:hidden">It’s an unhealthy gut that can't regulate <span class="extrablod">blood
                                 sugar</span> well.
@@ -152,7 +155,6 @@
                                 class="extrablod italic">hard.</span> </p>
                         <p>But here's a secret:</p>
                         <p>Those dramatic mood swings aren't about being "hangry."</p>
-
 
                         <p>It’s an unhealthy gut that can't regulate <span class="extrablod">blood
                                 sugar</span> well.
@@ -259,7 +261,8 @@
                             <p>It's a <span class="extrablod">perfect storm</span> of gut problems, sleep problems, and
                                 behavior problems.</p>
                             <p>Better nutrition <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">makes all the
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">makes
+                                    all the
                                     difference.</a></p>
                         </div>
 
@@ -285,7 +288,8 @@
                             <p>It's a <span class="extrablod">perfect storm</span> of gut problems, sleep problems, and
                                 behavior problems.</p>
                             <p>Better nutrition <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">makes all the
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">makes
+                                    all the
                                     difference.</a></p>
 
                         </div>
@@ -300,7 +304,7 @@
                     <h3
                         class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
                         4. Anxiety, Not "Defiance"</h3>
-                    <img src="/images/p2-3.jpg" class="w-full rounded-xl">
+                    <Nuxt src="/images/p2-3.jpg" alt="p2-3.jpg-mg" class="w-full rounded-xl" />
                 </div>
                 <div>
                     <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">4. Anxiety, Not "Defiance"</h3>
@@ -320,19 +324,25 @@
                         <p>Without good nutrition, it's a <span class="extrablod">vicious
                                 cycle.</span></p>
                         <ul class="pl-2 lg:space-y-1 space-y-1">
-                            <li class="flex gap-2 items-start"><img src="/images/ellipse.svg" class="pt-2">Anxiety leads
-                                to pickiness</li>
-                            <li class="flex gap-2 items-start"><img src="/images/ellipse.svg" class="pt-2">Picky eating
-                                hurts gut health</li>
-                            <li class="flex gap-2 items-start"><img src="/images/ellipse.svg" class="pt-2">Poor gut
-                                health amps up anxiety</li>
+                            <li class="flex gap-2 items-start">
+                                <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                Anxiety leads to pickiness
+                            </li>
+                            <li class="flex gap-2 items-start">
+                                <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                Picky eating hurts gut health
+                            </li>
+                            <li class="flex gap-2 items-start">
+                                <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />Poor gut
+                                health amps up anxiety
+                            </li>
                         </ul>
 
                         <p><span class="extrablod">Breaking the cycle</span> starts with <a
                                 href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">healing the gut</a>.
+                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">healing the
+                                gut</a>.
                         </p>
-
 
                     </div>
                     <div class="space-y-4 hidden lg:block">
@@ -351,25 +361,30 @@
                         <p>Without good nutrition, it's a <span class="extrablod">vicious
                                 cycle.</span></p>
                         <ul class="pl-2 lg:space-y-1 space-y-1">
-                            <li class="flex gap-2 items-start"><img src="/images/ellipse.svg" class="pt-2">Anxiety leads
-                                to pickiness</li>
-                            <li class="flex gap-2 items-start"><img src="/images/ellipse.svg" class="pt-2">Picky eating
-                                hurts gut health</li>
-                            <li class="flex gap-2 items-start"><img src="/images/ellipse.svg" class="pt-2">Poor gut
-                                health amps up anxiety</li>
+                            <li class="flex gap-2 items-start">
+                                <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                Anxiety leads to pickiness
+                            </li>
+                            <li class="flex gap-2 items-start">
+                                <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                Picky eating hurts gut health
+                            </li>
+                            <li class="flex gap-2 items-start">
+                                <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                Poor gut health amps up anxiety
+                            </li>
                         </ul>
 
                         <p><span class="extrablod">Breaking the cycle</span> starts with <a
                                 href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">healing the gut</a>.
+                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">healing the
+                                gut</a>.
                         </p>
-
 
                     </div>
                 </div>
 
             </div>
-
 
             <!-- Column data 5 -->
             <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
@@ -377,7 +392,7 @@
                     <h3
                         class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
                         5. It's Not ADHD</h3>
-                    <img src="/images/p2-4.jpg" class="w-full rounded-xl">
+                    <Nuxt src="/images/p2-4.jpg" alt="p2-4.jpg-img" class="w-full rounded-xl" />
                 </div>
                 <div>
                     <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">5. It's Not ADHD</h3>
@@ -441,7 +456,6 @@
                 </div>
             </div>
 
-
             <!-- Column data 6 -->
 
             <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
@@ -449,7 +463,7 @@
                     <h3
                         class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
                         6. Emotional Eating...</h3>
-                    <img src="/images/p2-6.jpg" class="w-full rounded-xl">
+                    <Nuxt src="/images/p2-6.jpg" alt="p2-6.jpg-img" class="w-full rounded-xl" />
                 </div>
                 <div>
                     <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">6. Emotional Eating...</h3>
@@ -472,7 +486,8 @@
                             <p>This is <span class="extrablod italic">especially</span> true for kids.</p>
                             <p>So how to end the emotional meltdowns?</p>
                             <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Restore gut
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Restore
+                                    gut
                                     balance.</a></p>
                         </div>
 
@@ -494,7 +509,8 @@
                             <p>This is <span class="extrablod italic">especially</span> true for kids.</p>
                             <p>So how to end the emotional meltdowns?</p>
                             <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Restore gut
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Restore
+                                    gut
                                     balance.</a></p>
                         </div>
 
@@ -508,7 +524,7 @@
                     <h3
                         class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
                         7. Social Anxiety</h3>
-                    <img src="/images/p2-7.jpg" class="w-full rounded-xl">
+                    <Nuxt src="/images/p2-7.jpg" alt="p2-7.jpg-img" class="w-full rounded-xl" />
                 </div>
                 <div>
                     <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">7. Social Anxiety</h3>
@@ -532,7 +548,8 @@
                             <p>They struggle with friendships. Or feel overwhelmed in groups.</p>
                             <p>The good news?</p>
                             <p>Once <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">gut health
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">gut
+                                    health
                                     improves,</a> your kids will be <span class="extrablod">more confident and
                                     outgoing.</span></p>
                         </div>
@@ -555,7 +572,8 @@
                             <p>They struggle with friendships. Or feel overwhelmed in groups.</p>
                             <p>The good news?</p>
                             <p>Once <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">gut health
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">gut
+                                    health
                                     improves,</a> your kids will be <span class="extrablod">more confident and
                                     outgoing.</span></p>
 
@@ -571,7 +589,7 @@
                     <h3
                         class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
                         8. Emotional Setbacks</h3>
-                    <img src="/images/p2-8.jpg" class="w-full rounded-xl">
+                    <Nuxt src="/images/p2-8.jpg" alt="p2-8.jpg-img" class="w-full rounded-xl" />
                 </div>
                 <div>
                     <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">8. Emotional Setbacks</h3>
@@ -588,7 +606,8 @@
 
                             <p>Which is when kids crave junk food even more. </p>
                             <p> <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Luckily, once
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Luckily,
+                                    once
                                     nutrition improves,</a> gut health is restored. </p>
                             <p>And most kids return to their normal development path.</p>
                         </div>
@@ -604,7 +623,8 @@
 
                             <p>Which is when kids crave junk food even more. </p>
                             <p> <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Luckily, once
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Luckily,
+                                    once
                                     nutrition improves,</a> gut health is restored. </p>
                             <p>And most kids return to their normal development path.</p>
                         </div>
@@ -624,7 +644,7 @@
 
                     </div>
 
-                    <img src="/images/p1-8.jpg" class="w-full rounded-xl">
+                    <Nuxt src="/images/p1-8.jpg" alt="p1-8.jpg-img" class="w-full rounded-xl" />
                 </div>
                 <div>
                     <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">The Solution Your Family Needs
@@ -645,28 +665,51 @@
                                 worse.</p>
                             <p class="extrablod">Each YOMZ gummy contains:</p>
                             <ul class="pl-2 lg:space-y-1 space-y-1">
-                                <li class="flex gap-2 items-start"><img src="/images/ellipse.svg" class="pt-2">Delicious
-                                    fruity taste</li>
-                                <li class="flex gap-2 items-start"><img src="/images/ellipse.svg" class="pt-2">Vitamins
-                                    A, C, D, and K2 + antioxidants</li>
-                                <li class="flex gap-2 items-start"><img src="/images/ellipse.svg"
-                                        class="pt-2">Phytonutrients from real superfoods</li>
-                                <li class="flex gap-2 items-start"><img src="/images/ellipse.svg"
-                                        class="pt-2">Prebiotics to feed “good” gut bacteria</li>
-                                <li class="flex gap-2 items-start"><img src="/images/ellipse.svg"
-                                        class="pt-2">Probiotics to help improve digestion</li>
+                                <li class="flex gap-2 items-start">
+                                    <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                    Delicious fruity taste
+                                </li>
+                                <li class="flex gap-2 items-start">
+                                    <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                    Vitamins A, C, D, and K2 + antioxidants
+                                </li>
+                                <li class="flex gap-2 items-start">
+                                    <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                    Phytonutrients from real superfoods
+                                </li>
+                                <li class="flex gap-2 items-start">
+                                    <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                    Prebiotics to feed “good” gut bacteria
+                                </li>
+                                <li class="flex gap-2 items-start">
+                                    <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                    Probiotics to help improve digestion
+                                </li>
                             </ul>
                             <p>Plus, YOMZ has <span class="extrablod">5g fiber.</span> This meets FDA “excellent fiber
                                 source” standards.</p>
                             <p class="extrablod">The transformations that families are reporting:</p>
                             <ul class="pl-2 lg:space-y-1 space-y-1">
-                                <li class="flex gap-2"><img src="/images/blk-check.svg">More joy and confidence</li>
-                                <li class="flex gap-2"><img src="/images/blk-check.svg">More cooperation, fewer
-                                    meltdowns</li>
-                                <li class="flex gap-2"><img src="/images/blk-check.svg">Improved focus and attention
+                                <li class="flex gap-2">
+                                    <Nuxt src="/images/blk-check.svg" alt="blk-check.svg-img" />
+                                    More joy and confidence
                                 </li>
-                                <li class="flex gap-2"><img src="/images/blk-check.svg">Fewer colds and sniffles</li>
-                                <li class="flex gap-2"><img src="/images/blk-check.svg">Better sleep</li>
+                                <li class="flex gap-2">
+                                    <Nuxt src="/images/blk-check.svg" alt="blk-check.svg-img" />
+                                    More cooperation, fewer meltdowns
+                                </li>
+                                <li class="flex gap-2">
+                                    <Nuxt src="/images/blk-check.svg" alt="blk-check.svg-img" />
+                                    Improved focus and attention
+                                </li>
+                                <li class="flex gap-2">
+                                    <Nuxt src="/images/blk-check.svg" alt="blk-check.svg-img" />
+                                    Fewer colds and sniffles
+                                </li>
+                                <li class="flex gap-2">
+                                    <Nuxt src="/images/blk-check.svg" alt="blk-check.svg-img" />
+                                    Better sleep
+                                </li>
                             </ul>
                             <p>Kids <span class="extrablod">beg for</span> YOMZ because they taste like candy. You’ll
                                 love them because they <span class="extrablod">work.</span></p>
@@ -687,28 +730,53 @@
                                 worse.</p>
                             <p class="extrablod">Each YOMZ gummy contains:</p>
                             <ul class="pl-2 lg:space-y-1 space-y-1">
-                                <li class="flex gap-2 items-start"><img src="/images/ellipse.svg" class="pt-2">Delicious
-                                    fruity taste</li>
-                                <li class="flex gap-2 items-start"><img src="/images/ellipse.svg" class="pt-2">Vitamins
-                                    A, C, D, and K2 + antioxidants</li>
-                                <li class="flex gap-2 items-start"><img src="/images/ellipse.svg"
-                                        class="pt-2">Phytonutrients from real superfoods</li>
-                                <li class="flex gap-2 items-start"><img src="/images/ellipse.svg"
-                                        class="pt-2">Prebiotics to feed “good” gut bacteria</li>
-                                <li class="flex gap-2 items-start"><img src="/images/ellipse.svg"
-                                        class="pt-2">Probiotics to help improve digestion</li>
+                                <li class="flex gap-2 items-start">
+                                    <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                    w Delicious fruity taste
+                                </li>
+                                <li class="flex gap-2 items-start">
+                                    <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                    Vitamins A, C, D, and K2 + antioxidants
+                                </li>
+                                <li class="flex gap-2 items-start">
+                                    <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                    Phytonutrients from real superfoods
+                                </li>
+                                <li class="flex gap-2 items-start">
+                                    <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                    Prebiotics to feed “good” gut bacteria
+                                </li>
+                                <li class="flex gap-2 items-start">
+                                    <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                    Probiotics to help improve digestion
+                                </li>
                             </ul>
                             <p>Plus, YOMZ has <span class="extrablod">5g fiber.</span> This meets FDA “excellent fiber
                                 source” standards.</p>
                             <p class="extrablod">The transformations that families are reporting:</p>
                             <ul class="pl-2 lg:space-y-1 space-y-1">
-                                <li class="flex gap-2"><img src="/images/blk-check.svg">More joy and confidence</li>
-                                <li class="flex gap-2"><img src="/images/blk-check.svg">More cooperation, fewer
-                                    meltdowns</li>
-                                <li class="flex gap-2"><img src="/images/blk-check.svg">Improved focus and attention
+                                <li class="flex gap-2">
+                                    <Nuxt src="/images/blk-check.svg" alt="blk-check.svg-img" />
+                                    More joy and confidence
                                 </li>
-                                <li class="flex gap-2"><img src="/images/blk-check.svg">Fewer colds and sniffles</li>
-                                <li class="flex gap-2"><img src="/images/blk-check.svg">Better sleep</li>
+                                <li class="flex gap-2">
+                                    <Nuxt src="/images/blk-check.svg" alt="blk-check.svg-img" />
+                                    More cooperation, fewer
+                                    meltdowns
+                                </li>
+                                <li class="flex gap-2">
+                                    <Nuxt src="/images/blk-check.svg" alt="blk-check.svg-img" />
+                                    Improved focus and
+                                    attention
+                                </li>
+                                <li class="flex gap-2">
+                                    <Nuxt src="/images/blk-check.svg" alt="blk-check.svg-img" />
+                                    Fewer colds and sniffles
+                                </li>
+                                <li class="flex gap-2">
+                                    <Nuxt src="/images/blk-check.svg" alt="blk-check.svg-img" />
+                                    Better sleep
+                                </li>
                             </ul>
                             <p>Kids <span class="extrablod">beg for</span> YOMZ because they taste like candy. You’ll
                                 love them because they <span class="extrablod">work.</span></p>
@@ -741,8 +809,10 @@
                 <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-5 gap-2 items-center">
 
                     <div>
-                        <img src="/images/yomz-double-pack.jpg" class="hidden lg:block w-full lgp-3 p-1 lg:pt-3 pt-6">
-                        <img src="/images/yomz-double-pack.jpg" class="lg:hidden w-full lgp-3 p-1 lg:pt-3 pt-6">
+                        <Nuxt src="/images/yomz-double-pack.jpg" alt="yomz-double-pack.jpg-img"
+                            class="hidden lg:block w-full lgp-3 p-1 lg:pt-3 pt-6" />
+                        <Nuxt src="/images/yomz-double-pack.jpg" alt="yomz-double-pack.jpg-img"
+                            class="lg:hidden w-full lgp-3 p-1 lg:pt-3 pt-6" />
                     </div>
 
                     <div
@@ -769,7 +839,6 @@
                            TRY YOMZ TODAY
                         </button> -->
 
-
                         <p class="bg-[#F7F8EA] lg:text-lg text-sm risk">Sell Out Risk: <span
                                 class="text-[#E6193C]">HIGH</span> | Inventory:
                             <span class="text-[#E6193C]">LOW</span>
@@ -790,11 +859,11 @@
     </div>
 
     <!-- BodyContent -->
-   <div>
+    <div>
         <!-- Your footer -->
         <footer ref="footerRef" class="bg-[#1EB9F0] lg:py-7 py-3 mt-10">
             <div class="mx-auto max-w-5xl text-center">
-                <img src="/images/logo.png" class="max-w-30 mx-auto mb-4" />
+                <Nuxt src="/images/logo.png" class="max-w-30 mx-auto mb-4" />
                 <p class="text-white lg:text-lg text-sm hidden lg:block">
                     By filling out the field, you consent for YOMZ™ to use automated technology,
                     including texts and prerecorded messages, to contact you at the number and
