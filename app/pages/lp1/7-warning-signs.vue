@@ -1,7 +1,59 @@
+<script setup>
+import { ref, onMounted, onUnmounted } from 'vue'
+
+// Footer & CTA logic
+const footerRef = ref(null)
+const ctaBar = ref(null)
+const isFooterVisible = ref(false)
+const footerHeight = ref(0)
+
+// Date logic
+const formattedDate = ref('')
+
+onMounted(() => {
+    // Calculate date 5 days ago
+    const today = new Date()
+    const pastDate = new Date(today)
+    pastDate.setDate(today.getDate() - 5)
+
+    const options = { year: 'numeric', month: 'long', day: 'numeric' }
+    formattedDate.value = pastDate.toLocaleDateString('en-US', options)
+
+    // Footer observer logic
+    footerHeight.value = footerRef.value?.offsetHeight || 0
+
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach((entry) => {
+                isFooterVisible.value = entry.isIntersecting
+            })
+        },
+        { threshold: 0.1 }
+    )
+
+    if (footerRef.value) observer.observe(footerRef.value)
+
+    onUnmounted(() => {
+        if (footerRef.value) observer.unobserve(footerRef.value)
+    })
+})
+
+// meta tag details
+useHead({
+    title: '7 Warning Signs – Landing Page 1',
+    meta: [
+        { name: 'description', content: 'Discover the 7 warning signs you’re missing in your business.' },
+        { property: 'og:title', content: '7 Warning Signs' },
+        { property: 'og:description', content: 'Spot these red flags before it’s too late!' },
+        { property: 'og:image', content: '/images/lp1-preview.jpg' },
+    ],
+})
+</script>
+
 <template>
 
     <!-- Header -->
-    <Header />
+    <Header :desktopText="LANDING_1.header.desktopText" :mobileText="LANDING_1.header.mobileText" />
 
     <main>
         <!-- BodyContent -->
@@ -816,55 +868,3 @@
         </div>
     </div>
 </template>
-
-<script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
-
-// Footer & CTA logic
-const footerRef = ref(null)
-const ctaBar = ref(null)
-const isFooterVisible = ref(false)
-const footerHeight = ref(0)
-
-// Date logic
-const formattedDate = ref('')
-
-onMounted(() => {
-    // Calculate date 5 days ago
-    const today = new Date()
-    const pastDate = new Date(today)
-    pastDate.setDate(today.getDate() - 5)
-
-    const options = { year: 'numeric', month: 'long', day: 'numeric' }
-    formattedDate.value = pastDate.toLocaleDateString('en-US', options)
-
-    // Footer observer logic
-    footerHeight.value = footerRef.value?.offsetHeight || 0
-
-    const observer = new IntersectionObserver(
-        (entries) => {
-            entries.forEach((entry) => {
-                isFooterVisible.value = entry.isIntersecting
-            })
-        },
-        { threshold: 0.1 }
-    )
-
-    if (footerRef.value) observer.observe(footerRef.value)
-
-    onUnmounted(() => {
-        if (footerRef.value) observer.unobserve(footerRef.value)
-    })
-})
-
-// meta tag details
-useHead({
-    title: '7 Warning Signs – Landing Page 1',
-    meta: [
-        { name: 'description', content: 'Discover the 7 warning signs you’re missing in your business.' },
-        { property: 'og:title', content: '7 Warning Signs' },
-        { property: 'og:description', content: 'Spot these red flags before it’s too late!' },
-        { property: 'og:image', content: '/images/lp1-preview.jpg' },
-    ],
-})
-</script>

@@ -1,3 +1,16 @@
+<script setup>
+defineProps({
+    desktopText: {
+        type: String,
+        required: true,
+    },
+    mobileText: {
+        type: String,
+        required: true,
+    },
+})
+</script>
+
 <template>
     <div class="bg-black flex justify-center items-center gap-3 py-2">
         <p class="text-white extrablod lg:text-2xl text-xl">FOR SALE</p>
@@ -16,12 +29,22 @@
             </p>
         </div>
     </div>
-    <div class="bg-[#1EB9F0] py-1">
+    <!-- <div class="bg-[#1EB9F0] py-1">
         <p class="text-black text-center lg:text-xl text-lg font-bold hidden lg:block">
             TRY YOMZ TODAY AND GET UP TO 60% OFF
         </p>
         <p class="text-black text-center lg:text-xl text-lg font-bold lg:hidden">
             TRY YOMZ TODAY AND GET UP TO 60% OFF
+        </p>
+    </div> -->
+
+    <!-- Blue promo bar -->
+    <div class="bg-[#1EB9F0] py-1">
+        <p class="text-black text-center lg:text-xl text-lg font-bold hidden lg:block">
+            {{ desktopText }}
+        </p>
+        <p class="text-black text-center lg:text-xl text-lg font-bold lg:hidden">
+            {{ mobileText }}
         </p>
     </div>
 </template>

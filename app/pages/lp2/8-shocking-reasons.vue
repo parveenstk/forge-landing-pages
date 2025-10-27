@@ -1,32 +1,50 @@
+<script setup>
+import { ref, onMounted, onUnmounted } from 'vue'
+
+// Footer & CTA logic
+const footerRef = ref(null)
+const ctaBar = ref(null)
+const isFooterVisible = ref(false)
+const footerHeight = ref(0)
+
+// Date logic
+const formattedDate = ref('')
+
+onMounted(() => {
+    // Calculate date 5 days ago
+    const today = new Date()
+    const pastDate = new Date(today)
+    pastDate.setDate(today.getDate() - 5)
+
+    const options = { year: 'numeric', month: 'long', day: 'numeric' }
+    formattedDate.value = pastDate.toLocaleDateString('en-US', options)
+
+    // Footer observer logic
+    footerHeight.value = footerRef.value?.offsetHeight || 0
+
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach((entry) => {
+                isFooterVisible.value = entry.isIntersecting
+            })
+        },
+        { threshold: 0.1 }
+    )
+
+    if (footerRef.value) observer.observe(footerRef.value)
+
+    onUnmounted(() => {
+        if (footerRef.value) observer.unobserve(footerRef.value)
+    })
+})
+</script>
+
 <template>
 
-    <!-- top-header -->
-    <div class="bg-black flex justify-center items-center gap-3 py-2">
-        <p class="text-white extrablod lg:text-2xl text-xl">FOR SALE</p>
-        <div class="flex gap-2">
-            <p class="bg-white text-black text-center py-0.5 px-2 leading-0 rounded-sm">
-                <span class="block extrablod lg:text-xl text-lg leading-5 pt-1">02</span>
-                <span class="font-bold text-xs block">HRS</span>
-            </p>
-            <p class="bg-white text-black text-center py-0.5 px-2  leading-0 rounded-sm">
-                <span class="block extrablod lg:text-xl text-lg leading-5 pt-1">53</span>
-                <span class="font-bold text-xs block">MIN</span>
-            </p>
-            <p class="bg-white text-black text-center py-0.5 px-2  leading-0 rounded-sm">
-                <span class="block extrablod lg:text-xl text-lg leading-5 pt-1">41</span>
-                <span class="font-bold text-xs block">SEC</span>
-            </p>
-        </div>
-    </div>
-
-    <div class="bg-[#1EB9F0] py-1">
-        <p class="text-black text-center lg:text-xl text-lg font-bold hidden lg:block">TRY YOMZ & GET UP TO 60% OFF</p>
-        <p class="text-black text-center lg:text-xl text-lg font-bold lg:hidden">TRY YOMZ & GET UP TO 60% OFF</p>
-    </div>
-    <!-- top-header -->
+    <!-- Header -->
+    <Header :desktopText="LANDING_2.header.desktopText" :mobileText="LANDING_2.header.mobileText" />
 
     <!-- BodyContent -->
-
     <div class="max-w-4xl lg:py-6 py-4 mx-auto">
 
         <div class="lg:mx-2 mx-3 allpragra ph-fontsize">
@@ -49,15 +67,15 @@
             </div>
 
             <p class="flex items-center gap-3 extrablod mt-3">
-                <Nuxt src="/images/star.svg" alt="star.svg-img" />
+                <NuxtImg src="/images/star.svg" width="110" height="20" alt="star.svg-img" />
                 <span class="font-bold">6,782 ratings</span>
             </p>
 
             <div class="flex gap-3 items-center py-4">
-                <Nuxt src="/images/person.png" alt="person.png-img" class="rounded-full w-15" />
+                <NuxtImg src="/images/person.png" alt="person.png-img" class="rounded-full w-15" />
                 <div>
                     <span class="extrablod flex">Sabrina Marshall
-                        <Nuxt src="/images/check.png" alt="check.png-img" />
+                        <NuxtImg src="/images/check.png" width="22" height="23" alt="check.png-img" />
                     </span>
                     <span class="text-sm text-gray-600"> Last updated {{ formattedDate }}</span>
                 </div>
@@ -106,7 +124,7 @@
                     <h3
                         class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
                         1. "Hangry" Meltdowns</h3>
-                    <Nuxt src="/images/p1-3.jpg" alt="p1-3.jpg-img" class="w-full rounded-xl" />
+                    <NuxtImg src="/images/p1-3.jpg" alt="p1-3.jpg-img" class="w-full rounded-xl" />
                 </div>
                 <div>
                     <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">1. "Hangry" Meltdowns
@@ -260,10 +278,12 @@
 
                             <p>It's a <span class="extrablod">perfect storm</span> of gut problems, sleep problems, and
                                 behavior problems.</p>
-                            <p>Better nutrition <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                            <p>Better nutrition
+                                <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
                                     class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">makes
                                     all the
-                                    difference.</a></p>
+                                    difference.</a>
+                            </p>
                         </div>
 
                         <div class="lg:hidden lg:space-y-4 space-y-2">
@@ -287,24 +307,23 @@
 
                             <p>It's a <span class="extrablod">perfect storm</span> of gut problems, sleep problems, and
                                 behavior problems.</p>
-                            <p>Better nutrition <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">makes
-                                    all the
-                                    difference.</a></p>
-
+                            <p>Better nutrition
+                                <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">
+                                    makes all the difference.
+                                </a>
+                            </p>
                         </div>
-
                     </div>
                 </div>
             </div>
             <!-- Column data 4 -->
-
             <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
                 <div>
                     <h3
                         class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
                         4. Anxiety, Not "Defiance"</h3>
-                    <Nuxt src="/images/p2-3.jpg" alt="p2-3.jpg-mg" class="w-full rounded-xl" />
+                    <NuxtImg src="/images/p2-3.jpg" alt="p2-3.jpg-mg" class="w-full rounded-xl" />
                 </div>
                 <div>
                     <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">4. Anxiety, Not "Defiance"</h3>
@@ -325,16 +344,19 @@
                                 cycle.</span></p>
                         <ul class="pl-2 lg:space-y-1 space-y-1">
                             <li class="flex gap-2 items-start">
-                                <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                <NuxtImg src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
+                                    class="pt-2" />
                                 Anxiety leads to pickiness
                             </li>
                             <li class="flex gap-2 items-start">
-                                <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                <NuxtImg src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
+                                    class="pt-2" />
                                 Picky eating hurts gut health
                             </li>
                             <li class="flex gap-2 items-start">
-                                <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />Poor gut
-                                health amps up anxiety
+                                <NuxtImg src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
+                                    class="pt-2" />
+                                Poor gut health amps up anxiety
                             </li>
                         </ul>
 
@@ -362,15 +384,15 @@
                                 cycle.</span></p>
                         <ul class="pl-2 lg:space-y-1 space-y-1">
                             <li class="flex gap-2 items-start">
-                                <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                <NuxtImg src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
                                 Anxiety leads to pickiness
                             </li>
                             <li class="flex gap-2 items-start">
-                                <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                <NuxtImg src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
                                 Picky eating hurts gut health
                             </li>
                             <li class="flex gap-2 items-start">
-                                <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                <NuxtImg src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
                                 Poor gut health amps up anxiety
                             </li>
                         </ul>
@@ -392,7 +414,7 @@
                     <h3
                         class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
                         5. It's Not ADHD</h3>
-                    <Nuxt src="/images/p2-4.jpg" alt="p2-4.jpg-img" class="w-full rounded-xl" />
+                    <NuxtImg src="/images/p2-4.jpg" alt="p2-4.jpg-img" class="w-full rounded-xl" />
                 </div>
                 <div>
                     <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">5. It's Not ADHD</h3>
@@ -463,7 +485,7 @@
                     <h3
                         class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
                         6. Emotional Eating...</h3>
-                    <Nuxt src="/images/p2-6.jpg" alt="p2-6.jpg-img" class="w-full rounded-xl" />
+                    <NuxtImg src="/images/p2-6.jpg" alt="p2-6.jpg-img" class="w-full rounded-xl" />
                 </div>
                 <div>
                     <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">6. Emotional Eating...</h3>
@@ -524,7 +546,7 @@
                     <h3
                         class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
                         7. Social Anxiety</h3>
-                    <Nuxt src="/images/p2-7.jpg" alt="p2-7.jpg-img" class="w-full rounded-xl" />
+                    <NuxtImg src="/images/p2-7.jpg" alt="p2-7.jpg-img" class="w-full rounded-xl" />
                 </div>
                 <div>
                     <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">7. Social Anxiety</h3>
@@ -589,7 +611,7 @@
                     <h3
                         class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
                         8. Emotional Setbacks</h3>
-                    <Nuxt src="/images/p2-8.jpg" alt="p2-8.jpg-img" class="w-full rounded-xl" />
+                    <NuxtImg src="/images/p2-8.jpg" alt="p2-8.jpg-img" class="w-full rounded-xl" />
                 </div>
                 <div>
                     <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">8. Emotional Setbacks</h3>
@@ -644,7 +666,7 @@
 
                     </div>
 
-                    <Nuxt src="/images/p1-8.jpg" alt="p1-8.jpg-img" class="w-full rounded-xl" />
+                    <NuxtImg src="/images/p1-8.jpg" alt="p1-8.jpg-img" class="w-full rounded-xl" />
                 </div>
                 <div>
                     <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">The Solution Your Family Needs
@@ -666,23 +688,23 @@
                             <p class="extrablod">Each YOMZ gummy contains:</p>
                             <ul class="pl-2 lg:space-y-1 space-y-1">
                                 <li class="flex gap-2 items-start">
-                                    <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                    <NuxtImg src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
                                     Delicious fruity taste
                                 </li>
                                 <li class="flex gap-2 items-start">
-                                    <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                    <NuxtImg src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
                                     Vitamins A, C, D, and K2 + antioxidants
                                 </li>
                                 <li class="flex gap-2 items-start">
-                                    <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                    <NuxtImg src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
                                     Phytonutrients from real superfoods
                                 </li>
                                 <li class="flex gap-2 items-start">
-                                    <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                    <NuxtImg src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
                                     Prebiotics to feed “good” gut bacteria
                                 </li>
                                 <li class="flex gap-2 items-start">
-                                    <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                    <NuxtImg src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
                                     Probiotics to help improve digestion
                                 </li>
                             </ul>
@@ -691,23 +713,28 @@
                             <p class="extrablod">The transformations that families are reporting:</p>
                             <ul class="pl-2 lg:space-y-1 space-y-1">
                                 <li class="flex gap-2">
-                                    <Nuxt src="/images/blk-check.svg" alt="blk-check.svg-img" />
+                                    <NuxtImg src="/images/blk-check.svg" width="20" height="24"
+                                        alt="blk-check.svg-img" />
                                     More joy and confidence
                                 </li>
                                 <li class="flex gap-2">
-                                    <Nuxt src="/images/blk-check.svg" alt="blk-check.svg-img" />
+                                    <NuxtImg src="/images/blk-check.svg" width="20" height="24"
+                                        alt="blk-check.svg-img" />
                                     More cooperation, fewer meltdowns
                                 </li>
                                 <li class="flex gap-2">
-                                    <Nuxt src="/images/blk-check.svg" alt="blk-check.svg-img" />
+                                    <NuxtImg src="/images/blk-check.svg" width="20" height="24"
+                                        alt="blk-check.svg-img" />
                                     Improved focus and attention
                                 </li>
                                 <li class="flex gap-2">
-                                    <Nuxt src="/images/blk-check.svg" alt="blk-check.svg-img" />
+                                    <NuxtImg src="/images/blk-check.svg" width="20" height="24"
+                                        alt="blk-check.svg-img" />
                                     Fewer colds and sniffles
                                 </li>
                                 <li class="flex gap-2">
-                                    <Nuxt src="/images/blk-check.svg" alt="blk-check.svg-img" />
+                                    <NuxtImg src="/images/blk-check.svg" width="20" height="24"
+                                        alt="blk-check.svg-img" />
                                     Better sleep
                                 </li>
                             </ul>
@@ -731,23 +758,28 @@
                             <p class="extrablod">Each YOMZ gummy contains:</p>
                             <ul class="pl-2 lg:space-y-1 space-y-1">
                                 <li class="flex gap-2 items-start">
-                                    <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
-                                    w Delicious fruity taste
+                                    <NuxtImg src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
+                                        class="pt-2" />
+                                    Delicious fruity taste
                                 </li>
                                 <li class="flex gap-2 items-start">
-                                    <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                    <NuxtImg src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
+                                        class="pt-2" />
                                     Vitamins A, C, D, and K2 + antioxidants
                                 </li>
                                 <li class="flex gap-2 items-start">
-                                    <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                    <NuxtImg src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
+                                        class="pt-2" />
                                     Phytonutrients from real superfoods
                                 </li>
                                 <li class="flex gap-2 items-start">
-                                    <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                    <NuxtImg src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
+                                        class="pt-2" />
                                     Prebiotics to feed “good” gut bacteria
                                 </li>
                                 <li class="flex gap-2 items-start">
-                                    <Nuxt src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                    <NuxtImg src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
+                                        class="pt-2" />
                                     Probiotics to help improve digestion
                                 </li>
                             </ul>
@@ -756,25 +788,30 @@
                             <p class="extrablod">The transformations that families are reporting:</p>
                             <ul class="pl-2 lg:space-y-1 space-y-1">
                                 <li class="flex gap-2">
-                                    <Nuxt src="/images/blk-check.svg" alt="blk-check.svg-img" />
+                                    <NuxtImg src="/images/blk-check.svg" width="20" height="24"
+                                        alt="blk-check.svg-img" />
                                     More joy and confidence
                                 </li>
                                 <li class="flex gap-2">
-                                    <Nuxt src="/images/blk-check.svg" alt="blk-check.svg-img" />
+                                    <NuxtImg src="/images/blk-check.svg" width="20" height="24"
+                                        alt="blk-check.svg-img" />
                                     More cooperation, fewer
                                     meltdowns
                                 </li>
                                 <li class="flex gap-2">
-                                    <Nuxt src="/images/blk-check.svg" alt="blk-check.svg-img" />
+                                    <NuxtImg src="/images/blk-check.svg" width="20" height="24"
+                                        alt="blk-check.svg-img" />
                                     Improved focus and
                                     attention
                                 </li>
                                 <li class="flex gap-2">
-                                    <Nuxt src="/images/blk-check.svg" alt="blk-check.svg-img" />
+                                    <NuxtImg src="/images/blk-check.svg" width="20" height="24"
+                                        alt="blk-check.svg-img" />
                                     Fewer colds and sniffles
                                 </li>
                                 <li class="flex gap-2">
-                                    <Nuxt src="/images/blk-check.svg" alt="blk-check.svg-img" />
+                                    <NuxtImg src="/images/blk-check.svg" width="20" height="24"
+                                        alt="blk-check.svg-img" />
                                     Better sleep
                                 </li>
                             </ul>
@@ -787,14 +824,6 @@
             </div>
 
             <div class="border-1 lg:border-[#1EB9F0] border-[#fff] rounded-xl lg:p-5 p-0 lg:mt-20 mt-15 relative">
-                <!-- <a href="https://yomz-checkout-2.vercel.app/"
-                    class="hidden lg:block bg-[#FFEB00] absolute -top-5 left-1/2 -translate-x-1/2 py-1 lg:px-30 px-10 font-bold lg:text-lg text-base rounded-b-lg">
-                    TRY NOW
-                </a> -->
-                <!-- <a href="https://yomz-checkout-2.vercel.app/"
-                    class="bg-[#0AA03C] text-white absolute -top-5 py-2 flex justify-center w-full h-full extrablod uppercase lg:text-xl text-3xl text-center lg:hidden rounded-full">
-                    Try YOMZ Today
-                </a> -->
                 <div class="px-6">
                     <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
                         class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-3xl">
@@ -809,9 +838,9 @@
                 <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-5 gap-2 items-center">
 
                     <div>
-                        <Nuxt src="/images/yomz-double-pack.jpg" alt="yomz-double-pack.jpg-img"
+                        <NuxtImg src="/images/yomz-double-pack.jpg" alt="yomz-double-pack.jpg-img"
                             class="hidden lg:block w-full lgp-3 p-1 lg:pt-3 pt-6" />
-                        <Nuxt src="/images/yomz-double-pack.jpg" alt="yomz-double-pack.jpg-img"
+                        <NuxtImg src="/images/yomz-double-pack.jpg" alt="yomz-double-pack.jpg-img"
                             class="lg:hidden w-full lgp-3 p-1 lg:pt-3 pt-6" />
                     </div>
 
@@ -821,11 +850,6 @@
                             family's gut-brain connection?</h4>
                         <p>Join thousands of smart moms who've discovered the secret to better behavior. It's better
                             nutrition that supports a healthy gut-brain-mood connection.</p>
-
-                        <!-- <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                            class="lg:flex justify-center w-full h-full bg-black hidden rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-lg">
-                            Try YOMZ Risk-Free
-                        </a> -->
                         <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
                             class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-3xl">
                             TRY YOMZ TODAY
@@ -834,10 +858,6 @@
                             class="lg:flex justify-center w-full h-full bg-[#0AA03C] hidden rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-3xl">
                             TRY YOMZ TODAY
                         </a>
-                        <!-- <button type="button"
-                            class="bg-[#0AA03C] lg:hidden  w-full rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-3xl">
-                           TRY YOMZ TODAY
-                        </button> -->
 
                         <p class="bg-[#F7F8EA] lg:text-lg text-sm risk">Sell Out Risk: <span
                                 class="text-[#E6193C]">HIGH</span> | Inventory:
@@ -863,7 +883,7 @@
         <!-- Your footer -->
         <footer ref="footerRef" class="bg-[#1EB9F0] lg:py-7 py-3 mt-10">
             <div class="mx-auto max-w-5xl text-center">
-                <Nuxt src="/images/logo.png" class="max-w-30 mx-auto mb-4" />
+                <NuxtImg src="/images/logo.png" class="max-w-30 mx-auto mb-4" />
                 <p class="text-white lg:text-lg text-sm hidden lg:block">
                     By filling out the field, you consent for YOMZ™ to use automated technology,
                     including texts and prerecorded messages, to contact you at the number and
@@ -888,43 +908,3 @@
         </div>
     </div>
 </template>
-<script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
-
-// Footer & CTA logic
-const footerRef = ref(null)
-const ctaBar = ref(null)
-const isFooterVisible = ref(false)
-const footerHeight = ref(0)
-
-// Date logic
-const formattedDate = ref('')
-
-onMounted(() => {
-    // Calculate date 5 days ago
-    const today = new Date()
-    const pastDate = new Date(today)
-    pastDate.setDate(today.getDate() - 5)
-
-    const options = { year: 'numeric', month: 'long', day: 'numeric' }
-    formattedDate.value = pastDate.toLocaleDateString('en-US', options)
-
-    // Footer observer logic
-    footerHeight.value = footerRef.value?.offsetHeight || 0
-
-    const observer = new IntersectionObserver(
-        (entries) => {
-            entries.forEach((entry) => {
-                isFooterVisible.value = entry.isIntersecting
-            })
-        },
-        { threshold: 0.1 }
-    )
-
-    if (footerRef.value) observer.observe(footerRef.value)
-
-    onUnmounted(() => {
-        if (footerRef.value) observer.unobserve(footerRef.value)
-    })
-})
-</script>
