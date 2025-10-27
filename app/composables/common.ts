@@ -60,3 +60,25 @@ export const healthFacts = [
     "An estimated 56% of preschool-aged kids have at least one micronutrient deficiency",
     "Even children who appear healthy and well-fed suffer inside"
 ];
+
+export const verifiedCustomers = {
+    customer1: {
+        name: "Sarah",
+        reviewText: 'Within a week, Emma was sleeping better," Sarah shares. "After two weeks, her afternoon meltdowns disappeared. Her teacher even commented on how much better she was focusing in class.',
+    },
+
+    customer2: {
+        name: "Michelle K.",
+        reviewText: "My daughter actually asks for her YOMZ every morning. She thinks it's candy, but I know she's getting real nutrition.",
+    },
+
+    customer3: {
+        name: "Denise R.",
+        reviewText: "For the first time in years, we went through cold and flu season without anyone getting sick.",
+    },
+
+    customer4: {
+        name: "Jennifer M.",
+        reviewText: "The difference in my son's school performance and focus is incredible. He's more active, happier, and way less cranky.",
+    }
+};
