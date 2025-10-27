@@ -37,6 +37,17 @@ onMounted(() => {
         if (footerRef.value) observer.unobserve(footerRef.value)
     })
 })
+
+// meta tag details
+useHead({
+    title: LANDING_2.meta.title,
+    meta: [
+        { name: 'description', content: LANDING_2.meta.description },
+        { property: 'og:title', content: LANDING_2.meta.title },
+        { property: 'og:description', content: LANDING_2.meta.description },
+        { property: 'og:image', content: LANDING_2.meta.ogImage },
+    ],
+})
 </script>
 
 <template>

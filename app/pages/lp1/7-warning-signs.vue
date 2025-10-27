@@ -40,12 +40,12 @@ onMounted(() => {
 
 // meta tag details
 useHead({
-    title: '7 Warning Signs – Landing Page 1',
+    title: LANDING_1.meta.title,
     meta: [
-        { name: 'description', content: 'Discover the 7 warning signs you’re missing in your business.' },
-        { property: 'og:title', content: '7 Warning Signs' },
-        { property: 'og:description', content: 'Spot these red flags before it’s too late!' },
-        { property: 'og:image', content: '/images/lp1-preview.jpg' },
+        { name: 'description', content: LANDING_1.meta.description },
+        { property: 'og:title', content: LANDING_1.meta.title },
+        { property: 'og:description', content: LANDING_1.meta.description },
+        { property: 'og:image', content: LANDING_1.meta.ogImage },
     ],
 })
 </script>
