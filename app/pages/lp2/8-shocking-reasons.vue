@@ -53,7 +53,8 @@ useHead({
 <template>
 
     <!-- Header -->
-    <Header :desktopText="LANDING_2.header.desktopText" :mobileText="LANDING_2.header.mobileText" />
+    <Header :desktopText="LANDING_2.header.desktopText" :mobileText="LANDING_2.header.mobileText"
+        :pageName="LANDING_2.header.pageName" />
 
     <!-- BodyContent -->
     <main>

@@ -428,11 +428,11 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
 
                 <div class="rw lg:space-y-4 space-y-2 bg-[#F0F0F0] lg:p-6 p-4  mb-5">
                     <div class="flex gap-1">
-                        <img src="/images/yl-star.svg" class="h-4">
-                        <img src="/images/yl-star.svg" class="h-4">
-                        <img src="/images/yl-star.svg" class="h-4">
-                        <img src="/images/yl-star.svg" class="h-4">
-                        <img src="/images/yl-star.svg" class="h-4">
+                        <img src="/images/yellow-star.svg" class="h-4">
+                        <img src="/images/yellow-star.svg" class="h-4">
+                        <img src="/images/yellow-star.svg" class="h-4">
+                        <img src="/images/yellow-star.svg" class="h-4">
+                        <img src="/images/yellow-star.svg" class="h-4">
                     </div>
                     <p class="font-bold">"Within a week, Emma was sleeping better," Sarah shares. "After two weeks, her
                         afternoon
@@ -448,11 +448,11 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
 
                 <div class="rw lg:space-y-4 space-y-2 bg-[#F0F0F0] lg:p-6 p-4 mb-5">
                     <div class="flex gap-1">
-                        <img src="/images/yl-star.svg" class="h-4">
-                        <img src="/images/yl-star.svg" class="h-4">
-                        <img src="/images/yl-star.svg" class="h-4">
-                        <img src="/images/yl-star.svg" class="h-4">
-                        <img src="/images/yl-star.svg" class="h-4">
+                        <img src="/images/yellow-star.svg" class="h-4">
+                        <img src="/images/yellow-star.svg" class="h-4">
+                        <img src="/images/yellow-star.svg" class="h-4">
+                        <img src="/images/yellow-star.svg" class="h-4">
+                        <img src="/images/yellow-star.svg" class="h-4">
                     </div>
                     <p class="font-bold">"My daughter actually asks for her YOMZ every morning. She thinks it's candy,
                         but I know she's getting real nutrition."
@@ -464,11 +464,11 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
 
                 <div class="rw lg:space-y-4 space-y-2 bg-[#F0F0F0] lg:p-6 p-4 mb-5">
                     <div class="flex gap-1">
-                        <img src="/images/yl-star.svg" class="h-4">
-                        <img src="/images/yl-star.svg" class="h-4">
-                        <img src="/images/yl-star.svg" class="h-4">
-                        <img src="/images/yl-star.svg" class="h-4">
-                        <img src="/images/yl-star.svg" class="h-4">
+                        <img src="/images/yellow-star.svg" class="h-4">
+                        <img src="/images/yellow-star.svg" class="h-4">
+                        <img src="/images/yellow-star.svg" class="h-4">
+                        <img src="/images/yellow-star.svg" class="h-4">
+                        <img src="/images/yellow-star.svg" class="h-4">
                     </div>
                     <p class="font-bold">"For the first time in years, we went through cold and flu season without
                         anyone getting sick."
@@ -480,11 +480,11 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
 
                 <div class="rw lg:space-y-4 space-y-2 bg-[#F0F0F0] lg:p-6 p-4 mb-5">
                     <div class="flex gap-1">
-                        <img src="/images/yl-star.svg" class="h-4">
-                        <img src="/images/yl-star.svg" class="h-4">
-                        <img src="/images/yl-star.svg" class="h-4">
-                        <img src="/images/yl-star.svg" class="h-4">
-                        <img src="/images/yl-star.svg" class="h-4">
+                        <img src="/images/yellow-star.svg" class="h-4">
+                        <img src="/images/yellow-star.svg" class="h-4">
+                        <img src="/images/yellow-star.svg" class="h-4">
+                        <img src="/images/yellow-star.svg" class="h-4">
+                        <img src="/images/yellow-star.svg" class="h-4">
                     </div>
                     <p class="font-bold">"The difference in my son's school performance and focus is incredible. He's
                         more active, happier, and way less cranky."
@@ -785,11 +785,11 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                         <p class="text-lg font-bold mb-2 extrablod">Customer Reviews</p>
 
                         <p class="flex gap-1 mb-2"><span class="flex">
-                                <img src="/images/yl-star.svg" class="h-5">
-                                <img src="/images/yl-star.svg" class="h-5">
-                                <img src="/images/yl-star.svg" class="h-5">
-                                <img src="/images/yl-star.svg" class="h-5">
-                                <img src="/images/yl-star.svg" class="h-5">
+                                <img src="/images/yellow-star.svg" class="h-5">
+                                <img src="/images/yellow-star.svg" class="h-5">
+                                <img src="/images/yellow-star.svg" class="h-5">
+                                <img src="/images/yellow-star.svg" class="h-5">
+                                <img src="/images/yellow-star.svg" class="h-5">
                             </span> 4.8 out of 5</p>
 
                         <p class="mb-2">6,782 customer ratings</p>
@@ -844,35 +844,35 @@ const formattedDate = ref(today.toLocaleDateString('en-US', options))
                         <p class="text-lg extrablod mb-2 mt-4">By Feature</p>
 
                         <p class="flex justify-between items-center">Results <span class="flex items-center gap-0">
-                                <img src="/images/yl-star.svg" class="h-4">
-                                <img src="/images/yl-star.svg" class="h-4">
-                                <img src="/images/yl-star.svg" class="h-4">
-                                <img src="/images/yl-star.svg" class="h-4">
-                                <img src="/images/yl-star.svg" class="h-4 mr-1">
+                                <img src="/images/yellow-star.svg" class="h-4">
+                                <img src="/images/yellow-star.svg" class="h-4">
+                                <img src="/images/yellow-star.svg" class="h-4">
+                                <img src="/images/yellow-star.svg" class="h-4">
+                                <img src="/images/yellow-star.svg" class="h-4 mr-1">
                                 4.9</span></p>
 
                         <p class="flex justify-between items-center">Quality <span class="flex items-center gap-0">
-                                <img src="/images/yl-star.svg" class="h-4">
-                                <img src="/images/yl-star.svg" class="h-4">
-                                <img src="/images/yl-star.svg" class="h-4">
-                                <img src="/images/yl-star.svg" class="h-4">
-                                <img src="/images/yl-star.svg" class="h-4 mr-1">
+                                <img src="/images/yellow-star.svg" class="h-4">
+                                <img src="/images/yellow-star.svg" class="h-4">
+                                <img src="/images/yellow-star.svg" class="h-4">
+                                <img src="/images/yellow-star.svg" class="h-4">
+                                <img src="/images/yellow-star.svg" class="h-4 mr-1">
                                 4.8</span></p>
 
                         <p class="flex justify-between items-center">Safety <span class="flex items-center gap-0">
-                                <img src="/images/yl-star.svg" class="h-4">
-                                <img src="/images/yl-star.svg" class="h-4">
-                                <img src="/images/yl-star.svg" class="h-4">
-                                <img src="/images/yl-star.svg" class="h-4">
-                                <img src="/images/yl-star.svg" class="h-4 mr-1">
+                                <img src="/images/yellow-star.svg" class="h-4">
+                                <img src="/images/yellow-star.svg" class="h-4">
+                                <img src="/images/yellow-star.svg" class="h-4">
+                                <img src="/images/yellow-star.svg" class="h-4">
+                                <img src="/images/yellow-star.svg" class="h-4 mr-1">
                                 4.8</span></p>
 
                         <p class="flex justify-between items-center">Value <span class="flex items-center gap-0">
-                                <img src="/images/yl-star.svg" class="h-4">
-                                <img src="/images/yl-star.svg" class="h-4">
-                                <img src="/images/yl-star.svg" class="h-4">
-                                <img src="/images/yl-star.svg" class="h-4">
-                                <img src="/images/yl-star.svg" class="h-4 mr-1">
+                                <img src="/images/yellow-star.svg" class="h-4">
+                                <img src="/images/yellow-star.svg" class="h-4">
+                                <img src="/images/yellow-star.svg" class="h-4">
+                                <img src="/images/yellow-star.svg" class="h-4">
+                                <img src="/images/yellow-star.svg" class="h-4 mr-1">
                                 4.9</span></p>
 
                     </div>
