@@ -678,13 +678,13 @@ useHead({
                             Typical
                             Gummy.</h3>
 
-                        <p><span class="extrablod">YOMZ was co-founded</span> by social media superstar Nastya, of
-                            YouTube’s
-                            biggest kid series <i>Like Nastya.</i></p>
+                        <p><span class="extrablod">YOMZ Gummies are made by family supplement brand Yumzy.</span></p>
+                        <p>The brand was co-founded by social media superstar Nastya, of YouTube’s biggest kid series
+                            <i>Like Nastya.</i></p>
                         <p>When Nastya heard about Hidden Hunger, she was concerned.</p>
                         <p>Many of her nearly <span class="extrablod">400 million followers</span> might be suffering.
                         </p>
-                        <p>So with the help of nutrition expert Dr. Pam, Nastya helped create YOMZ.</p>
+                        <p>So with the help of nutrition expert Dr. Pam, Nastya helped create YOMZ Gummies.</p>
                         <p>It’s not candy. <i>But it tastes like it.</i></p>
                         <p>Even with all its <span class="extrablod">vitamins, antioxidants, micronutrients, and 5g of
                                 fiber…</span></p>
@@ -709,14 +709,13 @@ useHead({
                         </ul>
                         <p>All <span class="italic underline">without</span> artificial dyes, flavors, or other harmful
                             junk.</p>
-                        <p>YOMZ was co-developed by YouTube star Nastya (whose 380+ million young fans know about
-                            sweets).</p>
+                        <!-- <p>YOMZ was co-developed by YouTube star Nastya (whose 380+ million young fans know about
+                            sweets).</p> -->
                         <p>Backed by Dr. Pam, Nastya helped create YOMZ with this mission:</p>
                         <p class="extrablod">End Hidden Hunger for 100 million people.</p>
                         <p>And with your help, I bet they will.</p>
-                        <p>Especially since a portion of each order goes directly toward helping kids and families in
-                            need...</p>
-                        <p>Fight Hidden Hunger.</p>
+                        <p>Especially since a portion of each order goes directly toward... </p>
+                        <p>Helping fight Hidden Hunger for kids and families in need...</p>
                         <p class="italic underline">The results speak for themselves:</p>
                         <ul class="pl-2 lg:space-y-4 space-y-2 extrablod">
                             <li class="flex gap-2 items-start md:items-center">
@@ -747,9 +746,10 @@ useHead({
                             </li>
 
                         </ul>
-                        <p>Plus, YOMZ is backed by their famous <a href="https://yomz-checkout-2.vercel.app/"
-                                target="_blank" class="text-blue-600 hover:text-red-500 extrablod"
-                                style="font-weight:600;">90-Day Picky Momz 200% Happiness Guarantee.</a></p>
+                        <p>Plus, your order of YOMZ Gummies is backed by Yumzy's famous <a
+                                href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">90-Day
+                                Picky Momz 200% Happiness Guarantee.</a></p>
 
                         <p>Yes, there's no risk for you.</p>
                         <p>If your child doesn't love them ...</p>

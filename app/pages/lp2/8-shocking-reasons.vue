@@ -719,7 +719,7 @@ useHead({
                                 <p>First of all, it's <span class="extrablod">not you...</span></p>
                                 <p>Second, there's a fun, delicious solution.</p>
                                 <p class="extrablod">It's called YOMZ.</p>
-                                <p>They're not your typical gummies. </p>
+                                <p>They're made by <span class="extrablod">family supplement brand Yumzy.</span> And they're not your typical gummies.</p>
                                 <p>They taste like candy. Yet they're packed with vital nutrients from <span
                                         class="extrablod">18 superfoods.</span></p>
                                 <p>In fact, each serving is the phytonutritional equal of <span class="extrablod">2
@@ -792,7 +792,7 @@ useHead({
                                 <p>First of all, it's <span class="extrablod">not you...</span></p>
                                 <p>Second, there's a fun, delicious solution.</p>
                                 <p class="extrablod">It's called YOMZ.</p>
-                                <p>They're not your typical gummies. </p>
+                                <p>They're made by <span class="extrablod">family supplement brand Yumzy.</span> And they're not your typical gummies.</p>
                                 <p>They taste like candy. Yet they're packed with vital nutrients from <span
                                         class="extrablod">18 superfoods.</span></p>
                                 <p>In fact, each serving is the phytonutritional equal of <span class="extrablod">2

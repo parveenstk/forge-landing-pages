@@ -259,11 +259,11 @@ useHead({
                             Hidden
                             Hunger,
                             Dr. Pam took action.</p>
-                        <p>of families struggle with Hidden Hunger, Dr. Pam took action. <span class="extrablod">Nothing
-                                worked.</span></p>
+                        <p>She tried a variety of supplements. And recommended her patients take various others. </p>
+                        <p> <span class="extrablod">Almost nothing worked.</span></p>
                         <p>Or if something <span class="extrablod italic underline">did</span> work,
                             patients stopped
-                            <span class="extrablod">because they hated it.</span>
+                            <span class="extrablod">because they hated the taste.</span>
                         </p>
                         <p>Eventually, it got to Dr. Pam. She started <span class="extrablod">questioning
                                 herself.
@@ -283,8 +283,8 @@ useHead({
                             she had to do
                             something to help.</p>
                         <p>"Some of the <i>Like Nastya</i> family might be suffering," she realized.</p>
-                        <p>So Nastya co-founded <span class="extrablod">YOMZ.</span></p>
-                        <p>It's a <span class="extrablod">mouthwatering gummy backed by science</span> to
+                        <p>So Nastya co-founded <span class="extrablod">Yumzy, the family supplement brand</span> that makes YOMZ.</p>
+                        <p>YOMZ is <span class="extrablod">mouthwatering gummy backed by science</span> to
                             fill the
                             nutrition
                             gaps facing millions of Americans every day.</p>
@@ -442,7 +442,7 @@ useHead({
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p>YOMZ wasn't created to solve just <i><u>one</u></i> family's problems.
                         </p>
-                        <p>Their mission is to <span class="extrablod"> end Hidden Hunger for 100
+                        <p>Yumzy's mission is to <span class="extrablod"> end Hidden Hunger for 100
                                 million people</span>.
                         </p>
 
@@ -491,9 +491,7 @@ useHead({
                     <h3 class="lg:text-4xl text-3xl extrablod mt-8">Taking Action</h3>
                     <NuxtImg src="/images/fl-9.jpg" class="w-full py-6" alt="fl-9.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
-                        <p>To discover more about YOMZ and Hidden Hunger, <span class="extrablod">visit the YOMZ
-                                official
-                                website</span> </p>
+                        <p>To discover more about YOMZ and Hidden Hunger, visit the <span class="extrablod">Yumzy official website.</span> </p>
                         <p>You'll find more information and take advantage of <span class="underline italic">current
                                 promotional offers.</span> </p>
                         <p><span class="extrablod">YOMZ is backed by</span> scientific research,
