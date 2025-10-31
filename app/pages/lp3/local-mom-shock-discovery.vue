@@ -283,12 +283,9 @@ useHead({
                             she had to do
                             something to help.</p>
                         <p>"Some of the <i>Like Nastya</i> family might be suffering," she realized.</p>
-                        <p>So Nastya co-founded <span class="extrablod">Yumzy, the family supplement brand</span> that makes YOMZ.</p>
-                        <p>YOMZ is <span class="extrablod">mouthwatering gummy backed by science</span> to
-                            fill the
-                            nutrition
-                            gaps facing millions of Americans every day.</p>
-                        <p>Then Nastya partnered with Dr. Pam as the YOMZ medical advisor.</p>
+                        <p>So Nastya co-founded a <span class="extrablod">family supplement brand called Yumzy.</span></p>
+                        <p>Yumzy is the maker of <a href="https://yomz-checkout-2.vercel.app/" target="_blank" class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">YOMZ, a mouthwatering gummy backed by science</a> to fill the nutrition gaps facing millions of Americans every day.</p>
+                        <p>Then Nastya partnered with Dr. Pam, who is the medical advisor of this breakthrough family-focused gummy.</p>
                         <p>Dr. Pam explains. "First, it had to <span class="extrablod">taste amazing</span>
                             - like a
                             treat
@@ -428,9 +425,7 @@ useHead({
                                 her</span>
                             what her body needs to grow and thrive."</p>
                         <p>"There's no risk to try these, either. </p>
-                        <p>"That’s because YOMZ comes with a <span class="extrablod">90-Day Picky Momz
-                                200% Happiness
-                                Guarantee.</span>"</p>
+                        <p>"That’s because YOMZ comes with Yumzy's famous  <span class="extrablod">90-Day Picky Momz 200% Happiness Guarantee.</span>"</p>
                         <p>That's right. In 90 days...</p>
 
                         <p>If you don’t see improvements in your family's health... </p>
@@ -464,7 +459,8 @@ useHead({
                         <p>If you’re struggling with picky eaters or constant illness... </p>
                         <p>If behavior troubles dominate your every day... </p>
                         <p>Or if you simply worry daily about your family's nutrition...</p>
-                        <p class="extrablod">YOMZ offers hope.</p>
+                        <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">YOMZ offers hope.</a></p>
                         <p>"You're dealing with a system that makes it difficult to nourish your
                             child.</p>
                         <p>"YOMZ is a tool to <span class="extrablod">help you succeed</span>
@@ -492,8 +488,8 @@ useHead({
                     <NuxtImg src="/images/fl-9.jpg" class="w-full py-6" alt="fl-9.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p>To discover more about YOMZ and Hidden Hunger, visit the <span class="extrablod">Yumzy official website.</span> </p>
-                        <p>You'll find more information and take advantage of <span class="underline italic">current
-                                promotional offers.</span> </p>
+                        <p>You'll find more information and take advantage of <a href="https://yomz-checkout-2.vercel.app/" target="_blank" class="underline italic">current
+                                promotional offers.</a> </p>
                         <p><span class="extrablod">YOMZ is backed by</span> scientific research,
                             expert development, and
                             kids' approval. </p>
