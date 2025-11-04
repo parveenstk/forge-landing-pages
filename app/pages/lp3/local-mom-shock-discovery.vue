@@ -544,8 +544,8 @@ useHead({
                         Try YOMZ Risk-Free
                     </a> -->
                         <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                            class="flex justify-center w-full h-full bg-[#0AA03C] rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-3xl">
-                            TRY YOMZ Risk-Free
+                            class="flex justify-center w-full h-full bg-[#0AA03C] rounded-full  extrablod text-white capitalize p-3 lg:text-xl text-3xl">
+                            Try Yumzy Risk-Free
                         </a>
                         <!-- <a href="https://yomz-checkout-2.vercel.app/"
                         class="flex text-center justify-center w-full h-full bg-[#0AA03C] hidden lg:block rounded-full extrablod text-white uppercase p-3 lg:text-xl text-3xl">
@@ -662,6 +662,9 @@ useHead({
         </div>
     </main>
 
+
+<!-- BodyContent -->
+    <!-- <div> -->
     <!-- Footer -->
     <footer class="bg-[#1EB9F0] lg:py-7 py-3">
         <div class="mx-auto max-w-5xl text-center">
@@ -672,5 +675,15 @@ useHead({
                 email provided about YOMZ™ offers. </p>
         </div>
     </footer>
+    <!-- Fixed CTA Button -->
+        <!-- <div ref="ctaBar"
+            :class="['flex items-center justify-center lg:hidden transition-all duration-300 z-50', isFooterVisible ? 'absolute' : 'fixed']"
+            :style="{ bottom: isFooterVisible ? `${footerHeight}px` : '1rem', left: 0, right: 0 }">
+            <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                class="block w-80 text-center text-white font-semibold text-2xl py-3 bg-[#1EB9F0] rounded-full">
+                Try Yumzy Today
+            </a>
+        </div> -->
+        <!-- </div> -->
 
 </template>

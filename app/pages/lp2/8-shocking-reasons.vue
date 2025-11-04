@@ -873,12 +873,12 @@ useHead({
                 <div class="border-1 lg:border-[#1EB9F0] border-[#fff] rounded-xl lg:p-5 p-0 lg:mt-20 mt-15 relative">
                     <div class="px-6">
                         <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                            class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-3xl">
-                            TRY YOMZ TODAY
+                            class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white p-3 lg:text-xl text-3xl capitalize">
+                            Try Yumzy Today
                         </a>
                         <a href="https://yomz-checkout-2.vercel.app/"
                             class="hidden lg:block bg-[#0AA03C] text-white absolute -top-5 py-2 w-50 px-5 left-0 right-0 mx-auto extrablod lg:text-lg text-base text-center">
-                            TRY YOMZ NOW
+                            Try Yumzy Now
                         </a>
                     </div>
 
@@ -896,15 +896,14 @@ useHead({
                             <h4 class="lg:text-3xl text-2xl extrablod">Ready to discover what happens when you support
                                 your
                                 family's gut-brain connection?</h4>
-                            <p>Join thousands of smart moms who've discovered the secret to better behavior. It's better
-                                nutrition that supports a healthy gut-brain-mood connection.</p>
+                            <p>Join the thousands of smart moms just like you who've discovered the secret of Yumzy. It's filling the gaps with nutrition that tastes like it's bad for you.</p>
                             <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-3xl">
-                                TRY YOMZ TODAY
+                                class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white p-3 lg:text-xl text-3xl capitalize">
+                                Try Yumzy Today
                             </a>
                             <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                class="lg:flex justify-center w-full h-full bg-[#0AA03C] hidden rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-3xl">
-                                TRY YOMZ TODAY
+                                class="lg:flex justify-center w-full h-full bg-[#0AA03C] hidden rounded-full  extrablod text-white p-3 lg:text-xl text-3xl">
+                                Try Yumzy Today
                             </a>
 
                             <p class="bg-[#F7F8EA] lg:text-lg text-sm risk">Sell Out Risk: <span
@@ -952,7 +951,7 @@ useHead({
             :style="{ bottom: isFooterVisible ? `${footerHeight}px` : '1rem', left: 0, right: 0 }">
             <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
                 class="block w-80 text-center text-white font-semibold text-2xl py-3 bg-[#1EB9F0] rounded-full">
-                Try YOMZ today
+                Try Yumzy Today
             </a>
         </div>
     </div>

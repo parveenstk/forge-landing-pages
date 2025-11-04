@@ -1,7 +1,7 @@
 export const LANDING_1: LandingPageData = {
     header: {
-        desktopText: "TRY YOMZ TODAY AND GET UP TO 60% OFF",
-        mobileText: "TRY YOMZ TODAY AND GET UP TO 60% OFF",
+        desktopText: "Try Yumzy Today & Get 60% Off",
+        mobileText: "Try Yumzy Today & Get 60% Off",
         pageName: "LP-1"
     },
 

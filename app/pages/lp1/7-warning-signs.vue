@@ -556,18 +556,14 @@ useHead({
                             <h3
                                 class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
                                 7. "Failure to Thrive" </h3>
-                            <p class="mb-4 italic text-[calc(5.4vw-0px)] leading-[calc(1em+1vw)] lg:hidden">The warning
-                                your
-                                doctor's missing...</p>
+                            <p class="mb-4 italic text-[calc(5.4vw-0px)] leading-[calc(1em+1vw)] lg:hidden">The warning everyone's missing...</p>
                         </div>
 
                         <NuxtImg src="/images/p1-7.jpg" class="w-full rounded-xl" alt="p1-7.jpg-img" />
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod lg:block hidden leading-9">7. "Failure to Thrive"</h3>
-                        <p class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] leading-[calc(1em+1vw)]">The
-                            warning
-                            your doctor's missing...</p>
+                        <p class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] leading-[calc(1em+1vw)]">The warning everyone's missing...</p>
                         <div class="lg:space-y-4 space-y-2 lg:block hidden">
                             <p>Here's a scary truth:</p>
                             <p class="extrablod">Malnutrition doesn't always look skinny.</p>
@@ -655,7 +651,7 @@ useHead({
                             <p>"Fill the nutrition gaps <span class="extrablod">first,</span>" says nutrition expert Dr.
                                 Pam.</p>
                             <p>"Then watch eating habits naturally improve.</p>
-                            <p class="extrablod">"That's why there's YOMZ."</p>
+                            <p class="extrablod">"That's why there's Yumzy."</p>
                         </div>
                     </div>
                 </div>
@@ -666,7 +662,7 @@ useHead({
                         <div class="lg:hidden block mb-4">
                             <h3
                                 class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(9.4vw-0px)] leading-[calc(1em+1vw)]">
-                                YOMZ. <u><i>Not</i></u> Your</h3>
+                                Yumzy. <u><i>Not</i></u> Your</h3>
                             <h3
                                 class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(9.4vw-0px)] leading-[calc(1em+1vw)]">
                                 Typical Gummy.</h3>
@@ -674,24 +670,22 @@ useHead({
                         <NuxtImg src="/images/p1-9.jpg" class="w-full rounded-xl" alt="p1-9.jpg-img" />
                     </div>
                     <div class="lg:space-y-4 space-y-2">
-                        <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">YOMZ. <u><i>Not</i></u> Your
+                        <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">Yumzy. <u><i>Not</i></u> Your
                             Typical
                             Gummy.</h3>
 
-                        <p><span class="extrablod">YOMZ Gummies are made by family supplement brand Yumzy.</span></p>
-                        <p>The brand was co-founded by social media superstar Nastya, of YouTube’s biggest kid series
-                            <i>Like Nastya.</i></p>
+                        <p><span class="extrablod">Yumzy. Doctor-recommended.</span></p>
+                        <p><span class="extrablod">Kid-approved.</span></p>
+                        <p>Yumzy is a family supplement brand co-founded by social media superstar Nastya, of YouTube’s biggest kid series <i>Like Nastya.</i></p>
                         <p>When Nastya heard about Hidden Hunger, she was concerned.</p>
                         <p>Many of her nearly <span class="extrablod">400 million followers</span> might be suffering.
                         </p>
-                        <p>So with the help of nutrition expert Dr. Pam, Nastya helped create YOMZ Gummies.</p>
-                        <p>It’s not candy. <i>But it tastes like it.</i></p>
-                        <p>Even with all its <span class="extrablod">vitamins, antioxidants, micronutrients, and 5g of
-                                fiber…</span></p>
-                        <p>Each serving delivers the phytonutritional equal of <span class="extrablod">2 servings</span>
-                            of
-                            fruits and vegetables.</p>
-                        <p>YOMZ is a tasty treat kids <span class="extrablod">ask for</span> instead of fight over.</p>
+                        <p>So with the help of nutrition expert Dr. Pam, Nastya helped create Yumzy's best-selling products:</p>
+                        <p class="extrablod">YOMZ OG Gummies.</p>
+                        <p>It’s not candy. <i>But it tastes like it...</i></p>
+                        <p>Even with all its <span class="extrablod">vitamins, antioxidants, micronutrients, and 5g of fiber…</span></p>
+                        <p>Each serving delivers the phytonutritional equal of <span class="extrablod">2 servings</span> of fruits and vegetables.</p>
+                        <p>Yumzy YOMZ Gummies are a tasty treat kids ask for instead of fight over.</p>
                         <p>That’s because of 3 <i>mouthwatering</i> flavors:</p>
                         <ul class="pl-2 lg:space-y-4 space-y-2">
                             <li class="flex gap-2 items-center">
@@ -711,7 +705,7 @@ useHead({
                             junk.</p>
                         <!-- <p>YOMZ was co-developed by YouTube star Nastya (whose 380+ million young fans know about
                             sweets).</p> -->
-                        <p>Backed by Dr. Pam, Nastya helped create YOMZ with this mission:</p>
+                        <p>Backed by Dr. Pam, Nastya helped create Yumzy with this mission:</p>
                         <p class="extrablod">End Hidden Hunger for 100 million people.</p>
                         <p>And with your help, I bet they will.</p>
                         <p>Especially since a portion of each order goes directly toward... </p>
@@ -765,12 +759,12 @@ useHead({
                     TRY NOW
                 </a> -->
                     <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                        class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-3xl">
-                        TRY YOMZ TODAY
+                        class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white p-3 lg:text-xl text-3xl capitalize">
+                        Try Yumzy Today
                     </a>
                     <a href="https://yomz-checkout-2.vercel.app/"
-                        class="hidden lg:block bg-[#0AA03C] text-white absolute -top-5 py-2 w-50 px-5 left-0 right-0 mx-auto extrablod lg:text-lg text-base text-center">
-                        TRY YOMZ NOW
+                        class="hidden lg:block bg-[#0AA03C] text-white absolute -top-5 py-2 w-50 px-5 left-0 right-0 mx-auto extrablod lg:text-lg text-base text-center ">
+                        Try Yumzy Now
                     </a>
                     <!-- <p
                     class="bg-[#FFEB00] absolute -top-5 left-1/2 -translate-x-1/2 py-1 lg:px-30 px-5 font-bold lg:text-lg text-base rounded-b-lg block lg:hidden">
@@ -779,8 +773,10 @@ useHead({
                     <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-5 gap-2 items-center">
 
                         <div>
-                            <NuxtImg src="/images/yomz-pack.png" alt="yomz-pack.png-img"
-                                class="w-full lgp-3 p-1 lg:pt-3 pt-6" />
+                            <NuxtImg src="/images/yomz-double-pack.jpg" alt="yomz-double-pack.jpg-img"
+                                class="hidden lg:block w-full lgp-3 p-1 lg:pt-3 pt-6" />
+                            <NuxtImg src="/images/yomz-double-pack.jpg" alt="yomz-double-pack.jpg-img"
+                                class="lg:hidden w-full lgp-3 p-1 lg:pt-3 pt-6" />
                         </div>
 
                         <div
@@ -790,9 +786,7 @@ useHead({
                                 picky
                                 eater nutrition they’ll
                                 actually beg for?</h4>
-                            <p>Join thousands of smart moms who've discovered the secret of YOMZ. It's filling the gaps
-                                with
-                                nutrition that tastes really good.</p>
+                            <p>Join the thousands of smart moms just like you who've discovered the secret of Yumzy. It's filling the gaps with nutrition that tastes like it's bad for you.</p>
 
                             <!-- <button type="button"
                             class="bg-black hidden lg:inline w-full rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-lg">
@@ -808,8 +802,8 @@ useHead({
                             Try YOMZ Risk-Free <span class="ml-1 block">50% OFF Today</span>
                         </a> -->
                             <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                class="flex justify-center w-full h-full bg-[#0AA03C]  rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-3xl">
-                                TRY YOMZ TODAY
+                                class="flex justify-center w-full h-full bg-[#0AA03C]  rounded-full  extrablod text-white p-3 lg:text-xl text-3xl capitalize">
+                                Try Yumzy Today
                             </a>
 
                             <p class="bg-[#F7F8EA] risk">Sell Out Risk: <span class="text-[#E6193C]">HIGH</span> |
@@ -864,7 +858,7 @@ useHead({
             :style="{ bottom: isFooterVisible ? `${footerHeight}px` : '1rem', left: 0, right: 0 }">
             <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
                 class="block w-80 text-center text-white font-semibold text-2xl py-3 bg-[#1EB9F0] rounded-full">
-                Try YOMZ today
+                Try Yumzy Today
             </a>
         </div>
     </div>
