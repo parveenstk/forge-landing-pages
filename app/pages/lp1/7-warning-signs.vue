@@ -674,8 +674,7 @@ useHead({
                             Typical
                             Gummy.</h3>
 
-                        <p><span class="extrablod">Yumzy. Doctor-recommended.</span></p>
-                        <p><span class="extrablod">Kid-approved.</span></p>
+                        <p><span class="extrablod">Dr.-recommended. Kid-approved.</span></p>
                         <p>Yumzy is a family supplement brand co-founded by social media superstar Nastya, of YouTube’s biggest kid series <i>Like Nastya.</i></p>
                         <p>When Nastya heard about Hidden Hunger, she was concerned.</p>
                         <p>Many of her nearly <span class="extrablod">400 million followers</span> might be suffering.
