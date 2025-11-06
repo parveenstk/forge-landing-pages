@@ -37,15 +37,18 @@ useHead({
                     <p class="mb-2 lg:hidden">Home > Health > Family Health</p>
 
                     <h1 class="lg:text-4xl text-3xl hidden lg:block">
-                        <span class="text-xl text-black p-1 underline font-semibold italic bg-[#FFEB00]">
-                            Local Mom's Shocking Discovery:</span><br> <span class="extrablod">
-                            My “Healthy” Family Was Actually <span class="text-[#E6193C]">Malnourished</span>."</span>
+                        <span class="text-xl text-black p-1 block mb-1 w-fit underline font-semibold italic bg-[#FFEB00]">
+                            Local Mom's Shocking Discovery:</span><span class="extrablod">
+                            My “Healthy” Family Was Actually <span class="text-[#E6193C]">Malnourished</span>.</span>
                     </h1>
 
-                    <h1 class="block lg:hidden text-[calc(6.5vw-0px)] leading-[calc(1em+1vw)]"><span
-                            class="text-lg text-black p-1 underline font-semibold italic bg-[#FFEB00]">
-                            Local Mom's Shocking Discovery:</span><br> <span class="extrablod">
-                            My “Healthy” Family Was Actually <span class="text-[#E6193C]">Malnourished</span>."</span>
+                    <!-- <h1 class="block lg:hidden text-[calc(6vw-0px)] leading-[calc(1em+1vw)]"> -->
+                        <h1 class="block lg:hidden text-[7.7vw] leading-[calc(1em+1vw)]">
+
+                        <span
+                            class="text-lg text-black p-1 block mb-1 w-fit underline font-semibold italic bg-[#FFEB00]">
+                            Local Mom's Shocking Discovery:</span><span class="extrablod">
+                            My “Healthy” Family Was Actually <span class="text-[#E6193C]">Malnourished</span>.</span>
                     </h1>
 
                     <p class="flex items-center gap-3 extrablod mt-3">
@@ -122,9 +125,9 @@ useHead({
                         Million
                         Americans</h2>
 
-                    <h2 class="lg:text-4xl text-3xl  block mb-6 lg:hidden">A <span class="extrablod">Silent
+                    <h2 class="lg:text-4xl text-[9vw] leading-[calc(1em+1vw)]  block mb-6 lg:hidden">A <span class="extrablod">Silent
                             Crisis</span>
-                        for 47 Million Americans</h2>
+                        for <br/> 47 Million Americans</h2>
 
                     <NuxtImg src="/images/fl-1.jpg" class="w-full mb-5" alt="fl-1.jpg-img" />
 
@@ -154,17 +157,17 @@ useHead({
                         <p>The statistics are alarming:</p>
                     </div>
 
-                    <div class="bg-[#F2F6FB] py-7 rounded-xl font-bold">
-                        <ul class="pl-3 lg:space-y-1 space-y-1 semibold">
+                    <div class="bg-[#F2F6FB] pb-7 rounded-xl font-bold">
+                        <!-- <ul class="pl-3 lg:space-y-1 space-y-1 semibold">
                             <li v-for="(fact, index) in healthFacts" :key="index" class="flex gap-2 items-start">
                                 <NuxtImg src="/images/blk-check.svg" alt="blk-check.svg-img" class="pt-1 h-6 w-6" />
                                 {{ fact }}
                             </li>
-                        </ul>
+                        </ul> -->
 
-                        <NuxtImg src="/images/fl-2.jpg" class="w-full py-6" alt="fl-2.jpg-img" />
+                        <NuxtImg src="/images/fl-2.jpg" class="w-full pb-5" alt="fl-2.jpg-img" />
 
-                        <div class="lg:space-y-4 space-y-2 px-4 font-bold">
+                        <div class="lg:space-y-4 space-y-2 lg:px-4 font-bold">
 
                             <p><span class="extrablod">"Malnutrition doesn't always look skinny,"</span>
                                 stresses Dr. Pam. </p>
@@ -180,7 +183,7 @@ useHead({
 
                     </div>
 
-                    <h3 class="lg:text-4xl text-2xl extrablod mt-8">Why Modern Americans Are Starving in a Land of
+                    <h3 class="lg:text-4xl text-[6.9vw] leading-[calc(1em+1vw)] extrablod mt-8">Why Modern Americans Are Starving in a Land of
                         Plenty
                     </h3>
 
@@ -194,8 +197,21 @@ useHead({
                         <p>"Today, you need to eat <span class="extrablod">8 oranges</span> to get the <i>same</i>
                             nutrition
                             as a single orange 50 years ago."</p>
-                        <p>That's on top of the reality of busy family life.</p>
-                        <p>Processed snacks, fast food meals, and the daily battles over eating anything green.</p>
+                        <p>That's on top of the busy reality of modern family life:</p>
+                        <ul class="lg:pl-2 lg:space-y-4 space-y-2">
+                            <li class="flex gap-2 items-center">
+                                <NuxtImg src="/images/blk-check.svg" width="20" height="20" alt="blk-check.svg" />
+                                Processed snacks 
+                            </li>
+                            <li class="flex gap-2 items-center">
+                                <NuxtImg src="/images/blk-check.svg" width="20" height="20" alt="blk-check.svg" />
+                                Fast food meals 
+                            </li>
+                            <li class="flex gap-2 items-center">
+                                <NuxtImg src="/images/blk-check.svg" width="20" height="20" alt="blk-check.svg" />
+                                Daily battles to eat anything green
+                            </li>
+                        </ul>
 
                         <p>"As a parent, you aren't failing your kids," Dr. Pam stresses. </p>
                         <p>"The food system is failing them... <i>and</i> <span class="extrablod italic">you.</span>
@@ -208,11 +224,11 @@ useHead({
 
                     </div>
 
-                    <h3 class="lg:text-4xl text-2xl extrablod mt-8">Hidden Signs Most Parents (and Doctors) Miss
+                    <h3 class="lg:text-4xl text-[7.4vw] leading-[calc(1em+1vw)] extrablod mt-8">Hidden Signs Most Parents (and Doctors) Miss
                     </h3>
 
                     <NuxtImg src="/images/fl-4.jpg" class="w-full py-6 pb-0" alt="fl-4.jpg-img" />
-                    <div class="lg:space-y-4 space-y-2 mb-8 bg-[#FAFAFA] lg:p-5 p-2 lg:py-9 py-4">
+                    <div class="lg:space-y-4 space-y-2 mb-8 bg-[#FAFAFA] lg:p-5 p-0 lg:py-9 py-4">
 
                         <p class="extrablod">Hidden Hunger isn’t obvious.</p>
                         <p>Instead, the symptoms <span class="extrablod">disguise themselves</span> as common
@@ -252,7 +268,7 @@ useHead({
                         <p>"I never <span class="extrablod">connected it</span> to what she was eating."</p>
                     </div>
 
-                    <h3 class="text-3xl lg:text-4xl extrablod mt-8">Breakthrough Changes Everything</h3>
+                    <h3 class="text-[8.3vw] leading-[calc(1em+1vw)] lg:text-4xl extrablod mt-8">Breakthrough Changes Everything</h3>
                     <NuxtImg src="/images/fl-5.jpg" class="w-full py-6" alt="fl-5.jpg-img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p><span class="extrablod">After seeing thousands</span> of families struggle with
@@ -283,9 +299,14 @@ useHead({
                             she had to do
                             something to help.</p>
                         <p>"Some of the <i>Like Nastya</i> family might be suffering," she realized.</p>
-                        <p>So Nastya co-founded a <span class="extrablod">family supplement brand called Yumzy.</span></p>
-                        <p>Yumzy is the maker of <a href="https://yomz-checkout-2.vercel.app/" target="_blank" class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">YOMZ, a mouthwatering gummy backed by science</a> to fill the nutrition gaps facing millions of Americans every day.</p>
-                        <p>Then Nastya partnered with Dr. Pam, who is the medical advisor of this breakthrough family-focused gummy.</p>
+                        <p>So Nastya co-founded a <span class="extrablod">family supplement brand called Yumzy.</span>
+                        </p>
+                        <p>Yumzy is the maker of <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">YOMZ, a
+                                mouthwatering gummy backed by science</a> to fill the nutrition gaps facing millions of
+                            Americans every day.</p>
+                        <p>Then Nastya partnered with Dr. Pam, who is the medical advisor of this breakthrough
+                            family-focused gummy.</p>
                         <p>Dr. Pam explains. "First, it had to <span class="extrablod">taste amazing</span>
                             - like a
                             treat
@@ -301,23 +322,10 @@ useHead({
                         <p>“No artificial colors. No fake flavors. No junk. </p>
                         <p>"Just pure, bioavailable nutrients in a form kids love."</p>
                         <p>She laughs. “And adults, too!”</p>
-                        <p>So she and Nastya partnered with the <span class="extrablod">world’s #1 gummy
-                                manufacturer.
-                            </span></p>
-                        <p>Their goal? To make a gummy that would <span class="extrablod">lead the fight
-                                against Hidden
-                                Hunger.</span></p>
-                        <p>That’s why YOMZ OG Gummies come in 3 juicy flavors: <span class="extrablod">Peachy,
-                                Strawbeary,
-                                and Berry Beary.</span></p>
-                        <p>If you like your lips to pucker, there’s also an <span class="extrablod">eye-watering
-                                Sour</span>
-                            form in those same flavors.</p>
+                        <p>That’s becomes YOMZ OG Gummies come in 3 juicy flavors: <span class="extrablod">Peachy, Strawbeary, and Berry Beary.</span></p>
+                        <p>If you like your lips to pucker, there’s also the <span class="extrablod">eye-watering YOMZ Sour</span> form in those same 3 flavors.</p>
 
-                        <p>Each serving of YOMZ has the phytonutrient equal of <span class="extrablod">2
-                                servings of
-                                fruits
-                                and vegetables.</span></p>
+                        <p>Each serving of YOMZ Gummies has the phytonutrient equal of  <span class="extrablod">2 servings of fruits and vegetables.</span></p>
                         <p>It's <span class="extrablod">also packed with</span> polyphenols, probiotics,
                             postbiotics,
                             and
@@ -334,26 +342,26 @@ useHead({
                         :reviewText="verifiedCustomers.customer1.reviewText" />
 
                     <!-- Other parents report similar experiences: -->
-                    <h3 class="text-3xl extrablod mb-4">Other parents report similar experiences:</h3>
+                    <h3 class="text-4xl extrablod mb-4">Other parents report similar experiences:</h3>
                     <VerifiedCustomer v-for="([key, customer]) in Object.entries(verifiedCustomers).slice(1)" :key="key"
                         :name="customer.name" :reviewText="customer.reviewText" />
 
                     <div class="lg:space-y-4 space-y-2 mb-8 bg-[#DCF0E1] pb-7 shadow-lg rounded-xl overflow-hidden">
                         <NuxtImg src="/images/fl-6.jpg" class="w-full" alt="fl-6.jpg-Img" />
-                        <h3 class="lg:text-4xl text-3xl  extrablod mt-6 px-5">Why YOMZ Is Different</h3>
-                        <p class="px-5">YOMZ is <span class="extrablod">unlike</span> traditional
+                        <h3 class="lg:text-4xl text-[8.3vw] leading-[calc(1em+1vw)]  extrablod mt-6 lg:px-5">Why Yumzy Is Different</h3>
+                        <p class="lg:px-5">Yumzy is <span class="extrablod">unlike</span> traditional
                             supplements.</p>
-                        <p class="px-5"><span class="extrablod italic underline">No</span> junk or fake
+                        <p class="lg:px-5"><span class="extrablod italic underline">No</span> junk or fake
                             anything.</p>
-                        <p class="px-5">Crafted for the challenges your family faces.</p>
-                        <p class="px-5">Yet, YOMZ isn’t a <span class="extrablod">traditional</span>
+                        <p class="lg:px-5">Crafted for the challenges your family faces.</p>
+                        <p class="lg:px-5">Yet, Yumzy isn’t a <span class="extrablod">traditional</span>
                             candy gummy,
                             either.
                         </p>
-                        <p class="px-5">Even if it tastes like one. </p>
+                        <p class="lg:px-5">Even if it tastes like one. </p>
 
-                        <p class="px-5 extrablod"> Think of it as candy, <i>but better for you.</i></p>
-                        <ul class="lg:space-y-1 space-y-1 pl-5">
+                        <p class="lg:px-5 extrablod"> Think of it as candy, <i>but better for you.</i></p>
+                        <ul class="lg:space-y-1 space-y-1 lg:pl-5">
                             <li class="flex gap-2 items-start">
                                 <NuxtImg src="/images/blk-check.svg" class="pt-1 h-5" alt="blk-check.svg-Img" />
                                 <span>
@@ -405,11 +413,11 @@ useHead({
                         </ul>
                     </div>
 
-                    <h3 class="lg:text-4xl text-3xl extrablod mt-8">Don’t You Deserve Peace of Mind?</h3>
+                    <h3 class="lg:text-4xl text-[10vw] leading-[calc(1em+1vw)] extrablod mt-8">Don’t You Deserve Peace of Mind?</h3>
                     <NuxtImg src="/images/fl-7.jpg" class="w-full py-6" alt="fl-7.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
 
-                        <p><span class="extrablod">The most rewarding part</span> of YOMZ? "Hearing from
+                        <p><span class="extrablod">The most rewarding part</span> of Yumzy? "Hearing from
                             parents who
                             finally
                             <span class="extrablod">have peace of mind,</span>" Dr. Pam says.
@@ -418,24 +426,25 @@ useHead({
                                 still
                                 getting essential nutrition."</span></p>
 
-                        <p>For Sarah, YOMZ has been <span class="extrablod"> life-changing.</span></p>
+                        <p>For Sarah, Yumzy has been <span class="extrablod"> life-changing.</span></p>
                         <p>"I used to lie awake at night worrying about Emma's nutrition. </p>
                         <p>"Now I know whatever she eats during the day, YOMZ <span class="extrablod">is
                                 giving
                                 her</span>
                             what her body needs to grow and thrive."</p>
                         <p>"There's no risk to try these, either. </p>
-                        <p>"That’s because YOMZ comes with Yumzy's famous  <span class="extrablod">90-Day Picky Momz 200% Happiness Guarantee.</span>"</p>
+                        <p>"That’s because YOMZ comes with Yumzy's famous <span class="extrablod">90-Day Picky Momz 200%
+                                Happiness Guarantee.</span>"</p>
                         <p>That's right. In 90 days...</p>
 
                         <p>If you don’t see improvements in your family's health... </p>
                         <p>Or if no one loves the taste, you get back double what you paid.</p>
                     </div>
 
-                    <h3 class="lg:text-4xl text-3xl extrablod mt-8">A Mission Bigger Than Business</h3>
-                    <NuxtImg src="/images/fl-8.jpg" class="w-full py-6" alt="fl-8.jpg-Img" />
+                    <h3 class="lg:text-4xl text-[11vw] leading-[calc(1em+1vw)] extrablod mt-8">A Mission Bigger Than Business</h3>
+                    <NuxtImg src="/images/p1-9.jpg" class="w-full py-6" alt="fl-8.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
-                        <p>YOMZ wasn't created to solve just <i><u>one</u></i> family's problems.
+                        <p>Yumzy wasn't created to solve just <i><u>one</u></i> family's problems.
                         </p>
                         <p>Yumzy's mission is to <span class="extrablod"> end Hidden Hunger for 100
                                 million people</span>.
@@ -453,22 +462,22 @@ useHead({
                             do
                             just that - help everyone...</p>
                         <p>"Especially those who need it most."</p>
-                        <p>Adds Nastya: “<span class="extrablod">YOMZ is for families.</span> So
+                        <p>Adds Nastya: “<span class="extrablod">Yumzy is for families.</span> So
                             together, let’s <span class="extrablod italic">smash</span> Hidden
                             Hunger!”</p>
                         <p>If you’re struggling with picky eaters or constant illness... </p>
                         <p>If behavior troubles dominate your every day... </p>
                         <p>Or if you simply worry daily about your family's nutrition...</p>
                         <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">YOMZ offers hope.</a></p>
+                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Yumzy offers
+                                hope.</a></p>
                         <p>"You're dealing with a system that makes it difficult to nourish your
                             child.</p>
-                        <p>"YOMZ is a tool to <span class="extrablod">help you succeed</span>
-                            <i>despite</i> those
+                        <p>"Yumzy is a tool to <span class="extrablod">help you succeed</span> <i>despite</i> those
                             challenges."
                         </p>
                         <p>Besides their incredible 200% Happiness Guarantee, there’s <span class="extrablod">2 more
-                                reasons</span> to try YOMZ.</p>
+                                reasons</span> to try Yumzy.</p>
                         <p>First, it’s crafted with <span class="extrablod">patented blend of
                                 proprietary
                                 ingredients</span>
@@ -484,13 +493,16 @@ useHead({
                             Good Manufacturing Practices (cGMP).</p>
                     </div>
 
-                    <h3 class="lg:text-4xl text-3xl extrablod mt-8">Taking Action</h3>
+                    <h3 class="lg:text-4xl text-[11vw] leading-[calc(1em+1vw)] extrablod mt-8">Taking Action</h3>
                     <NuxtImg src="/images/fl-9.jpg" class="w-full py-6" alt="fl-9.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
-                        <p>To discover more about YOMZ and Hidden Hunger, visit the <span class="extrablod">Yumzy official website.</span> </p>
-                        <p>You'll find more information and take advantage of <a href="https://yomz-checkout-2.vercel.app/" target="_blank" class="underline italic">current
+                        <p>To discover more about Yumzy and Hidden Hunger, visit the <span class="extrablod">Yumzy
+                                official website.</span> </p>
+                        <p>You'll find more information and take advantage of <a
+                                href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                                class="underline italic">current
                                 promotional offers.</a> </p>
-                        <p><span class="extrablod">YOMZ is backed by</span> scientific research,
+                        <p><span class="extrablod">Yumzy is backed by</span> scientific research,
                             expert development, and
                             kids' approval. </p>
                         <p>It represents a <span class="extrablod">breakthrough</span> in the
@@ -514,13 +526,13 @@ useHead({
                                 change is all we
                                 need...'</span> </p>
                         <p>“She's right. <span class="extrablod">We tried many things</span>
-                            before we found YOMZ. </p>
+                            before we found Yumzy. </p>
                         <p>"We were always looking for the quick fix or to hit the jackpot.</p>
                         <p>"<span class="extrablod">Once we stopped overcomplicating it,</span>
                             it all fell into place.
                         </p>
                         <p>"So <span class="extrablod">I’m spreading the word</span> about
-                            Hidden Hunger and how YOMZ
+                            Hidden Hunger and how Yumzy
                             fights
                             it.</p>
                         <p>"<span class="extrablod">Now that you know</span> this, it’s up to
@@ -530,7 +542,7 @@ useHead({
 
                     </div>
 
-                    <p class="bg-[#EFEFEF] p-3 font-bold">As with any supplement, parents should
+                    <p class="bg-[#EFEFEF] lg:p-3 font-bold">As with any supplement, parents should
                         consult with their
                         child's
                         healthcare provider before making
@@ -663,7 +675,7 @@ useHead({
     </main>
 
 
-<!-- BodyContent -->
+    <!-- BodyContent -->
     <!-- <div> -->
     <!-- Footer -->
     <footer class="bg-[#1EB9F0] lg:py-7 py-3">
@@ -676,7 +688,7 @@ useHead({
         </div>
     </footer>
     <!-- Fixed CTA Button -->
-        <!-- <div ref="ctaBar"
+    <!-- <div ref="ctaBar"
             :class="['flex items-center justify-center lg:hidden transition-all duration-300 z-50', isFooterVisible ? 'absolute' : 'fixed']"
             :style="{ bottom: isFooterVisible ? `${footerHeight}px` : '1rem', left: 0, right: 0 }">
             <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
@@ -684,6 +696,6 @@ useHead({
                 Try Yumzy Today
             </a>
         </div> -->
-        <!-- </div> -->
+    <!-- </div> -->
 
 </template>

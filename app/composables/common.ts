@@ -14,8 +14,8 @@ export const LANDING_1: LandingPageData = {
 
 export const LANDING_2: LandingPageData = {
     header: {
-        desktopText: "TRY YOMZ & GET UP TO 60% OFF",
-        mobileText: "TRY YOMZ & GET UP TO 60% OFF",
+        desktopText: "TRY Yumzy & GET UP TO 60% OFF",
+        mobileText: "TRY Yumzy & GET UP TO 60% OFF",
         pageName: "LP-2"
     },
 
@@ -28,8 +28,8 @@ export const LANDING_2: LandingPageData = {
 
 export const LANDING_3: LandingPageData = {
     header: {
-        desktopText: "TRY YOMZ & GET UP TO 60% OFF",
-        mobileText: "TRY YOMZ & GET UP TO 60% OFF",
+        desktopText: "TRY Yumzy & GET UP TO 60% OFF",
+        mobileText: "TRY Yumzy & GET UP TO 60% OFF",
         pageName: "LP-3"
     },
 
@@ -69,7 +69,7 @@ export const verifiedCustomers = {
 
     customer2: {
         name: "Michelle K.",
-        reviewText: "My daughter actually asks for her YOMZ every morning. She thinks it's candy, but I know she's getting real nutrition.",
+        reviewText: "My daughter actually asks for her Yumzy every morning. She thinks it's candy, but I know she's getting real nutrition.",
     },
 
     customer3: {

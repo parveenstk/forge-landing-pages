@@ -71,7 +71,7 @@ useHead({
 
                 <!-- Mobile version -->
                 <div class="block lg:hidden">
-                    <h1 class="extrablod mr-0 text-[calc(9vw-0px)] leading-[calc(1em+1vw)]">
+                    <h1 class="extrablod mr-0 text-[calc(9.7vw-0px)] leading-[calc(1em+1vw)]">
                         7 Warning Signs<br>Your 'Picky Eater'<br>Has <span class="text-[#E6193C]"> Hidden Hunger</span>
                     </h1>
                     <p class="font-bold mt-2 none-pra text-[calc(3vw-0px)] leading-[calc(1em+1vw)] italic">Here's what
@@ -151,7 +151,7 @@ useHead({
                     <div>
                         <div class="lg:hidden block">
                             <h3
-                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
+                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(9vw-0px)] leading-[calc(1em+1vw)]">
                                 1. 3pm Energy
                                 Crash</h3>
                             <p class="mb-4 italic text-[calc(5.4vw-0px)] leading-[calc(1em+1vw)]">That makes
@@ -218,7 +218,7 @@ useHead({
 
                         <div class="lg:hidden block">
                             <h3
-                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
+                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(10vw-0px)] leading-[calc(1em+1vw)]">
                                 2. Tummy Troubles </h3>
                             <p class="mb-4 italic text-[calc(5.4vw-0px)] leading-[calc(1em+1vw)]"><i>That never go
                                     away</i>
@@ -277,7 +277,7 @@ useHead({
 
                         <div class="lg:hidden block">
                             <h3
-                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
+                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(12vw-0px)] leading-[calc(1em+1vw)]">
                                 3. Mood Swings</h3>
                             <p class="mb-4 italic text-[calc(5.4vw-0px)] leading-[calc(1em+1vw)]">
                                 <i>From seemingly nowhere</i>
@@ -350,7 +350,7 @@ useHead({
                     <div>
                         <div class="lg:hidden block">
                             <h3
-                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
+                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(12vw-0px)] leading-[calc(1em+1vw)]">
                                 4. Always Sick</h3>
                             <p class="mb-4 mt-2 italic text-[calc(5.4vw-0px)] leading-[calc(1em+1vw)] lg:hidden">While
                                 other
@@ -413,7 +413,7 @@ useHead({
                     <div>
                         <div class="lg:hidden block">
                             <h3
-                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
+                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(8.7vw-0px)] leading-[calc(1em+1vw)]">
                                 5. Attention Problems </h3>
                             <p class="mb-4 italic text-[calc(5.4vw-0px)] leading-[calc(1em+1vw)] lg:hidden">That
                                 <u>aren't</u> ADHD
@@ -473,7 +473,7 @@ useHead({
 
                         <div class="lg:hidden block">
                             <h3
-                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
+                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(10.5vw-0px)] leading-[calc(1em+1vw)]">
                                 6. Sleep Problems </h3>
                             <p class="mb-4 italic text-[calc(5.4vw-0px)] leading-[calc(1em+1vw)]">
                                 And other nighttime battles
@@ -554,7 +554,7 @@ useHead({
 
                         <div class="lg:hidden block">
                             <h3
-                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
+                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(9.5vw-0px)] leading-[calc(1em+1vw)]">
                                 7. "Failure to Thrive" </h3>
                             <p class="mb-4 italic text-[calc(5.4vw-0px)] leading-[calc(1em+1vw)] lg:hidden">The warning everyone's missing...</p>
                         </div>
@@ -630,7 +630,7 @@ useHead({
 
                         <div class="lg:hidden block mb-4">
                             <h3
-                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(9.4vw-0px)] leading-[calc(1em+1vw)]">
+                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(10vw-0px)] leading-[calc(1em+1vw)]">
                                 What Smart Moms Are Doing About It</h3>
                         </div>
                         <NuxtImg src="/images/p1-8.jpg" class="w-full rounded-xl" alt="p1-8.jpg-img" />
@@ -661,10 +661,10 @@ useHead({
 
                         <div class="lg:hidden block mb-4">
                             <h3
-                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(9.4vw-0px)] leading-[calc(1em+1vw)]">
+                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(11vw-0px)] leading-[calc(1em+1vw)]">
                                 Yumzy. <u><i>Not</i></u> Your</h3>
                             <h3
-                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(9.4vw-0px)] leading-[calc(1em+1vw)]">
+                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(11vw-0px)] leading-[calc(1em+1vw)]">
                                 Typical Gummy.</h3>
                         </div>
                         <NuxtImg src="/images/p1-9.jpg" class="w-full rounded-xl" alt="p1-9.jpg-img" />
@@ -682,11 +682,11 @@ useHead({
                         <p>So with the help of nutrition expert Dr. Pam, Nastya helped create Yumzy's best-selling products:</p>
                         <p class="extrablod">YOMZ OG Gummies.</p>
                         <p>It’s not candy. <i>But it tastes like it...</i></p>
-                        <p>Even with all its <span class="extrablod">vitamins, antioxidants, micronutrients, and 5g of fiber…</span></p>
+                        <p>Even with all its <span class="extrablod">vitamins, antioxidants, micronutrients, and 5g of fiber.</span></p>
                         <p>Each serving delivers the phytonutritional equal of <span class="extrablod">2 servings</span> of fruits and vegetables.</p>
                         <p>Yumzy YOMZ Gummies are a tasty treat kids ask for instead of fight over.</p>
                         <p>That’s because of 3 <i>mouthwatering</i> flavors:</p>
-                        <ul class="pl-2 lg:space-y-4 space-y-2">
+                        <ul class="lg:pl-2 lg:space-y-4 space-y-2">
                             <li class="flex gap-2 items-center">
                                 <NuxtImg src="/images/blk-check.svg" width="20" height="20" alt="blk-check.svg" />
                                 Strawbeary
@@ -710,7 +710,7 @@ useHead({
                         <p>Especially since a portion of each order goes directly toward... </p>
                         <p>Helping fight Hidden Hunger for kids and families in need...</p>
                         <p class="italic underline">The results speak for themselves:</p>
-                        <ul class="pl-2 lg:space-y-4 space-y-2 extrablod">
+                        <ul class="lg:pl-2 lg:space-y-4 space-y-2 extrablod">
                             <li class="flex gap-2 items-start md:items-center">
                                 <NuxtImg src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
                                 Energy levels stabilize

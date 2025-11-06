@@ -73,7 +73,7 @@ useHead({
 
                 <!-- Mobile version -->
                 <div class="block lg:hidden">
-                    <h1 class="extrablod mr-0 text-[calc(8.5vw-0px)] leading-[calc(1em+1vw)]">
+                    <h1 class="extrablod mr-0 text-[calc(9.5vw-0px)] leading-[calc(1em+1vw)]">
                         8 <u><i>Hidden</i></u> Reasons for Child <span class="text-[#E6193C] ">Meltdowns</span></h1>
                     <p class="font-bold mt-2 text-[calc(4.3vw-0px)] leading-[calc(1em+1vw)] italic">Doctor confirms it's
                         not bad parenting...</p>
@@ -139,7 +139,7 @@ useHead({
                 <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
                     <div>
                         <h3
-                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
+                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8.3vw-0px)] leading-[calc(1em+1vw)]">
                             1. "Hangry" Meltdowns</h3>
                         <NuxtImg src="/images/p1-3.jpg" alt="p1-3.jpg-img" class="w-full rounded-xl" />
                     </div>
@@ -210,7 +210,7 @@ useHead({
                 <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
                     <div>
                         <h3
-                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
+                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8.2vw-0px)] leading-[calc(1em+1vw)]">
                             2. Morning Grumpiness</h3>
                         <NuxtImg src="/images/p2-2.jpg" alt="p2-2.jpg-img" class="w-full rounded-xl" />
                     </div>
@@ -269,9 +269,9 @@ useHead({
                 <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
                     <div>
                         <h3
-                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
+                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8.5vw-0px)] leading-[calc(1em+1vw)]">
                             3. Sleep Problems</h3>
-                        <NuxtImg src="/images/p2-5.jpg" alt="p2-5.jpg-img" class="w-full rounded-xl" />
+                        <NuxtImg src="/images/p1-6.jpg" alt="p1-6.jpg-img" class="w-full rounded-xl" />
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">3. Sleep Problems</h3>
@@ -349,7 +349,7 @@ useHead({
                 <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
                     <div>
                         <h3
-                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
+                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7.3vw-0px)] leading-[calc(1em+1vw)]">
                             4. Anxiety, Not "Defiance"</h3>
                         <NuxtImg src="/images/p2-3.jpg" alt="p2-3.jpg-mg" class="w-full rounded-xl" />
                     </div>
@@ -442,7 +442,7 @@ useHead({
                 <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
                     <div>
                         <h3
-                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
+                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8.5vw-0px)] leading-[calc(1em+1vw)]">
                             5. It's Not ADHD</h3>
                         <NuxtImg src="/images/p2-4.jpg" alt="p2-4.jpg-img" class="w-full rounded-xl" />
                     </div>
@@ -515,7 +515,7 @@ useHead({
                 <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
                     <div>
                         <h3
-                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
+                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8.5vw-0px)] leading-[calc(1em+1vw)]">
                             6. Emotional Eating...</h3>
                         <NuxtImg src="/images/p2-6.jpg" alt="p2-6.jpg-img" class="w-full rounded-xl" />
                     </div>
@@ -580,7 +580,7 @@ useHead({
                 <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
                     <div>
                         <h3
-                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
+                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8.5vw-0px)] leading-[calc(1em+1vw)]">
                             7. Social Anxiety</h3>
                         <NuxtImg src="/images/p2-7.jpg" alt="p2-7.jpg-img" class="w-full rounded-xl" />
                     </div>
@@ -645,7 +645,7 @@ useHead({
                 <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
                     <div>
                         <h3
-                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
+                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8.5vw-0px)] leading-[calc(1em+1vw)]">
                             8. Emotional Setbacks</h3>
                         <NuxtImg src="/images/p2-8.jpg" alt="p2-8.jpg-img" class="w-full rounded-xl" />
                     </div>
@@ -702,7 +702,7 @@ useHead({
 
                         <div class="lg:hidden block mb-4">
                             <h3
-                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(9.4vw-0px)] leading-[calc(1em+1vw)]">
+                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(10vw-0px)] leading-[calc(1em+1vw)]">
                                 The Solution Your Family Needs</h3>
 
                         </div>
@@ -718,8 +718,9 @@ useHead({
                                 <p>Don't worry. </p>
                                 <p>First of all, it's <span class="extrablod">not you...</span></p>
                                 <p>Second, there's a fun, delicious solution.</p>
-                                <p class="extrablod">It's called YOMZ.</p>
-                                <p>They're made by <span class="extrablod">family supplement brand Yumzy.</span> And they're not your typical gummies.</p>
+                                <p class="extrablod">It's called Yumzy...</p>
+                                <p>The <span class="extrablod">family supplement brand</span> that makes <span class="extrablod">YOMZ Gummies.</span></p>
+                                <p>And they're not your typical gummies.</p>
                                 <p>They taste like candy. Yet they're packed with vital nutrients from <span
                                         class="extrablod">18 superfoods.</span></p>
                                 <p>In fact, each serving is the phytonutritional equal of <span class="extrablod">2
@@ -727,7 +728,7 @@ useHead({
                                         of real fruits and vegetables.</span></p>
                                 <p><u><i>Without</i></u> artificial dyes, flavors, or other junk that makes gut problems
                                     worse.</p>
-                                <p class="extrablod">Each YOMZ gummy contains:</p>
+                                <p class="extrablod">Yumzy is bursting with:</p>
                                 <ul class="pl-2 lg:space-y-1 space-y-1">
                                     <li class="flex gap-2 items-start">
                                         <NuxtImg src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
@@ -750,7 +751,7 @@ useHead({
                                         Probiotics to help improve digestion
                                     </li>
                                 </ul>
-                                <p>Plus, YOMZ has <span class="extrablod">5g fiber.</span> This meets FDA “excellent
+                                <p>Plus, <span class="extrablod">5g of fiber.</span> This meets FDA “excellent
                                     fiber
                                     source” standards.</p>
                                 <p class="extrablod">The transformations that families are reporting:</p>
@@ -781,9 +782,8 @@ useHead({
                                         Better sleep
                                     </li>
                                 </ul>
-                                <p>Kids <span class="extrablod">beg for</span> YOMZ because they taste like candy.
-                                    You’ll
-                                    love them because they <span class="extrablod">work.</span></p>
+                                <p><span class="extrablod">Kids beg for Yumzy</span> because they taste like they're bad for you.</p>
+                                    <p>You’ll love Yumzy because they're <span class="extrablod">good for them.</span></p>
                             </div>
 
                             <div class="lg:hidden block space-y-4">
@@ -800,8 +800,8 @@ useHead({
                                         of real fruits and vegetables.</span></p>
                                 <p><u><i>Without</i></u> artificial dyes, flavors, or other junk that makes gut problems
                                     worse.</p>
-                                <p class="extrablod">Each YOMZ gummy contains:</p>
-                                <ul class="pl-2 lg:space-y-1 space-y-1">
+                                <p class="extrablod">Yumzy is bursting with:</p>
+                                <ul class="lg:pl-2 lg:space-y-1 space-y-1">
                                     <li class="flex gap-2 items-start">
                                         <NuxtImg src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
                                             class="pt-2" />
@@ -828,11 +828,11 @@ useHead({
                                         Probiotics to help improve digestion
                                     </li>
                                 </ul>
-                                <p>Plus, YOMZ has <span class="extrablod">5g fiber.</span> This meets FDA “excellent
+                                <p>Plus, <span class="extrablod">5g of fiber.</span> This meets FDA “excellent
                                     fiber
                                     source” standards.</p>
                                 <p class="extrablod">The transformations that families are reporting:</p>
-                                <ul class="pl-2 lg:space-y-1 space-y-1">
+                                <ul class="lg:pl-2 lg:space-y-1 space-y-1">
                                     <li class="flex gap-2">
                                         <NuxtImg src="/images/blk-check.svg" width="20" height="24"
                                             alt="blk-check.svg-img" />
@@ -861,9 +861,8 @@ useHead({
                                         Better sleep
                                     </li>
                                 </ul>
-                                <p>Kids <span class="extrablod">beg for</span> YOMZ because they taste like candy.
-                                    You’ll
-                                    love them because they <span class="extrablod">work.</span></p>
+                                <p><span class="extrablod">Kids beg for Yumzy</span> because they taste like they're bad for you.</p>
+                                    <p>You’ll love Yumzy because they're <span class="extrablod">good for them.</span></p>
                             </div>
                         </div>
                     </div>
