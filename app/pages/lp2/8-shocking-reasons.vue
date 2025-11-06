@@ -210,7 +210,7 @@ useHead({
                 <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
                     <div>
                         <h3
-                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8.2vw-0px)] leading-[calc(1em+1vw)]">
+                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8vw-0px)] leading-[calc(1em+1vw)]">
                             2. Morning Grumpiness</h3>
                         <NuxtImg src="/images/p2-2.jpg" alt="p2-2.jpg-img" class="w-full rounded-xl" />
                     </div>
@@ -370,7 +370,7 @@ useHead({
                             <p><span class="extrablod">A healthy gut stops the anxiety.</span></p>
                             <p>Without good nutrition, it's a <span class="extrablod">vicious
                                     cycle.</span></p>
-                            <ul class="pl-2 lg:space-y-1 space-y-1">
+                            <ul class="lg:pl-2 lg:space-y-1 space-y-1">
                                 <li class="flex gap-2 items-start">
                                     <NuxtImg src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
                                         class="pt-2" />
