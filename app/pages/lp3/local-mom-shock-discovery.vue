@@ -342,7 +342,7 @@ useHead({
                         :reviewText="verifiedCustomers.customer1.reviewText" />
 
                     <!-- Other parents report similar experiences: -->
-                    <h3 class="text-4xl extrablod mb-4">Other parents report similar experiences:</h3>
+                    <h3 class="text-[calc(9.3vw-0px)] leading-[calc(1em+1vw)] extrablod mb-4">Other parents report similar experiences:</h3>
                     <VerifiedCustomer v-for="([key, customer]) in Object.entries(verifiedCustomers).slice(1)" :key="key"
                         :name="customer.name" :reviewText="customer.reviewText" />
 
