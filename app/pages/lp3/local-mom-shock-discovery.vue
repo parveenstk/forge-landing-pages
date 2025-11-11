@@ -183,7 +183,7 @@ useHead({
 
                     </div>
 
-                    <h3 class="lg:text-4xl text-[6.9vw] leading-[calc(1em+1vw)] extrablod mt-8">Why Modern Americans Are Starving in a Land of
+                    <h3 class="lg:text-4xl text-[6.9vw] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">Why Modern Americans Are Starving in a Land of
                         Plenty
                     </h3>
 
@@ -224,7 +224,7 @@ useHead({
 
                     </div>
 
-                    <h3 class="lg:text-4xl text-[7.4vw] leading-[calc(1em+1vw)] extrablod mt-8">Hidden Signs Most Parents (and Doctors) Miss
+                    <h3 class="lg:text-4xl text-[7.4vw] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">Hidden Signs Most Parents (and Doctors) Miss
                     </h3>
 
                     <NuxtImg src="/images/fl-4.jpg" class="w-full py-6 pb-0" alt="fl-4.jpg-img" />
@@ -348,7 +348,7 @@ useHead({
 
                     <div class="lg:space-y-4 space-y-2 mb-8 bg-[#DCF0E1] pb-7 shadow-lg rounded-xl overflow-hidden">
                         <NuxtImg src="/images/fl-6.jpg" class="w-full" alt="fl-6.jpg-Img" />
-                        <h3 class="lg:text-4xl text-[8.3vw] leading-[calc(1em+1vw)]  extrablod mt-6 lg:px-5">Why Yumzy Is Different</h3>
+                        <h3 class="lg:text-4xl text-[8.3vw] lg:leading-[52px] leading-[calc(1em+1vw)]  extrablod mt-6 lg:px-5">Why Yumzy Is Different</h3>
                         <p class="lg:px-5">Yumzy is <span class="extrablod">unlike</span> traditional
                             supplements.</p>
                         <p class="lg:px-5"><span class="extrablod italic underline">No</span> junk or fake
@@ -413,7 +413,7 @@ useHead({
                         </ul>
                     </div>
 
-                    <h3 class="lg:text-4xl text-[10vw] leading-[calc(1em+1vw)] extrablod mt-8">Don’t You Deserve Peace of Mind?</h3>
+                    <h3 class="lg:text-4xl text-[10vw] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">Don’t You Deserve Peace of Mind?</h3>
                     <NuxtImg src="/images/fl-7.jpg" class="w-full py-6" alt="fl-7.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
 
@@ -441,7 +441,7 @@ useHead({
                         <p>Or if no one loves the taste, you get back double what you paid.</p>
                     </div>
 
-                    <h3 class="lg:text-4xl text-[11vw] leading-[calc(1em+1vw)] extrablod mt-8">A Mission Bigger Than Business</h3>
+                    <h3 class="lg:text-4xl text-[11vw] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">A Mission Bigger Than Business</h3>
                     <NuxtImg src="/images/p1-9.jpg" class="w-full py-6" alt="fl-8.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p>Yumzy wasn't created to solve just <i><u>one</u></i> family's problems.
@@ -493,7 +493,7 @@ useHead({
                             Good Manufacturing Practices (cGMP).</p>
                     </div>
 
-                    <h3 class="lg:text-4xl text-[11vw] leading-[calc(1em+1vw)] extrablod mt-8">Taking Action</h3>
+                    <h3 class="lg:text-4xl text-[11vw] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">Taking Action</h3>
                     <NuxtImg src="/images/fl-9.jpg" class="w-full py-6" alt="fl-9.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p>To discover more about Yumzy and Hidden Hunger, visit the <span class="extrablod">Yumzy

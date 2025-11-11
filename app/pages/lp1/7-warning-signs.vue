@@ -66,7 +66,7 @@ useHead({
                     7 Warning Signs Your 'Picky Eater' Has <br><span class="text-[#E6193C]"> Hidden Hunger</span>
                 </h1>
                 <p
-                    class="hidden lg:block font-bold mt-2 none-pra text-[calc(1.5vw-0px)] leading-[calc(1em+1vw)] italic">
+                    class="hidden lg:block font-bold mt-2 none-pra text-[calc(1.5vw-0px)] lg:text-[24px] leading-[calc(1em+1vw)] italic">
                     Here's what smart moms are doing...</p>
 
                 <!-- Mobile version -->
@@ -164,7 +164,7 @@ useHead({
                     <div>
                         <h3 class="text-3xl extrablod lg:block hidden leading-9">1. 3pm Energy
                             Crash</h3>
-                        <p class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] leading-[calc(1em+1vw)]">That makes
+                        <p class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] lg:text-[18px] leading-[calc(1em+1vw)]">That makes
                             <u><i>everyone</i></u> miserable
                         </p>
                         <div class="lg:space-y-4 space-y-2 lg:block hidden">
@@ -230,7 +230,7 @@ useHead({
 
                     <div>
                         <h3 class="text-3xl extrablod lg:block hidden leading-9">2. Tummy Troubles</h3>
-                        <p class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] leading-[calc(1em+1vw)]">That Never
+                        <p class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] lg:text-[18px] leading-[calc(1em+1vw)]">That Never
                             Go
                             Away</p>
                         <div class="lg:space-y-4 space-y-2 lg:block hidden">
@@ -289,7 +289,7 @@ useHead({
                     <div>
                         <h3 class="text-3xl extrablod lg:block hidden leading-9">3. Mood Swings
                         </h3>
-                        <p class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] leading-[calc(1em+1vw)]">From
+                        <p class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] lg:text-[18px] leading-[calc(1em+1vw)]">From
                             seemingly
                             nowhere</p>
                         <div class="lg:space-y-4 space-y-2 hidden lg:block">
@@ -362,7 +362,7 @@ useHead({
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod lg:block hidden leading-9">4. Always Sick </h3>
-                        <p class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] leading-[calc(1em+1vw)]">While
+                        <p class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] lg:text-[18px] leading-[calc(1em+1vw)]">While
                             other
                             kids never
                             are</p>
@@ -424,7 +424,7 @@ useHead({
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod lg:block hidden leading-9">5. Attention Problems</h3>
-                        <p class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] leading-[calc(1em+1vw)]">That
+                        <p class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] lg:text-[18px] leading-[calc(1em+1vw)]">That
                             <u>aren't</u> ADHD
                         </p>
                         <div class="lg:space-y-4 space-y-2 lg:block hidden">
@@ -484,7 +484,7 @@ useHead({
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod lg:block hidden leading-9">6. Sleep Problems</h3>
-                        <p class="lg:block hidden italic mb-4 text-[calc(1.2vw-0px)] leading-[calc(1em+1vw)]">And other
+                        <p class="lg:block hidden italic mb-4 text-[calc(1.2vw-0px)] lg:text-[18px] leading-[calc(1em+1vw)]">And other
                             nighttime battles</p>
                         <div class="lg:space-y-4 space-y-2">
                             <!-- <p class="extrablod hidden lg:block ">Trouble falling asleep, frequent wake-ups, or waking up
@@ -563,7 +563,7 @@ useHead({
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod lg:block hidden leading-9">7. "Failure to Thrive"</h3>
-                        <p class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] leading-[calc(1em+1vw)]">The warning everyone's missing...</p>
+                        <p class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] lg:text-[18px] leading-[calc(1em+1vw)]">The warning everyone's missing...</p>
                         <div class="lg:space-y-4 space-y-2 lg:block hidden">
                             <p>Here's a scary truth:</p>
                             <p class="extrablod">Malnutrition doesn't always look skinny.</p>

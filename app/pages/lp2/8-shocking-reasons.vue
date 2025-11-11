@@ -67,7 +67,7 @@ useHead({
                 <h1 class="hidden lg:block lg:text-4xl text-3xl extrablod lg:mr-10 mr-0">
                     8 <u><i>Hidden</i></u> Reasons for Child <span class="text-[#E6193C] ">Meltdowns</span>
                 </h1>
-                <p class="hidden lg:block font-bold mt-2 text-[calc(1.5vw-0px)] leading-[calc(1em+1vw)] italic">Doctor
+                <p class="hidden lg:block font-bold mt-2 text-[calc(1.5vw-0px)] lg:text-[24px] leading-[calc(1em+1vw)] italic">Doctor
                     confirms it's not
                     bad parenting...</p>
 
