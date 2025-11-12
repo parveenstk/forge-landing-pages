@@ -178,14 +178,11 @@ useHead({
                             <p>Their <span class="extrablod">blood sugar jitterbugs</span> like a zombie on meth.</p>
                             <p>So <span class="extrablod">what</span> can you do if they don’t have steady fuel…?</p>
                             <p>Here’s what <span class="extrablod">smart moms are discovering:</span></p>
-                            <p>Filling these nutrition gaps helps balance those highs and lows.</p>
-                            <p>The result? </p>
-                            <p><span class="extrablod">Calmer</span> afternoons and <span
-                                    class="extrablod">happier</span>
-                                families. </p>
-                            <p>But how to get steady fuel? Especially from <span class="extrablod">real</span>
-                                nutrients…?
-                            </p>
+                            <p>Filling these nutrition gaps on a <span class="extrablod italic">daily basis...</span></p>
+                            <p>Helps balance those highs and lows.</p>
+                            <p>You get calmer afternoons and happier families.</p>
+                            <p>But how to get steady fuel? Especially from real nutrients…?</p>
+                            <p>And in a way that they'll look forward to every day?</p>
                             <p>The answer might surprise you.</p>
                         </div>
                         <div class="lg:space-y-4 space-y-2 lg:hidden">
@@ -199,14 +196,11 @@ useHead({
                             <p>Their <span class="extrablod">blood sugar jitterbugs</span> like a zombie on meth.</p>
                             <p>So <span class="extrablod">what</span> can you do if they don’t have steady fuel…?</p>
                             <p>Here’s what <span class="extrablod">smart moms are discovering:</span></p>
-                            <p>Filling these nutrition gaps helps balance those highs and lows.</p>
-                            <p>The result? </p>
-                            <p><span class="extrablod">Calmer</span> afternoons and <span
-                                    class="extrablod">happier</span>
-                                families. </p>
-                            <p>But how to get steady fuel? Especially from <span class="extrablod">real</span>
-                                nutrients…?
-                            </p>
+                            <p>Filling these nutrition gaps on a <span class="extrablod italic">daily basis...</span></p>
+                            <p>Helps balance those highs and lows.</p>
+                            <p>You get calmer afternoons and happier families.</p>
+                            <p>But how to get steady fuel? Especially from real nutrients…?</p>
+                            <p>And in a way that they'll look forward to every day?</p>
                             <p>The answer might surprise you.</p>
                         </div>
                     </div>
@@ -307,15 +301,13 @@ useHead({
                             <p>So are <span class="extrablod">phytonutrients</span>. These are <span
                                     class="extrablod">plant-based</span> nutrients, such as polyphenols and flavonoids.
                             </p>
-                            <p>And <span class="extrablod">research indicates</span> they’re key to brain, heart, and
-                                immune
-                                health.</p>
+                            <p>And <span class="extrablod">research indicates</span> they’re key to brain, heart, and immune health.</p>
+                            <p>But if you consume them every day.</p>
                             <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
                                     class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">
-                                    Once picky eaters get consistent nutrition,</a> those meltdowns decrease. Even
-                                disappear.</p>
+                                    Once picky eaters get consistent nutrition,</a> those meltdowns decrease. Even disappear.</p>
                             <p>That’s when dinnertime stops being stressful.</p>
-                            <p>And becomes <span class="extrablod">fun family time</span> again.</p>
+                            <p>And becomes fun family time again.</p>
                         </div>
                         <div class="lg:space-y-4 space-y-2 lg:hidden">
                             <p>Here's an overlooked scientific fact:</p>
@@ -332,15 +324,13 @@ useHead({
                             <p>So are <span class="extrablod">phytonutrients</span>. These are <span
                                     class="extrablod">plant-based</span> nutrients, such as polyphenols and flavonoids.
                             </p>
-                            <p>And <span class="extrablod">research indicates</span> they’re key to brain, heart, and
-                                immune
-                                health.</p>
+                            <p>And <span class="extrablod">research indicates</span> they’re key to brain, heart, and immune health.</p>
+                            <p>But if you consume them every day.</p>
                             <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
                                     class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">
-                                    Once picky eaters get consistent nutrition,</a> those meltdowns decrease. Even
-                                disappear.</p>
+                                    Once picky eaters get consistent nutrition,</a> those meltdowns decrease. Even disappear.</p>
                             <p>That’s when dinnertime stops being stressful.</p>
-                            <p>And becomes <span class="extrablod">fun family time</span> again.</p>
+                            <p>And becomes fun family time again.</p>
                         </div>
                     </div>
 
@@ -380,10 +370,10 @@ useHead({
                             <p><span class="extrablod italic">Worse,</span> they stay sick longer.</p>
                             <p>But not picky eaters. They tend to be sick more frequently. </p>
                             <p>The Hidden Hunger connection?</p>
-                            <p>Without the necessary nutrients, their poorly-armed bodies <span class="extrablod">can't
-                                    defend</span> against everyday germs and viruses.</p>
-                            <p>That’s why they're the ones <span class="extrablod">missing school</span> days.</p>
-                            <p>Or <span class="extrablod">keeping everyone up</span> at night.</p>
+                            <p>Without getting the necessary nutrients every day...</p>
+                            <p>Their poorly-armed bodies <span class="extrablod">can't defend</span> against everyday germs and viruses.</p>
+                            <p>That’s why they're the ones <span class="extrablod">missing school days.</span></p>
+                            <p>Or <span class="extrablod">keeping everyone up at night.</span></p>
 
                         </div>
                         <div class="lg:space-y-4 space-y-2 lg:hidden">
@@ -400,10 +390,10 @@ useHead({
                             <p>But not picky eaters. They tend to be sick more frequently. </p>
                             <p><span class="extrablod italic">Worse,</span> they stay sick longer.</p>
                             <p>The Hidden Hunger connection?</p>
-                            <p>Without the necessary nutrients, their poorly-armed bodies <span class="extrablod">can't
-                                    defend</span> against everyday germs and viruses.</p>
-                            <p>That’s why they're the ones <span class="extrablod">missing school</span> days.</p>
-                            <p>Or <span class="extrablod">keeping everyone up</span> at night.</p>
+                            <p>Without getting the necessary nutrients every day...</p>
+                            <p>Their poorly-armed bodies <span class="extrablod">can't defend</span> against everyday germs and viruses.</p>
+                            <p>That’s why they're the ones <span class="extrablod">missing school days.</span></p>
+                            <p>Or <span class="extrablod">keeping everyone up at night.</span></p>
                         </div>
                     </div>
 
@@ -438,9 +428,10 @@ useHead({
                                 concentration and focus.</p>
                             <p>That's why nutrient-dense foods like fish and leafy greens are so important. </p>
                             <p>Otherwise, the brain's <span class="extrablod">running on empty.</span></p>
+                            <p>But when they increase their daily nutrition intake...</p>
+                            <p>And keep it up so those nutrient levels remain high...</p>
                             <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Kids can
-                                    show dramatic reversals once nutrition gaps disappear.</a></p>
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Kids can show dramatic reversals.</a></p>
                             <p>Improved attention span. Better memory.</p>
                             <p>The child who couldn't sit still for 5 minutes…?</p>
                             <p>Now finishes homework in one sitting.</p>
@@ -456,9 +447,10 @@ useHead({
                                 concentration and focus.</p>
                             <p>That's why nutrient-dense foods like fish and leafy greens are so important. </p>
                             <p>Otherwise, the brain's <span class="extrablod">running on empty.</span></p>
+                            <p>But when they increase their daily nutrition intake...</p>
+                            <p>And keep it up so those nutrient levels remain high...</p>
                             <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Kids can
-                                    show dramatic reversals once nutrition gaps disappear.</a></p>
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Kids can show dramatic reversals.</a></p>
                             <p>Improved attention span. Better memory.</p>
                             <p>The child who couldn't sit still for 5 minutes…?</p>
                             <p>Now finishes homework in one sitting.</p>
@@ -590,6 +582,7 @@ useHead({
                                     class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">with
                                     better
                                     nutrition.</a></p>
+                            <p class="underline italic">Every single day.</p>
 
                         </div>
 
@@ -619,6 +612,7 @@ useHead({
                                     class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">with
                                     better
                                     nutrition.</a></p>
+                            <p class="underline italic">Every single day.</p>
                         </div>
                     </div>
 
@@ -651,6 +645,7 @@ useHead({
                             <p>"Fill the nutrition gaps <span class="extrablod">first,</span>" says nutrition expert Dr.
                                 Pam.</p>
                             <p>"Then watch eating habits naturally improve.</p>
+                            <p>"After that, watch them improve in every way as they continue getting good nutrients every day.</p>
                             <p class="extrablod">"That's why there's Yumzy."</p>
                         </div>
                     </div>
