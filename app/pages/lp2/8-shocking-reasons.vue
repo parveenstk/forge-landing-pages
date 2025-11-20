@@ -85,11 +85,13 @@ useHead({
                 </p>
 
                 <div class="flex gap-3 items-center py-4">
-                    <NuxtImg src="/images/person.png" alt="person.png-img" class="rounded-full w-15" />
+                    <NuxtImg src="/images/person.jpg" alt="person.jpg-img" class="rounded-full w-20" />
                     <div>
-                        <span class="extrablod flex">Sabrina Marshall
+                        <span class="extrablod flex">Dr. Pam, MD
                             <NuxtImg src="/images/check.png" width="22" height="23" alt="check.png-img" />
                         </span>
+                        <span class="font-extrabold text-sm italic text-gray-700"> Board-certified, Internal Medicine</span>
+                        <br/>
                         <span class="text-sm text-gray-600"> Last updated {{ formattedDate }}</span>
                     </div>
                 </div>
@@ -719,16 +721,25 @@ useHead({
                                 <p>First of all, it's <span class="extrablod">not you...</span></p>
                                 <p>Second, there's a fun, delicious solution.</p>
                                 <p class="extrablod">It's called Yumzy...</p>
-                                <p>The <span class="extrablod">family supplement brand</span> that makes <span class="extrablod">YOMZ Gummies.</span></p>
+                                <p>The <span class="extrablod">family supplement brand</span> co-founded by social media superstar Nastya.</p>
+                                <p>She's the star of YouTube's top kid series <span class="italic">Like Nastya.</span></p>
+                                <p>When she heard that a type of malnutrition called <span class="extrablod">Hidden Hunger</span> affects nearly 3 billion people...</p>
+                                <p>She thought about her ~400 million fans around the world.</p>
+                                <p>"I must do something to help those who are suffering," she decided.</p>
+                                <p>So she founded Yumzy, the maker of <span class="extrablod">YOMZ Gummies.</span></p>
                                 <p>And they're not your typical gummies.</p>
                                 <p>They taste like candy. Yet they're packed with vital nutrients from <span
                                         class="extrablod">18 superfoods.</span></p>
                                 <p>In fact, each serving is the phytonutritional equal of <span class="extrablod">2
                                         servings
                                         of real fruits and vegetables.</span></p>
-                                <p><u><i>Without</i></u> artificial dyes, flavors, or other junk that makes gut problems
-                                    worse.</p>
-                                <p class="extrablod">Yumzy is bursting with:</p>
+                                <p><u><i>Without</i></u> artificial dyes, flavors, or other junk that makes gut problems worse.</p>
+                                <p>And that's exactly what you need to fight Hidden Hunger.</p>
+                                <p>You see, food today doesn't have the nutrition levels it did even 50 years ago.</p>
+                                <p>So you may get enough calories every day.</p>
+                                <p>But not nearly enough nutrients.</p>
+                                <p>That's why's there's YOMZ Gummies from Yumzy.</p>
+                                <p class="extrablod">Their gummies are bursting with:</p>
                                 <ul class="pl-2 lg:space-y-1 space-y-1">
                                     <li class="flex gap-2 items-start">
                                         <NuxtImg src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
@@ -783,7 +794,7 @@ useHead({
                                     </li>
                                 </ul>
                                 <p><span class="extrablod">Kids beg for Yumzy</span> because they taste like they're bad for you.</p>
-                                    <p>You’ll love Yumzy because they're <span class="extrablod">good for them.</span></p>
+                                    <p>You’ll love Yumzy because they're <span class="extrablod">good for your kids.</span></p>
                             </div>
 
                             <div class="lg:hidden block space-y-4">
@@ -792,16 +803,25 @@ useHead({
                                 <p>First of all, it's <span class="extrablod">not you...</span></p>
                                 <p>Second, there's a fun, delicious solution.</p>
                                 <p class="extrablod">It's called Yumzy...</p>
-                                <p>The  <span class="extrablod"> family supplement brand</span>that makes <span class="extrablod">YOMZ Gummies.</span> </p>
-                                <p>And they're not your typical gummies. </p>
+                                <p>The <span class="extrablod">family supplement brand</span> co-founded by social media superstar Nastya.</p>
+                                <p>She's the star of YouTube's top kid series <span class="italic">Like Nastya.</span></p>
+                                <p>When she heard that a type of malnutrition called <span class="extrablod">Hidden Hunger</span> affects nearly 3 billion people...</p>
+                                <p>She thought about her ~400 million fans around the world.</p>
+                                <p>"I must do something to help those who are suffering," she decided.</p>
+                                <p>So she founded Yumzy, the maker of <span class="extrablod">YOMZ Gummies.</span></p>
+                                <p>And they're not your typical gummies.</p>
                                 <p>They taste like candy. Yet they're packed with vital nutrients from <span
                                         class="extrablod">18 superfoods.</span></p>
                                 <p>In fact, each serving is the phytonutritional equal of <span class="extrablod">2
                                         servings
                                         of real fruits and vegetables.</span></p>
-                                <p><u><i>Without</i></u> artificial dyes, flavors, or other junk that makes gut problems
-                                    worse.</p>
-                                <p class="extrablod">Yumzy is bursting with:</p>
+                                <p><u><i>Without</i></u> artificial dyes, flavors, or other junk that makes gut problems worse.</p>
+                                <p>And that's exactly what you need to fight Hidden Hunger.</p>
+                                <p>You see, food today doesn't have the nutrition levels it did even 50 years ago.</p>
+                                <p>So you may get enough calories every day.</p>
+                                <p>But not nearly enough nutrients.</p>
+                                <p>That's why's there's YOMZ Gummies from Yumzy.</p>
+                                <p class="extrablod">Their gummies are bursting with:</p>
                                 <ul class="lg:pl-2 lg:space-y-1 space-y-1">
                                     <li class="flex gap-2 items-start">
                                         <NuxtImg src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
@@ -863,7 +883,7 @@ useHead({
                                     </li>
                                 </ul>
                                 <p><span class="extrablod">Kids beg for Yumzy</span> because they taste like they're bad for you.</p>
-                                    <p>You’ll love Yumzy because they're <span class="extrablod">good for them.</span></p>
+                                    <p>You’ll love Yumzy because they're <span class="extrablod">good for your kids.</span></p>
                             </div>
                         </div>
                     </div>
@@ -911,7 +931,7 @@ useHead({
                                 <span class="text-[#E6193C]">LOW</span>
                             </p>
 
-                            <p class="uppercase extrablod">90-Day Picky Momz 200% Happiness Guarantee</p>
+                            <p class="uppercase extrablod">90-Day 200% <br class="block lg:hidden"> Happiness Guarantee</p>
 
                         </div>
 

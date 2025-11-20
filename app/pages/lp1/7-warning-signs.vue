@@ -85,12 +85,13 @@ useHead({
                 </p>
 
                 <div class="flex gap-3 items-center py-4">
-                    <NuxtImg src="/images/person.png" class="rounded-full w-15" alt="person.svg-img" />
+                    <NuxtImg src="/images/person.jpg" alt="person.jpg-img" class="rounded-full w-20" />
                     <div>
-                        <span class="extrablod flex">Sabrina Marshall
+                        <span class="extrablod flex">Dr. Pam, MD
                             <NuxtImg src="/images/check.png" width="22" height="23" alt="check.png-img" />
                         </span>
-                        <!-- <span>Last updated Sep 17, 2025</span> -->
+                        <span class="font-extrabold text-sm italic text-gray-700"> Board-certified, Internal Medicine</span>
+                        <br/>
                         <span class="text-sm text-gray-600"> Last updated {{ formattedDate }}</span>
                     </div>
                 </div>
@@ -642,8 +643,7 @@ useHead({
                                 forcing more vegetables on them (it usually backfires anyway).</p>
                             <p>The <span class="extrablod">breakthrough</span> approach?
                             </p>
-                            <p>"Fill the nutrition gaps <span class="extrablod">first,</span>" says nutrition expert Dr.
-                                Pam.</p>
+                            <p>"Fill the nutrition gaps first," says Dr. Pam, a nutrition expert who's board-certified in internal medicine.</p>
                             <p>"Then watch eating habits naturally improve.</p>
                             <p>"After that, watch them improve in every way as they continue getting good nutrients every day.</p>
                             <p class="extrablod">"That's why there's Yumzy."</p>
@@ -663,6 +663,7 @@ useHead({
                                 Typical Gummy.</h3>
                         </div>
                         <NuxtImg src="/images/p1-9.jpg" class="w-full rounded-xl" alt="p1-9.jpg-img" />
+                        <p class="lg:mt-2 lg:ml-2"><span class=" text-gray-700 text-sm italic">Dr. Pam with Yumzy co-founder Nastya</span></p>
                     </div>
                     <div class="lg:space-y-4 space-y-2">
                         <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">Yumzy. <u><i>Not</i></u> Your
@@ -703,41 +704,29 @@ useHead({
                         <p class="extrablod">End Hidden Hunger for 100 million people.</p>
                         <p>And with your help, I bet they will.</p>
                         <p>Especially since a portion of each order goes directly toward... </p>
-                        <p>Helping fight Hidden Hunger for kids and families in need...</p>
-                        <p class="italic underline">The results speak for themselves:</p>
+                        <p>Helping fight Hidden Hunger for kids and families in need.</p>
+                        <p class="italic underline">With daily use, the results speak for themselves:</p>
                         <ul class="lg:pl-2 lg:space-y-4 space-y-2 extrablod">
                             <li class="flex gap-2 items-start md:items-center">
-                                <NuxtImg src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
-                                Energy levels stabilize
+                                <NuxtImg class="min-w-5" src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
+                                 5g fiber can improve gut bacteria in ~2 weeks
                             </li>
                             <li class="flex gap-2 items-start md:items-center">
-                                <NuxtImg src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
-                                Fewer
-                                meltdowns and mood
-                                swings
+                                <NuxtImg class="min-w-5" src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
+                               Vitamin D levels rise in 1–3 months
                             </li>
                             <li class="flex gap-2 items-start md:items-center">
-                                <NuxtImg src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
-                                Stronger immunity (fewer sick
-                                days!)
+                                <NuxtImg class="min-w-5" src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
+                                Vitamins K2 + D3 start helping bones in months
                             </li>
                             <li class="flex gap-2 items-start md:items-center">
-                                <NuxtImg src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
-                                Tummy
-                                troubles clear up in
-                                days
+                                <NuxtImg class="min-w-5" src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
+                                Vitamin C can help shorten colds by a few days
                             </li>
-                            <li class="flex gap-2 items-start md:items-center">
-                                <NuxtImg src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
-                                Better sleep for the whole
-                                family
-                            </li>
-
                         </ul>
                         <p>Plus, your order of YOMZ Gummies is backed by Yumzy's famous <a
                                 href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">90-Day
-                                Picky Momz 200% Happiness Guarantee.</a></p>
+                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">90-Day 200% Happiness Guarantee.</a></p>
 
                         <p>Yes, there's no risk for you.</p>
                         <p>If your child doesn't love them ...</p>
@@ -813,11 +802,15 @@ useHead({
 
                 </div>
 
-                <div class="lg:text-lg text-sm sources-text">
+                <div class="lg:text-md text-sm sources-text flex flex-col">
                     <p class="extrablod lg:mt-20 mt-5">Sources:</p>
-                    <p class="break-all">https://pmc.ncbi.nlm.nih.gov/articles/PMC6316224/</p>
-                    <p class="break-all">https://pmc.ncbi.nlm.nih.gov/articles/PMC11547883/</p>
-                    <p class="break-all mb-5">https://pmc.ncbi.nlm.nih.gov/articles/PMC9102588/</p>
+                    <NuxtLink target="_blank" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6316224/" class="hover:underline break-all italic">https://pmc.ncbi.nlm.nih.gov/articles/PMC6316224/</NuxtLink>
+                    <NuxtLink target="_blank" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11547883/" class="hover:underline break-all italic">https://pmc.ncbi.nlm.nih.gov/articles/PMC11547883/</NuxtLink>
+                    <NuxtLink target="_blank" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9102588/" class="hover:underline break-all italic">https://pmc.ncbi.nlm.nih.gov/articles/PMC9102588/</NuxtLink>
+                    <NuxtLink target="_blank" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8546969" class="hover:underline break-all italic">https://pmc.ncbi.nlm.nih.gov/articles/PMC8546969</NuxtLink>
+                    <NuxtLink target="_blank" href="https://www.ccjm.org/content/89/3/154" class="hover:underline break-all italic">https://www.ccjm.org/content/89/3/154</NuxtLink>
+                    <NuxtLink target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0378512201002754" class="hover:underline break-all italic">https://www.sciencedirect.com/science/article/abs/pii/S0378512201002754</NuxtLink>
+                    <NuxtLink target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/38082300/" class="hover:underline break-all italic mb-5">https://pubmed.ncbi.nlm.nih.gov/38082300/</NuxtLink>
                 </div>
 
             </div>

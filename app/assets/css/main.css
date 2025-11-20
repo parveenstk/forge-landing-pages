@@ -59,7 +59,7 @@
 .allpragraph-fontsize p{font-size: 19px !important; }
 .allpragraph-fontsize li{font-size: 19px !important;}
 
-.sources-text p{font-size: 16px !important;}
+.sources-text p, .sources-text a{font-size: 9px !important;}
 
 p.risk{font-size: 15px !important; }
     p.new-text-studies{font-size: 17px !important;}

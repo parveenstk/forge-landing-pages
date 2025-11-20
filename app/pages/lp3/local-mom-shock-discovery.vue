@@ -57,18 +57,16 @@ useHead({
                     </p>
 
                     <div class="flex gap-3 items-center py-4">
-                        <NuxtImg src="/images/person.png" class="rounded-full w-15" alt="person.png-img" />
-                        <div>
-                            <span class="extrablod flex">
-                                Sabrina Marshall
-                                <NuxtImg src="/images/check.png" width="22" height="23" class="ml-1"
-                                    alt="check.png-img" />
-                            </span>
-                            <span>
-                                Last updated {{ formattedDate }}
-                            </span>
-                        </div>
+                    <NuxtImg src="/images/person.jpg" alt="person.jpg-img" class="rounded-full w-20" />
+                    <div>
+                        <span class="extrablod flex">Dr. Pam, MD
+                            <NuxtImg src="/images/check.png" width="22" height="23" alt="check.png-img" />
+                        </span>
+                        <span class="font-extrabold text-sm italic text-gray-700"> Board-certified, Internal Medicine</span>
+                        <br/>
+                        <span class="text-sm text-gray-600"> Last updated {{ formattedDate }}</span>
                     </div>
+                </div>
 
                     <div class="lg:hidden lg:space-y-4 space-y-2 mb-8">
                         <p>6-year-old Emma had her annual checkup.</p>
@@ -323,7 +321,7 @@ useHead({
                         <p>"Just pure, bioavailable nutrients in a form kids love."</p>
                         <p>She laughs. “And adults, too!”</p>
                         <p>That’s becomes YOMZ OG Gummies come in 3 juicy flavors: <span class="extrablod">Peachy, Strawbeary, and Berry Beary.</span></p>
-                        <p>If you like your lips to pucker, there’s also the <span class="extrablod">eye-watering YOMZ Sour</span> form in those same 3 flavors.</p>
+                        <p>If you like your lips to pucker, there’s also the <span class="extrablod">tangy YOMZ Sour</span> form in those same 3 flavors.</p>
 
                         <p>Each serving of YOMZ Gummies has the phytonutrient equal of  <span class="extrablod">2 servings of fruits and vegetables.</span></p>
                         <p>It's <span class="extrablod">also packed with</span> polyphenols, probiotics,
@@ -428,12 +426,12 @@ useHead({
 
                         <p>For Sarah, Yumzy has been <span class="extrablod"> life-changing.</span></p>
                         <p>"I used to lie awake at night worrying about Emma's nutrition. </p>
-                        <p>"Now I know whatever she eats during the day, YOMZ <span class="extrablod">is
+                        <p>"Now I know whatever she eats during the day, <span class="extrablod">YOMZ Gummies are
                                 giving
                                 her</span>
                             what her body needs to grow and thrive."</p>
                         <p>"There's no risk to try these, either. </p>
-                        <p>"That’s because YOMZ comes with Yumzy's famous <span class="extrablod">90-Day Picky Momz 200%
+                        <p>"That’s because YOMZ comes with Yumzy's famous <span class="extrablod">90-Day 200%
                                 Happiness Guarantee.</span>"</p>
                         <p>That's right. In 90 days...</p>
 
@@ -574,18 +572,16 @@ useHead({
 
                     </div>
 
-                    <div class="lg:text-lg text-sm sources-text font-bold lg:space-y-1 space-y-2">
-                        <p class="extrablod lg:mt-20 mt-5">Sources:</p>
-                        <p class="break-all">https://pmc.ncbi.nlm.nih.gov/articles/PMC10918648/
-                        </p>
-                        <p class="break-all">https://www.feedingamerica.org/hunger-in-america
-                        </p>
-                        <p class="break-all">https://pubmed.ncbi.nlm.nih.gov/24724766/</p>
-                        <p class="break-all">https://pubmed.ncbi.nlm.nih.gov/24724766/</p>
-                        <p class="break-all">https://pmc.ncbi.nlm.nih.gov/articles/PMC9573946/
-                        </p>
-                        <p class="break-all mb-5">
-                            https://pmc.ncbi.nlm.nih.gov/articles/PMC6124841/</p>
+                    <!-- <div class="lg:text-lg text-sm sources-text font-bold lg:space-y-1 space-y-2">
+                        <p class="extrablod lg:mt-20 mt-5">Sources:</p> -->
+                    <div class="lg:text-md text-sm sources-text flex flex-col">
+                    <p class="extrablod lg:mt-20 mt-5">Sources:</p>
+                        <NuxtLink class="hover:underline break-all italic" target="_blank" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10918648/">https://pmc.ncbi.nlm.nih.gov/articles/PMC10918648/</NuxtLink>
+                        <NuxtLink class="hover:underline break-all italic" target="_blank" href="https://www.feedingamerica.org/hunger-in-america">https://www.feedingamerica.org/hunger-in-america</NuxtLink>
+                        <NuxtLink class="hover:underline break-all italic" target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/24724766/">https://pubmed.ncbi.nlm.nih.gov/24724766/</NuxtLink>
+                        <NuxtLink class="hover:underline break-all italic" target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/24724766/">https://pubmed.ncbi.nlm.nih.gov/24724766/</NuxtLink>
+                        <NuxtLink class="hover:underline break-all italic" target="_blank" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9573946/">https://pmc.ncbi.nlm.nih.gov/articles/PMC9573946/</NuxtLink>
+                        <NuxtLink class="hover:underline break-all italic mb-5" target="_blank" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6124841/">https://pmc.ncbi.nlm.nih.gov/articles/PMC6124841/</NuxtLink>
                     </div>
                 </div>
 
