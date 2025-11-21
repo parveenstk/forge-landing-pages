@@ -73,9 +73,9 @@ useHead({
 
                 <!-- Mobile version -->
                 <div class="block lg:hidden">
-                    <h1 class="extrablod mr-0 text-[calc(9.5vw-0px)] leading-[calc(1em+1vw)]">
+                    <h1 class="extrablod mr-0 text-[calc(9.3vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                         8 <u><i>Hidden</i></u> Reasons for Child <span class="text-[#E6193C] ">Meltdowns</span></h1>
-                    <p class="font-bold mt-2 text-[calc(4.3vw-0px)] leading-[calc(1em+1vw)] italic">Doctor confirms it's
+                    <p class="font-bold mt-2 text-[calc(4.3vw-0px)] sm:text-[calc(3vw-0px)] leading-[calc(1em+1vw)] italic">Doctor confirms it's
                         not bad parenting...</p>
                 </div>
 
@@ -85,14 +85,13 @@ useHead({
                 </p>
 
                 <div class="flex gap-3 items-center py-4">
-                    <NuxtImg src="/images/person.jpg" alt="person.jpg-img" class="rounded-full w-20" />
-                    <div>
+                    <NuxtImg src="/images/person.jpg" alt="person.jpg-img" class="rounded-full w-16 sm:w-20" />
+                    <div class="flex flex-col space-y-0 sm:space-y-0.7">
                         <span class="extrablod flex">Dr. Pam, MD
                             <NuxtImg src="/images/check.png" width="22" height="23" alt="check.png-img" />
                         </span>
-                        <span class="font-extrabold text-sm italic text-gray-700"> Board-certified, Internal Medicine</span>
-                        <br/>
-                        <span class="text-sm text-gray-600"> Last updated {{ formattedDate }}</span>
+                        <span class="font-extrabold text-[12px] sm:text-sm italic text-gray-700"> Board-certified, Internal Medicine</span>
+                        <span class="text-[12px] sm:text-sm text-gray-600"> Last updated {{ formattedDate }}</span>
                     </div>
                 </div>
                 <div class="space-y-4 hidden lg:block">
@@ -141,7 +140,7 @@ useHead({
                 <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
                     <div>
                         <h3
-                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8.3vw-0px)] leading-[calc(1em+1vw)]">
+                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                             1. "Hangry" Meltdowns</h3>
                         <NuxtImg src="/images/p1-3.jpg" alt="p1-3.jpg-img" class="w-full rounded-xl" />
                     </div>
@@ -212,7 +211,7 @@ useHead({
                 <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
                     <div>
                         <h3
-                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8vw-0px)] leading-[calc(1em+1vw)]">
+                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                             2. Morning Grumpiness</h3>
                         <NuxtImg src="/images/p2-2.jpg" alt="p2-2.jpg-img" class="w-full rounded-xl" />
                     </div>
@@ -271,7 +270,7 @@ useHead({
                 <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
                     <div>
                         <h3
-                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8.5vw-0px)] leading-[calc(1em+1vw)]">
+                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8.5vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                             3. Sleep Problems</h3>
                         <NuxtImg src="/images/p1-6.jpg" alt="p1-6.jpg-img" class="w-full rounded-xl" />
                     </div>
@@ -351,7 +350,7 @@ useHead({
                 <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
                     <div>
                         <h3
-                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7.3vw-0px)] leading-[calc(1em+1vw)]">
+                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                             4. Anxiety, Not "Defiance"</h3>
                         <NuxtImg src="/images/p2-3.jpg" alt="p2-3.jpg-mg" class="w-full rounded-xl" />
                     </div>
@@ -444,7 +443,7 @@ useHead({
                 <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
                     <div>
                         <h3
-                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8.5vw-0px)] leading-[calc(1em+1vw)]">
+                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8.5vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                             5. It's Not ADHD</h3>
                         <NuxtImg src="/images/p2-4.jpg" alt="p2-4.jpg-img" class="w-full rounded-xl" />
                     </div>
@@ -517,7 +516,7 @@ useHead({
                 <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
                     <div>
                         <h3
-                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8.5vw-0px)] leading-[calc(1em+1vw)]">
+                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8.5vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                             6. Emotional Eating...</h3>
                         <NuxtImg src="/images/p2-6.jpg" alt="p2-6.jpg-img" class="w-full rounded-xl" />
                     </div>
@@ -582,7 +581,7 @@ useHead({
                 <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
                     <div>
                         <h3
-                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8.5vw-0px)] leading-[calc(1em+1vw)]">
+                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8.5vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                             7. Social Anxiety</h3>
                         <NuxtImg src="/images/p2-7.jpg" alt="p2-7.jpg-img" class="w-full rounded-xl" />
                     </div>
@@ -647,7 +646,7 @@ useHead({
                 <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
                     <div>
                         <h3
-                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8.5vw-0px)] leading-[calc(1em+1vw)]">
+                            class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8.5vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                             8. Emotional Setbacks</h3>
                         <NuxtImg src="/images/p2-8.jpg" alt="p2-8.jpg-img" class="w-full rounded-xl" />
                     </div>
@@ -704,7 +703,7 @@ useHead({
 
                         <div class="lg:hidden block mb-4">
                             <h3
-                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(10vw-0px)] leading-[calc(1em+1vw)]">
+                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(10vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                                 The Solution Your Family Needs</h3>
 
                         </div>
@@ -891,7 +890,6 @@ useHead({
                 </div>
 
                 <div class="border-1 lg:border-[#1EB9F0] border-[#fff] rounded-xl lg:p-5 p-0 lg:mt-20 mt-15 relative">
-                    <div class="px-6">
                         <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
                             class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white p-3 lg:text-xl text-3xl capitalize">
                             Try Yumzy Today
@@ -900,7 +898,6 @@ useHead({
                             class="hidden lg:block bg-[#0AA03C] text-white absolute -top-5 py-2 w-50 px-5 left-0 right-0 mx-auto extrablod lg:text-lg text-base text-center">
                             Try Yumzy Now
                         </a>
-                    </div>
 
                     <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-5 gap-2 items-center">
 
@@ -912,7 +909,7 @@ useHead({
                         </div>
 
                         <div
-                            class="text-center lg:space-y-4 space-y-2 border-1 lg:border-[#fff] border-[#1EB9F0] lg:p-0 p-6">
+                            class="text-center lg:space-y-4 space-y-2 border-1 lg:border-[#fff] border-[#1EB9F0] lg:p-0 p-2 lg:py-5 py-8">
                             <h4 class="lg:text-3xl text-2xl extrablod">Ready to discover what happens when you support
                                 your
                                 family's gut-brain connection?</h4>

@@ -60,7 +60,7 @@ useHead({
         <!-- BodyContent -->
         <div class="max-w-4xl lg:py-6 py-4 mx-auto">
 
-            <div class="lg:mx-2 mx-3 allpragraph-fontsize">
+            <div class="lg:mx-2 mx-3 allpragra ph-fontsize">
                 <!-- Desktop version -->
                 <h1 class="hidden lg:block lg:text-4xl text-3xl extrablod lg:mr-10 mr-0">
                     7 Warning Signs Your 'Picky Eater' Has <br><span class="text-[#E6193C]"> Hidden Hunger</span>
@@ -71,10 +71,10 @@ useHead({
 
                 <!-- Mobile version -->
                 <div class="block lg:hidden">
-                    <h1 class="extrablod mr-0 text-[calc(9.7vw-0px)] leading-[calc(1em+1vw)]">
-                        7 Warning Signs<br>Your 'Picky Eater'<br>Has <span class="text-[#E6193C]"> Hidden Hunger</span>
+                    <h1 class="extrablod mr-0 text-[calc(9.5vw-0px)] sm:text-[calc(6vw-0px)] leading-[calc(1em+1vw)]">
+                        7 Warning Signs <br class="block sm:hidden">Your 'Picky Eater'<br class="block sm:hidden"> Has <span class="text-[#E6193C]"> Hidden Hunger</span>
                     </h1>
-                    <p class="font-bold mt-2 none-pra text-[calc(3vw-0px)] leading-[calc(1em+1vw)] italic">Here's what
+                    <p class="font-bold mt-2 text-[calc(4.3vw-0px)] sm:text-[calc(3vw-0px)] leading-[calc(1em+1vw)] italic">Here's what
                         smart
                         moms are doing...</p>
                 </div>
@@ -150,10 +150,10 @@ useHead({
                     <div>
                         <div class="lg:hidden block">
                             <h3
-                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(9vw-0px)] leading-[calc(1em+1vw)]">
+                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(9vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                                 1. 3pm Energy
                                 Crash</h3>
-                            <p class="mb-4 italic text-[calc(5.4vw-0px)] leading-[calc(1em+1vw)]">That makes
+                            <p class="mb-4 italic text-[calc(5.4vw-0px)] sm:text-[calc(2.7vw-0px)] leading-[calc(1em+1vw)]">That makes
                                 <u><i>everyone</i></u> miserable
                             </p>
                         </div>
@@ -211,9 +211,9 @@ useHead({
 
                         <div class="lg:hidden block">
                             <h3
-                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(10vw-0px)] leading-[calc(1em+1vw)]">
+                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(10vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                                 2. Tummy Troubles </h3>
-                            <p class="mb-4 italic text-[calc(5.4vw-0px)] leading-[calc(1em+1vw)]"><i>That never go
+                            <p class="mb-4 italic text-[calc(5.4vw-0px)] sm:text-[calc(2.7vw-0px)] leading-[calc(1em+1vw)]"><i>That never go
                                     away</i>
                             </p>
                         </div>
@@ -270,9 +270,9 @@ useHead({
 
                         <div class="lg:hidden block">
                             <h3
-                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(12vw-0px)] leading-[calc(1em+1vw)]">
+                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(12vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                                 3. Mood Swings</h3>
-                            <p class="mb-4 italic text-[calc(5.4vw-0px)] leading-[calc(1em+1vw)]">
+                            <p class="mb-4 italic text-[calc(5.4vw-0px)] sm:text-[calc(2.7vw-0px)] leading-[calc(1em+1vw)]">
                                 <i>From seemingly nowhere</i>
                             </p>
                         </div>
@@ -339,9 +339,9 @@ useHead({
                     <div>
                         <div class="lg:hidden block">
                             <h3
-                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(12vw-0px)] leading-[calc(1em+1vw)]">
+                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(12vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                                 4. Always Sick</h3>
-                            <p class="mb-4 mt-2 italic text-[calc(5.4vw-0px)] leading-[calc(1em+1vw)] lg:hidden">While
+                            <p class="mb-4 mt-2 italic text-[calc(5.4vw-0px)] sm:text-[calc(2.7vw-0px)] leading-[calc(1em+1vw)] lg:hidden">While
                                 other
                                 kids never are...
                             </p>
@@ -402,9 +402,9 @@ useHead({
                     <div>
                         <div class="lg:hidden block">
                             <h3
-                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(8.7vw-0px)] leading-[calc(1em+1vw)]">
+                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(8.7vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                                 5. Attention Problems </h3>
-                            <p class="mb-4 italic text-[calc(5.4vw-0px)] leading-[calc(1em+1vw)] lg:hidden">That
+                            <p class="mb-4 italic text-[calc(5.4vw-0px)] sm:text-[calc(2.7vw-0px)] leading-[calc(1em+1vw)] lg:hidden">That
                                 <u>aren't</u> ADHD
                             </p>
                         </div>
@@ -464,9 +464,9 @@ useHead({
 
                         <div class="lg:hidden block">
                             <h3
-                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(10.5vw-0px)] leading-[calc(1em+1vw)]">
+                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(10.5vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                                 6. Sleep Problems </h3>
-                            <p class="mb-4 italic text-[calc(5.4vw-0px)] leading-[calc(1em+1vw)]">
+                            <p class="mb-4 italic text-[calc(5.4vw-0px)] sm:text-[calc(2.7vw-0px)] leading-[calc(1em+1vw)]">
                                 And other nighttime battles
                             </p>
                         </div>
@@ -545,9 +545,9 @@ useHead({
 
                         <div class="lg:hidden block">
                             <h3
-                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(9.5vw-0px)] leading-[calc(1em+1vw)]">
+                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(9.5vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                                 7. "Failure to Thrive" </h3>
-                            <p class="mb-4 italic text-[calc(5.4vw-0px)] leading-[calc(1em+1vw)] lg:hidden">The warning everyone's missing...</p>
+                            <p class="mb-4 italic text-[calc(5.4vw-0px)] sm:text-[calc(2.7vw-0px)] leading-[calc(1em+1vw)] lg:hidden">The warning everyone's missing...</p>
                         </div>
 
                         <NuxtImg src="/images/p1-7.jpg" class="w-full rounded-xl" alt="p1-7.jpg-img" />
@@ -623,7 +623,7 @@ useHead({
 
                         <div class="lg:hidden block mb-4">
                             <h3
-                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(10vw-0px)] leading-[calc(1em+1vw)]">
+                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(10vw-0px)] sm:text-[calc(5.7vw-0px)] leading-[calc(1em+1vw)]">
                                 What Smart Moms Are Doing About It</h3>
                         </div>
                         <NuxtImg src="/images/p1-8.jpg" class="w-full rounded-xl" alt="p1-8.jpg-img" />
@@ -653,12 +653,17 @@ useHead({
                     <div>
 
                         <div class="lg:hidden block mb-4">
+                            <div class="block sm:hidden">
                             <h3
                                 class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(11vw-0px)] leading-[calc(1em+1vw)]">
                                 Yumzy. <u><i>Not</i></u> Your</h3>
                             <h3
                                 class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(11vw-0px)] leading-[calc(1em+1vw)]">
                                 Typical Gummy.</h3>
+                                </div>
+                                <h3 class="hidden sm:block extrablod mb-0 sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">Yumzy. <u><i>Not</i></u> Your
+                            Typical
+                            Gummy.</h3>
                         </div>
                         <NuxtImg src="/images/p1-9.jpg" class="w-full rounded-xl" alt="p1-9.jpg-img" />
                         <p class="lg:mt-2 lg:ml-2"><span class=" text-gray-700 text-sm italic">Dr. Pam with Yumzy co-founder Nastya</span></p>

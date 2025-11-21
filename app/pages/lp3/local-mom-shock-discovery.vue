@@ -44,7 +44,7 @@ useHead({
                     </h1>
 
                     <!-- <h1 class="block lg:hidden text-[calc(6vw-0px)] leading-[calc(1em+1vw)]"> -->
-                    <h1 class="block lg:hidden text-[7.7vw] leading-[calc(1em+1vw)]">
+                    <h1 class="block lg:hidden text-[7.7vw] sm:text-[calc(6vw-0px)] leading-[calc(1em+1vw)]">
 
                         <span
                             class="text-lg text-black p-1 block mb-1 w-fit underline font-semibold italic bg-[#FFEB00]">
@@ -118,14 +118,14 @@ useHead({
 
                     </div>
 
-                    <h2 class="text-4xl mb-6 hidden lg:inline">A <span class="extrablod">Silent Crisis</span> for 47
+                    <h2 class="text-4xl mb-5 hidden lg:block">A <span class="extrablod">Silent Crisis</span> for 47
                         Million
                         Americans</h2>
 
-                    <h2 class="lg:text-4xl text-[9vw] leading-[calc(1em+1vw)]  block mb-6 lg:hidden">A <span
+                    <h2 class="lg:text-4xl text-[9vw] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]  block mb-6 lg:hidden">A <span
                             class="extrablod">Silent
                             Crisis</span>
-                        for <br /> 47 Million Americans</h2>
+                        for <br class="block sm:hidden"/> 47 Million Americans</h2>
 
                     <NuxtImg src="/images/fl-1.jpg" class="w-full mb-5" alt="fl-1.jpg-img" />
 
@@ -181,7 +181,7 @@ useHead({
 
                     </div>
 
-                    <h3 class="lg:text-4xl text-[6.9vw] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">Why
+                    <h3 class="lg:text-4xl text-[6.5vw] sm:text-[calc(5.5vw-0px)] lg:leading-[calc(.7em+1vw)] xl:leading-[36px] leading-[calc(1em+1vw)] extrablod mt-8">Why
                         Modern Americans Are Starving in a Land of
                         Plenty
                     </h3>
@@ -199,15 +199,15 @@ useHead({
                         <p>That's on top of the busy reality of modern family life:</p>
                         <ul class="lg:pl-2 lg:space-y-4 space-y-2">
                             <li class="flex gap-2 items-center">
-                                <NuxtImg src="/images/blk-check.svg" width="20" height="20" alt="blk-check.svg" />
+                                <NuxtImg src="/images/blk-check.svg" class="min-w-[20px]" width="20" height="20" alt="blk-check.svg" />
                                 Processed snacks
                             </li>
                             <li class="flex gap-2 items-center">
-                                <NuxtImg src="/images/blk-check.svg" width="20" height="20" alt="blk-check.svg" />
+                                <NuxtImg src="/images/blk-check.svg" class="min-w-[20px]" width="20" height="20" alt="blk-check.svg" />
                                 Fast food meals
                             </li>
                             <li class="flex gap-2 items-center">
-                                <NuxtImg src="/images/blk-check.svg" width="20" height="20" alt="blk-check.svg" />
+                                <NuxtImg src="/images/blk-check.svg" class="min-w-[20px]" width="20" height="20" alt="blk-check.svg" />
                                 Daily battles to eat anything green
                             </li>
                         </ul>
@@ -223,7 +223,7 @@ useHead({
 
                     </div>
 
-                    <h3 class="lg:text-4xl text-[7.4vw] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">Hidden
+                    <h3 class="lg:text-4xl text-[7.2vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">Hidden
                         Signs Most Parents (and Doctors) Miss
                     </h3>
 
@@ -268,7 +268,7 @@ useHead({
                         <p>"I never <span class="extrablod">connected it</span> to what she was eating."</p>
                     </div>
 
-                    <h3 class="text-[8.3vw] leading-[calc(1em+1vw)] lg:text-4xl extrablod mt-8">Breakthrough Changes
+                    <h3 class="text-[8.3vw] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)] lg:text-4xl extrablod mt-8">Breakthrough Changes
                         Everything</h3>
                     <NuxtImg src="/images/fl-5.jpg" class="w-full py-6" alt="fl-5.jpg-img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
@@ -353,7 +353,7 @@ useHead({
                     <div class="lg:space-y-4 space-y-2 mb-8 bg-[#DCF0E1] pb-7 shadow-lg rounded-xl overflow-hidden">
                         <NuxtImg src="/images/fl-6.jpg" class="w-full" alt="fl-6.jpg-Img" />
                         <h3
-                            class="lg:text-4xl text-[8.3vw] lg:leading-[52px] leading-[calc(1em+1vw)]  extrablod mt-6 lg:px-5">
+                            class="lg:text-4xl text-[8.3vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)]  extrablod mt-6 lg:px-5">
                             Why Yumzy Is Different</h3>
                         <p class="lg:px-5">Yumzy is <span class="extrablod">unlike</span> traditional
                             supplements.</p>
@@ -419,7 +419,7 @@ useHead({
                         </ul>
                     </div>
 
-                    <h3 class="lg:text-4xl text-[10vw] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">Don’t
+                    <h3 class="lg:text-4xl text-[10vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">Don’t
                         You Deserve Peace of Mind?</h3>
                     <NuxtImg src="/images/fl-7.jpg" class="w-full py-6" alt="fl-7.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
@@ -448,7 +448,7 @@ useHead({
                         <p>Or if no one loves the taste, you get back double what you paid.</p>
                     </div>
 
-                    <h3 class="lg:text-4xl text-[11vw] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">A
+                    <h3 class="lg:text-4xl text-[11vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">A
                         Mission Bigger Than Business</h3>
                     <NuxtImg src="/images/p1-9.jpg" class="w-full py-6" alt="fl-8.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
@@ -501,7 +501,7 @@ useHead({
                             Good Manufacturing Practices (cGMP).</p>
                     </div>
 
-                    <h3 class="lg:text-4xl text-[11vw] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">Taking
+                    <h3 class="lg:text-4xl text-[11vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">Taking
                         Action</h3>
                     <NuxtImg src="/images/fl-9.jpg" class="w-full py-6" alt="fl-9.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
@@ -565,7 +565,7 @@ useHead({
                         Try YOMZ Risk-Free
                     </a> -->
                         <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                            class="flex justify-center w-full h-full bg-[#0AA03C] rounded-full  extrablod text-white capitalize p-3 lg:text-xl text-3xl">
+                            class="flex justify-center w-full h-full bg-[#0AA03C] rounded-full  extrablod text-white capitalize p-3 lg:text-xl text-2xl sm:text-3xl">
                             Try Yumzy Risk-Free
                         </a>
                         <!-- <a href="https://yomz-checkout-2.vercel.app/"
