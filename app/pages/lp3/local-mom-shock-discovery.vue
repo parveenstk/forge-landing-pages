@@ -37,13 +37,14 @@ useHead({
                     <p class="mb-2 lg:hidden">Home > Health > Family Health</p>
 
                     <h1 class="lg:text-4xl text-3xl hidden lg:block">
-                        <span class="text-xl text-black p-1 block mb-1 w-fit underline font-semibold italic bg-[#FFEB00]">
+                        <span
+                            class="text-xl text-black p-1 block mb-1 w-fit underline font-semibold italic bg-[#FFEB00]">
                             Local Mom's Shocking Discovery:</span><span class="extrablod">
                             My “Healthy” Family Was Actually <span class="text-[#E6193C]">Malnourished</span>.</span>
                     </h1>
 
                     <!-- <h1 class="block lg:hidden text-[calc(6vw-0px)] leading-[calc(1em+1vw)]"> -->
-                        <h1 class="block lg:hidden text-[7.7vw] leading-[calc(1em+1vw)]">
+                    <h1 class="block lg:hidden text-[7.7vw] leading-[calc(1em+1vw)]">
 
                         <span
                             class="text-lg text-black p-1 block mb-1 w-fit underline font-semibold italic bg-[#FFEB00]">
@@ -57,13 +58,11 @@ useHead({
                     </p>
 
                     <div class="flex gap-3 items-center py-4">
-                    <NuxtImg src="/images/person.jpg" alt="person.jpg-img" class="rounded-full w-20" />
+                    <NuxtImg src="/images/sabrina.png" alt="sabrina.png-img" class="rounded-full w-15" />
                     <div>
-                        <span class="extrablod flex">Dr. Pam, MD
+                        <span class="extrablod flex">Sabrina Marshall
                             <NuxtImg src="/images/check.png" width="22" height="23" alt="check.png-img" />
                         </span>
-                        <span class="font-extrabold text-sm italic text-gray-700"> Board-certified, Internal Medicine</span>
-                        <br/>
                         <span class="text-sm text-gray-600"> Last updated {{ formattedDate }}</span>
                     </div>
                 </div>
@@ -123,9 +122,10 @@ useHead({
                         Million
                         Americans</h2>
 
-                    <h2 class="lg:text-4xl text-[9vw] leading-[calc(1em+1vw)]  block mb-6 lg:hidden">A <span class="extrablod">Silent
+                    <h2 class="lg:text-4xl text-[9vw] leading-[calc(1em+1vw)]  block mb-6 lg:hidden">A <span
+                            class="extrablod">Silent
                             Crisis</span>
-                        for <br/> 47 Million Americans</h2>
+                        for <br /> 47 Million Americans</h2>
 
                     <NuxtImg src="/images/fl-1.jpg" class="w-full mb-5" alt="fl-1.jpg-img" />
 
@@ -181,7 +181,8 @@ useHead({
 
                     </div>
 
-                    <h3 class="lg:text-4xl text-[6.9vw] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">Why Modern Americans Are Starving in a Land of
+                    <h3 class="lg:text-4xl text-[6.9vw] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">Why
+                        Modern Americans Are Starving in a Land of
                         Plenty
                     </h3>
 
@@ -199,11 +200,11 @@ useHead({
                         <ul class="lg:pl-2 lg:space-y-4 space-y-2">
                             <li class="flex gap-2 items-center">
                                 <NuxtImg src="/images/blk-check.svg" width="20" height="20" alt="blk-check.svg" />
-                                Processed snacks 
+                                Processed snacks
                             </li>
                             <li class="flex gap-2 items-center">
                                 <NuxtImg src="/images/blk-check.svg" width="20" height="20" alt="blk-check.svg" />
-                                Fast food meals 
+                                Fast food meals
                             </li>
                             <li class="flex gap-2 items-center">
                                 <NuxtImg src="/images/blk-check.svg" width="20" height="20" alt="blk-check.svg" />
@@ -222,7 +223,8 @@ useHead({
 
                     </div>
 
-                    <h3 class="lg:text-4xl text-[7.4vw] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">Hidden Signs Most Parents (and Doctors) Miss
+                    <h3 class="lg:text-4xl text-[7.4vw] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">Hidden
+                        Signs Most Parents (and Doctors) Miss
                     </h3>
 
                     <NuxtImg src="/images/fl-4.jpg" class="w-full py-6 pb-0" alt="fl-4.jpg-img" />
@@ -266,7 +268,8 @@ useHead({
                         <p>"I never <span class="extrablod">connected it</span> to what she was eating."</p>
                     </div>
 
-                    <h3 class="text-[8.3vw] leading-[calc(1em+1vw)] lg:text-4xl extrablod mt-8">Breakthrough Changes Everything</h3>
+                    <h3 class="text-[8.3vw] leading-[calc(1em+1vw)] lg:text-4xl extrablod mt-8">Breakthrough Changes
+                        Everything</h3>
                     <NuxtImg src="/images/fl-5.jpg" class="w-full py-6" alt="fl-5.jpg-img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p><span class="extrablod">After seeing thousands</span> of families struggle with
@@ -320,10 +323,13 @@ useHead({
                         <p>“No artificial colors. No fake flavors. No junk. </p>
                         <p>"Just pure, bioavailable nutrients in a form kids love."</p>
                         <p>She laughs. “And adults, too!”</p>
-                        <p>That’s becomes YOMZ OG Gummies come in 3 juicy flavors: <span class="extrablod">Peachy, Strawbeary, and Berry Beary.</span></p>
-                        <p>If you like your lips to pucker, there’s also the <span class="extrablod">tangy YOMZ Sour</span> form in those same 3 flavors.</p>
+                        <p>That’s becomes YOMZ OG Gummies come in 3 juicy flavors: <span class="extrablod">Peachy,
+                                Strawbeary, and Berry Beary.</span></p>
+                        <p>If you like your lips to pucker, there’s also the <span class="extrablod">tangy YOMZ
+                                Sour</span> form in those same 3 flavors.</p>
 
-                        <p>Each serving of YOMZ Gummies has the phytonutrient equal of  <span class="extrablod">2 servings of fruits and vegetables.</span></p>
+                        <p>Each serving of YOMZ Gummies has the phytonutrient equal of <span class="extrablod">2
+                                servings of fruits and vegetables.</span></p>
                         <p>It's <span class="extrablod">also packed with</span> polyphenols, probiotics,
                             postbiotics,
                             and
@@ -346,7 +352,9 @@ useHead({
 
                     <div class="lg:space-y-4 space-y-2 mb-8 bg-[#DCF0E1] pb-7 shadow-lg rounded-xl overflow-hidden">
                         <NuxtImg src="/images/fl-6.jpg" class="w-full" alt="fl-6.jpg-Img" />
-                        <h3 class="lg:text-4xl text-[8.3vw] lg:leading-[52px] leading-[calc(1em+1vw)]  extrablod mt-6 lg:px-5">Why Yumzy Is Different</h3>
+                        <h3
+                            class="lg:text-4xl text-[8.3vw] lg:leading-[52px] leading-[calc(1em+1vw)]  extrablod mt-6 lg:px-5">
+                            Why Yumzy Is Different</h3>
                         <p class="lg:px-5">Yumzy is <span class="extrablod">unlike</span> traditional
                             supplements.</p>
                         <p class="lg:px-5"><span class="extrablod italic underline">No</span> junk or fake
@@ -411,7 +419,8 @@ useHead({
                         </ul>
                     </div>
 
-                    <h3 class="lg:text-4xl text-[10vw] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">Don’t You Deserve Peace of Mind?</h3>
+                    <h3 class="lg:text-4xl text-[10vw] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">Don’t
+                        You Deserve Peace of Mind?</h3>
                     <NuxtImg src="/images/fl-7.jpg" class="w-full py-6" alt="fl-7.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
 
@@ -439,7 +448,8 @@ useHead({
                         <p>Or if no one loves the taste, you get back double what you paid.</p>
                     </div>
 
-                    <h3 class="lg:text-4xl text-[11vw] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">A Mission Bigger Than Business</h3>
+                    <h3 class="lg:text-4xl text-[11vw] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">A
+                        Mission Bigger Than Business</h3>
                     <NuxtImg src="/images/p1-9.jpg" class="w-full py-6" alt="fl-8.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p>Yumzy wasn't created to solve just <i><u>one</u></i> family's problems.
@@ -491,7 +501,8 @@ useHead({
                             Good Manufacturing Practices (cGMP).</p>
                     </div>
 
-                    <h3 class="lg:text-4xl text-[11vw] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">Taking Action</h3>
+                    <h3 class="lg:text-4xl text-[11vw] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">Taking
+                        Action</h3>
                     <NuxtImg src="/images/fl-9.jpg" class="w-full py-6" alt="fl-9.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p>To discover more about Yumzy and Hidden Hunger, visit the <span class="extrablod">Yumzy
@@ -575,13 +586,25 @@ useHead({
                     <!-- <div class="lg:text-lg text-sm sources-text font-bold lg:space-y-1 space-y-2">
                         <p class="extrablod lg:mt-20 mt-5">Sources:</p> -->
                     <div class="lg:text-md text-sm sources-text flex flex-col">
-                    <p class="extrablod lg:mt-20 mt-5">Sources:</p>
-                        <NuxtLink class="hover:underline break-all italic" target="_blank" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10918648/">https://pmc.ncbi.nlm.nih.gov/articles/PMC10918648/</NuxtLink>
-                        <NuxtLink class="hover:underline break-all italic" target="_blank" href="https://www.feedingamerica.org/hunger-in-america">https://www.feedingamerica.org/hunger-in-america</NuxtLink>
-                        <NuxtLink class="hover:underline break-all italic" target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/24724766/">https://pubmed.ncbi.nlm.nih.gov/24724766/</NuxtLink>
-                        <NuxtLink class="hover:underline break-all italic" target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/24724766/">https://pubmed.ncbi.nlm.nih.gov/24724766/</NuxtLink>
-                        <NuxtLink class="hover:underline break-all italic" target="_blank" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9573946/">https://pmc.ncbi.nlm.nih.gov/articles/PMC9573946/</NuxtLink>
-                        <NuxtLink class="hover:underline break-all italic mb-5" target="_blank" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6124841/">https://pmc.ncbi.nlm.nih.gov/articles/PMC6124841/</NuxtLink>
+                        <p class="extrablod lg:mt-20 mt-5">Sources:</p>
+                        <NuxtLink class="hover:underline break-all italic" target="_blank"
+                            href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10918648/">
+                            https://pmc.ncbi.nlm.nih.gov/articles/PMC10918648/</NuxtLink>
+                        <NuxtLink class="hover:underline break-all italic" target="_blank"
+                            href="https://www.feedingamerica.org/hunger-in-america">
+                            https://www.feedingamerica.org/hunger-in-america</NuxtLink>
+                        <NuxtLink class="hover:underline break-all italic" target="_blank"
+                            href="https://pubmed.ncbi.nlm.nih.gov/24724766/">https://pubmed.ncbi.nlm.nih.gov/24724766/
+                        </NuxtLink>
+                        <NuxtLink class="hover:underline break-all italic" target="_blank"
+                            href="https://pubmed.ncbi.nlm.nih.gov/24724766/">https://pubmed.ncbi.nlm.nih.gov/24724766/
+                        </NuxtLink>
+                        <NuxtLink class="hover:underline break-all italic" target="_blank"
+                            href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9573946/">
+                            https://pmc.ncbi.nlm.nih.gov/articles/PMC9573946/</NuxtLink>
+                        <NuxtLink class="hover:underline break-all italic mb-5" target="_blank"
+                            href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6124841/">
+                            https://pmc.ncbi.nlm.nih.gov/articles/PMC6124841/</NuxtLink>
                     </div>
                 </div>
 

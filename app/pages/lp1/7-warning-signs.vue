@@ -85,13 +85,11 @@ useHead({
                 </p>
 
                 <div class="flex gap-3 items-center py-4">
-                    <NuxtImg src="/images/person.jpg" alt="person.jpg-img" class="rounded-full w-20" />
+                    <NuxtImg src="/images/sabrina.png" alt="sabrina.png-img" class="rounded-full w-15" />
                     <div>
-                        <span class="extrablod flex">Dr. Pam, MD
+                        <span class="extrablod flex">Sabrina Marshall
                             <NuxtImg src="/images/check.png" width="22" height="23" alt="check.png-img" />
                         </span>
-                        <span class="font-extrabold text-sm italic text-gray-700"> Board-certified, Internal Medicine</span>
-                        <br/>
                         <span class="text-sm text-gray-600"> Last updated {{ formattedDate }}</span>
                     </div>
                 </div>
@@ -706,7 +704,7 @@ useHead({
                         <p>Especially since a portion of each order goes directly toward... </p>
                         <p>Helping fight Hidden Hunger for kids and families in need.</p>
                         <p class="italic underline">With daily use, the results speak for themselves:</p>
-                        <ul class="lg:pl-2 lg:space-y-4 space-y-2 extrablod">
+                        <ul class="lg:pl-2 lg:space-y-4 space-y-2">
                             <li class="flex gap-2 items-start md:items-center">
                                 <NuxtImg class="min-w-5" src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
                                  5g fiber can improve gut bacteria in ~2 weeks
@@ -717,7 +715,7 @@ useHead({
                             </li>
                             <li class="flex gap-2 items-start md:items-center">
                                 <NuxtImg class="min-w-5" src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
-                                Vitamins K2 + D3 start helping bones in months
+                                Vitamins K2 + D3 start helping bones in 2-6 months
                             </li>
                             <li class="flex gap-2 items-start md:items-center">
                                 <NuxtImg class="min-w-5" src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
