@@ -80,15 +80,15 @@ useHead({
                 </div>
 
                 <p class="flex items-center gap-3 extrablod mt-3">
-                    <NuxtImg src="/images/star.svg" width="110" height="90" alt="star-img" />
+                    <img src="/images/star.svg" width="110" height="90" alt="star-img" />
                     <span class="font-bold">6,782 ratings</span>
                 </p>
 
                 <div class="flex gap-3 items-center py-4">
-                    <NuxtImg src="/images/sabrina.png" alt="sabrina.png-img" class="rounded-full w-15" />
+                    <img src="/images/sabrina.png" alt="sabrina.png-img" class="rounded-full w-15" />
                     <div>
                         <span class="extrablod flex">Sabrina Marshall
-                            <NuxtImg src="/images/check.png" width="22" height="23" alt="check.png-img" />
+                            <img src="/images/check.png" width="22" height="23" alt="check.png-img" />
                         </span>
                         <span class="text-sm text-gray-600"> Last updated {{ formattedDate }}</span>
                     </div>
@@ -158,7 +158,7 @@ useHead({
                             </p>
                         </div>
 
-                        <NuxtImg src="/images/p1-1.jpg" class="w-full rounded-xl" alt="p1-1.jpg-img" />
+                        <img src="/images/p1-1.jpg" class="w-full rounded-xl" alt="p1-1.jpg-img" />
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod lg:block hidden leading-9">1. 3pm Energy
@@ -218,7 +218,7 @@ useHead({
                             </p>
                         </div>
 
-                        <NuxtImg src="/images/p1-2.jpg" class="w-full rounded-xl" alt="p1-2.jpg-img" />
+                        <img src="/images/p1-2.jpg" class="w-full rounded-xl" alt="p1-2.jpg-img" />
                     </div>
 
                     <div>
@@ -277,7 +277,7 @@ useHead({
                             </p>
                         </div>
 
-                        <NuxtImg src="/images/p1-3.jpg" class="w-full rounded-xl" alt="p1-3.jpg-img" />
+                        <img src="/images/p1-3.jpg" class="w-full rounded-xl" alt="p1-3.jpg-img" />
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod lg:block hidden leading-9">3. Mood Swings
@@ -347,7 +347,7 @@ useHead({
                             </p>
                         </div>
 
-                        <NuxtImg src="/images/p1-4.jpg" class="w-full rounded-xl" alt="p1-4.jpg-img" />
+                        <img src="/images/p1-4.jpg" class="w-full rounded-xl" alt="p1-4.jpg-img" />
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod lg:block hidden leading-9">4. Always Sick </h3>
@@ -409,7 +409,7 @@ useHead({
                             </p>
                         </div>
 
-                        <NuxtImg src="/images/p2-4.jpg" class="w-full rounded-xl" alt="p2-4.jpg-img" />
+                        <img src="/images/p2-4.jpg" class="w-full rounded-xl" alt="p2-4.jpg-img" />
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod lg:block hidden leading-9">5. Attention Problems</h3>
@@ -471,7 +471,7 @@ useHead({
                             </p>
                         </div>
 
-                        <NuxtImg src="/images/p1-6.jpg" class="w-full rounded-xl" alt="p1-6.jpg-img" />
+                        <img src="/images/p1-6.jpg" class="w-full rounded-xl" alt="p1-6.jpg-img" />
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod lg:block hidden leading-9">6. Sleep Problems</h3>
@@ -550,7 +550,7 @@ useHead({
                             <p class="mb-4 italic text-[calc(5.4vw-0px)] sm:text-[calc(2.7vw-0px)] leading-[calc(1em+1vw)] lg:hidden">The warning everyone's missing...</p>
                         </div>
 
-                        <NuxtImg src="/images/p1-7.jpg" class="w-full rounded-xl" alt="p1-7.jpg-img" />
+                        <img src="/images/p1-7.jpg" class="w-full rounded-xl" alt="p1-7.jpg-img" />
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod lg:block hidden leading-9">7. "Failure to Thrive"</h3>
@@ -626,7 +626,7 @@ useHead({
                                 class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(10vw-0px)] sm:text-[calc(5.7vw-0px)] leading-[calc(1em+1vw)]">
                                 What Smart Moms Are Doing About It</h3>
                         </div>
-                        <NuxtImg src="/images/p1-8.jpg" class="w-full rounded-xl" alt="p1-8.jpg-img" />
+                        <img src="/images/p1-8.jpg" class="w-full rounded-xl" alt="p1-8.jpg-img" />
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">What Smart Moms Are Doing About It
@@ -665,7 +665,7 @@ useHead({
                             Typical
                             Gummy.</h3>
                         </div>
-                        <NuxtImg src="/images/p1-9.jpg" class="w-full rounded-xl" alt="p1-9.jpg-img" />
+                        <img src="/images/p1-9.jpg" class="w-full rounded-xl" alt="p1-9.jpg-img" />
                         <p class="lg:mt-2 lg:ml-2"><span class=" text-gray-700 text-sm italic">Dr. Pam with Yumzy co-founder Nastya</span></p>
                     </div>
                     <div class="lg:space-y-4 space-y-2">
@@ -687,15 +687,15 @@ useHead({
                         <p>That’s because of 3 <i>mouthwatering</i> flavors:</p>
                         <ul class="lg:pl-2 lg:space-y-4 space-y-2">
                             <li class="flex gap-2 items-center">
-                                <NuxtImg src="/images/blk-check.svg" width="20" height="20" alt="blk-check.svg" />
+                                <img src="/images/blk-check.svg" width="20" height="20" alt="blk-check.svg" />
                                 Strawbeary
                             </li>
                             <li class="flex gap-2 items-center">
-                                <NuxtImg src="/images/blk-check.svg" width="20" height="20" alt="blk-check.svg" /> Beary
+                                <img src="/images/blk-check.svg" width="20" height="20" alt="blk-check.svg" /> Beary
                                 Berry
                             </li>
                             <li class="flex gap-2 items-center">
-                                <NuxtImg src="/images/blk-check.svg" width="20" height="20" alt="blk-check.svg" />
+                                <img src="/images/blk-check.svg" width="20" height="20" alt="blk-check.svg" />
                                 Peachy
                             </li>
                         </ul>
@@ -711,19 +711,19 @@ useHead({
                         <p class="italic underline">With daily use, the results speak for themselves:</p>
                         <ul class="lg:pl-2 lg:space-y-4 space-y-2">
                             <li class="flex gap-2 items-start md:items-center">
-                                <NuxtImg class="min-w-5" src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
+                                <img class="min-w-5" src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
                                  5g fiber can improve gut bacteria in ~2 weeks
                             </li>
                             <li class="flex gap-2 items-start md:items-center">
-                                <NuxtImg class="min-w-5" src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
+                                <img class="min-w-5" src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
                                Vitamin D levels rise in 1–3 months
                             </li>
                             <li class="flex gap-2 items-start md:items-center">
-                                <NuxtImg class="min-w-5" src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
+                                <img class="min-w-5" src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
                                 Vitamins K2 + D3 start helping bones in 2-6 months
                             </li>
                             <li class="flex gap-2 items-start md:items-center">
-                                <NuxtImg class="min-w-5" src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
+                                <img class="min-w-5" src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
                                 Vitamin C can help shorten colds by a few days
                             </li>
                         </ul>
@@ -759,9 +759,9 @@ useHead({
                     <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-5 gap-2 items-center">
 
                         <div>
-                            <NuxtImg src="/images/yomz-double-pack.jpg" alt="yomz-double-pack.jpg-img"
+                            <img src="/images/yomz-double-pack.jpg" alt="yomz-double-pack.jpg-img"
                                 class="hidden lg:block w-full lgp-3 p-1 lg:pt-3 pt-6" />
-                            <NuxtImg src="/images/yomz-double-pack.jpg" alt="yomz-double-pack.jpg-img"
+                            <img src="/images/yomz-double-pack.jpg" alt="yomz-double-pack.jpg-img"
                                 class="lg:hidden w-full lgp-3 p-1 lg:pt-3 pt-6" />
                         </div>
 
@@ -828,7 +828,7 @@ useHead({
         <!-- Your footer -->
         <footer ref="footerRef" class="bg-[#1EB9F0] lg:py-7 py-3">
             <div class="mx-auto max-w-5xl text-center">
-                <NuxtImg src="/images/logo.png" alt="logo.png-img" class="max-w-30 mx-auto mb-4" />
+                <img src="/images/logo.png" alt="logo.png-img" class="max-w-30 mx-auto mb-4" />
                 <p class="text-white lg:text-lg text-sm hidden lg:block">
                     By filling out the field, you consent for YOMZ™ to use automated technology,
                     including texts and prerecorded messages, to contact you at the number and
