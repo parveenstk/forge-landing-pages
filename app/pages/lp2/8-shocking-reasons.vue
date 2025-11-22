@@ -80,15 +80,15 @@ useHead({
                 </div>
 
                 <p class="flex items-center gap-3 extrablod mt-3">
-                    <NuxtImg src="/images/star.svg" width="110" height="20" alt="star.svg-img" />
+                    <img src="/images/star.svg" width="110" height="20" alt="star.svg-img" />
                     <span class="font-bold">6,782 ratings</span>
                 </p>
 
                 <div class="flex gap-3 items-center py-4">
-                    <NuxtImg src="/images/person.jpg" alt="person.jpg-img" class="rounded-full w-16 sm:w-20" />
+                    <img src="/images/person.jpg" alt="person.jpg-img" class="rounded-full w-16 sm:w-20" />
                     <div class="flex flex-col space-y-0 sm:space-y-0.7">
                         <span class="extrablod flex">Dr. Pam, MD
-                            <NuxtImg src="/images/check.png" width="22" height="23" alt="check.png-img" />
+                            <img src="/images/check.png" width="22" height="23" alt="check.png-img" />
                         </span>
                         <span class="font-extrabold text-[12px] sm:text-sm italic text-gray-700"> Board-certified, Internal Medicine</span>
                         <span class="text-[12px] sm:text-sm text-gray-600"> Last updated {{ formattedDate }}</span>
@@ -142,7 +142,7 @@ useHead({
                         <h3
                             class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                             1. "Hangry" Meltdowns</h3>
-                        <NuxtImg src="/images/p1-3.jpg" alt="p1-3.jpg-img" class="w-full rounded-xl" />
+                        <img src="/images/p1-3.jpg" alt="p1-3.jpg-img" class="w-full rounded-xl" />
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">1. "Hangry" Meltdowns
@@ -213,7 +213,7 @@ useHead({
                         <h3
                             class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                             2. Morning Grumpiness</h3>
-                        <NuxtImg src="/images/p2-2.jpg" alt="p2-2.jpg-img" class="w-full rounded-xl" />
+                        <img src="/images/p2-2.jpg" alt="p2-2.jpg-img" class="w-full rounded-xl" />
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">2. Morning Grumpiness</h3>
@@ -272,7 +272,7 @@ useHead({
                         <h3
                             class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8.5vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                             3. Sleep Problems</h3>
-                        <NuxtImg src="/images/p1-6.jpg" alt="p1-6.jpg-img" class="w-full rounded-xl" />
+                        <img src="/images/p1-6.jpg" alt="p1-6.jpg-img" class="w-full rounded-xl" />
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">3. Sleep Problems</h3>
@@ -352,7 +352,7 @@ useHead({
                         <h3
                             class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                             4. Anxiety, Not "Defiance"</h3>
-                        <NuxtImg src="/images/p2-3.jpg" alt="p2-3.jpg-mg" class="w-full rounded-xl" />
+                        <img src="/images/p2-3.jpg" alt="p2-3.jpg-mg" class="w-full rounded-xl" />
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">4. Anxiety, Not "Defiance"</h3>
@@ -373,17 +373,17 @@ useHead({
                                     cycle.</span></p>
                             <ul class="lg:pl-2 lg:space-y-1 space-y-1">
                                 <li class="flex gap-2 items-start">
-                                    <NuxtImg src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
+                                    <img src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
                                         class="pt-2" />
                                     Anxiety leads to pickiness
                                 </li>
                                 <li class="flex gap-2 items-start">
-                                    <NuxtImg src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
+                                    <img src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
                                         class="pt-2" />
                                     Picky eating hurts gut health
                                 </li>
                                 <li class="flex gap-2 items-start">
-                                    <NuxtImg src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
+                                    <img src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
                                         class="pt-2" />
                                     Poor gut health amps up anxiety
                                 </li>
@@ -414,15 +414,15 @@ useHead({
                                     cycle.</span></p>
                             <ul class="pl-2 lg:space-y-1 space-y-1">
                                 <li class="flex gap-2 items-start">
-                                    <NuxtImg src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                    <img src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
                                     Anxiety leads to pickiness
                                 </li>
                                 <li class="flex gap-2 items-start">
-                                    <NuxtImg src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                    <img src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
                                     Picky eating hurts gut health
                                 </li>
                                 <li class="flex gap-2 items-start">
-                                    <NuxtImg src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                    <img src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
                                     Poor gut health amps up anxiety
                                 </li>
                             </ul>
@@ -445,7 +445,7 @@ useHead({
                         <h3
                             class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8.5vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                             5. It's Not ADHD</h3>
-                        <NuxtImg src="/images/p2-4.jpg" alt="p2-4.jpg-img" class="w-full rounded-xl" />
+                        <img src="/images/p2-4.jpg" alt="p2-4.jpg-img" class="w-full rounded-xl" />
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">5. It's Not ADHD</h3>
@@ -518,7 +518,7 @@ useHead({
                         <h3
                             class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8.5vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                             6. Emotional Eating...</h3>
-                        <NuxtImg src="/images/p2-6.jpg" alt="p2-6.jpg-img" class="w-full rounded-xl" />
+                        <img src="/images/p2-6.jpg" alt="p2-6.jpg-img" class="w-full rounded-xl" />
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">6. Emotional Eating...</h3>
@@ -583,7 +583,7 @@ useHead({
                         <h3
                             class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8.5vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                             7. Social Anxiety</h3>
-                        <NuxtImg src="/images/p2-7.jpg" alt="p2-7.jpg-img" class="w-full rounded-xl" />
+                        <img src="/images/p2-7.jpg" alt="p2-7.jpg-img" class="w-full rounded-xl" />
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">7. Social Anxiety</h3>
@@ -648,7 +648,7 @@ useHead({
                         <h3
                             class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(8.5vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                             8. Emotional Setbacks</h3>
-                        <NuxtImg src="/images/p2-8.jpg" alt="p2-8.jpg-img" class="w-full rounded-xl" />
+                        <img src="/images/p2-8.jpg" alt="p2-8.jpg-img" class="w-full rounded-xl" />
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">8. Emotional Setbacks</h3>
@@ -708,7 +708,7 @@ useHead({
 
                         </div>
 
-                        <NuxtImg src="/images/p1-8.jpg" alt="p1-8.jpg-img" class="w-full rounded-xl" />
+                        <img src="/images/p1-8.jpg" alt="p1-8.jpg-img" class="w-full rounded-xl" />
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">The Solution Your Family Needs
@@ -741,23 +741,23 @@ useHead({
                                 <p class="extrablod">Their gummies are bursting with:</p>
                                 <ul class="pl-2 lg:space-y-1 space-y-1">
                                     <li class="flex gap-2 items-start">
-                                        <NuxtImg src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                        <img src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
                                         Delicious fruity taste
                                     </li>
                                     <li class="flex gap-2 items-start">
-                                        <NuxtImg src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                        <img src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
                                         Vitamins A, C, D, and K2 + antioxidants
                                     </li>
                                     <li class="flex gap-2 items-start">
-                                        <NuxtImg src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                        <img src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
                                         Phytonutrients from real superfoods
                                     </li>
                                     <li class="flex gap-2 items-start">
-                                        <NuxtImg src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                        <img src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
                                         Prebiotics to feed “good” gut bacteria
                                     </li>
                                     <li class="flex gap-2 items-start">
-                                        <NuxtImg src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
+                                        <img src="/images/ellipse.svg" alt="ellipse.svg-img" class="pt-2" />
                                         Probiotics to help improve digestion
                                     </li>
                                 </ul>
@@ -767,27 +767,27 @@ useHead({
                                 <p class="extrablod">The transformations that families are reporting:</p>
                                 <ul class="pl-2 lg:space-y-1 space-y-1">
                                     <li class="flex gap-2">
-                                        <NuxtImg src="/images/blk-check.svg" width="20" height="24"
+                                        <img src="/images/blk-check.svg" width="20" height="24"
                                             alt="blk-check.svg-img" />
                                         More joy and confidence
                                     </li>
                                     <li class="flex gap-2">
-                                        <NuxtImg src="/images/blk-check.svg" width="20" height="24"
+                                        <img src="/images/blk-check.svg" width="20" height="24"
                                             alt="blk-check.svg-img" />
                                         More cooperation, fewer meltdowns
                                     </li>
                                     <li class="flex gap-2">
-                                        <NuxtImg src="/images/blk-check.svg" width="20" height="24"
+                                        <img src="/images/blk-check.svg" width="20" height="24"
                                             alt="blk-check.svg-img" />
                                         Improved focus and attention
                                     </li>
                                     <li class="flex gap-2">
-                                        <NuxtImg src="/images/blk-check.svg" width="20" height="24"
+                                        <img src="/images/blk-check.svg" width="20" height="24"
                                             alt="blk-check.svg-img" />
                                         Fewer colds and sniffles
                                     </li>
                                     <li class="flex gap-2">
-                                        <NuxtImg src="/images/blk-check.svg" width="20" height="24"
+                                        <img src="/images/blk-check.svg" width="20" height="24"
                                             alt="blk-check.svg-img" />
                                         Better sleep
                                     </li>
@@ -823,27 +823,27 @@ useHead({
                                 <p class="extrablod">Their gummies are bursting with:</p>
                                 <ul class="lg:pl-2 lg:space-y-1 space-y-1">
                                     <li class="flex gap-2 items-start">
-                                        <NuxtImg src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
+                                        <img src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
                                             class="pt-2" />
                                         Delicious fruity taste
                                     </li>
                                     <li class="flex gap-2 items-start">
-                                        <NuxtImg src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
+                                        <img src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
                                             class="pt-2" />
                                         Vitamins A, C, D, and K2 + antioxidants
                                     </li>
                                     <li class="flex gap-2 items-start">
-                                        <NuxtImg src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
+                                        <img src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
                                             class="pt-2" />
                                         Phytonutrients from real superfoods
                                     </li>
                                     <li class="flex gap-2 items-start">
-                                        <NuxtImg src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
+                                        <img src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
                                             class="pt-2" />
                                         Prebiotics to feed “good” gut bacteria
                                     </li>
                                     <li class="flex gap-2 items-start">
-                                        <NuxtImg src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
+                                        <img src="/images/ellipse.svg" width="12" height="12" alt="ellipse.svg-img"
                                             class="pt-2" />
                                         Probiotics to help improve digestion
                                     </li>
@@ -854,29 +854,29 @@ useHead({
                                 <p class="extrablod">The transformations that families are reporting:</p>
                                 <ul class="lg:pl-2 lg:space-y-1 space-y-1">
                                     <li class="flex gap-2">
-                                        <NuxtImg src="/images/blk-check.svg" width="20" height="24"
+                                        <img src="/images/blk-check.svg" width="20" height="24"
                                             alt="blk-check.svg-img" />
                                         More joy and confidence
                                     </li>
                                     <li class="flex gap-2">
-                                        <NuxtImg src="/images/blk-check.svg" width="20" height="24"
+                                        <img src="/images/blk-check.svg" width="20" height="24"
                                             alt="blk-check.svg-img" />
                                         More cooperation, fewer
                                         meltdowns
                                     </li>
                                     <li class="flex gap-2">
-                                        <NuxtImg src="/images/blk-check.svg" width="20" height="24"
+                                        <img src="/images/blk-check.svg" width="20" height="24"
                                             alt="blk-check.svg-img" />
                                         Improved focus and
                                         attention
                                     </li>
                                     <li class="flex gap-2">
-                                        <NuxtImg src="/images/blk-check.svg" width="20" height="24"
+                                        <img src="/images/blk-check.svg" width="20" height="24"
                                             alt="blk-check.svg-img" />
                                         Fewer colds and sniffles
                                     </li>
                                     <li class="flex gap-2">
-                                        <NuxtImg src="/images/blk-check.svg" width="20" height="24"
+                                        <img src="/images/blk-check.svg" width="20" height="24"
                                             alt="blk-check.svg-img" />
                                         Better sleep
                                     </li>
@@ -902,9 +902,9 @@ useHead({
                     <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-5 gap-2 items-center">
 
                         <div>
-                            <NuxtImg src="/images/yomz-double-pack.jpg" alt="yomz-double-pack.jpg-img"
+                            <img src="/images/yomz-double-pack.jpg" alt="yomz-double-pack.jpg-img"
                                 class="hidden lg:block w-full lgp-3 p-1 lg:pt-3 pt-6" />
-                            <NuxtImg src="/images/yomz-double-pack.jpg" alt="yomz-double-pack.jpg-img"
+                            <img src="/images/yomz-double-pack.jpg" alt="yomz-double-pack.jpg-img"
                                 class="lg:hidden w-full lgp-3 p-1 lg:pt-3 pt-6" />
                         </div>
 
@@ -948,7 +948,7 @@ useHead({
         <!-- Your footer -->
         <footer ref="footerRef" class="bg-[#1EB9F0] lg:py-7 py-3 mt-10">
             <div class="mx-auto max-w-5xl text-center">
-                <NuxtImg src="/images/logo.png" alt="logo.png-img" class="max-w-30 mx-auto mb-4" />
+                <img src="/images/logo.png" alt="logo.png-img" class="max-w-30 mx-auto mb-4" />
                 <p class="text-white lg:text-lg text-sm hidden lg:block">
                     By filling out the field, you consent for YOMZ™ to use automated technology,
                     including texts and prerecorded messages, to contact you at the number and

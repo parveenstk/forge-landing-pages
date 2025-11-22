@@ -191,7 +191,7 @@
                     <h3
                         class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
                         2. Morning Grumpiness</h3>
-                    <NuxtImg src="/images/p2-2.jpg" class="w-full rounded-xl" />
+                    <img src="/images/p2-2.jpg" class="w-full rounded-xl" />
                 </div>
                 <div>
                     <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">2. Morning Grumpiness That Ruins the
@@ -254,7 +254,7 @@
                     <h3
                         class="lg:text-3xl text-2xl extrablod mb-4 lg:hidden block text-[calc(7.4vw-0px)] leading-[calc(1em+1vw)]">
                         3. Sleep Problems</h3>
-                    <NuxtImg src="/images/p2-5.jpg" class="w-full rounded-xl" />
+                    <img src="/images/p2-5.jpg" class="w-full rounded-xl" />
                 </div>
                 <div>
                     <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">3. Bad Sleep Makes Everything Worse

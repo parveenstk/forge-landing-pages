@@ -53,15 +53,15 @@ useHead({
                     </h1>
 
                     <p class="flex items-center gap-3 extrablod mt-3">
-                        <NuxtImg src="/images/star.svg" width="110" height="20" alt="star.svg-img" />
+                        <img src="/images/star.svg" width="110" height="20" alt="star.svg-img" />
                         <span class="font-bold">6,782 ratings</span>
                     </p>
 
                     <div class="flex gap-3 items-center py-4">
-                    <NuxtImg src="/images/sabrina.png" alt="sabrina.png-img" class="rounded-full w-15" />
+                    <img src="/images/sabrina.png" alt="sabrina.png-img" class="rounded-full w-15" />
                     <div>
                         <span class="extrablod flex">Sabrina Marshall
-                            <NuxtImg src="/images/check.png" width="22" height="23" alt="check.png-img" />
+                            <img src="/images/check.png" width="22" height="23" alt="check.png-img" />
                         </span>
                         <span class="text-sm text-gray-600"> Last updated {{ formattedDate }}</span>
                     </div>
@@ -127,7 +127,7 @@ useHead({
                             Crisis</span>
                         for <br class="block sm:hidden"/> 47 Million Americans</h2>
 
-                    <NuxtImg src="/images/fl-1.jpg" class="w-full mb-5" alt="fl-1.jpg-img" />
+                    <img src="/images/fl-1.jpg" class="w-full mb-5" alt="fl-1.jpg-img" />
 
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p><span class="extrablod">Dr. Pam is board-certified</span> in internal medicine. For over 12
@@ -158,12 +158,12 @@ useHead({
                     <div class="bg-[#F2F6FB] pb-7 rounded-xl font-bold">
                         <!-- <ul class="pl-3 lg:space-y-1 space-y-1 semibold">
                             <li v-for="(fact, index) in healthFacts" :key="index" class="flex gap-2 items-start">
-                                <NuxtImg src="/images/blk-check.svg" alt="blk-check.svg-img" class="pt-1 h-6 w-6" />
+                                <img src="/images/blk-check.svg" alt="blk-check.svg-img" class="pt-1 h-6 w-6" />
                                 {{ fact }}
                             </li>
                         </ul> -->
 
-                        <NuxtImg src="/images/fl-2.jpg" class="w-full pb-5" alt="fl-2.jpg-img" />
+                        <img src="/images/fl-2.jpg" class="w-full pb-5" alt="fl-2.jpg-img" />
 
                         <div class="lg:space-y-4 space-y-2 lg:px-4 font-bold">
 
@@ -186,7 +186,7 @@ useHead({
                         Plenty
                     </h3>
 
-                    <NuxtImg src="/images/fl-3.jpg" class="w-full py-6" alt="fl-3.jpg-img" />
+                    <img src="/images/fl-3.jpg" class="w-full py-6" alt="fl-3.jpg-img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p><span class="extrablod">The problem isn't lack of food.</span></p>
                         <p>It's lack of <u><i>nutrition</i></u> in the food we eat.</p>
@@ -199,15 +199,15 @@ useHead({
                         <p>That's on top of the busy reality of modern family life:</p>
                         <ul class="lg:pl-2 lg:space-y-4 space-y-2">
                             <li class="flex gap-2 items-center">
-                                <NuxtImg src="/images/blk-check.svg" class="min-w-[20px]" width="20" height="20" alt="blk-check.svg" />
+                                <img src="/images/blk-check.svg" class="min-w-[20px]" width="20" height="20" alt="blk-check.svg" />
                                 Processed snacks
                             </li>
                             <li class="flex gap-2 items-center">
-                                <NuxtImg src="/images/blk-check.svg" class="min-w-[20px]" width="20" height="20" alt="blk-check.svg" />
+                                <img src="/images/blk-check.svg" class="min-w-[20px]" width="20" height="20" alt="blk-check.svg" />
                                 Fast food meals
                             </li>
                             <li class="flex gap-2 items-center">
-                                <NuxtImg src="/images/blk-check.svg" class="min-w-[20px]" width="20" height="20" alt="blk-check.svg" />
+                                <img src="/images/blk-check.svg" class="min-w-[20px]" width="20" height="20" alt="blk-check.svg" />
                                 Daily battles to eat anything green
                             </li>
                         </ul>
@@ -227,7 +227,7 @@ useHead({
                         Signs Most Parents (and Doctors) Miss
                     </h3>
 
-                    <NuxtImg src="/images/fl-4.jpg" class="w-full py-6 pb-0" alt="fl-4.jpg-img" />
+                    <img src="/images/fl-4.jpg" class="w-full py-6 pb-0" alt="fl-4.jpg-img" />
                     <div class="lg:space-y-4 space-y-2 mb-8 bg-[#FAFAFA] lg:p-5 p-0 lg:py-9 py-4">
 
                         <p class="extrablod">Hidden Hunger isn’t obvious.</p>
@@ -270,7 +270,7 @@ useHead({
 
                     <h3 class="text-[8.3vw] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)] lg:text-4xl extrablod mt-8">Breakthrough Changes
                         Everything</h3>
-                    <NuxtImg src="/images/fl-5.jpg" class="w-full py-6" alt="fl-5.jpg-img" />
+                    <img src="/images/fl-5.jpg" class="w-full py-6" alt="fl-5.jpg-img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p><span class="extrablod">After seeing thousands</span> of families struggle with
                             Hidden
@@ -351,7 +351,7 @@ useHead({
                         :name="customer.name" :reviewText="customer.reviewText" />
 
                     <div class="lg:space-y-4 space-y-2 mb-8 bg-[#DCF0E1] pb-7 shadow-lg rounded-xl overflow-hidden">
-                        <NuxtImg src="/images/fl-6.jpg" class="w-full" alt="fl-6.jpg-Img" />
+                        <img src="/images/fl-6.jpg" class="w-full" alt="fl-6.jpg-Img" />
                         <h3
                             class="lg:text-4xl text-[8.3vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)]  extrablod mt-6 lg:px-5">
                             Why Yumzy Is Different</h3>
@@ -369,7 +369,7 @@ useHead({
                         <p class="lg:px-5 extrablod"> Think of it as candy, <i>but better for you.</i></p>
                         <ul class="lg:space-y-1 space-y-1 lg:pl-5">
                             <li class="flex gap-2 items-start">
-                                <NuxtImg src="/images/blk-check.svg" class="pt-1 h-5" alt="blk-check.svg-Img" />
+                                <img src="/images/blk-check.svg" class="pt-1 h-5" alt="blk-check.svg-Img" />
                                 <span>
                                     <span class="font-bold lg:block hidden"> Kid-Approved Taste:</span>
                                     <span class="font-bold underline lg:hidden">
@@ -379,7 +379,7 @@ useHead({
                                 </span>
                             </li>
                             <li class="flex gap-2 items-start">
-                                <NuxtImg src="/images/blk-check.svg" class="pt-1 h-5" alt="blk-check.svg-Img" />
+                                <img src="/images/blk-check.svg" class="pt-1 h-5" alt="blk-check.svg-Img" />
                                 <span><span class="font-bold lg:block hidden">Real
                                         Nutrition:</span><span class="font-bold underline lg:hidden">Real
                                         Nutrition:</span>
@@ -388,7 +388,7 @@ useHead({
                                     actual fruits and vegetables.</span>
                             </li>
                             <li class="flex gap-2 items-start">
-                                <NuxtImg src="/images/blk-check.svg" class="pt-1 h-5" alt="blk-check.svg-Img" />
+                                <img src="/images/blk-check.svg" class="pt-1 h-5" alt="blk-check.svg-Img" />
                                 <span><span class="font-bold lg:block hidden">18
                                         Superfoods:</span><span class="font-bold underline lg:hidden">18
                                         Superfoods:</span>
@@ -396,7 +396,7 @@ useHead({
                                     berries, it’s a “farmer’s market in a gummy”.</span>
                             </li>
                             <li class="flex gap-2 items-start">
-                                <NuxtImg src="/images/blk-check.svg" class="pt-1 h-5" alt="blk-check.svg-Img" />
+                                <img src="/images/blk-check.svg" class="pt-1 h-5" alt="blk-check.svg-Img" />
                                 <span><span class="font-bold lg:block hidden">Science-Backed:</span><span
                                         class="font-bold underline lg:hidden">Science-Backed:</span>
                                     Supported by a
@@ -404,14 +404,14 @@ useHead({
                             </li>
 
                             <li class="flex gap-2 items-start">
-                                <NuxtImg src="/images/blk-check.svg" class="pt-1 h-5" alt="blk-check.svg-Img" />
+                                <img src="/images/blk-check.svg" class="pt-1 h-5" alt="blk-check.svg-Img" />
                                 <span><span class="font-bold lg:block hidden">Gut Health
                                         Support:</span><span class="font-bold underline lg:hidden">Gut Health
                                         Support:</span> Meets FDA
                                     guidelines as “excellent source of fiber”.</span>
                             </li>
                             <li class="flex gap-2 items-start">
-                                <NuxtImg src="/images/blk-check.svg" class="pt-1 h-5" alt="blk-check.svg-Img" />
+                                <img src="/images/blk-check.svg" class="pt-1 h-5" alt="blk-check.svg-Img" />
                                 <span><span class="font-bold underline">Family-Friendly:</span>
                                     Nutritious, delicious, and safe for ages 2 to 102.</span>
                             </li>
@@ -421,7 +421,7 @@ useHead({
 
                     <h3 class="lg:text-4xl text-[10vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">Don’t
                         You Deserve Peace of Mind?</h3>
-                    <NuxtImg src="/images/fl-7.jpg" class="w-full py-6" alt="fl-7.jpg-Img" />
+                    <img src="/images/fl-7.jpg" class="w-full py-6" alt="fl-7.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
 
                         <p><span class="extrablod">The most rewarding part</span> of Yumzy? "Hearing from
@@ -450,7 +450,7 @@ useHead({
 
                     <h3 class="lg:text-4xl text-[11vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">A
                         Mission Bigger Than Business</h3>
-                    <NuxtImg src="/images/p1-9.jpg" class="w-full py-6" alt="fl-8.jpg-Img" />
+                    <img src="/images/p1-9.jpg" class="w-full py-6" alt="fl-8.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p>Yumzy wasn't created to solve just <i><u>one</u></i> family's problems.
                         </p>
@@ -503,7 +503,7 @@ useHead({
 
                     <h3 class="lg:text-4xl text-[11vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">Taking
                         Action</h3>
-                    <NuxtImg src="/images/fl-9.jpg" class="w-full py-6" alt="fl-9.jpg-Img" />
+                    <img src="/images/fl-9.jpg" class="w-full py-6" alt="fl-9.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p>To discover more about Yumzy and Hidden Hunger, visit the <span class="extrablod">Yumzy
                                 official website.</span> </p>
@@ -614,7 +614,7 @@ useHead({
                         <h4 class="text-center text-xl font-bold pt-4 extrablod">FINALLY GET YOUR STRENGTH
                             AND ENERGY BACK AFTER 40</h4>
 
-                        <NuxtImg src="/images/yomz-pack.png" class="w-full p-5" alt="yomz-pack.png-Img" />
+                        <img src="/images/yomz-pack.png" class="w-full p-5" alt="yomz-pack.png-Img" />
 
                         <div class="bg-white  p-4 rounded-xl">
 
@@ -622,7 +622,7 @@ useHead({
 
                             <p class="flex gap-1 mb-2">
                                 <span class="flex">
-                                    <NuxtImg v-for="i in 5" :key="i" src="/images/yellow-star.svg" class="h-5"
+                                    <img v-for="i in 5" :key="i" src="/images/yellow-star.svg" class="h-5"
                                         alt="yellow-star.svg-Img" />
                                 </span> 4.8 out of 5
                             </p>
@@ -699,7 +699,7 @@ useHead({
     <!-- Footer -->
     <footer class="bg-[#1EB9F0] lg:py-7 py-3">
         <div class="mx-auto max-w-5xl text-center">
-            <NuxtImg src="/images/logo.png" class="max-w-30 mx-auto mb-4" alt="logo.png-Img" />
+            <img src="/images/logo.png" class="max-w-30 mx-auto mb-4" alt="logo.png-Img" />
             <p class="text-white lg:text-lg text-sm">By filling out the field, you consent for YOMZ™
                 to use automated technology, including texts and prerecorded messages, to contact you at the number
                 and
