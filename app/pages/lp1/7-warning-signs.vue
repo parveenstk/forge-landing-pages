@@ -47,7 +47,7 @@ useHead({
         { property: 'og:description', content: LANDING_1.meta.description },
         { property: 'og:image', content: LANDING_1.meta.ogImage },
     ],
-})
+}) 
 </script>
 
 <template>

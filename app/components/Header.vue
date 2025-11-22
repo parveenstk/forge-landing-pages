@@ -43,7 +43,7 @@ defineProps({
             <div class="text-white flex items-center justify-between lg:px-0 px-2">
                 <p class="uppercase font-bold lg:text-sm text-xs">Health & WELLNESS</p>
                 <p class="flex gap-2 uppercase font-bold lg:text-sm text-xs">
-                    <img src="/images/us-flag.webp" class="lg:h-5 h-4" alt="us-flag.webp"> Trending in the US
+                    <img src="/images/us-flag.webp" class="lg:h-5 h-4"> Trending in the US
                 </p>
             </div>
         </div>
