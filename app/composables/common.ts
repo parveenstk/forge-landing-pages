@@ -101,5 +101,12 @@ export const footerLinks = {
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC9573946/",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC6124841/",
     ],
-
 }
+
+export const PopUpOne = [
+    "Better Family Nutrition",
+    "Sharper Focus",
+    "Improved Gut Health",
+    "Stronger Immunity",
+    "Balanced Moods"
+]

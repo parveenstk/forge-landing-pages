@@ -10,6 +10,9 @@ const footerHeight = ref(0)
 // Date logic
 const formattedDate = ref('')
 
+// popup
+const popUp = ref(false);
+
 onMounted(() => {
     // Calculate date 5 days ago
     const today = new Date()
@@ -35,7 +38,11 @@ onMounted(() => {
 
     onUnmounted(() => {
         if (footerRef.value) observer.unobserve(footerRef.value)
-    })
+    });
+
+    setTimeout(() => {
+        popUp.value = true
+    }, 5000)
 })
 
 // meta tag details
@@ -47,7 +54,7 @@ useHead({
         { property: 'og:description', content: LANDING_1.meta.description },
         { property: 'og:image', content: LANDING_1.meta.ogImage },
     ],
-}) 
+});
 </script>
 
 <template>
@@ -850,9 +857,6 @@ useHead({
                 </div>
 
             </div>
-
-            <!-- Column B -->
-
         </div>
     </main>
 
@@ -875,7 +879,7 @@ useHead({
             </div>
         </footer>
 
-        <!-- Fixed CTA Button -->
+        <!-- Floating CTA button in mobile screen -->
         <div ref="ctaBar"
             :class="['flex items-center justify-center lg:hidden transition-all duration-300 z-50', isFooterVisible ? 'absolute' : 'fixed']"
             :style="{ bottom: isFooterVisible ? `${footerHeight}px` : '1rem', left: 0, right: 0 }">
@@ -885,4 +889,7 @@ useHead({
             </a>
         </div>
     </div>
+
+    <!-- PopUp -->
+    <PopUp v-if="popUp" />
 </template>
