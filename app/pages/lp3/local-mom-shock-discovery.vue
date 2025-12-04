@@ -492,7 +492,7 @@ useHead({
                             of the highest quality.</p>
                         <p>Second, it's made in the world’s <span class="extrablod">#1 gummy-making
                                 facility. </span>
-                        </p>
+                        </p> 
                         <p>This state-of-the-art facility is <span class="extrablod">fully
                                 licensed</span> and regularly
                             inspected by the FDA. It operates in <span class="extrablod">full

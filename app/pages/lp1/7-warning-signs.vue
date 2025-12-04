@@ -1012,7 +1012,7 @@ useHead({
                 <NuxtImg src="/images/p1-8.jpg" class="w-full h-full object-cover" />
             </div>
         </section>
-        <!-- fourth popup -->
+        <!-- fourth popup --> 
 
 
          <!-- Fivth popup -->
