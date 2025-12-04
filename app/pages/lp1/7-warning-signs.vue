@@ -10,6 +10,9 @@ const footerHeight = ref(0)
 // Date logic
 const formattedDate = ref('')
 
+// popup
+const popUp = ref(false);
+
 onMounted(() => {
     // Calculate date 5 days ago
     const today = new Date()
@@ -35,7 +38,11 @@ onMounted(() => {
 
     onUnmounted(() => {
         if (footerRef.value) observer.unobserve(footerRef.value)
-    })
+    });
+
+    setTimeout(() => {
+        popUp.value = true
+    }, 5000)
 })
 
 // meta tag details
@@ -47,7 +54,7 @@ useHead({
         { property: 'og:description', content: LANDING_1.meta.description },
         { property: 'og:image', content: LANDING_1.meta.ogImage },
     ],
-}) 
+});
 </script>
 
 <template>
@@ -319,7 +326,7 @@ useHead({
                             <p>And <span class="extrablod">research indicates</span> they’re key to brain, heart, and
                                 immune health.</p>
                             <p>But if you consume them every day.</p>
-                            <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                            <p><a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                     class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">
                                     Once picky eaters get consistent nutrition,</a> those meltdowns decrease. Even
                                 disappear.</p>
@@ -344,7 +351,7 @@ useHead({
                             <p>And <span class="extrablod">research indicates</span> they’re key to brain, heart, and
                                 immune health.</p>
                             <p>But if you consume them every day.</p>
-                            <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                            <p><a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                     class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">
                                     Once picky eaters get consistent nutrition,</a> those meltdowns decrease. Even
                                 disappear.</p>
@@ -385,7 +392,7 @@ useHead({
                             <p>Could be their immune system <span class="extrablod text-[#E6193C]">out of whack.</span>
                                 Limited diets make it <span class="extrablod">hard</span> to build strong immunity.</p>
                             <p>Because of a lack of vitamins like A, C, and D…</p>
-                            <p>Meanwhile, <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                            <p>Meanwhile, <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                     class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">kids
                                     with
                                     strong immune systems</a> stay well or <span class="extrablod">bounce back</span>
@@ -406,7 +413,7 @@ useHead({
                             <p>Could be their immune system <span class="extrablod text-[#E6193C]">out of whack.</span>
                                 Limited diets make it <span class="extrablod">hard</span> to build strong immunity.</p>
                             <p>Because of a lack of vitamins like A, C, and D…</p>
-                            <p>Meanwhile, <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                            <p>Meanwhile, <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                     class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">kids
                                     with
                                     strong immune systems</a> stay well or <span class="extrablod">bounce back</span>
@@ -459,7 +466,7 @@ useHead({
                             <p>Otherwise, the brain's <span class="extrablod">running on empty.</span></p>
                             <p>But when they increase their daily nutrition intake...</p>
                             <p>And keep it up so those nutrient levels remain high...</p>
-                            <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                            <p><a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                     class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Kids can
                                     show dramatic reversals.</a></p>
                             <p>Improved attention span. Better memory.</p>
@@ -479,7 +486,7 @@ useHead({
                             <p>Otherwise, the brain's <span class="extrablod">running on empty.</span></p>
                             <p>But when they increase their daily nutrition intake...</p>
                             <p>And keep it up so those nutrient levels remain high...</p>
-                            <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                            <p><a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                     class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Kids can
                                     show dramatic reversals.</a></p>
                             <p>Improved attention span. Better memory.</p>
@@ -537,7 +544,7 @@ useHead({
                                 <p>Notably, vitamin D, antioxidants, and fiber all help <span
                                         class="extrablod">stabilize
                                         blood sugar</span> for better sleep.</p>
-                                <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                                <p><a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                         class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">With
                                         consistent nutrition,</a> bedtime battles decrease.</p>
                                 <p> And better sleep <span class="extrablod">increases.</span></p>
@@ -563,7 +570,7 @@ useHead({
                                 <p>Notably, vitamin D, antioxidants, and fiber all help <span
                                         class="extrablod">stabilize
                                         blood sugar</span> for better sleep.</p>
-                                <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                                <p><a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                         class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">With
                                         consistent nutrition,</a> bedtime battles decrease.</p>
                                 <p> And better sleep <span class="extrablod">increases.</span></p>
@@ -616,7 +623,7 @@ useHead({
                             <p>The most heartbreaking part?</p>
                             <p>Parents blame themselves for "not trying hard enough"... </p>
                             <p>When Hidden Hunger is the <span class="extrablod italic">real</span> issue.</p>
-                            <p>That all stops <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                            <p>That all stops <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                     class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">with
                                     better
                                     nutrition.</a></p>
@@ -646,7 +653,7 @@ useHead({
                             <p>The most heartbreaking part?</p>
                             <p>Parents blame themselves for "not trying hard enough"... </p>
                             <p>When Hidden Hunger is the <span class="extrablod italic">real</span> issue.</p>
-                            <p>That all stops <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                            <p>That all stops <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                     class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">with
                                     better
                                     nutrition.</a></p>
@@ -780,7 +787,7 @@ useHead({
                             </li>
                         </ul>
                         <p>Plus, your order of YOMZ Gummies is backed by Yumzy's famous <a
-                                href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                                href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                 class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">90-Day 200%
                                 Happiness Guarantee.</a></p>
 
@@ -793,22 +800,16 @@ useHead({
                 <!-- Column data 2 -->
 
                 <div class="border-1 lg:border-[#1EB9F0] border-[#fff] rounded-xl lg:p-5 p-0 lg:mt-20 mt-15 relative">
-                    <!-- <a href="https://yomz-checkout-2.vercel.app/"
-                    class="bg-[#FFEB00] absolute -top-5 left-1/2 -translate-x-1/2 py-1 lg:px-30 px-10 font-bold lg:text-lg text-base rounded-b-lg">
-                    TRY NOW
-                </a> -->
-                    <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+
+                    <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                         class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white p-3 lg:text-xl text-3xl capitalize">
                         Try Yumzy Today
                     </a>
-                    <a href="https://yomz-checkout-2.vercel.app/"
+                    <a href="https://get.yumzy.com/checkout-2-a/"
                         class="hidden lg:block bg-[#0AA03C] text-white absolute -top-5 py-2 w-50 px-5 left-0 right-0 mx-auto extrablod lg:text-lg text-base text-center ">
                         Try Yumzy Now
                     </a>
-                    <!-- <p
-                    class="bg-[#FFEB00] absolute -top-5 left-1/2 -translate-x-1/2 py-1 lg:px-30 px-5 font-bold lg:text-lg text-base rounded-b-lg block lg:hidden">
-                    TRY NOW
-                </p> -->
+
                     <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-5 gap-2 items-center">
 
                         <div>
@@ -828,20 +829,7 @@ useHead({
                             <p>Join the thousands of smart moms just like you who've discovered the secret of Yumzy.
                                 It's filling the gaps with nutrition that tastes like it's bad for you.</p>
 
-                            <!-- <button type="button"
-                            class="bg-black hidden lg:inline w-full rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-lg">
-                            Try YOMZ Risk-Free for <span class="block">50% OFF Today</span>
-                        </button>
-
-                        <button type="button"
-                            class="bg-[#0AA03C] lg:hidden  w-full rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-3xl">
-                           TRY YOMZ TODAY
-                        </button> -->
-                            <!-- <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                            class="lg:flex justify-center w-full h-full bg-black hidden rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-lg">
-                            Try YOMZ Risk-Free <span class="ml-1 block">50% OFF Today</span>
-                        </a> -->
-                            <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                            <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                 class="flex justify-center w-full h-full bg-[#0AA03C]  rounded-full  extrablod text-white p-3 lg:text-xl text-3xl capitalize">
                                 Try Yumzy Today
                             </a>
@@ -859,35 +847,16 @@ useHead({
 
                 </div>
 
+                <!-- Footer Links -->
                 <div class="lg:text-md text-sm sources-text flex flex-col">
                     <p class="extrablod lg:mt-20 mt-5">Sources:</p>
-                    <NuxtLink target="_blank" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6316224/"
-                        class="hover:underline break-all italic">https://pmc.ncbi.nlm.nih.gov/articles/PMC6316224/
-                    </NuxtLink>
-                    <NuxtLink target="_blank" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11547883/"
-                        class="hover:underline break-all italic">https://pmc.ncbi.nlm.nih.gov/articles/PMC11547883/
-                    </NuxtLink>
-                    <NuxtLink target="_blank" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9102588/"
-                        class="hover:underline break-all italic">https://pmc.ncbi.nlm.nih.gov/articles/PMC9102588/
-                    </NuxtLink>
-                    <NuxtLink target="_blank" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8546969"
-                        class="hover:underline break-all italic">https://pmc.ncbi.nlm.nih.gov/articles/PMC8546969
-                    </NuxtLink>
-                    <NuxtLink target="_blank" href="https://www.ccjm.org/content/89/3/154"
-                        class="hover:underline break-all italic">https://www.ccjm.org/content/89/3/154</NuxtLink>
-                    <NuxtLink target="_blank"
-                        href="https://www.sciencedirect.com/science/article/abs/pii/S0378512201002754"
-                        class="hover:underline break-all italic">
-                        https://www.sciencedirect.com/science/article/abs/pii/S0378512201002754</NuxtLink>
-                    <NuxtLink target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/38082300/"
-                        class="hover:underline break-all italic mb-5">https://pubmed.ncbi.nlm.nih.gov/38082300/
-                    </NuxtLink>
+                    <a v-for="(link, index) in footerLinks.LANDING_1" :key="index" :href="link" target="_blank"
+                        rel="noopener noreferrer" class="hover:underline break-all italic w-fit">
+                        {{ link }}
+                    </a>
                 </div>
 
             </div>
-
-            <!-- Column B -->
-
         </div>
 
     </main>
@@ -911,14 +880,17 @@ useHead({
             </div>
         </footer>
 
-        <!-- Fixed CTA Button -->
+        <!-- Floating CTA button in mobile screen -->
         <div ref="ctaBar"
             :class="['flex items-center justify-center lg:hidden transition-all duration-300 z-50', isFooterVisible ? 'absolute' : 'fixed']"
             :style="{ bottom: isFooterVisible ? `${footerHeight}px` : '1rem', left: 0, right: 0 }">
-            <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+            <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                 class="block w-80 text-center text-white font-semibold text-2xl py-3 bg-[#1EB9F0] rounded-full">
                 Try Yumzy Today
             </a>
         </div>
     </div>
+
+    <!-- PopUp -->
+    <PopUp v-if="popUp" />
 </template>

@@ -58,14 +58,14 @@ useHead({
                     </p>
 
                     <div class="flex gap-3 items-center py-4">
-                    <img src="/images/sabrina.png" alt="sabrina.png-img" class="rounded-full w-15" />
-                    <div>
-                        <span class="extrablod flex">Sabrina Marshall
-                            <img src="/images/check.png" width="22" height="23" alt="check.png-img" />
-                        </span>
-                        <span class="text-sm text-gray-600"> Last updated {{ formattedDate }}</span>
+                        <img src="/images/sabrina.png" alt="sabrina.png-img" class="rounded-full w-15" />
+                        <div>
+                            <span class="extrablod flex">Sabrina Marshall
+                                <img src="/images/check.png" width="22" height="23" alt="check.png-img" />
+                            </span>
+                            <span class="text-sm text-gray-600"> Last updated {{ formattedDate }}</span>
+                        </div>
                     </div>
-                </div>
 
                     <div class="lg:hidden lg:space-y-4 space-y-2 mb-8">
                         <p>6-year-old Emma had her annual checkup.</p>
@@ -122,10 +122,11 @@ useHead({
                         Million
                         Americans</h2>
 
-                    <h2 class="lg:text-4xl text-[9vw] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]  block mb-6 lg:hidden">A <span
-                            class="extrablod">Silent
+                    <h2
+                        class="lg:text-4xl text-[9vw] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]  block mb-6 lg:hidden">
+                        A <span class="extrablod">Silent
                             Crisis</span>
-                        for <br class="block sm:hidden"/> 47 Million Americans</h2>
+                        for <br class="block sm:hidden" /> 47 Million Americans</h2>
 
                     <img src="/images/fl-1.jpg" class="w-full mb-5" alt="fl-1.jpg-img" />
 
@@ -181,7 +182,9 @@ useHead({
 
                     </div>
 
-                    <h3 class="lg:text-4xl text-[6.5vw] sm:text-[calc(5.5vw-0px)] lg:leading-[calc(.7em+1vw)] xl:leading-[36px] leading-[calc(1em+1vw)] extrablod mt-8">Why
+                    <h3
+                        class="lg:text-4xl text-[6.5vw] sm:text-[calc(5.5vw-0px)] lg:leading-[calc(.7em+1vw)] xl:leading-[36px] leading-[calc(1em+1vw)] extrablod mt-8">
+                        Why
                         Modern Americans Are Starving in a Land of
                         Plenty
                     </h3>
@@ -199,15 +202,18 @@ useHead({
                         <p>That's on top of the busy reality of modern family life:</p>
                         <ul class="lg:pl-2 lg:space-y-4 space-y-2">
                             <li class="flex gap-2 items-center">
-                                <img src="/images/blk-check.svg" class="min-w-[20px]" width="20" height="20" alt="blk-check.svg" />
+                                <img src="/images/blk-check.svg" class="min-w-[20px]" width="20" height="20"
+                                    alt="blk-check.svg" />
                                 Processed snacks
                             </li>
                             <li class="flex gap-2 items-center">
-                                <img src="/images/blk-check.svg" class="min-w-[20px]" width="20" height="20" alt="blk-check.svg" />
+                                <img src="/images/blk-check.svg" class="min-w-[20px]" width="20" height="20"
+                                    alt="blk-check.svg" />
                                 Fast food meals
                             </li>
                             <li class="flex gap-2 items-center">
-                                <img src="/images/blk-check.svg" class="min-w-[20px]" width="20" height="20" alt="blk-check.svg" />
+                                <img src="/images/blk-check.svg" class="min-w-[20px]" width="20" height="20"
+                                    alt="blk-check.svg" />
                                 Daily battles to eat anything green
                             </li>
                         </ul>
@@ -223,7 +229,9 @@ useHead({
 
                     </div>
 
-                    <h3 class="lg:text-4xl text-[7.2vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">Hidden
+                    <h3
+                        class="lg:text-4xl text-[7.2vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">
+                        Hidden
                         Signs Most Parents (and Doctors) Miss
                     </h3>
 
@@ -268,7 +276,9 @@ useHead({
                         <p>"I never <span class="extrablod">connected it</span> to what she was eating."</p>
                     </div>
 
-                    <h3 class="text-[8.3vw] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)] lg:text-4xl extrablod mt-8">Breakthrough Changes
+                    <h3
+                        class="text-[8.3vw] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)] lg:text-4xl extrablod mt-8">
+                        Breakthrough Changes
                         Everything</h3>
                     <img src="/images/fl-5.jpg" class="w-full py-6" alt="fl-5.jpg-img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
@@ -302,7 +312,7 @@ useHead({
                         <p>"Some of the <i>Like Nastya</i> family might be suffering," she realized.</p>
                         <p>So Nastya co-founded a <span class="extrablod">family supplement brand called Yumzy.</span>
                         </p>
-                        <p>Yumzy is the maker of <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                        <p>Yumzy is the maker of <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                 class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">YOMZ, a
                                 mouthwatering gummy backed by science</a> to fill the nutrition gaps facing millions of
                             Americans every day.</p>
@@ -419,7 +429,9 @@ useHead({
                         </ul>
                     </div>
 
-                    <h3 class="lg:text-4xl text-[10vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">Don’t
+                    <h3
+                        class="lg:text-4xl text-[10vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">
+                        Don’t
                         You Deserve Peace of Mind?</h3>
                     <img src="/images/fl-7.jpg" class="w-full py-6 h-[450px] md:h-[600px] md:w-[80%] object-cover object-top" alt="fl-7.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
@@ -448,7 +460,9 @@ useHead({
                         <p>Or if no one loves the taste, you get back double what you paid.</p>
                     </div>
 
-                    <h3 class="lg:text-4xl text-[11vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">A
+                    <h3
+                        class="lg:text-4xl text-[11vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">
+                        A
                         Mission Bigger Than Business</h3>
                     <img src="/images/p1-9.jpg" class="w-full py-6 h-[450px] md:h-[600px] md:w-[80%] object-cover object-top" alt="fl-8.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
@@ -476,7 +490,7 @@ useHead({
                         <p>If you’re struggling with picky eaters or constant illness... </p>
                         <p>If behavior troubles dominate your every day... </p>
                         <p>Or if you simply worry daily about your family's nutrition...</p>
-                        <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                        <p><a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                 class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Yumzy offers
                                 hope.</a></p>
                         <p>"You're dealing with a system that makes it difficult to nourish your
@@ -501,14 +515,16 @@ useHead({
                             Good Manufacturing Practices (cGMP).</p>
                     </div>
 
-                    <h3 class="lg:text-4xl text-[11vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">Taking
+                    <h3
+                        class="lg:text-4xl text-[11vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">
+                        Taking
                         Action</h3>
                     <img src="/images/fl-9.jpg" class="w-full py-6 h-[450px] md:h-[600px] md:w-[80%] object-cover object-top" alt="fl-9.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p>To discover more about Yumzy and Hidden Hunger, visit the <span class="extrablod">Yumzy
                                 official website.</span> </p>
                         <p>You'll find more information and take advantage of <a
-                                href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                                href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                 class="underline italic">current
                                 promotional offers.</a> </p>
                         <p><span class="extrablod">Yumzy is backed by</span> scientific research,
@@ -558,53 +574,17 @@ useHead({
                         changes to their nutrition routine.</p>
 
                     <div class="lg:w-80 flex justify-center mt-7 mx-auto">
-                        <!-- <a href="https://yomz-checkout-2.vercel.app/" target="_blank" class="hidden lg:flex justify-center h-full bg-black text-white w-140 lg:p-5 p-3 text-2xl font-extrabold uppercase rounded-2xl">
-                        Try YOMZ Risk-Free
-                    </a>
-                    <a href="https://yomz-checkout-2.vercel.app/" target="_blank" class="lg:hidden flex justify-center h-full bg-[#0AA03C] text-white w-140 lg:p-5 p-3 text-3xl font-extrabold uppercase rounded-2xl">
-                        Try YOMZ Risk-Free
-                    </a> -->
-                        <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                        <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                             class="flex justify-center w-full h-full bg-[#0AA03C] rounded-full  extrablod text-white capitalize p-3 lg:text-xl text-2xl sm:text-3xl">
                             Try Yumzy Risk-Free
                         </a>
-                        <!-- <a href="https://yomz-checkout-2.vercel.app/"
-                        class="flex text-center justify-center w-full h-full bg-[#0AA03C] hidden lg:block rounded-full extrablod text-white uppercase p-3 lg:text-xl text-3xl">
-                        TRY YOMZ Risk-Free
-                    </a> -->
-                        <!-- <a href="https://yomz-checkout-2.vercel.app/"
-                            class="lg:flex justify-center w-full h-full bg-black hidden rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-lg">
-                            Try YOMZ Risk-Free
-                        </a>
-                        <a href="https://yomz-checkout-2.vercel.app/"
-                            class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-3xl">
-                            TRY YOMZ TODAY
-                        </a> -->
-
                     </div>
 
-                    <!-- <div class="lg:text-lg text-sm sources-text font-bold lg:space-y-1 space-y-2">
-                        <p class="extrablod lg:mt-20 mt-5">Sources:</p> -->
                     <div class="lg:text-md text-sm sources-text flex flex-col">
                         <p class="extrablod lg:mt-20 mt-5">Sources:</p>
-                        <NuxtLink class="hover:underline break-all italic" target="_blank"
-                            href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10918648/">
-                            https://pmc.ncbi.nlm.nih.gov/articles/PMC10918648/</NuxtLink>
-                        <NuxtLink class="hover:underline break-all italic" target="_blank"
-                            href="https://www.feedingamerica.org/hunger-in-america">
-                            https://www.feedingamerica.org/hunger-in-america</NuxtLink>
-                        <NuxtLink class="hover:underline break-all italic" target="_blank"
-                            href="https://pubmed.ncbi.nlm.nih.gov/24724766/">https://pubmed.ncbi.nlm.nih.gov/24724766/
-                        </NuxtLink>
-                        <NuxtLink class="hover:underline break-all italic" target="_blank"
-                            href="https://pubmed.ncbi.nlm.nih.gov/24724766/">https://pubmed.ncbi.nlm.nih.gov/24724766/
-                        </NuxtLink>
-                        <NuxtLink class="hover:underline break-all italic" target="_blank"
-                            href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9573946/">
-                            https://pmc.ncbi.nlm.nih.gov/articles/PMC9573946/</NuxtLink>
-                        <NuxtLink class="hover:underline break-all italic mb-5" target="_blank"
-                            href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6124841/">
-                            https://pmc.ncbi.nlm.nih.gov/articles/PMC6124841/</NuxtLink>
+                        <a v-for="(link, index) in footerLinks.LANDING_3" :key="index" :href="link"
+                            class="hover:underline break-all italic w-fit" target="_blank">{{ link }}
+                        </a>
                     </div>
                 </div>
 
@@ -693,7 +673,6 @@ useHead({
         </div>
     </main>
 
-
     <!-- BodyContent -->
     <!-- <div> -->
     <!-- Footer -->
@@ -710,7 +689,7 @@ useHead({
     <!-- <div ref="ctaBar"
             :class="['flex items-center justify-center lg:hidden transition-all duration-300 z-50', isFooterVisible ? 'absolute' : 'fixed']"
             :style="{ bottom: isFooterVisible ? `${footerHeight}px` : '1rem', left: 0, right: 0 }">
-            <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+            <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                 class="block w-80 text-center text-white font-semibold text-2xl py-3 bg-[#1EB9F0] rounded-full">
                 Try Yumzy Today
             </a>

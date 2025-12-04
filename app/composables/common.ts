@@ -82,3 +82,31 @@ export const verifiedCustomers = {
         reviewText: "The difference in my son's school performance and focus is incredible. He's more active, happier, and way less cranky.",
     }
 };
+
+export const footerLinks = {
+    LANDING_1: [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6316224/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11547883/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9102588/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8546969",
+        "https://www.ccjm.org/content/89/3/154",
+        "https://www.sciencedirect.com/science/article/abs/pii/S0378512201002754",
+        "https://pubmed.ncbi.nlm.nih.gov/38082300/"
+    ],
+
+    LANDING_3: [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10918648/",
+        "https://www.feedingamerica.org/hunger-in-america",
+        "https://pubmed.ncbi.nlm.nih.gov/24724766/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9573946/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6124841/",
+    ],
+}
+
+export const PopUpOne = [
+    "Better Family Nutrition",
+    "Sharper Focus",
+    "Improved Gut Health",
+    "Stronger Immunity",
+    "Balanced Moods"
+]
