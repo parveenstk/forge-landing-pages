@@ -163,7 +163,7 @@ useHead({
                             </li>
                         </ul> -->
 
-                        <img src="/images/fl-2.jpg" class="w-full pb-5" alt="fl-2.jpg-img" />
+                        <div class="bg-[#f3ebda] p-5 mb-5"><img src="/images/fl-2.jpg" class="h-[300px] w-full md:h-[400px] object-contain" alt="fl-2.jpg-img" /></div>
 
                         <div class="lg:space-y-4 space-y-2 lg:px-4 font-bold">
 
@@ -186,7 +186,7 @@ useHead({
                         Plenty
                     </h3>
 
-                    <img src="/images/fl-3.jpg" class="w-full py-6" alt="fl-3.jpg-img" />
+                    <img src="/images/fl-3.jpg" class="w-full py-6 h-[350px] md:h-[600px] object-cover" alt="fl-3.jpg-img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p><span class="extrablod">The problem isn't lack of food.</span></p>
                         <p>It's lack of <u><i>nutrition</i></u> in the food we eat.</p>
@@ -227,7 +227,7 @@ useHead({
                         Signs Most Parents (and Doctors) Miss
                     </h3>
 
-                    <img src="/images/fl-4.jpg" class="w-full py-6 pb-0" alt="fl-4.jpg-img" />
+                    <img src="/images/fl-4.jpg" class="w-full py-6 pb-0 h-[350px] md:h-[600px] object-cover" alt="fl-4.jpg-img" />
                     <div class="lg:space-y-4 space-y-2 mb-8 bg-[#FAFAFA] lg:p-5 p-0 lg:py-9 py-4">
 
                         <p class="extrablod">Hidden Hunger isn’t obvious.</p>
@@ -421,7 +421,7 @@ useHead({
 
                     <h3 class="lg:text-4xl text-[10vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">Don’t
                         You Deserve Peace of Mind?</h3>
-                    <img src="/images/fl-7.jpg" class="w-full py-6" alt="fl-7.jpg-Img" />
+                    <img src="/images/fl-7.jpg" class="w-full py-6 h-[450px] md:h-[600px] md:w-[80%] object-cover object-top" alt="fl-7.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
 
                         <p><span class="extrablod">The most rewarding part</span> of Yumzy? "Hearing from
@@ -450,7 +450,7 @@ useHead({
 
                     <h3 class="lg:text-4xl text-[11vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">A
                         Mission Bigger Than Business</h3>
-                    <img src="/images/p1-9.jpg" class="w-full py-6" alt="fl-8.jpg-Img" />
+                    <img src="/images/p1-9.jpg" class="w-full py-6 h-[450px] md:h-[600px] md:w-[80%] object-cover object-top" alt="fl-8.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p>Yumzy wasn't created to solve just <i><u>one</u></i> family's problems.
                         </p>
@@ -503,7 +503,7 @@ useHead({
 
                     <h3 class="lg:text-4xl text-[11vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">Taking
                         Action</h3>
-                    <img src="/images/fl-9.jpg" class="w-full py-6" alt="fl-9.jpg-Img" />
+                    <img src="/images/fl-9.jpg" class="w-full py-6 h-[450px] md:h-[600px] md:w-[80%] object-cover object-top" alt="fl-9.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p>To discover more about Yumzy and Hidden Hunger, visit the <span class="extrablod">Yumzy
                                 official website.</span> </p>
