@@ -15,7 +15,7 @@ const handleClose = () => {
 </script>
 <template>
     <section v-if="!isClosed"
-        class="popup w-full h-[100vh] fixed top-0 left-0 flex flex-col md:flex-row overflow-y-auto">
+        class="popup w-full h-[100vh] fixed top-0 left-0 flex flex-col md:flex-row overflow-y-auto z-99">
         <div class="w-full md:w-1/2 bg-gray-200 flex justify-center items-center px-4 py-6 md:px-12 md:py-0 opacity-98">
             <div class="max-w-md text-center">
 
