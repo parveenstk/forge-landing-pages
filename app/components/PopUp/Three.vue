@@ -30,9 +30,9 @@ const handleClose = () => {
                 <p class="mb-2 text-gray-500 text-[10px] sm:text-[12px] md:text-[12px] lg:text-[14px]">*By providing
                     your number and tapping the button below, you agree to receive recurring auto-dialed marketing SMS
                     (including cart reminders, AI content, artificial or pre-recorded voices) and our <NuxtLink
-                        href="#">TERMS OF SERVICE</NuxtLink> (including arbitration). Consent is not required to
+                        href="#" class="italic underline">TERMS OF SERVICE</NuxtLink> (including arbitration). Consent is not required to
                     purchase. Msg & data rates may apply. Msg frequency varies. Reply HELP for help, STOP to opt out.
-                    View <NuxtLink href="#">PRIVACY POLICY</NuxtLink>.</p>
+                    View <NuxtLink href="#" class="italic underline">PRIVACY POLICY</NuxtLink>.</p>
                 <button @click="() => props.updateStep!(4)"
                     class="bg-black cursor-pointer rounded-full md:rounded-2xl text-sm sm:text-lg md:text-xl text-white w-60 md:w-full py-4">Unlock
                     60% Off + Gifts</button>
