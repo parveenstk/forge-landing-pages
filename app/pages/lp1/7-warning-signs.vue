@@ -72,9 +72,12 @@ useHead({
                 <!-- Mobile version -->
                 <div class="block lg:hidden">
                     <h1 class="extrablod mr-0 text-[calc(9.5vw-0px)] sm:text-[calc(6vw-0px)] leading-[calc(1em+1vw)]">
-                        7 Warning Signs <br class="block sm:hidden">Your 'Picky Eater'<br class="block sm:hidden"> Has <span class="text-[#E6193C]"> Hidden Hunger</span>
+                        7 Warning Signs <br class="block sm:hidden">Your 'Picky Eater'<br class="block sm:hidden"> Has
+                        <span class="text-[#E6193C]"> Hidden Hunger</span>
                     </h1>
-                    <p class="font-bold mt-2 text-[calc(4.3vw-0px)] sm:text-[calc(3vw-0px)] leading-[calc(1em+1vw)] italic">Here's what
+                    <p
+                        class="font-bold mt-2 text-[calc(4.3vw-0px)] sm:text-[calc(3vw-0px)] leading-[calc(1em+1vw)] italic">
+                        Here's what
                         smart
                         moms are doing...</p>
                 </div>
@@ -153,7 +156,9 @@ useHead({
                                 class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(9vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                                 1. 3pm Energy
                                 Crash</h3>
-                            <p class="mb-4 italic text-[calc(5.4vw-0px)] sm:text-[calc(2.7vw-0px)] leading-[calc(1em+1vw)]">That makes
+                            <p
+                                class="mb-4 italic text-[calc(5.4vw-0px)] sm:text-[calc(2.7vw-0px)] leading-[calc(1em+1vw)]">
+                                That makes
                                 <u><i>everyone</i></u> miserable
                             </p>
                         </div>
@@ -163,7 +168,9 @@ useHead({
                     <div>
                         <h3 class="text-3xl extrablod lg:block hidden leading-9">1. 3pm Energy
                             Crash</h3>
-                        <p class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] lg:text-[18px] leading-[calc(1em+1vw)]">That makes
+                        <p
+                            class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] lg:text-[18px] leading-[calc(1em+1vw)]">
+                            That makes
                             <u><i>everyone</i></u> miserable
                         </p>
                         <div class="lg:space-y-4 space-y-2 lg:block hidden">
@@ -177,7 +184,8 @@ useHead({
                             <p>Their <span class="extrablod">blood sugar jitterbugs</span> like a zombie on meth.</p>
                             <p>So <span class="extrablod">what</span> can you do if they don’t have steady fuel…?</p>
                             <p>Here’s what <span class="extrablod">smart moms are discovering:</span></p>
-                            <p>Filling these nutrition gaps on a <span class="extrablod italic">daily basis...</span></p>
+                            <p>Filling these nutrition gaps on a <span class="extrablod italic">daily basis...</span>
+                            </p>
                             <p>Helps balance those highs and lows.</p>
                             <p>You get calmer afternoons and happier families.</p>
                             <p>But how to get steady fuel? Especially from real nutrients…?</p>
@@ -195,7 +203,8 @@ useHead({
                             <p>Their <span class="extrablod">blood sugar jitterbugs</span> like a zombie on meth.</p>
                             <p>So <span class="extrablod">what</span> can you do if they don’t have steady fuel…?</p>
                             <p>Here’s what <span class="extrablod">smart moms are discovering:</span></p>
-                            <p>Filling these nutrition gaps on a <span class="extrablod italic">daily basis...</span></p>
+                            <p>Filling these nutrition gaps on a <span class="extrablod italic">daily basis...</span>
+                            </p>
                             <p>Helps balance those highs and lows.</p>
                             <p>You get calmer afternoons and happier families.</p>
                             <p>But how to get steady fuel? Especially from real nutrients…?</p>
@@ -213,7 +222,9 @@ useHead({
                             <h3
                                 class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(10vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                                 2. Tummy Troubles </h3>
-                            <p class="mb-4 italic text-[calc(5.4vw-0px)] sm:text-[calc(2.7vw-0px)] leading-[calc(1em+1vw)]"><i>That never go
+                            <p
+                                class="mb-4 italic text-[calc(5.4vw-0px)] sm:text-[calc(2.7vw-0px)] leading-[calc(1em+1vw)]">
+                                <i>That never go
                                     away</i>
                             </p>
                         </div>
@@ -223,7 +234,9 @@ useHead({
 
                     <div>
                         <h3 class="text-3xl extrablod lg:block hidden leading-9">2. Tummy Troubles</h3>
-                        <p class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] lg:text-[18px] leading-[calc(1em+1vw)]">That Never
+                        <p
+                            class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] lg:text-[18px] leading-[calc(1em+1vw)]">
+                            That Never
                             Go
                             Away</p>
                         <div class="lg:space-y-4 space-y-2 lg:block hidden">
@@ -272,7 +285,8 @@ useHead({
                             <h3
                                 class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(12vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                                 3. Mood Swings</h3>
-                            <p class="mb-4 italic text-[calc(5.4vw-0px)] sm:text-[calc(2.7vw-0px)] leading-[calc(1em+1vw)]">
+                            <p
+                                class="mb-4 italic text-[calc(5.4vw-0px)] sm:text-[calc(2.7vw-0px)] leading-[calc(1em+1vw)]">
                                 <i>From seemingly nowhere</i>
                             </p>
                         </div>
@@ -282,7 +296,9 @@ useHead({
                     <div>
                         <h3 class="text-3xl extrablod lg:block hidden leading-9">3. Mood Swings
                         </h3>
-                        <p class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] lg:text-[18px] leading-[calc(1em+1vw)]">From
+                        <p
+                            class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] lg:text-[18px] leading-[calc(1em+1vw)]">
+                            From
                             seemingly
                             nowhere</p>
                         <div class="lg:space-y-4 space-y-2 hidden lg:block">
@@ -300,11 +316,13 @@ useHead({
                             <p>So are <span class="extrablod">phytonutrients</span>. These are <span
                                     class="extrablod">plant-based</span> nutrients, such as polyphenols and flavonoids.
                             </p>
-                            <p>And <span class="extrablod">research indicates</span> they’re key to brain, heart, and immune health.</p>
+                            <p>And <span class="extrablod">research indicates</span> they’re key to brain, heart, and
+                                immune health.</p>
                             <p>But if you consume them every day.</p>
-                            <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                            <p><a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                     class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">
-                                    Once picky eaters get consistent nutrition,</a> those meltdowns decrease. Even disappear.</p>
+                                    Once picky eaters get consistent nutrition,</a> those meltdowns decrease. Even
+                                disappear.</p>
                             <p>That’s when dinnertime stops being stressful.</p>
                             <p>And becomes fun family time again.</p>
                         </div>
@@ -323,11 +341,13 @@ useHead({
                             <p>So are <span class="extrablod">phytonutrients</span>. These are <span
                                     class="extrablod">plant-based</span> nutrients, such as polyphenols and flavonoids.
                             </p>
-                            <p>And <span class="extrablod">research indicates</span> they’re key to brain, heart, and immune health.</p>
+                            <p>And <span class="extrablod">research indicates</span> they’re key to brain, heart, and
+                                immune health.</p>
                             <p>But if you consume them every day.</p>
-                            <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                            <p><a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                     class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">
-                                    Once picky eaters get consistent nutrition,</a> those meltdowns decrease. Even disappear.</p>
+                                    Once picky eaters get consistent nutrition,</a> those meltdowns decrease. Even
+                                disappear.</p>
                             <p>That’s when dinnertime stops being stressful.</p>
                             <p>And becomes fun family time again.</p>
                         </div>
@@ -341,7 +361,9 @@ useHead({
                             <h3
                                 class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(12vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                                 4. Always Sick</h3>
-                            <p class="mb-4 mt-2 italic text-[calc(5.4vw-0px)] sm:text-[calc(2.7vw-0px)] leading-[calc(1em+1vw)] lg:hidden">While
+                            <p
+                                class="mb-4 mt-2 italic text-[calc(5.4vw-0px)] sm:text-[calc(2.7vw-0px)] leading-[calc(1em+1vw)] lg:hidden">
+                                While
                                 other
                                 kids never are...
                             </p>
@@ -351,7 +373,9 @@ useHead({
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod lg:block hidden leading-9">4. Always Sick </h3>
-                        <p class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] lg:text-[18px] leading-[calc(1em+1vw)]">While
+                        <p
+                            class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] lg:text-[18px] leading-[calc(1em+1vw)]">
+                            While
                             other
                             kids never
                             are</p>
@@ -361,7 +385,7 @@ useHead({
                             <p>Could be their immune system <span class="extrablod text-[#E6193C]">out of whack.</span>
                                 Limited diets make it <span class="extrablod">hard</span> to build strong immunity.</p>
                             <p>Because of a lack of vitamins like A, C, and D…</p>
-                            <p>Meanwhile, <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                            <p>Meanwhile, <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                     class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">kids
                                     with
                                     strong immune systems</a> stay well or <span class="extrablod">bounce back</span>
@@ -370,7 +394,8 @@ useHead({
                             <p>But not picky eaters. They tend to be sick more frequently. </p>
                             <p>The Hidden Hunger connection?</p>
                             <p>Without getting the necessary nutrients every day...</p>
-                            <p>Their poorly-armed bodies <span class="extrablod">can't defend</span> against everyday germs and viruses.</p>
+                            <p>Their poorly-armed bodies <span class="extrablod">can't defend</span> against everyday
+                                germs and viruses.</p>
                             <p>That’s why they're the ones <span class="extrablod">missing school days.</span></p>
                             <p>Or <span class="extrablod">keeping everyone up at night.</span></p>
 
@@ -381,7 +406,7 @@ useHead({
                             <p>Could be their immune system <span class="extrablod text-[#E6193C]">out of whack.</span>
                                 Limited diets make it <span class="extrablod">hard</span> to build strong immunity.</p>
                             <p>Because of a lack of vitamins like A, C, and D…</p>
-                            <p>Meanwhile, <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                            <p>Meanwhile, <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                     class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">kids
                                     with
                                     strong immune systems</a> stay well or <span class="extrablod">bounce back</span>
@@ -390,7 +415,8 @@ useHead({
                             <p><span class="extrablod italic">Worse,</span> they stay sick longer.</p>
                             <p>The Hidden Hunger connection?</p>
                             <p>Without getting the necessary nutrients every day...</p>
-                            <p>Their poorly-armed bodies <span class="extrablod">can't defend</span> against everyday germs and viruses.</p>
+                            <p>Their poorly-armed bodies <span class="extrablod">can't defend</span> against everyday
+                                germs and viruses.</p>
                             <p>That’s why they're the ones <span class="extrablod">missing school days.</span></p>
                             <p>Or <span class="extrablod">keeping everyone up at night.</span></p>
                         </div>
@@ -404,7 +430,9 @@ useHead({
                             <h3
                                 class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(8.7vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                                 5. Attention Problems </h3>
-                            <p class="mb-4 italic text-[calc(5.4vw-0px)] sm:text-[calc(2.7vw-0px)] leading-[calc(1em+1vw)] lg:hidden">That
+                            <p
+                                class="mb-4 italic text-[calc(5.4vw-0px)] sm:text-[calc(2.7vw-0px)] leading-[calc(1em+1vw)] lg:hidden">
+                                That
                                 <u>aren't</u> ADHD
                             </p>
                         </div>
@@ -413,7 +441,9 @@ useHead({
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod lg:block hidden leading-9">5. Attention Problems</h3>
-                        <p class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] lg:text-[18px] leading-[calc(1em+1vw)]">That
+                        <p
+                            class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] lg:text-[18px] leading-[calc(1em+1vw)]">
+                            That
                             <u>aren't</u> ADHD
                         </p>
                         <div class="lg:space-y-4 space-y-2 lg:block hidden">
@@ -429,8 +459,9 @@ useHead({
                             <p>Otherwise, the brain's <span class="extrablod">running on empty.</span></p>
                             <p>But when they increase their daily nutrition intake...</p>
                             <p>And keep it up so those nutrient levels remain high...</p>
-                            <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Kids can show dramatic reversals.</a></p>
+                            <p><a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Kids can
+                                    show dramatic reversals.</a></p>
                             <p>Improved attention span. Better memory.</p>
                             <p>The child who couldn't sit still for 5 minutes…?</p>
                             <p>Now finishes homework in one sitting.</p>
@@ -448,8 +479,9 @@ useHead({
                             <p>Otherwise, the brain's <span class="extrablod">running on empty.</span></p>
                             <p>But when they increase their daily nutrition intake...</p>
                             <p>And keep it up so those nutrient levels remain high...</p>
-                            <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Kids can show dramatic reversals.</a></p>
+                            <p><a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
+                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Kids can
+                                    show dramatic reversals.</a></p>
                             <p>Improved attention span. Better memory.</p>
                             <p>The child who couldn't sit still for 5 minutes…?</p>
                             <p>Now finishes homework in one sitting.</p>
@@ -466,7 +498,8 @@ useHead({
                             <h3
                                 class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(10.5vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                                 6. Sleep Problems </h3>
-                            <p class="mb-4 italic text-[calc(5.4vw-0px)] sm:text-[calc(2.7vw-0px)] leading-[calc(1em+1vw)]">
+                            <p
+                                class="mb-4 italic text-[calc(5.4vw-0px)] sm:text-[calc(2.7vw-0px)] leading-[calc(1em+1vw)]">
                                 And other nighttime battles
                             </p>
                         </div>
@@ -475,7 +508,9 @@ useHead({
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod lg:block hidden leading-9">6. Sleep Problems</h3>
-                        <p class="lg:block hidden italic mb-4 text-[calc(1.2vw-0px)] lg:text-[18px] leading-[calc(1em+1vw)]">And other
+                        <p
+                            class="lg:block hidden italic mb-4 text-[calc(1.2vw-0px)] lg:text-[18px] leading-[calc(1em+1vw)]">
+                            And other
                             nighttime battles</p>
                         <div class="lg:space-y-4 space-y-2">
                             <!-- <p class="extrablod hidden lg:block ">Trouble falling asleep, frequent wake-ups, or waking up
@@ -502,7 +537,7 @@ useHead({
                                 <p>Notably, vitamin D, antioxidants, and fiber all help <span
                                         class="extrablod">stabilize
                                         blood sugar</span> for better sleep.</p>
-                                <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                                <p><a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                         class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">With
                                         consistent nutrition,</a> bedtime battles decrease.</p>
                                 <p> And better sleep <span class="extrablod">increases.</span></p>
@@ -528,7 +563,7 @@ useHead({
                                 <p>Notably, vitamin D, antioxidants, and fiber all help <span
                                         class="extrablod">stabilize
                                         blood sugar</span> for better sleep.</p>
-                                <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                                <p><a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                         class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">With
                                         consistent nutrition,</a> bedtime battles decrease.</p>
                                 <p> And better sleep <span class="extrablod">increases.</span></p>
@@ -547,14 +582,18 @@ useHead({
                             <h3
                                 class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(9.5vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                                 7. "Failure to Thrive" </h3>
-                            <p class="mb-4 italic text-[calc(5.4vw-0px)] sm:text-[calc(2.7vw-0px)] leading-[calc(1em+1vw)] lg:hidden">The warning everyone's missing...</p>
+                            <p
+                                class="mb-4 italic text-[calc(5.4vw-0px)] sm:text-[calc(2.7vw-0px)] leading-[calc(1em+1vw)] lg:hidden">
+                                The warning everyone's missing...</p>
                         </div>
 
                         <img src="/images/p1-7.jpg" class="w-full rounded-xl" alt="p1-7.jpg-img" />
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod lg:block hidden leading-9">7. "Failure to Thrive"</h3>
-                        <p class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] lg:text-[18px] leading-[calc(1em+1vw)]">The warning everyone's missing...</p>
+                        <p
+                            class="lg:block hidden mb-4 italic text-[calc(1.2vw-0px)] lg:text-[18px] leading-[calc(1em+1vw)]">
+                            The warning everyone's missing...</p>
                         <div class="lg:space-y-4 space-y-2 lg:block hidden">
                             <p>Here's a scary truth:</p>
                             <p class="extrablod">Malnutrition doesn't always look skinny.</p>
@@ -577,7 +616,7 @@ useHead({
                             <p>The most heartbreaking part?</p>
                             <p>Parents blame themselves for "not trying hard enough"... </p>
                             <p>When Hidden Hunger is the <span class="extrablod italic">real</span> issue.</p>
-                            <p>That all stops <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                            <p>That all stops <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                     class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">with
                                     better
                                     nutrition.</a></p>
@@ -607,7 +646,7 @@ useHead({
                             <p>The most heartbreaking part?</p>
                             <p>Parents blame themselves for "not trying hard enough"... </p>
                             <p>When Hidden Hunger is the <span class="extrablod italic">real</span> issue.</p>
-                            <p>That all stops <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                            <p>That all stops <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                     class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">with
                                     better
                                     nutrition.</a></p>
@@ -641,9 +680,11 @@ useHead({
                                 forcing more vegetables on them (it usually backfires anyway).</p>
                             <p>The <span class="extrablod">breakthrough</span> approach?
                             </p>
-                            <p>"Fill the nutrition gaps first," says Dr. Pam, a nutrition expert who's board-certified in internal medicine.</p>
+                            <p>"Fill the nutrition gaps first," says Dr. Pam, a nutrition expert who's board-certified
+                                in internal medicine.</p>
                             <p>"Then watch eating habits naturally improve.</p>
-                            <p>"After that, watch them improve in every way as they continue getting good nutrients every day.</p>
+                            <p>"After that, watch them improve in every way as they continue getting good nutrients
+                                every day.</p>
                             <p class="extrablod">"That's why there's Yumzy."</p>
                         </div>
                     </div>
@@ -654,19 +695,22 @@ useHead({
 
                         <div class="lg:hidden block mb-4">
                             <div class="block sm:hidden">
+                                <h3
+                                    class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(11vw-0px)] leading-[calc(1em+1vw)]">
+                                    Yumzy. <u><i>Not</i></u> Your</h3>
+                                <h3
+                                    class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(11vw-0px)] leading-[calc(1em+1vw)]">
+                                    Typical Gummy.</h3>
+                            </div>
                             <h3
-                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(11vw-0px)] leading-[calc(1em+1vw)]">
-                                Yumzy. <u><i>Not</i></u> Your</h3>
-                            <h3
-                                class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(11vw-0px)] leading-[calc(1em+1vw)]">
-                                Typical Gummy.</h3>
-                                </div>
-                                <h3 class="hidden sm:block extrablod mb-0 sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">Yumzy. <u><i>Not</i></u> Your
-                            Typical
-                            Gummy.</h3>
+                                class="hidden sm:block extrablod mb-0 sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
+                                Yumzy. <u><i>Not</i></u> Your
+                                Typical
+                                Gummy.</h3>
                         </div>
                         <img src="/images/p1-9.jpg" class="w-full rounded-xl" alt="p1-9.jpg-img" />
-                        <p class="lg:mt-2 lg:ml-2"><span class=" text-gray-700 text-sm italic">Dr. Pam with Yumzy co-founder Nastya</span></p>
+                        <p class="lg:mt-2 lg:ml-2"><span class=" text-gray-700 text-sm italic">Dr. Pam with Yumzy
+                                co-founder Nastya</span></p>
                     </div>
                     <div class="lg:space-y-4 space-y-2">
                         <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">Yumzy. <u><i>Not</i></u> Your
@@ -674,15 +718,19 @@ useHead({
                             Gummy.</h3>
 
                         <p><span class="extrablod">Dr.-recommended. Kid-approved.</span></p>
-                        <p>Yumzy is a family supplement brand co-founded by social media superstar Nastya, of YouTube’s biggest kid series <i>Like Nastya.</i></p>
+                        <p>Yumzy is a family supplement brand co-founded by social media superstar Nastya, of YouTube’s
+                            biggest kid series <i>Like Nastya.</i></p>
                         <p>When Nastya heard about Hidden Hunger, she was concerned.</p>
                         <p>Many of her nearly <span class="extrablod">400 million followers</span> might be suffering.
                         </p>
-                        <p>So with the help of nutrition expert Dr. Pam, Nastya helped create Yumzy's best-selling products:</p>
+                        <p>So with the help of nutrition expert Dr. Pam, Nastya helped create Yumzy's best-selling
+                            products:</p>
                         <p class="extrablod">YOMZ OG Gummies.</p>
                         <p>It’s not candy. <i>But it tastes like it...</i></p>
-                        <p>Even with all its <span class="extrablod">vitamins, antioxidants, micronutrients, and 5g of fiber.</span></p>
-                        <p>Each serving delivers the phytonutritional equal of <span class="extrablod">2 servings</span> of fruits and vegetables.</p>
+                        <p>Even with all its <span class="extrablod">vitamins, antioxidants, micronutrients, and 5g of
+                                fiber.</span></p>
+                        <p>Each serving delivers the phytonutritional equal of <span class="extrablod">2 servings</span>
+                            of fruits and vegetables.</p>
                         <p>Yumzy YOMZ Gummies are a tasty treat kids ask for instead of fight over.</p>
                         <p>That’s because of 3 <i>mouthwatering</i> flavors:</p>
                         <ul class="lg:pl-2 lg:space-y-4 space-y-2">
@@ -711,25 +759,30 @@ useHead({
                         <p class="italic underline">With daily use, the results speak for themselves:</p>
                         <ul class="lg:pl-2 lg:space-y-4 space-y-2">
                             <li class="flex gap-2 items-start md:items-center">
-                                <img class="min-w-5" src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
-                                 5g fiber can improve gut bacteria in ~2 weeks
+                                <img class="min-w-5" src="/images/blk-check.svg" alt="blk-check.svg-img" width="20"
+                                    height="20" />
+                                5g fiber can improve gut bacteria in ~2 weeks
                             </li>
                             <li class="flex gap-2 items-start md:items-center">
-                                <img class="min-w-5" src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
-                               Vitamin D levels rise in 1–3 months
+                                <img class="min-w-5" src="/images/blk-check.svg" alt="blk-check.svg-img" width="20"
+                                    height="20" />
+                                Vitamin D levels rise in 1–3 months
                             </li>
                             <li class="flex gap-2 items-start md:items-center">
-                                <img class="min-w-5" src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
+                                <img class="min-w-5" src="/images/blk-check.svg" alt="blk-check.svg-img" width="20"
+                                    height="20" />
                                 Vitamins K2 + D3 start helping bones in 2-6 months
                             </li>
                             <li class="flex gap-2 items-start md:items-center">
-                                <img class="min-w-5" src="/images/blk-check.svg" alt="blk-check.svg-img" width="20" height="20" />
+                                <img class="min-w-5" src="/images/blk-check.svg" alt="blk-check.svg-img" width="20"
+                                    height="20" />
                                 Vitamin C can help shorten colds by a few days
                             </li>
                         </ul>
                         <p>Plus, your order of YOMZ Gummies is backed by Yumzy's famous <a
-                                href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">90-Day 200% Happiness Guarantee.</a></p>
+                                href="https://get.yumzy.com/checkout-2-a/" target="_blank"
+                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">90-Day 200%
+                                Happiness Guarantee.</a></p>
 
                         <p>Yes, there's no risk for you.</p>
                         <p>If your child doesn't love them ...</p>
@@ -740,22 +793,16 @@ useHead({
                 <!-- Column data 2 -->
 
                 <div class="border-1 lg:border-[#1EB9F0] border-[#fff] rounded-xl lg:p-5 p-0 lg:mt-20 mt-15 relative">
-                    <!-- <a href="https://yomz-checkout-2.vercel.app/"
-                    class="bg-[#FFEB00] absolute -top-5 left-1/2 -translate-x-1/2 py-1 lg:px-30 px-10 font-bold lg:text-lg text-base rounded-b-lg">
-                    TRY NOW
-                </a> -->
-                    <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+
+                    <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                         class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white p-3 lg:text-xl text-3xl capitalize">
                         Try Yumzy Today
                     </a>
-                    <a href="https://yomz-checkout-2.vercel.app/"
+                    <a href="https://get.yumzy.com/checkout-2-a/"
                         class="hidden lg:block bg-[#0AA03C] text-white absolute -top-5 py-2 w-50 px-5 left-0 right-0 mx-auto extrablod lg:text-lg text-base text-center ">
                         Try Yumzy Now
                     </a>
-                    <!-- <p
-                    class="bg-[#FFEB00] absolute -top-5 left-1/2 -translate-x-1/2 py-1 lg:px-30 px-5 font-bold lg:text-lg text-base rounded-b-lg block lg:hidden">
-                    TRY NOW
-                </p> -->
+
                     <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-5 gap-2 items-center">
 
                         <div>
@@ -772,22 +819,10 @@ useHead({
                                 picky
                                 eater nutrition they’ll
                                 actually beg for?</h4>
-                            <p>Join the thousands of smart moms just like you who've discovered the secret of Yumzy. It's filling the gaps with nutrition that tastes like it's bad for you.</p>
+                            <p>Join the thousands of smart moms just like you who've discovered the secret of Yumzy.
+                                It's filling the gaps with nutrition that tastes like it's bad for you.</p>
 
-                            <!-- <button type="button"
-                            class="bg-black hidden lg:inline w-full rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-lg">
-                            Try YOMZ Risk-Free for <span class="block">50% OFF Today</span>
-                        </button>
-
-                        <button type="button"
-                            class="bg-[#0AA03C] lg:hidden  w-full rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-3xl">
-                           TRY YOMZ TODAY
-                        </button> -->
-                            <!-- <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
-                            class="lg:flex justify-center w-full h-full bg-black hidden rounded-full  extrablod text-white uppercase p-3 lg:text-xl text-lg">
-                            Try YOMZ Risk-Free <span class="ml-1 block">50% OFF Today</span>
-                        </a> -->
-                            <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                            <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                 class="flex justify-center w-full h-full bg-[#0AA03C]  rounded-full  extrablod text-white p-3 lg:text-xl text-3xl capitalize">
                                 Try Yumzy Today
                             </a>
@@ -805,15 +840,13 @@ useHead({
 
                 </div>
 
+                <!-- Footer Links -->
                 <div class="lg:text-md text-sm sources-text flex flex-col">
                     <p class="extrablod lg:mt-20 mt-5">Sources:</p>
-                    <NuxtLink target="_blank" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6316224/" class="hover:underline break-all italic">https://pmc.ncbi.nlm.nih.gov/articles/PMC6316224/</NuxtLink>
-                    <NuxtLink target="_blank" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11547883/" class="hover:underline break-all italic">https://pmc.ncbi.nlm.nih.gov/articles/PMC11547883/</NuxtLink>
-                    <NuxtLink target="_blank" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9102588/" class="hover:underline break-all italic">https://pmc.ncbi.nlm.nih.gov/articles/PMC9102588/</NuxtLink>
-                    <NuxtLink target="_blank" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8546969" class="hover:underline break-all italic">https://pmc.ncbi.nlm.nih.gov/articles/PMC8546969</NuxtLink>
-                    <NuxtLink target="_blank" href="https://www.ccjm.org/content/89/3/154" class="hover:underline break-all italic">https://www.ccjm.org/content/89/3/154</NuxtLink>
-                    <NuxtLink target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0378512201002754" class="hover:underline break-all italic">https://www.sciencedirect.com/science/article/abs/pii/S0378512201002754</NuxtLink>
-                    <NuxtLink target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/38082300/" class="hover:underline break-all italic mb-5">https://pubmed.ncbi.nlm.nih.gov/38082300/</NuxtLink>
+                    <a v-for="(link, index) in footerLinks.LANDING_1" :key="index" :href="link" target="_blank"
+                        rel="noopener noreferrer" class="hover:underline break-all italic w-fit">
+                        {{ link }}
+                    </a>
                 </div>
 
             </div>
@@ -846,7 +879,7 @@ useHead({
         <div ref="ctaBar"
             :class="['flex items-center justify-center lg:hidden transition-all duration-300 z-50', isFooterVisible ? 'absolute' : 'fixed']"
             :style="{ bottom: isFooterVisible ? `${footerHeight}px` : '1rem', left: 0, right: 0 }">
-            <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+            <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                 class="block w-80 text-center text-white font-semibold text-2xl py-3 bg-[#1EB9F0] rounded-full">
                 Try Yumzy Today
             </a>

@@ -304,7 +304,7 @@ useHead({
                                     and
                                     behavior problems.</p>
                                 <p>Better nutrition
-                                    <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                                    <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                         class="text-blue-600 hover:text-red-500 extrablod"
                                         style="font-weight:600;">makes
                                         all the
@@ -337,7 +337,7 @@ useHead({
                                     and
                                     behavior problems.</p>
                                 <p>Better nutrition
-                                    <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                                    <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                         class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">
                                         makes all the difference.
                                     </a>
@@ -390,7 +390,7 @@ useHead({
                             </ul>
 
                             <p><span class="extrablod">Breaking the cycle</span> starts with <a
-                                    href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                                    href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                     class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">healing
                                     the
                                     gut</a>.
@@ -428,7 +428,7 @@ useHead({
                             </ul>
 
                             <p><span class="extrablod">Breaking the cycle</span> starts with <a
-                                    href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                                    href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                     class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">healing
                                     the
                                     gut</a>.
@@ -472,7 +472,7 @@ useHead({
                                 <p>Your focus sharpens. You're more productive.</p>
                                 <p>The hyperactive kid now pays attention in class.</p>
                                 <p>Or sits through dinner without bouncing off the walls.</p>
-                                <p>And it all starts with <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                                <p>And it all starts with <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                         class="text-blue-600 hover:text-red-500 extrablod"
                                         style="font-weight:600;">better
                                         nutrition.</a></p>
@@ -499,7 +499,7 @@ useHead({
                                 <p>Your focus sharpens. You're more productive.</p>
                                 <p>The hyperactive kid now pays attention in class.</p>
                                 <p>Or sits through dinner without bouncing off the walls.</p>
-                                <p>And it all starts with <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                                <p>And it all starts with <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                         class="text-blue-600 hover:text-red-500 extrablod"
                                         style="font-weight:600;">better
                                         nutrition.</a></p>
@@ -541,7 +541,7 @@ useHead({
                                         demands them.</span></p>
                                 <p>This is <span class="extrablod italic">especially</span> true for kids.</p>
                                 <p>So how to end the emotional meltdowns?</p>
-                                <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                                <p><a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                         class="text-blue-600 hover:text-red-500 extrablod"
                                         style="font-weight:600;">Restore
                                         gut
@@ -566,7 +566,7 @@ useHead({
                                         demands them.</span></p>
                                 <p>This is <span class="extrablod italic">especially</span> true for kids.</p>
                                 <p>So how to end the emotional meltdowns?</p>
-                                <p><a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                                <p><a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                         class="text-blue-600 hover:text-red-500 extrablod"
                                         style="font-weight:600;">Restore
                                         gut
@@ -606,7 +606,7 @@ useHead({
                                 <p>And kids have it <span class="extrablod italic">worse.</span></p>
                                 <p>They struggle with friendships. Or feel overwhelmed in groups.</p>
                                 <p>The good news?</p>
-                                <p>Once <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                                <p>Once <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                         class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">gut
                                         health
                                         improves,</a> your kids will be <span class="extrablod">more confident and
@@ -630,7 +630,7 @@ useHead({
                                 <p>And kids have it <span class="extrablod italic">worse.</span></p>
                                 <p>They struggle with friendships. Or feel overwhelmed in groups.</p>
                                 <p>The good news?</p>
-                                <p>Once <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                                <p>Once <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                         class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">gut
                                         health
                                         improves,</a> your kids will be <span class="extrablod">more confident and
@@ -665,7 +665,7 @@ useHead({
                                 <p>Often after antibiotics or stress...</p>
 
                                 <p>Which is when kids crave junk food even more. </p>
-                                <p> <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                                <p> <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                         class="text-blue-600 hover:text-red-500 extrablod"
                                         style="font-weight:600;">Luckily,
                                         once
@@ -684,7 +684,7 @@ useHead({
                                 <p>Often after antibiotics or stress...</p>
 
                                 <p>Which is when kids crave junk food even more. </p>
-                                <p> <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                                <p> <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                         class="text-blue-600 hover:text-red-500 extrablod"
                                         style="font-weight:600;">Luckily,
                                         once
@@ -890,11 +890,11 @@ useHead({
                 </div>
 
                 <div class="border-1 lg:border-[#1EB9F0] border-[#fff] rounded-xl lg:p-5 p-0 lg:mt-20 mt-15 relative">
-                        <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                        <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                             class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white p-3 lg:text-xl text-3xl capitalize">
                             Try Yumzy Today
                         </a>
-                        <a href="https://yomz-checkout-2.vercel.app/"
+                        <a href="https://get.yumzy.com/checkout-2-a/"
                             class="hidden lg:block bg-[#0AA03C] text-white absolute -top-5 py-2 w-50 px-5 left-0 right-0 mx-auto extrablod lg:text-lg text-base text-center">
                             Try Yumzy Now
                         </a>
@@ -914,11 +914,11 @@ useHead({
                                 your
                                 family's gut-brain connection?</h4>
                             <p>Join the thousands of smart moms just like you who've discovered the secret of Yumzy. It's filling the gaps with nutrition that tastes like it's bad for you.</p>
-                            <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                            <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                 class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white p-3 lg:text-xl text-3xl capitalize">
                                 Try Yumzy Today
                             </a>
-                            <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+                            <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                                 class="lg:flex justify-center w-full h-full bg-[#0AA03C] hidden rounded-full  extrablod text-white p-3 lg:text-xl text-3xl">
                                 Try Yumzy Today
                             </a>
@@ -966,7 +966,7 @@ useHead({
         <div ref="ctaBar"
             :class="['flex items-center justify-center lg:hidden transition-all duration-300 z-50', isFooterVisible ? 'absolute' : 'fixed']"
             :style="{ bottom: isFooterVisible ? `${footerHeight}px` : '1rem', left: 0, right: 0 }">
-            <a href="https://yomz-checkout-2.vercel.app/" target="_blank"
+            <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
                 class="block w-80 text-center text-white font-semibold text-2xl py-3 bg-[#1EB9F0] rounded-full">
                 Try Yumzy Today
             </a>
