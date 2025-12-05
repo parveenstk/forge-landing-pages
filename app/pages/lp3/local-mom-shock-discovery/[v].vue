@@ -1,12 +1,23 @@
-<script setup>
+<script setup lang="ts">
 import { ref } from 'vue'
+
+definePageMeta({
+    middleware: 'check-params'
+})
 
 const today = new Date() // get today's date
 today.setDate(today.getDate() - 5)  // subtract 5 days
 
 // format date like "Sep 17, 2025"
-const options = { year: 'numeric', month: 'short', day: 'numeric' }
-const formattedDate = ref(today.toLocaleDateString('en-US', options))
+const options: Intl.DateTimeFormatOptions = {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+}
+
+const formattedDate = ref(
+    today.toLocaleDateString('en-US', options)
+)
 
 // meta tag details
 useHead({
@@ -164,7 +175,8 @@ useHead({
                             </li>
                         </ul> -->
 
-                        <div class="bg-[#f3ebda] p-5 mb-5"><img src="/images/fl-2.jpg" class="h-[300px] w-full md:h-[400px] object-contain" alt="fl-2.jpg-img" /></div>
+                        <div class="bg-[#f3ebda] p-5 mb-5"><img src="/images/fl-2.jpg"
+                                class="h-[300px] w-full md:h-[400px] object-contain" alt="fl-2.jpg-img" /></div>
 
                         <div class="lg:space-y-4 space-y-2 lg:px-4 font-bold">
 
@@ -189,7 +201,8 @@ useHead({
                         Plenty
                     </h3>
 
-                    <img src="/images/fl-3.jpg" class="w-full py-6 h-[350px] md:h-[600px] object-cover" alt="fl-3.jpg-img" />
+                    <img src="/images/fl-3.jpg" class="w-full py-6 h-[350px] md:h-[600px] object-cover"
+                        alt="fl-3.jpg-img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p><span class="extrablod">The problem isn't lack of food.</span></p>
                         <p>It's lack of <u><i>nutrition</i></u> in the food we eat.</p>
@@ -235,7 +248,8 @@ useHead({
                         Signs Most Parents (and Doctors) Miss
                     </h3>
 
-                    <img src="/images/fl-4.jpg" class="w-full py-6 pb-0 h-[350px] md:h-[600px] object-cover" alt="fl-4.jpg-img" />
+                    <img src="/images/fl-4.jpg" class="w-full py-6 pb-0 h-[350px] md:h-[600px] object-cover"
+                        alt="fl-4.jpg-img" />
                     <div class="lg:space-y-4 space-y-2 mb-8 bg-[#FAFAFA] lg:p-5 p-0 lg:py-9 py-4">
 
                         <p class="extrablod">Hidden Hunger isn’t obvious.</p>
@@ -312,7 +326,7 @@ useHead({
                         <p>"Some of the <i>Like Nastya</i> family might be suffering," she realized.</p>
                         <p>So Nastya co-founded a <span class="extrablod">family supplement brand called Yumzy.</span>
                         </p>
-                        <p>Yumzy is the maker of <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
+                        <p>Yumzy is the maker of <a @click="goToCheckout"
                                 class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">YOMZ, a
                                 mouthwatering gummy backed by science</a> to fill the nutrition gaps facing millions of
                             Americans every day.</p>
@@ -433,7 +447,9 @@ useHead({
                         class="lg:text-4xl text-[10vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">
                         Don’t
                         You Deserve Peace of Mind?</h3>
-                    <img src="/images/fl-7.jpg" class="w-full py-6 h-[450px] md:h-[600px] md:w-[80%] object-cover object-top" alt="fl-7.jpg-Img" />
+                    <img src="/images/fl-7.jpg"
+                        class="w-full py-6 h-[450px] md:h-[600px] md:w-[80%] object-cover object-top"
+                        alt="fl-7.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
 
                         <p><span class="extrablod">The most rewarding part</span> of Yumzy? "Hearing from
@@ -464,7 +480,9 @@ useHead({
                         class="lg:text-4xl text-[11vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">
                         A
                         Mission Bigger Than Business</h3>
-                    <img src="/images/p1-9.jpg" class="w-full py-6 h-[450px] md:h-[600px] md:w-[80%] object-cover object-top" alt="fl-8.jpg-Img" />
+                    <img src="/images/p1-9.jpg"
+                        class="w-full py-6 h-[450px] md:h-[600px] md:w-[80%] object-cover object-top"
+                        alt="fl-8.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p>Yumzy wasn't created to solve just <i><u>one</u></i> family's problems.
                         </p>
@@ -490,8 +508,8 @@ useHead({
                         <p>If you’re struggling with picky eaters or constant illness... </p>
                         <p>If behavior troubles dominate your every day... </p>
                         <p>Or if you simply worry daily about your family's nutrition...</p>
-                        <p><a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
-                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Yumzy offers
+                        <p><a @click="goToCheckout" class="text-blue-600 hover:text-red-500 extrablod"
+                                style="font-weight:600;">Yumzy offers
                                 hope.</a></p>
                         <p>"You're dealing with a system that makes it difficult to nourish your
                             child.</p>
@@ -506,7 +524,7 @@ useHead({
                             of the highest quality.</p>
                         <p>Second, it's made in the world’s <span class="extrablod">#1 gummy-making
                                 facility. </span>
-                        </p> 
+                        </p>
                         <p>This state-of-the-art facility is <span class="extrablod">fully
                                 licensed</span> and regularly
                             inspected by the FDA. It operates in <span class="extrablod">full
@@ -519,14 +537,19 @@ useHead({
                         class="lg:text-4xl text-[11vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">
                         Taking
                         Action</h3>
-                    <img src="/images/fl-9.jpg" class="w-full py-6 h-[450px] md:h-[600px] md:w-[80%] object-cover object-top" alt="fl-9.jpg-Img" />
+                    <img src="/images/fl-9.jpg"
+                        class="w-full py-6 h-[450px] md:h-[600px] md:w-[80%] object-cover object-top"
+                        alt="fl-9.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p>To discover more about Yumzy and Hidden Hunger, visit the <span class="extrablod">Yumzy
                                 official website.</span> </p>
-                        <p>You'll find more information and take advantage of <a
-                                href="https://get.yumzy.com/checkout-2-a/" target="_blank"
-                                class="underline italic">current
-                                promotional offers.</a> </p>
+                        <p>You'll find more information and take advantage of
+
+                            <a @click="goToCheckout" class="underline italic">
+                                current promotional offers.
+                            </a>
+
+                        </p>
                         <p><span class="extrablod">Yumzy is backed by</span> scientific research,
                             expert development, and
                             kids' approval. </p>
@@ -574,7 +597,7 @@ useHead({
                         changes to their nutrition routine.</p>
 
                     <div class="lg:w-80 flex justify-center mt-7 mx-auto">
-                        <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
+                        <a @click="goToCheckout"
                             class="flex justify-center w-full h-full bg-[#0AA03C] rounded-full  extrablod text-white capitalize p-3 lg:text-xl text-2xl sm:text-3xl">
                             Try Yumzy Risk-Free
                         </a>
@@ -662,8 +685,8 @@ useHead({
                                 :rating="item.rating" />
                         </div>
 
-                        <button
-                            class="bg-black text-white w-full p-2 mt-3 mb-4 text-xl font-extrabold uppercase rounded-full">
+                        <button @click="goToCheckout"
+                            class="bg-black text-white w-full p-2 mt-3 mb-4 text-xl font-extrabold uppercase rounded-full cursor-pointer">
                             Try YOMZ Risk-Free
                         </button>
 

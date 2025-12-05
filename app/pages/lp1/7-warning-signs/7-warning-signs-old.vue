@@ -14,6 +14,10 @@ const formattedDate = ref('')
 const popUp = ref(false);
 
 onMounted(() => {
+    
+    // Param
+    const route = useRoute();
+    console.log("route", route.params)
     // Calculate date 5 days ago
     const today = new Date()
     const pastDate = new Date(today)
@@ -892,5 +896,5 @@ useHead({
     </div>
 
     <!-- PopUp -->
-    <PopUp v-if="popUp" />
+    <!-- <PopUp v-if="popUp" /> -->
 </template>

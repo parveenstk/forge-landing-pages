@@ -15,4 +15,4 @@ export interface LandingPageData {
 export interface TimeUnit {
     value: string | number;
     label: string;
-} 
+}
