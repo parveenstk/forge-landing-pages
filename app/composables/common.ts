@@ -110,3 +110,51 @@ export const PopUpOne = [
     "Stronger Immunity",
     "Balanced Moods"
 ]
+
+export const errorContent = {
+    emoji: "🧸",
+    label: "OOPS!",
+    heading: "404 – Page Lost",
+    message: "It looks like this page went on a little adventure and got lost. 🗺️✨",
+    extra: "Don’t worry, you didn’t break anything. Let’s help you get back to a safe place!",
+    tip: "Tip for kids: If you’re not sure what to do, ask a grown-up to help you click the home button. 💖",
+    primaryButton: "🏠 Go to Home",
+    secondaryButton: "🔙 Go Back",
+};
+
+export const goToCheckout = () => {
+    const route = useRoute();
+    const router = useRouter();
+    const value = String(route.params.v ?? "");
+
+    // Match pattern like ch1, ch2, ch3, etc.
+    const match = value.match(/^ch(\d+)$/);
+
+    if (!match) {
+        router.push("/error");
+        return;
+    }
+
+    // special case ch4
+    // if (value === "ch4") {
+    //     window.open("https://get.your-special-link.com/", "_blank");
+    //     return;
+    // }
+
+    // Mapping (convert chN --> letter)
+    const mapping: Record<string, string> = {
+        ch1: "a",
+        ch2: "b",
+        ch3: "c",
+        ch4: "a",
+    };
+
+    const letter = mapping[value]; // example: value="ch2" -> "b"
+
+    if (!letter) {
+        router.push("/error");
+        return;
+    }
+
+    window.open(`https://get.yumzy.com/checkout-2-${letter}/`, "_blank");
+};
