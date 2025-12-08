@@ -44,7 +44,7 @@ useHead({
             <div class="grid grid-cols-1 lg:grid-cols-10 gap-0">
                 <!-- Column left -->
                 <div class="col-span-10 lg:col-span-7 lg:p-4 p-2 allpragraph-fontsize">
-                    <p class="mb-2 hidden lg:block">Home > Health > Muscle Building</p>
+                    <p class="mb-2 hidden lg:block">Home > Health > Family Health</p>
                     <p class="mb-2 lg:hidden">Home > Health > Family Health</p>
 
                     <h1 class="lg:text-4xl text-3xl hidden lg:block">
@@ -347,7 +347,7 @@ useHead({
                         <p>“No artificial colors. No fake flavors. No junk. </p>
                         <p>"Just pure, bioavailable nutrients in a form kids love."</p>
                         <p>She laughs. “And adults, too!”</p>
-                        <p>That’s becomes YOMZ OG Gummies come in 3 juicy flavors: <span class="extrablod">Peachy,
+                        <p>That’s because YOMZ OG Gummies come in 3 juicy flavors: <span class="extrablod">Peachy,
                                 Strawbeary, and Berry Beary.</span></p>
                         <p>If you like your lips to pucker, there’s also the <span class="extrablod">tangy YOMZ
                                 Sour</span> form in those same 3 flavors.</p>
@@ -612,7 +612,7 @@ useHead({
                 </div>
 
                 <!-- Column right -->
-                <div class="col-span-10 lg:col-span-3 lg:p-4 p-2 hidden lg:block">
+                <div class="col-span-10 lg:col-span-3 lg:p-4 p-2 hidden">
                     <div class="border-1 border-[#1EB9F0] p-2 bg-[#F3FBFE] rounded-xl">
                         <h4 class="text-center text-xl font-bold pt-4 extrablod">FINALLY GET YOUR STRENGTH
                             AND ENERGY BACK AFTER 40</h4>
