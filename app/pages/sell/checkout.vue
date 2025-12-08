@@ -1,9 +1,7 @@
 <script setup>
 
 import { ref } from 'vue';
-
 const active = ref('card'); // default open section
-
 const toggle = (name) => {
     active.value = active.value === name ? null : name;
 };
@@ -65,7 +63,6 @@ useHead({
                                 class="font-bold me-1">Excellent!</span> (2,797 reviews)
                         </div>
 
-
                         <!-- price tabs -->
                         <div class="flex justify-between mt-5">
                             <p class="font-extrabold">Normally</p>
@@ -108,7 +105,6 @@ useHead({
                         </div>
                     </div>
 
-
                     <!-- customer information -->
                     <div class="sm:border-2 border-gray-300 border-b-1 sm:rounded-md p-4 sm:mb-4">
                         <h4 class="font-bold text-lg mb-2">Customer Information</h4>
@@ -140,9 +136,7 @@ useHead({
                             <p class="text-xs mt-2">To receive tracking information.</p>
                         </div>
 
-
                     </div>
-
 
                     <!-- payment information -->
                     <div class="sm:border-2 border-b-1 border-gray-300 sm:rounded-md sm:mb-4">
@@ -224,11 +218,8 @@ useHead({
                                     </label>
                                 </div>
 
-
                             </div>
                         </div>
-
-
 
                         <!-- PAYPAL ACCORDION HEADER -->
                         <div class="flex justify-between items-center border-t border-gray-300 p-4 cursor-pointer"
@@ -243,7 +234,7 @@ useHead({
                         <div class="overflow-hidden transition-all duration-300"
                             :style="{ maxHeight: active === 'paypal' ? '200px' : '0px' }">
                             <div class="px-4 mb-5">
-                                <p class="font-semibold text-[15px]">
+                                <p class="font-base text-[15px]">
                                     After clicking "Continue to PayPal", you will be redirected to PayPal to complete
                                     your purchase securely.
                                 </p>
@@ -251,7 +242,6 @@ useHead({
                         </div>
 
                     </div>
-
 
                     <!-- shipping information -->
                     <div class="sm:border-2 border-b-1 border-gray-300 sm:rounded-md">
@@ -356,7 +346,6 @@ useHead({
 
                     </div>
 
-
                 </div>
                 <div class="w-full md:w-1/2">
                     <div class="border-2 border-gray-300 rounded-md mb-4 text-center">
@@ -375,7 +364,6 @@ useHead({
                                 <span class="bg-green-700 text-white px-1 font-bold text me-2">4.5</span> <span
                                     class="font-bold me-1">Excellent!</span> (2,797 reviews)
                             </div>
-
 
                             <!-- price tabs -->
                             <div class="flex justify-between">
@@ -428,13 +416,17 @@ useHead({
                                 class="cursor-pointer mt-4 mb-3 border-3 border-[#0400F4] bg-[#FFF500] text-[#003087] text-2xl extrablod rounded w-full py-3 px-4 text-center">Pay
                                 Now</button>
 
-                                <!-- for paypal -->
-                                 <p class="text-xs text-[#414141] font-semibold">By clicking Continue to PayPal below, I agree to the <NuxtLink href="#" class="underline text-blue-500"> Terms of Sale.</NuxtLink>
+                            <!-- for paypal -->
+                            <p class="text-xs text-[#414141] font-semibold">By clicking Continue to PayPal below, I
+                                agree to the <NuxtLink href="#" class="underline text-blue-500"> Terms of Sale.
+                                </NuxtLink>
                             </p>
 
                             <button
-                                class="cursor-pointer mt-4 mb-3 bg-[#ffcf66] text-[#003087] text-2xl extrablod rounded-lg w-full py-3 px-4 text-center flex gap-2 justify-center">Continue to <NuxtImg src="/images/paypal.svg" alt="" class="w-28" /> </button>
-
+                                class="cursor-pointer mt-4 mb-3 bg-[#ffcf66] text-[#003087] text-2xl extrablod rounded-lg w-full py-3 px-4 text-center flex gap-2 justify-center">Continue
+                                to
+                                <NuxtImg src="/images/paypal.svg" alt="" class="w-28" />
+                            </button>
 
                             <NuxtImg src="/images/check-pay.png" alt="" class="w-full" />
                             <NuxtImg src="/images/searcure-icon.jpg" alt="" class="w-100 max-w-[70%] mx-auto my-3" />
@@ -618,7 +610,6 @@ useHead({
                     </div>
                 </div>
             </div>
-
 
         </footer>
         <section class="copy bg-[#004394] py-4">
