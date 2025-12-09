@@ -152,7 +152,8 @@ useHead({
 
                 </div>
 
-                <hr class="lg:my-10 my-5">
+                <!-- <hr class="lg:my-10 my-5"> -->
+                <div class="lg:my-15 my-7 block w-full"></div>
 
                 <!-- Column data 1 -->
                 <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
@@ -923,13 +924,13 @@ useHead({
                 </div>
 
                 <div class="border-1 lg:border-[#1EB9F0] border-[#fff] rounded-xl lg:p-5 p-0 lg:mt-20 mt-15 relative">
-                    <a @click="goToCheckout"
+                    <!-- <a @click="goToCheckout"
                         class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white p-3 lg:text-xl text-3xl capitalize cursor-pointer">
-                        Try Yumzy Today
-                    </a>
+                        Apply Discount & <br class="block md:hidden"> Check Availabiity
+                    </a> -->
                     <a @click="goToCheckout"
-                        class="hidden lg:block bg-[#0AA03C] text-white absolute -top-5 py-2 w-50 px-5 left-0 right-0 mx-auto extrablod lg:text-lg text-base text-center cursor-pointer">
-                        Try Yumzy Now
+                        class="hidden lg:block bg-[#0AA03C] text-white absolute -top-5 py-2 w-fit px-5 left-0 right-0 mx-auto extrablod lg:text-lg text-base text-center cursor-pointer">
+                        Apply Discount & <br class="block md:hidden"> Check Availabiity
                     </a>
 
                     <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-5 gap-2 items-center">
@@ -948,14 +949,14 @@ useHead({
                                 family's gut-brain connection?</h4>
                             <p>Join the thousands of smart moms just like you who've discovered the secret of Yumzy.
                                 It's filling the gaps with nutrition that tastes like it's bad for you.</p>
+                            <!-- <a @click="goToCheckout"
+                                class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white p-3 text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
+                                Apply Discount & <br class="block md:hidden"> Check Availabiity
+                            </a> -->
                             <a @click="goToCheckout"
-                                class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white p-3 lg:text-xl text-3xl capitalize cursor-pointer">
-                                Try Yumzy Today
-                            </a>
-                            <a @click="goToCheckout"
-                                class="lg:flex justify-center w-full h-full bg-[#0AA03C] hidden rounded-full  extrablod text-white p-3 lg:text-xl text-3xl cursor-pointer">
-                                Try Yumzy Today
-                            </a>
+                                    class="flex justify-center w-full h-full bg-[#0AA03C]  rounded-full extrablod text-white p-3 lg:text-xl text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
+                                    Apply Discount & <br class="block md:hidden"> Check Availabiity
+                                </a>
 
                             <p class="bg-[#F7F8EA] lg:text-lg text-sm risk">Sell Out Risk: <span
                                     class="text-[#E6193C]">HIGH</span> | Inventory:
@@ -1002,9 +1003,9 @@ useHead({
             :class="['flex items-center justify-center lg:hidden transition-all duration-300 z-50', isFooterVisible ? 'absolute' : 'fixed']"
             :style="{ bottom: isFooterVisible ? `${footerHeight}px` : '1rem', left: 0, right: 0 }">
             <a @click="goToCheckout"
-                class="block w-80 text-center text-white font-semibold text-2xl py-3 bg-[#1EB9F0] rounded-full cursor-pointer">
-                Try Yumzy Today
-            </a>
+                    class="block w-80 text-center text-white font-semibold text-2xl py-3 bg-[#1EB9F0] rounded-full leading-[calc(1em+1vw)]">
+                    Apply Discount & <br class="block md:hidden"> Check Availabiity
+                </a>
         </div>
     </div>
 </template>
