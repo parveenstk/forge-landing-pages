@@ -122,7 +122,7 @@ export const errorContent = {
     secondaryButton: "🔙 Go Back",
 };
 
-export const goToCheckout = () => {
+export const goToCheckout = (lp: string) => {
     const route = useRoute();
     const router = useRouter();
     const value = String(route.params.v ?? "");
@@ -135,26 +135,36 @@ export const goToCheckout = () => {
         return;
     }
 
-    // special case ch4
-    // if (value === "ch4") {
-    //     window.open("https://get.your-special-link.com/", "_blank");
-    //     return;
-    // }
-
     // Mapping (convert chN --> letter)
-    const mapping: Record<string, string> = {
-        ch1: "a",
-        ch2: "b",
-        ch3: "c",
-        ch4: "a",
+    const mapping: Record<string, { [key: string]: string }> = {
+        lp1: {
+            ch1: "a/lp1",
+            ch2: "b/lp2",
+            ch3: "c",
+            ch4: "https://yumzy-sales-page.vercel.app/sales-page/checkout"
+        },
+        lp2: {
+            ch1: "a/lp2",
+            ch2: "b/lp2",
+            ch3: "c",
+            ch4: "https://yumzy-sales-page.vercel.app/sales-page/checkout"
+        },
+        lp3: {
+            ch1: "a/lp3",
+            ch2: "b/lp3",
+            ch3: "c",
+            ch4: "https://yumzy-sales-page.vercel.app/sales-page/checkout"
+        }
     };
 
-    const letter = mapping[value]; // example: value="ch2" -> "b"
+    const letter = mapping[lp] && mapping[lp][value]; // example: value="ch2" -> "b"
 
     if (!letter) {
         router.push("/error");
         return;
     }
 
-    window.open(`https://get.yumzy.com/checkout-2-${letter}/`, "_blank");
+    // special case ch4
+    if (value === "ch4") window.open(letter, "_blank");
+    else window.open(`https://get.yumzy.com/checkout-2-${letter}`, "_blank");
 };

@@ -323,7 +323,7 @@ useHead({
                                     and
                                     behavior problems.</p>
                                 <p>Better nutrition
-                                    <a @click="goToCheckout"
+                                    <a @click="() => goToCheckout('lp2')"
                                         class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
                                         style="font-weight:600;">makes
                                         all the
@@ -356,7 +356,7 @@ useHead({
                                     and
                                     behavior problems.</p>
                                 <p>Better nutrition
-                                    <a @click="goToCheckout"
+                                    <a @click="() => goToCheckout('lp2')"
                                         class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
                                         style="font-weight:600;">
                                         makes all the difference.
@@ -409,7 +409,7 @@ useHead({
                                 </li>
                             </ul>
 
-                            <p><span class="extrablod">Breaking the cycle</span> starts with <a @click="goToCheckout"
+                            <p><span class="extrablod">Breaking the cycle</span> starts with <a @click="() => goToCheckout('lp2')"
                                     class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
                                     style="font-weight:600;">healing
                                     the
@@ -447,7 +447,7 @@ useHead({
                                 </li>
                             </ul>
 
-                            <p><span class="extrablod">Breaking the cycle</span> starts with <a @click="goToCheckout"
+                            <p><span class="extrablod">Breaking the cycle</span> starts with <a @click="() => goToCheckout('lp2')"
                                     class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
                                     style="font-weight:600;">healing
                                     the
@@ -492,7 +492,7 @@ useHead({
                                 <p>Your focus sharpens. You're more productive.</p>
                                 <p>The hyperactive kid now pays attention in class.</p>
                                 <p>Or sits through dinner without bouncing off the walls.</p>
-                                <p>And it all starts with <a @click="goToCheckout"
+                                <p>And it all starts with <a @click="() => goToCheckout('lp2')"
                                         class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
                                         style="font-weight:600;">better
                                         nutrition.</a></p>
@@ -519,7 +519,7 @@ useHead({
                                 <p>Your focus sharpens. You're more productive.</p>
                                 <p>The hyperactive kid now pays attention in class.</p>
                                 <p>Or sits through dinner without bouncing off the walls.</p>
-                                <p>And it all starts with <a @click="goToCheckout"
+                                <p>And it all starts with <a @click="() => goToCheckout('lp2')"
                                         class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
                                         style="font-weight:600;">better
                                         nutrition.</a></p>
@@ -561,7 +561,7 @@ useHead({
                                         demands them.</span></p>
                                 <p>This is <span class="extrablod italic">especially</span> true for kids.</p>
                                 <p>So how to end the emotional meltdowns?</p>
-                                <p><a @click="goToCheckout"
+                                <p><a @click="() => goToCheckout('lp2')"
                                         class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
                                         style="font-weight:600;">Restore
                                         gut
@@ -586,7 +586,7 @@ useHead({
                                         demands them.</span></p>
                                 <p>This is <span class="extrablod italic">especially</span> true for kids.</p>
                                 <p>So how to end the emotional meltdowns?</p>
-                                <p><a @click="goToCheckout"
+                                <p><a @click="() => goToCheckout('lp2')"
                                         class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
                                         style="font-weight:600;">Restore
                                         gut
@@ -626,7 +626,7 @@ useHead({
                                 <p>And kids have it <span class="extrablod italic">worse.</span></p>
                                 <p>They struggle with friendships. Or feel overwhelmed in groups.</p>
                                 <p>The good news?</p>
-                                <p>Once <a @click="goToCheckout"
+                                <p>Once <a @click="() => goToCheckout('lp2')"
                                         class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
                                         style="font-weight:600;">gut
                                         health
@@ -651,7 +651,7 @@ useHead({
                                 <p>And kids have it <span class="extrablod italic">worse.</span></p>
                                 <p>They struggle with friendships. Or feel overwhelmed in groups.</p>
                                 <p>The good news?</p>
-                                <p>Once <a @click="goToCheckout"
+                                <p>Once <a @click="() => goToCheckout('lp2')"
                                         class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
                                         style="font-weight:600;">gut
                                         health
@@ -687,7 +687,7 @@ useHead({
                                 <p>Often after antibiotics or stress...</p>
 
                                 <p>Which is when kids crave junk food even more. </p>
-                                <p> <a @click="goToCheckout"
+                                <p> <a @click="() => goToCheckout('lp2')"
                                         class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
                                         style="font-weight:600;">Luckily,
                                         once
@@ -706,7 +706,7 @@ useHead({
                                 <p>Often after antibiotics or stress...</p>
 
                                 <p>Which is when kids crave junk food even more. </p>
-                                <p> <a @click="goToCheckout"
+                                <p> <a @click="() => goToCheckout('lp2')"
                                         class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
                                         style="font-weight:600;">Luckily,
                                         once
@@ -924,11 +924,11 @@ useHead({
                 </div>
 
                 <div class="border-1 lg:border-[#1EB9F0] border-[#fff] rounded-xl lg:p-5 p-0 lg:mt-20 mt-15 relative">
-                    <!-- <a @click="goToCheckout"
+                    <!-- <a @click="() => goToCheckout('lp2')"
                         class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white p-3 lg:text-xl text-3xl capitalize cursor-pointer">
                         Apply Discount & <br class="block md:hidden"> Check Availabiity
                     </a> -->
-                    <a @click="goToCheckout"
+                    <a @click="() => goToCheckout('lp2')"
                         class="hidden lg:block bg-[#0AA03C] text-white absolute -top-5 py-2 w-fit px-5 left-0 right-0 mx-auto extrablod lg:text-lg text-base text-center cursor-pointer">
                         Apply Discount & <br class="block md:hidden"> Check Availabiity
                     </a>
@@ -949,11 +949,11 @@ useHead({
                                 family's gut-brain connection?</h4>
                             <p>Join the thousands of smart moms just like you who've discovered the secret of Yumzy.
                                 It's filling the gaps with nutrition that tastes like it's bad for you.</p>
-                            <!-- <a @click="goToCheckout"
+                            <!-- <a @click="() => goToCheckout('lp2')"
                                 class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white p-3 text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
                                 Apply Discount & <br class="block md:hidden"> Check Availabiity
                             </a> -->
-                            <a @click="goToCheckout"
+                            <a @click="() => goToCheckout('lp2')"
                                     class="flex justify-center w-full h-full bg-[#0AA03C]  rounded-full extrablod text-white p-3 lg:text-xl text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
                                     Apply Discount & <br class="block md:hidden"> Check Availabiity
                                 </a>
@@ -1002,7 +1002,7 @@ useHead({
         <div ref="ctaBar"
             :class="['flex items-center justify-center lg:hidden transition-all duration-300 z-50', isFooterVisible ? 'absolute' : 'fixed']"
             :style="{ bottom: isFooterVisible ? `${footerHeight}px` : '1rem', left: 0, right: 0 }">
-            <a @click="goToCheckout"
+            <a @click="() => goToCheckout('lp2')"
                     class="block w-80 text-center text-white font-semibold text-2xl py-3 bg-[#1EB9F0] rounded-full leading-[calc(1em+1vw)]">
                     Apply Discount & <br class="block md:hidden"> Check Availabiity
                 </a>

@@ -325,7 +325,7 @@ useHead({
                         <p>"Some of the <i>Like Nastya</i> family might be suffering," she realized.</p>
                         <p>So Nastya co-founded a <span class="extrablod">family supplement brand called Yumzy.</span>
                         </p>
-                        <p>Yumzy is the maker of <a @click="goToCheckout"
+                        <p>Yumzy is the maker of <a @click="() => goToCheckout('lp3')"
                                 class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">YOMZ, a
                                 mouthwatering gummy backed by science</a> to fill the nutrition gaps facing millions of
                             Americans every day.</p>
@@ -507,7 +507,7 @@ useHead({
                         <p>If you’re struggling with picky eaters or constant illness... </p>
                         <p>If behavior troubles dominate your every day... </p>
                         <p>Or if you simply worry daily about your family's nutrition...</p>
-                        <p><a @click="goToCheckout" class="text-blue-600 hover:text-red-500 extrablod"
+                        <p><a @click="() => goToCheckout('lp3')" class="text-blue-600 hover:text-red-500 extrablod"
                                 style="font-weight:600;">Yumzy offers
                                 hope.</a></p>
                         <p>"You're dealing with a system that makes it difficult to nourish your
@@ -544,7 +544,7 @@ useHead({
                                 official website.</span> </p>
                         <p>You'll find more information and take advantage of
 
-                            <a @click="goToCheckout" class="underline italic">
+                            <a @click="() => goToCheckout('lp3')" class="underline italic">
                                 current promotional offers.
                             </a>
 
@@ -596,11 +596,11 @@ useHead({
                         changes to their nutrition routine.</p>
 
                     <div class="lg:w-100 flex justify-center mt-7 mx-auto">
-                        <!-- <a @click="goToCheckout"
+                        <!-- <a @click="() => goToCheckout('lp3')"
                             class="flex justify-center w-full h-full bg-[#0AA03C] rounded-full  extrablod text-white capitalize p-3 lg:text-xl text-2xl sm:text-3xl">
                             Try Yumzy Risk-Free
                         </a> -->
-                        <a @click="goToCheckout"
+                        <a @click="() => goToCheckout('lp3')"
                             class="flex justify-center w-full h-full bg-[#0AA03C]  rounded-full extrablod text-white p-3 lg:text-xl text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
                             Apply Discount & <br class="block md:hidden"> Check Availabiity
                         </a>
@@ -688,7 +688,7 @@ useHead({
                                 :rating="item.rating" />
                         </div>
 
-                        <button @click="goToCheckout"
+                        <button @click="() => goToCheckout('lp3')"
                             class="bg-black text-white w-full p-2 mt-3 mb-4 text-xl font-extrabold uppercase rounded-full cursor-pointer">
                             Try YOMZ Risk-Free
                         </button>
