@@ -291,9 +291,8 @@ useHead({
                     </div>
 
                     <h3
-                        class="text-[8.3vw] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)] lg:text-4xl extrablod mt-8">
-                        Breakthrough Changes
-                        Everything</h3>
+                        class="text-[7.5vw] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)] lg:text-4xl extrablod mt-8">
+                        Superfood Gamechanger</h3>
                     <img src="/images/fl-5.jpg" class="w-full py-6" alt="fl-5.jpg-img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p><span class="extrablod">After seeing thousands</span> of families struggle with
@@ -596,10 +595,14 @@ useHead({
                         healthcare provider before making
                         changes to their nutrition routine.</p>
 
-                    <div class="lg:w-80 flex justify-center mt-7 mx-auto">
-                        <a @click="goToCheckout"
+                    <div class="lg:w-100 flex justify-center mt-7 mx-auto">
+                        <!-- <a @click="goToCheckout"
                             class="flex justify-center w-full h-full bg-[#0AA03C] rounded-full  extrablod text-white capitalize p-3 lg:text-xl text-2xl sm:text-3xl">
                             Try Yumzy Risk-Free
+                        </a> -->
+                        <a @click="goToCheckout"
+                            class="flex justify-center w-full h-full bg-[#0AA03C]  rounded-full extrablod text-white p-3 lg:text-xl text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
+                            Apply Discount & <br class="block md:hidden"> Check Availabiity
                         </a>
                     </div>
 
