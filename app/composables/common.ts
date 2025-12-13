@@ -122,6 +122,7 @@ export const errorContent = {
     secondaryButton: "🔙 Go Back",
 };
 
+// redirected according to the landing-page (params)
 export const goToCheckout = (lp: string) => {
     const route = useRoute();
     const router = useRouter();
@@ -139,21 +140,21 @@ export const goToCheckout = (lp: string) => {
     const mapping: Record<string, { [key: string]: string }> = {
         lp1: {
             ch1: "a/lp1",
-            ch2: "b/lp2",
-            ch3: "c",
-            ch4: "https://yumzy-sales-page.vercel.app/sales-page/checkout"
+            ch2: "b/lp1",
+            ch3: "c/lp1",
+            ch4: "https://get.yumzy.com/sales-page/checkout"
         },
         lp2: {
             ch1: "a/lp2",
             ch2: "b/lp2",
-            ch3: "c",
-            ch4: "https://yumzy-sales-page.vercel.app/sales-page/checkout"
+            ch3: "c/lp2",
+            ch4: "https://get.yumzy.com/sales-page/checkout"
         },
         lp3: {
             ch1: "a/lp3",
             ch2: "b/lp3",
-            ch3: "c",
-            ch4: "https://yumzy-sales-page.vercel.app/sales-page/checkout"
+            ch3: "c/lp3",
+            ch4: "https://get.yumzy.com/sales-page/checkout"
         }
     };
 
