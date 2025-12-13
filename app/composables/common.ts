@@ -142,19 +142,19 @@ export const goToCheckout = (lp: string) => {
             ch1: "a/lp1",
             ch2: "b/lp1",
             ch3: "c/lp1",
-            ch4: "https://get.yumzy.com/sales-page/checkout"
+            ch4: "https://get.yumzy.com/sales-page/lp1"
         },
         lp2: {
             ch1: "a/lp2",
             ch2: "b/lp2",
             ch3: "c/lp2", 
-            ch4: "https://get.yumzy.com/sales-page/checkout"
+            ch4: "https://get.yumzy.com/sales-page/lp2"
         },
         lp3: {
             ch1: "a/lp3",
             ch2: "b/lp3",
             ch3: "c/lp3",
-            ch4: "https://get.yumzy.com/sales-page/checkout"
+            ch4: "https://get.yumzy.com/sales-page/lp3"
         }
     };
 
