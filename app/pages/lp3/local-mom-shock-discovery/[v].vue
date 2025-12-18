@@ -326,7 +326,7 @@ useHead({
                         <p>So Nastya co-founded a <span class="extrablod">family supplement brand called Yumzy.</span>
                         </p>
                         <p>Yumzy is the maker of <a @click="() => goToCheckout('lp3')"
-                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">YOMZ, a
+                                class="text-blue-600 hover:text-red-500 extrablod cursor-pointer" style="font-weight:600;">YOMZ, a
                                 mouthwatering gummy backed by science</a> to fill the nutrition gaps facing millions of
                             Americans every day.</p>
                         <p>Then Nastya partnered with Dr. Pam, who is the medical advisor of this breakthrough
@@ -507,7 +507,7 @@ useHead({
                         <p>If you’re struggling with picky eaters or constant illness... </p>
                         <p>If behavior troubles dominate your every day... </p>
                         <p>Or if you simply worry daily about your family's nutrition...</p>
-                        <p><a @click="() => goToCheckout('lp3')" class="text-blue-600 hover:text-red-500 extrablod"
+                        <p><a @click="() => goToCheckout('lp3')" class="cursor-pointer text-blue-600 hover:text-red-500 extrablod"
                                 style="font-weight:600;">Yumzy offers
                                 hope.</a></p>
                         <p>"You're dealing with a system that makes it difficult to nourish your
@@ -544,7 +544,7 @@ useHead({
                                 official website.</span> </p>
                         <p>You'll find more information and take advantage of
 
-                            <a @click="() => goToCheckout('lp3')" class="underline italic">
+                            <a @click="() => goToCheckout('lp3')" class="underline italic cursor-pointer">
                                 current promotional offers.
                             </a>
 

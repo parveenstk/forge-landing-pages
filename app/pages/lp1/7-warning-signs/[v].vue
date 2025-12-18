@@ -942,7 +942,7 @@ onMounted(() => {
                         </a> -->
 
                         <a href="https://get.yumzy.com/checkout-2-a/"
-                            class="hidden lg:block bg-[#0AA03C] text-white absolute -top-5 py-2 w-fit px-5 left-0 right-0 mx-auto extrablod lg:text-lg text-base text-center ">
+                            class="hidden lg:block bg-[#0AA03C] text-white absolute -top-5 py-2 w-fit px-5 left-0 right-0 mx-auto extrablod lg:text-lg text-base text-center" target="_blank">
                             Apply Discount & <br class="block md:hidden"> Check Availabiity
                         </a>
 
