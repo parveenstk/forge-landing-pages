@@ -1,12 +1,19 @@
-<script setup>
+<script setup lang="ts">
 import { ref } from 'vue'
 
 const today = new Date() // get today's date
 today.setDate(today.getDate() - 5)  // subtract 5 days
 
 // format date like "Sep 17, 2025"
-const options = { year: 'numeric', month: 'short', day: 'numeric' }
-const formattedDate = ref(today.toLocaleDateString('en-US', options))
+const options: Intl.DateTimeFormatOptions = {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+}
+
+const formattedDate = ref(
+    today.toLocaleDateString('en-US', options)
+)
 
 // meta tag details
 useHead({
@@ -18,6 +25,14 @@ useHead({
         { property: 'og:image', content: LANDING_3.meta.ogImage },
         { property: 'og:url', content: LANDING_3.meta.ogUrl },
     ],
+})
+
+onMounted(() => {
+
+    // Redirect to the correct landing page based on the stored parameter
+    const lpParam = getFromStorage("lpParam", "local");
+    navigateTo(`/lp3/local-mom-shock-discovery/${lpParam ?? 'ch1'}`);
+
 })
 
 </script>
@@ -33,7 +48,7 @@ useHead({
             <div class="grid grid-cols-1 lg:grid-cols-10 gap-0">
                 <!-- Column left -->
                 <div class="col-span-10 lg:col-span-7 lg:p-4 p-2 allpragraph-fontsize">
-                    <p class="mb-2 hidden lg:block">Home > Health > Muscle Building</p>
+                    <p class="mb-2 hidden lg:block">Home > Health > Family Health</p>
                     <p class="mb-2 lg:hidden">Home > Health > Family Health</p>
 
                     <h1 class="lg:text-4xl text-3xl hidden lg:block">
@@ -280,9 +295,8 @@ useHead({
                     </div>
 
                     <h3
-                        class="text-[8.3vw] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)] lg:text-4xl extrablod mt-8">
-                        Breakthrough Changes
-                        Everything</h3>
+                        class="text-[7.5vw] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)] lg:text-4xl extrablod mt-8">
+                        Superfood Gamechanger</h3>
                     <img src="/images/fl-5.jpg" class="w-full py-6" alt="fl-5.jpg-img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p><span class="extrablod">After seeing thousands</span> of families struggle with
@@ -315,8 +329,9 @@ useHead({
                         <p>"Some of the <i>Like Nastya</i> family might be suffering," she realized.</p>
                         <p>So Nastya co-founded a <span class="extrablod">family supplement brand called Yumzy.</span>
                         </p>
-                        <p>Yumzy is the maker of <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
-                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">YOMZ, a
+                        <p>Yumzy is the maker of <a @click="() => goToCheckout('lp3')"
+                                class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
+                                style="font-weight:600;">YOMZ, a
                                 mouthwatering gummy backed by science</a> to fill the nutrition gaps facing millions of
                             Americans every day.</p>
                         <p>Then Nastya partnered with Dr. Pam, who is the medical advisor of this breakthrough
@@ -336,7 +351,7 @@ useHead({
                         <p>“No artificial colors. No fake flavors. No junk. </p>
                         <p>"Just pure, bioavailable nutrients in a form kids love."</p>
                         <p>She laughs. “And adults, too!”</p>
-                        <p>That’s becomes YOMZ OG Gummies come in 3 juicy flavors: <span class="extrablod">Peachy,
+                        <p>That’s because YOMZ OG Gummies come in 3 juicy flavors: <span class="extrablod">Peachy,
                                 Strawbeary, and Berry Beary.</span></p>
                         <p>If you like your lips to pucker, there’s also the <span class="extrablod">tangy YOMZ
                                 Sour</span> form in those same 3 flavors.</p>
@@ -470,8 +485,7 @@ useHead({
                         A
                         Mission Bigger Than Business</h3>
                     <img src="/images/p1-9.jpg"
-                        class="w-full py-6 h-[450px] md:h-[600px] md:w-[80%] object-cover object-top"
-                        alt="fl-8.jpg-Img" />
+                        class="w-full py-6 h-auto md:h-[600px] md:w-[80%] object-cover object-top" alt="fl-8.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p>Yumzy wasn't created to solve just <i><u>one</u></i> family's problems.
                         </p>
@@ -497,8 +511,9 @@ useHead({
                         <p>If you’re struggling with picky eaters or constant illness... </p>
                         <p>If behavior troubles dominate your every day... </p>
                         <p>Or if you simply worry daily about your family's nutrition...</p>
-                        <p><a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
-                                class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">Yumzy offers
+                        <p><a @click="() => goToCheckout('lp3')"
+                                class="cursor-pointer text-blue-600 hover:text-red-500 extrablod"
+                                style="font-weight:600;">Yumzy offers
                                 hope.</a></p>
                         <p>"You're dealing with a system that makes it difficult to nourish your
                             child.</p>
@@ -532,10 +547,13 @@ useHead({
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p>To discover more about Yumzy and Hidden Hunger, visit the <span class="extrablod">Yumzy
                                 official website.</span> </p>
-                        <p>You'll find more information and take advantage of <a
-                                href="https://get.yumzy.com/checkout-2-a/" target="_blank"
-                                class="underline italic">current
-                                promotional offers.</a> </p>
+                        <p>You'll find more information and take advantage of
+
+                            <a @click="() => goToCheckout('lp3')" class="underline italic cursor-pointer">
+                                current promotional offers.
+                            </a>
+
+                        </p>
                         <p><span class="extrablod">Yumzy is backed by</span> scientific research,
                             expert development, and
                             kids' approval. </p>
@@ -582,10 +600,14 @@ useHead({
                         healthcare provider before making
                         changes to their nutrition routine.</p>
 
-                    <div class="lg:w-80 flex justify-center mt-7 mx-auto">
-                        <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
+                    <div class="lg:w-100 flex justify-center mt-7 mx-auto">
+                        <!-- <a @click="() => goToCheckout('lp3')"
                             class="flex justify-center w-full h-full bg-[#0AA03C] rounded-full  extrablod text-white capitalize p-3 lg:text-xl text-2xl sm:text-3xl">
                             Try Yumzy Risk-Free
+                        </a> -->
+                        <a @click="() => goToCheckout('lp3')"
+                            class="flex justify-center w-full h-full bg-[#0AA03C]  rounded-full extrablod text-white p-3 lg:text-xl text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
+                            Apply Discount & <br class="block md:hidden"> Check Availabiity
                         </a>
                     </div>
 
@@ -598,7 +620,7 @@ useHead({
                 </div>
 
                 <!-- Column right -->
-                <div class="col-span-10 lg:col-span-3 lg:p-4 p-2 hidden lg:block">
+                <div class="col-span-10 lg:col-span-3 lg:p-4 p-2 hidden">
                     <div class="border-1 border-[#1EB9F0] p-2 bg-[#F3FBFE] rounded-xl">
                         <h4 class="text-center text-xl font-bold pt-4 extrablod">FINALLY GET YOUR STRENGTH
                             AND ENERGY BACK AFTER 40</h4>
@@ -671,8 +693,8 @@ useHead({
                                 :rating="item.rating" />
                         </div>
 
-                        <button
-                            class="bg-black text-white w-full p-2 mt-3 mb-4 text-xl font-extrabold uppercase rounded-full">
+                        <button @click="() => goToCheckout('lp3')"
+                            class="bg-black text-white w-full p-2 mt-3 mb-4 text-xl font-extrabold uppercase rounded-full cursor-pointer">
                             Try YOMZ Risk-Free
                         </button>
 

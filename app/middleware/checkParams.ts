@@ -16,4 +16,7 @@ export default defineNuxtRouteMiddleware((to, from) => {
     if (!isValidCh) {
         return navigateTo('/error');
     }
+
+    // saving the dynamic params in local storage
+    saveToStorage("lpParam", `ch${ch}`, "local");
 });

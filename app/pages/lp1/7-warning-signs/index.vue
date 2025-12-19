@@ -1,20 +1,6 @@
 <script setup lang="ts">
+import { onMounted, onUnmounted, ref } from 'vue';
 import { goToCheckout } from '../../../composables/common';
-import { onMounted, onUnmounted, ref } from 'vue'
-
-// checking which checkout 
-definePageMeta({
-    middleware: 'check-params',
-})
-
-// const lpParam = getFromStorage("lpParam", "local");
-
-// if (lpParam) {
-//     console.log("LP Param in 7-warning-signs:", lpParam);
-//     navigateTo(`/lp1/7-warning-signs/${lpParam}`);
-// } else {
-//     console.log("No LP Param found in 7-warning-signs");
-// }
 
 // meta tag details
 useHead({
@@ -41,6 +27,10 @@ const popUp = ref(false);
 
 // onMounted
 onMounted(() => {
+
+    // Redirect to the correct landing page based on the stored parameter
+    const lpParam = getFromStorage("lpParam", "local");
+    navigateTo(`/lp1/7-warning-signs/${lpParam ?? 'ch1'}`);
 
     // Calculate date 5 days ago
     const today = new Date()

@@ -1,25 +1,49 @@
-<script setup>
+<script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
 
+// meta tag details
+useHead({
+    title: LANDING_2.meta.title,
+    meta: [
+        { name: 'description', content: LANDING_2.meta.description },
+        { property: 'og:title', content: LANDING_2.meta.title },
+        { property: 'og:description', content: LANDING_2.meta.description },
+        { property: 'og:image', content: LANDING_2.meta.ogImage },
+    ],
+})
+
 // Footer & CTA logic
-const footerRef = ref(null)
 const ctaBar = ref(null)
-const isFooterVisible = ref(false)
+const footerRef = ref<HTMLElement | null>(null)
 const footerHeight = ref(0)
+const isFooterVisible = ref(false)
 
 // Date logic
 const formattedDate = ref('')
 
 onMounted(() => {
+
+    // Redirect to the correct landing page based on the stored parameter
+    const lpParam = getFromStorage("lpParam", "local");
+    navigateTo(`/lp2/8-shocking-reasons/${lpParam ?? 'ch1'}`);
+
     // Calculate date 5 days ago
     const today = new Date()
     const pastDate = new Date(today)
     pastDate.setDate(today.getDate() - 5)
 
-    const options = { year: 'numeric', month: 'long', day: 'numeric' }
-    formattedDate.value = pastDate.toLocaleDateString('en-US', options)
+    // format date like "Sep 17, 2025"
+    const options: Intl.DateTimeFormatOptions = {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric',
+    }
 
-    // Footer observer logic
+    const formattedDate = ref(
+        today.toLocaleDateString('en-US', options)
+    )
+
+    // Mobile Screen: floating CTA button "Try Yumzy Today"
     footerHeight.value = footerRef.value?.offsetHeight || 0
 
     const observer = new IntersectionObserver(
@@ -35,19 +59,10 @@ onMounted(() => {
 
     onUnmounted(() => {
         if (footerRef.value) observer.unobserve(footerRef.value)
+        observer.disconnect()
     })
 })
 
-// meta tag details
-useHead({
-    title: LANDING_2.meta.title,
-    meta: [
-        { name: 'description', content: LANDING_2.meta.description },
-        { property: 'og:title', content: LANDING_2.meta.title },
-        { property: 'og:description', content: LANDING_2.meta.description },
-        { property: 'og:image', content: LANDING_2.meta.ogImage },
-    ],
-})
 </script>
 
 <template>
@@ -67,7 +82,9 @@ useHead({
                 <h1 class="hidden lg:block lg:text-4xl text-3xl extrablod lg:mr-10 mr-0">
                     8 <u><i>Hidden</i></u> Reasons for Child <span class="text-[#E6193C] ">Meltdowns</span>
                 </h1>
-                <p class="hidden lg:block font-bold mt-2 text-[calc(1.5vw-0px)] lg:text-[24px] leading-[calc(1em+1vw)] italic">Doctor
+                <p
+                    class="hidden lg:block font-bold mt-2 text-[calc(1.5vw-0px)] lg:text-[24px] leading-[calc(1em+1vw)] italic">
+                    Doctor
                     confirms it's not
                     bad parenting...</p>
 
@@ -75,7 +92,9 @@ useHead({
                 <div class="block lg:hidden">
                     <h1 class="extrablod mr-0 text-[calc(9.3vw-0px)] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)]">
                         8 <u><i>Hidden</i></u> Reasons for Child <span class="text-[#E6193C] ">Meltdowns</span></h1>
-                    <p class="font-bold mt-2 text-[calc(4.3vw-0px)] sm:text-[calc(3vw-0px)] leading-[calc(1em+1vw)] italic">Doctor confirms it's
+                    <p
+                        class="font-bold mt-2 text-[calc(4.3vw-0px)] sm:text-[calc(3vw-0px)] leading-[calc(1em+1vw)] italic">
+                        Doctor confirms it's
                         not bad parenting...</p>
                 </div>
 
@@ -90,7 +109,8 @@ useHead({
                         <span class="extrablod flex">Dr. Pam, MD
                             <img src="/images/check.png" width="22" height="23" alt="check.png-img" />
                         </span>
-                        <span class="font-extrabold text-[12px] sm:text-sm italic text-gray-700"> Board-certified, Internal Medicine</span>
+                        <span class="font-extrabold text-[12px] sm:text-sm italic text-gray-700"> Board-certified,
+                            Internal Medicine</span>
                         <span class="text-[12px] sm:text-sm text-gray-600"> Last updated {{ formattedDate }}</span>
                     </div>
                 </div>
@@ -134,7 +154,8 @@ useHead({
 
                 </div>
 
-                <hr class="lg:my-10 my-5">
+                <!-- <hr class="lg:my-10 my-5"> -->
+                <div class="lg:my-15 my-7 block w-full"></div>
 
                 <!-- Column data 1 -->
                 <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-4 lg:mb-12 mb-8">
@@ -304,8 +325,8 @@ useHead({
                                     and
                                     behavior problems.</p>
                                 <p>Better nutrition
-                                    <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
-                                        class="text-blue-600 hover:text-red-500 extrablod"
+                                    <a @click="() => goToCheckout('lp2')"
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
                                         style="font-weight:600;">makes
                                         all the
                                         difference.</a>
@@ -337,8 +358,9 @@ useHead({
                                     and
                                     behavior problems.</p>
                                 <p>Better nutrition
-                                    <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
-                                        class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">
+                                    <a @click="() => goToCheckout('lp2')"
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
+                                        style="font-weight:600;">
                                         makes all the difference.
                                     </a>
                                 </p>
@@ -390,8 +412,9 @@ useHead({
                             </ul>
 
                             <p><span class="extrablod">Breaking the cycle</span> starts with <a
-                                    href="https://get.yumzy.com/checkout-2-a/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">healing
+                                    @click="() => goToCheckout('lp2')"
+                                    class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
+                                    style="font-weight:600;">healing
                                     the
                                     gut</a>.
                             </p>
@@ -428,8 +451,9 @@ useHead({
                             </ul>
 
                             <p><span class="extrablod">Breaking the cycle</span> starts with <a
-                                    href="https://get.yumzy.com/checkout-2-a/" target="_blank"
-                                    class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">healing
+                                    @click="() => goToCheckout('lp2')"
+                                    class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
+                                    style="font-weight:600;">healing
                                     the
                                     gut</a>.
                             </p>
@@ -472,8 +496,8 @@ useHead({
                                 <p>Your focus sharpens. You're more productive.</p>
                                 <p>The hyperactive kid now pays attention in class.</p>
                                 <p>Or sits through dinner without bouncing off the walls.</p>
-                                <p>And it all starts with <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
-                                        class="text-blue-600 hover:text-red-500 extrablod"
+                                <p>And it all starts with <a @click="() => goToCheckout('lp2')"
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
                                         style="font-weight:600;">better
                                         nutrition.</a></p>
 
@@ -499,8 +523,8 @@ useHead({
                                 <p>Your focus sharpens. You're more productive.</p>
                                 <p>The hyperactive kid now pays attention in class.</p>
                                 <p>Or sits through dinner without bouncing off the walls.</p>
-                                <p>And it all starts with <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
-                                        class="text-blue-600 hover:text-red-500 extrablod"
+                                <p>And it all starts with <a @click="() => goToCheckout('lp2')"
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
                                         style="font-weight:600;">better
                                         nutrition.</a></p>
 
@@ -541,8 +565,8 @@ useHead({
                                         demands them.</span></p>
                                 <p>This is <span class="extrablod italic">especially</span> true for kids.</p>
                                 <p>So how to end the emotional meltdowns?</p>
-                                <p><a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
-                                        class="text-blue-600 hover:text-red-500 extrablod"
+                                <p><a @click="() => goToCheckout('lp2')"
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
                                         style="font-weight:600;">Restore
                                         gut
                                         balance.</a></p>
@@ -566,8 +590,8 @@ useHead({
                                         demands them.</span></p>
                                 <p>This is <span class="extrablod italic">especially</span> true for kids.</p>
                                 <p>So how to end the emotional meltdowns?</p>
-                                <p><a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
-                                        class="text-blue-600 hover:text-red-500 extrablod"
+                                <p><a @click="() => goToCheckout('lp2')"
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
                                         style="font-weight:600;">Restore
                                         gut
                                         balance.</a></p>
@@ -606,8 +630,9 @@ useHead({
                                 <p>And kids have it <span class="extrablod italic">worse.</span></p>
                                 <p>They struggle with friendships. Or feel overwhelmed in groups.</p>
                                 <p>The good news?</p>
-                                <p>Once <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
-                                        class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">gut
+                                <p>Once <a @click="() => goToCheckout('lp2')"
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
+                                        style="font-weight:600;">gut
                                         health
                                         improves,</a> your kids will be <span class="extrablod">more confident and
                                         outgoing.</span></p>
@@ -630,8 +655,9 @@ useHead({
                                 <p>And kids have it <span class="extrablod italic">worse.</span></p>
                                 <p>They struggle with friendships. Or feel overwhelmed in groups.</p>
                                 <p>The good news?</p>
-                                <p>Once <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
-                                        class="text-blue-600 hover:text-red-500 extrablod" style="font-weight:600;">gut
+                                <p>Once <a @click="() => goToCheckout('lp2')"
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
+                                        style="font-weight:600;">gut
                                         health
                                         improves,</a> your kids will be <span class="extrablod">more confident and
                                         outgoing.</span></p>
@@ -665,8 +691,8 @@ useHead({
                                 <p>Often after antibiotics or stress...</p>
 
                                 <p>Which is when kids crave junk food even more. </p>
-                                <p> <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
-                                        class="text-blue-600 hover:text-red-500 extrablod"
+                                <p> <a @click="() => goToCheckout('lp2')"
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
                                         style="font-weight:600;">Luckily,
                                         once
                                         nutrition improves,</a> gut health is restored. </p>
@@ -684,8 +710,8 @@ useHead({
                                 <p>Often after antibiotics or stress...</p>
 
                                 <p>Which is when kids crave junk food even more. </p>
-                                <p> <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
-                                        class="text-blue-600 hover:text-red-500 extrablod"
+                                <p> <a @click="() => goToCheckout('lp2')"
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
                                         style="font-weight:600;">Luckily,
                                         once
                                         nutrition improves,</a> gut health is restored. </p>
@@ -720,9 +746,12 @@ useHead({
                                 <p>First of all, it's <span class="extrablod">not you...</span></p>
                                 <p>Second, there's a fun, delicious solution.</p>
                                 <p class="extrablod">It's called Yumzy...</p>
-                                <p>The <span class="extrablod">family supplement brand</span> co-founded by social media superstar Nastya.</p>
-                                <p>She's the star of YouTube's top kid series <span class="italic">Like Nastya.</span></p>
-                                <p>When she heard that a type of malnutrition called <span class="extrablod">Hidden Hunger</span> affects nearly 3 billion people...</p>
+                                <p>The <span class="extrablod">family supplement brand</span> co-founded by social media
+                                    superstar Nastya.</p>
+                                <p>She's the star of YouTube's top kid series <span class="italic">Like Nastya.</span>
+                                </p>
+                                <p>When she heard that a type of malnutrition called <span class="extrablod">Hidden
+                                        Hunger</span> affects nearly 3 billion people...</p>
                                 <p>She thought about her ~400 million fans around the world.</p>
                                 <p>"I must do something to help those who are suffering," she decided.</p>
                                 <p>So she founded Yumzy, the maker of <span class="extrablod">YOMZ Gummies.</span></p>
@@ -732,7 +761,8 @@ useHead({
                                 <p>In fact, each serving is the phytonutritional equal of <span class="extrablod">2
                                         servings
                                         of real fruits and vegetables.</span></p>
-                                <p><u><i>Without</i></u> artificial dyes, flavors, or other junk that makes gut problems worse.</p>
+                                <p><u><i>Without</i></u> artificial dyes, flavors, or other junk that makes gut problems
+                                    worse.</p>
                                 <p>And that's exactly what you need to fight Hidden Hunger.</p>
                                 <p>You see, food today doesn't have the nutrition levels it did even 50 years ago.</p>
                                 <p>So you may get enough calories every day.</p>
@@ -792,8 +822,10 @@ useHead({
                                         Better sleep
                                     </li>
                                 </ul>
-                                <p><span class="extrablod">Kids beg for Yumzy</span> because they taste like they're bad for you.</p>
-                                    <p>You’ll love Yumzy because they're <span class="extrablod">good for your kids.</span></p>
+                                <p><span class="extrablod">Kids beg for Yumzy</span> because they taste like they're bad
+                                    for you.</p>
+                                <p>You’ll love Yumzy because they're <span class="extrablod">good for your kids.</span>
+                                </p>
                             </div>
 
                             <div class="lg:hidden block space-y-4">
@@ -802,9 +834,12 @@ useHead({
                                 <p>First of all, it's <span class="extrablod">not you...</span></p>
                                 <p>Second, there's a fun, delicious solution.</p>
                                 <p class="extrablod">It's called Yumzy...</p>
-                                <p>The <span class="extrablod">family supplement brand</span> co-founded by social media superstar Nastya.</p>
-                                <p>She's the star of YouTube's top kid series <span class="italic">Like Nastya.</span></p>
-                                <p>When she heard that a type of malnutrition called <span class="extrablod">Hidden Hunger</span> affects nearly 3 billion people...</p>
+                                <p>The <span class="extrablod">family supplement brand</span> co-founded by social media
+                                    superstar Nastya.</p>
+                                <p>She's the star of YouTube's top kid series <span class="italic">Like Nastya.</span>
+                                </p>
+                                <p>When she heard that a type of malnutrition called <span class="extrablod">Hidden
+                                        Hunger</span> affects nearly 3 billion people...</p>
                                 <p>She thought about her ~400 million fans around the world.</p>
                                 <p>"I must do something to help those who are suffering," she decided.</p>
                                 <p>So she founded Yumzy, the maker of <span class="extrablod">YOMZ Gummies.</span></p>
@@ -814,7 +849,8 @@ useHead({
                                 <p>In fact, each serving is the phytonutritional equal of <span class="extrablod">2
                                         servings
                                         of real fruits and vegetables.</span></p>
-                                <p><u><i>Without</i></u> artificial dyes, flavors, or other junk that makes gut problems worse.</p>
+                                <p><u><i>Without</i></u> artificial dyes, flavors, or other junk that makes gut problems
+                                    worse.</p>
                                 <p>And that's exactly what you need to fight Hidden Hunger.</p>
                                 <p>You see, food today doesn't have the nutrition levels it did even 50 years ago.</p>
                                 <p>So you may get enough calories every day.</p>
@@ -881,8 +917,10 @@ useHead({
                                         Better sleep
                                     </li>
                                 </ul>
-                                <p><span class="extrablod">Kids beg for Yumzy</span> because they taste like they're bad for you.</p>
-                                    <p>You’ll love Yumzy because they're <span class="extrablod">good for your kids.</span></p>
+                                <p><span class="extrablod">Kids beg for Yumzy</span> because they taste like they're bad
+                                    for you.</p>
+                                <p>You’ll love Yumzy because they're <span class="extrablod">good for your kids.</span>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -890,14 +928,14 @@ useHead({
                 </div>
 
                 <div class="border-1 lg:border-[#1EB9F0] border-[#fff] rounded-xl lg:p-5 p-0 lg:mt-20 mt-15 relative">
-                        <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
-                            class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white p-3 lg:text-xl text-3xl capitalize">
-                            Try Yumzy Today
-                        </a>
-                        <a href="https://get.yumzy.com/checkout-2-a/"
-                            class="hidden lg:block bg-[#0AA03C] text-white absolute -top-5 py-2 w-50 px-5 left-0 right-0 mx-auto extrablod lg:text-lg text-base text-center">
-                            Try Yumzy Now
-                        </a>
+                    <!-- <a @click="() => goToCheckout('lp2')"
+                        class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white p-3 lg:text-xl text-3xl capitalize cursor-pointer">
+                        Apply Discount & <br class="block md:hidden"> Check Availabiity
+                    </a> -->
+                    <a @click="() => goToCheckout('lp2')"
+                        class="hidden lg:block bg-[#0AA03C] text-white absolute -top-5 py-2 w-fit px-5 left-0 right-0 mx-auto extrablod lg:text-lg text-base text-center cursor-pointer">
+                        Apply Discount & <br class="block md:hidden"> Check Availabiity
+                    </a>
 
                     <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-5 gap-2 items-center">
 
@@ -913,14 +951,15 @@ useHead({
                             <h4 class="lg:text-3xl text-2xl extrablod">Ready to discover what happens when you support
                                 your
                                 family's gut-brain connection?</h4>
-                            <p>Join the thousands of smart moms just like you who've discovered the secret of Yumzy. It's filling the gaps with nutrition that tastes like it's bad for you.</p>
-                            <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
-                                class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white p-3 lg:text-xl text-3xl capitalize">
-                                Try Yumzy Today
-                            </a>
-                            <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
-                                class="lg:flex justify-center w-full h-full bg-[#0AA03C] hidden rounded-full  extrablod text-white p-3 lg:text-xl text-3xl">
-                                Try Yumzy Today
+                            <p>Join the thousands of smart moms just like you who've discovered the secret of Yumzy.
+                                It's filling the gaps with nutrition that tastes like it's bad for you.</p>
+                            <!-- <a @click="() => goToCheckout('lp2')"
+                                class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white p-3 text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
+                                Apply Discount & <br class="block md:hidden"> Check Availabiity
+                            </a> -->
+                            <a @click="() => goToCheckout('lp2')"
+                                class="flex justify-center w-full h-full bg-[#0AA03C]  rounded-full extrablod text-white p-3 lg:text-xl text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
+                                Apply Discount & <br class="block md:hidden"> Check Availabiity
                             </a>
 
                             <p class="bg-[#F7F8EA] lg:text-lg text-sm risk">Sell Out Risk: <span
@@ -928,7 +967,8 @@ useHead({
                                 <span class="text-[#E6193C]">LOW</span>
                             </p>
 
-                            <p class="uppercase extrablod">90-Day 200% <br class="block lg:hidden"> Happiness Guarantee</p>
+                            <p class="uppercase extrablod">90-Day 200% <br class="block lg:hidden"> Happiness Guarantee
+                            </p>
 
                         </div>
 
@@ -966,9 +1006,9 @@ useHead({
         <div ref="ctaBar"
             :class="['flex items-center justify-center lg:hidden transition-all duration-300 z-50', isFooterVisible ? 'absolute' : 'fixed']"
             :style="{ bottom: isFooterVisible ? `${footerHeight}px` : '1rem', left: 0, right: 0 }">
-            <a href="https://get.yumzy.com/checkout-2-a/" target="_blank"
-                class="block w-80 text-center text-white font-semibold text-2xl py-3 bg-[#1EB9F0] rounded-full">
-                Try Yumzy Today
+            <a @click="() => goToCheckout('lp2')"
+                class="block w-80 text-center text-white font-semibold text-2xl py-3 bg-[#1EB9F0] rounded-full leading-[calc(1em+1vw)]">
+                Apply Discount & <br class="block md:hidden"> Check Availabiity
             </a>
         </div>
     </div>
