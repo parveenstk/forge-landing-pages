@@ -7,15 +7,6 @@ definePageMeta({
     middleware: 'check-params',
 })
 
-// const lpParam = getFromStorage("lpParam", "local");
-
-// if (lpParam) {
-//     console.log("LP Param in 7-warning-signs:", lpParam);
-//     navigateTo(`/lp1/7-warning-signs/${lpParam}`);
-// } else {
-//     console.log("No LP Param found in 7-warning-signs");
-// }
-
 // meta tag details
 useHead({
     title: LANDING_1.meta.title,
@@ -36,11 +27,20 @@ const isFooterVisible = ref(false)
 // Date logic
 const formattedDate = ref('')
 
-// popup
-const popUp = ref(false);
-
 // onMounted
 onMounted(() => {
+
+    // Google Tag Manager - viewContent event
+    if (import.meta.client) {
+        window.dataLayer = window.dataLayer || [];
+
+        window.dataLayer.push({
+            event: 'viewContent',
+            page_name: 'Landing Page',
+        });
+
+        // console.log('✅ viewContent pushed');
+    }
 
     // Calculate date 5 days ago
     const today = new Date()
@@ -72,11 +72,8 @@ onMounted(() => {
     onUnmounted(() => {
         if (footerRef.value) observer.unobserve(footerRef.value)
         observer.disconnect()
-    })
 
-    // setTimeout(() => {
-    //     popUp.value = true
-    // }, 5000)
+    })
 
 })
 

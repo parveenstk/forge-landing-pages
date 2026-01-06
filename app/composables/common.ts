@@ -169,3 +169,13 @@ export const goToCheckout = (lp: string) => {
     if (value === "ch4") window.open(letter, "_blank");
     else window.open(`https://get.yumzy.com/checkout-2-${letter}`, "_blank");
 };
+
+// for dataLayer events
+export const useLandingDataLayer = (dataLayerObj: any) => {
+    if (!import.meta.client) return
+
+    window.dataLayer = window.dataLayer || []
+    window.dataLayer.push(dataLayerObj)
+
+    // console.log('[GTM upsell]', dataLayerObj)
+}

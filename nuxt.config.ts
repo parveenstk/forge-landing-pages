@@ -30,6 +30,8 @@ export default defineNuxtConfig({
     },
     public: {
       encryptResponses: true, // Optional public flag
+      pixel_id: "2090427268412378",
+      gtmId: 'GTM-W7MPKBF2',
     }
   }
 })

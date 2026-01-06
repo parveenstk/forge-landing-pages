@@ -15,6 +15,19 @@ const isFooterVisible = ref(false)
 const formattedDate = ref('')
 
 onMounted(() => {
+
+    // Google Tag Manager - viewContent event
+    if (import.meta.client) {
+        window.dataLayer = window.dataLayer || [];
+
+        window.dataLayer.push({
+            event: 'viewContent',
+            page_name: 'Landing Page',
+        });
+
+        // console.log('✅ viewContent pushed');
+    }
+
     // Calculate date 5 days ago
     const today = new Date()
     const pastDate = new Date(today)
@@ -409,7 +422,8 @@ useHead({
                                 </li>
                             </ul>
 
-                            <p><span class="extrablod">Breaking the cycle</span> starts with <a @click="() => goToCheckout('lp2')"
+                            <p><span class="extrablod">Breaking the cycle</span> starts with <a
+                                    @click="() => goToCheckout('lp2')"
                                     class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
                                     style="font-weight:600;">healing
                                     the
@@ -447,7 +461,8 @@ useHead({
                                 </li>
                             </ul>
 
-                            <p><span class="extrablod">Breaking the cycle</span> starts with <a @click="() => goToCheckout('lp2')"
+                            <p><span class="extrablod">Breaking the cycle</span> starts with <a
+                                    @click="() => goToCheckout('lp2')"
                                     class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
                                     style="font-weight:600;">healing
                                     the
@@ -954,9 +969,9 @@ useHead({
                                 Apply Discount & <br class="block md:hidden"> Check Availabiity
                             </a> -->
                             <a @click="() => goToCheckout('lp2')"
-                                    class="flex justify-center w-full h-full bg-[#0AA03C]  rounded-full extrablod text-white p-3 lg:text-xl text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
-                                    Apply Discount & <br class="block md:hidden"> Check Availabiity
-                                </a>
+                                class="flex justify-center w-full h-full bg-[#0AA03C]  rounded-full extrablod text-white p-3 lg:text-xl text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
+                                Apply Discount & <br class="block md:hidden"> Check Availabiity
+                            </a>
 
                             <p class="bg-[#F7F8EA] lg:text-lg text-sm risk">Sell Out Risk: <span
                                     class="text-[#E6193C]">HIGH</span> | Inventory:
@@ -1003,9 +1018,9 @@ useHead({
             :class="['flex items-center justify-center lg:hidden transition-all duration-300 z-50', isFooterVisible ? 'absolute' : 'fixed']"
             :style="{ bottom: isFooterVisible ? `${footerHeight}px` : '1rem', left: 0, right: 0 }">
             <a @click="() => goToCheckout('lp2')"
-                    class="block w-80 text-center text-white font-semibold text-2xl py-3 bg-[#1EB9F0] rounded-full leading-[calc(1em+1vw)]">
-                    Apply Discount & <br class="block md:hidden"> Check Availabiity
-                </a>
+                class="block w-80 text-center text-white font-semibold text-2xl py-3 bg-[#1EB9F0] rounded-full leading-[calc(1em+1vw)]">
+                Apply Discount & <br class="block md:hidden"> Check Availabiity
+            </a>
         </div>
     </div>
 </template>
