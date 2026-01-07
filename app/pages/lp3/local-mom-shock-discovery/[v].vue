@@ -5,6 +5,12 @@ definePageMeta({
     middleware: 'check-params'
 })
 
+// Footer & CTA logic
+const ctaBar = ref(null)
+const footerRef = ref<HTMLElement | null>(null)
+const footerHeight = ref(0)
+const isFooterVisible = ref(false)
+
 const today = new Date() // get today's date
 today.setDate(today.getDate() - 5)  // subtract 5 days
 
@@ -45,6 +51,26 @@ onMounted(() => {
 
         // console.log('✅ viewContent pushed');
     }
+
+
+    // Mobile Screen: floating CTA button "Try Yumzy Today"
+    footerHeight.value = footerRef.value?.offsetHeight || 0
+
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach((entry) => {
+                isFooterVisible.value = entry.isIntersecting
+            })
+        },
+        { threshold: 0.1 }
+    )
+
+    if (footerRef.value) observer.observe(footerRef.value)
+
+    onUnmounted(() => {
+        if (footerRef.value) observer.unobserve(footerRef.value)
+        observer.disconnect()
+    });
 
 });
 
@@ -192,8 +218,14 @@ onMounted(() => {
                             </li>
                         </ul> -->
 
-                        <div class="bg-[#f3ebda] p-5 mb-5"><img src="/images/fl-2.jpg"
-                                class="h-[300px] w-full md:h-[400px] object-contain" alt="fl-2.jpg-img" /></div>
+                        <div class=" mb-5">
+                            <!-- dekstop -->
+                            <img src="/images/fl-2.jpg"
+                                class="hidden md:block w-full md:h-auto md:object-contain" alt="fl-2.jpg-img" />
+                                <!-- mobile -->
+                            <img src="/images/fl-2-mobile.jpg"
+                                class="block md:hidden w-full md:h-auto" alt="fl-2.jpg-img" />
+                            </div>
 
                         <div class="lg:space-y-4 space-y-2 lg:px-4 font-bold">
 
@@ -332,6 +364,7 @@ onMounted(() => {
                         <p>She met someone. <span class="extrablod">An unexpected ally:</span> Anastasia
                             Radzinskaya.
                         </p>
+                        <img src="/images/nastya.jpg" class="w-full py-3" alt="nastya.jpg-img" />
                         <p>She's better known to her nearly 400 million fans as <span class="extrablod">Nastya,</span>
                             star
                             of the top YouTube children’s series <i>Like Nastya.</i></p>
@@ -465,7 +498,7 @@ onMounted(() => {
                         Don’t
                         You Deserve Peace of Mind?</h3>
                     <img src="/images/fl-7.jpg"
-                        class="w-full py-6 h-[450px] md:h-[600px] md:w-[80%] object-cover object-top"
+                        class="w-full py-6"
                         alt="fl-7.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
 
@@ -497,8 +530,8 @@ onMounted(() => {
                         class="lg:text-4xl text-[11vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">
                         A
                         Mission Bigger Than Business</h3>
-                    <img src="/images/p1-9.jpg"
-                        class="w-full py-6 h-auto md:h-[600px] md:w-[80%] object-cover object-top" alt="fl-8.jpg-Img" />
+                    <img src="/images/p1-9.png"
+                        class="w-full py-6" alt="p1-1.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p>Yumzy wasn't created to solve just <i><u>one</u></i> family's problems.
                         </p>
@@ -555,7 +588,7 @@ onMounted(() => {
                         Taking
                         Action</h3>
                     <img src="/images/fl-9.jpg"
-                        class="w-full py-6 h-[450px] md:h-[600px] md:w-[80%] object-cover object-top"
+                        class="w-full py-6 h-[300px] md:h-[600px] object-cover"
                         alt="fl-9.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p>To discover more about Yumzy and Hidden Hunger, visit the <span class="extrablod">Yumzy
@@ -619,9 +652,31 @@ onMounted(() => {
                             Try Yumzy Risk-Free
                         </a> -->
                         <a @click="() => goToCheckout('lp3')"
-                            class="flex justify-center w-full h-full bg-[#0AA03C]  rounded-full extrablod text-white p-3 lg:text-xl text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
+                            ref="footerRef" class="flex justify-center w-full h-full bg-[#0AA03C]  rounded-full extrablod text-white p-3 lg:text-xl text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
                             Apply Discount & <br class="block md:hidden"> Check Availabiity
                         </a>
+                        <!-- Fixed CTA Button (LP3) -->
+                            <div
+                                ref="ctaBarLp3"
+                                :class="[
+                                    'flex items-center justify-center lg:hidden transition-all duration-300 z-50',
+                                    isFooterVisible ? 'absolute' : 'fixed'
+                                ]"
+                                :style="{
+                                    bottom: isFooterVisible ? `${footerHeight}px` : '1rem',
+                                    left: 0,
+                                    right: 0
+                                }"
+                            >
+                                <a
+                                    @click="() => goToCheckout('lp3')"
+                                    class="mx-3 flex justify-center w-full bg-[#0AA03C] rounded-full extrablod text-white p-3 lg:text-xl text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer"
+                                >
+                                    Apply Discount & <br class="block md:hidden"> Check Availabiity
+                                </a>
+                            </div>
+
+                        
                     </div>
 
                     <div class="lg:text-md text-sm sources-text flex flex-col">

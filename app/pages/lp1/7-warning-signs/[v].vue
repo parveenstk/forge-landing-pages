@@ -970,7 +970,7 @@ onMounted(() => {
                                     It's filling the gaps with nutrition that tastes like it's bad for you.</p>
 
                                 <a @click="() => goToCheckout('lp1')"
-                                    class="flex justify-center w-full h-full bg-[#0AA03C]  rounded-full extrablod text-white p-3 lg:text-xl text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
+                                    ref="footerRef" class="flex justify-center w-full h-full bg-[#0AA03C]  rounded-full extrablod text-white p-3 lg:text-xl text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
                                     Apply Discount & <br class="block md:hidden"> Check Availabiity
                                 </a>
 
@@ -1004,7 +1004,7 @@ onMounted(() => {
         <!-- BodyContent -->
         <div>
             <!-- Your footer -->
-            <footer ref="footerRef" class="bg-[#1EB9F0] lg:py-7 py-3">
+            <footer class="bg-[#1EB9F0] lg:py-7 py-3">
                 <div class="mx-auto max-w-5xl text-center">
                     <img src="/images/logo.png" alt="logo.png-img" class="max-w-30 mx-auto mb-4" />
                     <p class="text-white lg:text-lg text-sm hidden lg:block">
@@ -1026,7 +1026,7 @@ onMounted(() => {
                 isFooterVisible ? 'absolute' : 'fixed'
             ]" :style="{ bottom: isFooterVisible ? `${footerHeight}px` : '1rem', left: 0, right: 0 }">
                 <a @click="() => goToCheckout('lp1')"
-                    class="block w-80 text-center text-white font-semibold text-2xl py-3 bg-[#1EB9F0] rounded-full leading-[calc(1em+1vw)]">
+                    class="mx-5 flex justify-center w-full h-full bg-[#0AA03C] rounded-full extrablod text-white p-3 lg:text-xl text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
                     Apply Discount & <br class="block md:hidden"> Check Availabiity
                 </a>
             </div>
