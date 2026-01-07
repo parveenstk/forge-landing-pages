@@ -16,18 +16,6 @@ const formattedDate = ref('')
 
 onMounted(() => {
 
-    // Google Tag Manager - viewContent event
-    if (import.meta.client) {
-        window.dataLayer = window.dataLayer || [];
-
-        window.dataLayer.push({
-            event: 'viewContent',
-            page_name: 'Landing Page',
-        });
-
-        // console.log('✅ viewContent pushed');
-    }
-
     // Calculate date 5 days ago
     const today = new Date()
     const pastDate = new Date(today)
@@ -62,6 +50,13 @@ onMounted(() => {
         if (footerRef.value) observer.unobserve(footerRef.value)
         observer.disconnect()
     })
+
+    // firing evetn after 1 second of page load
+    setTimeout(() => {
+        launchEvent();
+        // fbCAPI('viewContent');
+    }, 1000);
+
 })
 
 // meta tag details

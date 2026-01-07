@@ -40,17 +40,11 @@ useHead({
 // onMounted
 onMounted(() => {
 
-    // Google Tag Manager - viewContent event
-    if (import.meta.client) {
-        window.dataLayer = window.dataLayer || [];
-
-        window.dataLayer.push({
-            event: 'viewContent',
-            page_name: 'Landing Page',
-        });
-
-        // console.log('✅ viewContent pushed');
-    }
+    // firing evetn after 1 second of page load
+    setTimeout(() => {
+        launchEvent();
+        // fbCAPI('viewContent');
+    }, 1000);
 
 
     // Mobile Screen: floating CTA button "Try Yumzy Today"

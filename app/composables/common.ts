@@ -179,3 +179,70 @@ export const useLandingDataLayer = (dataLayerObj: any) => {
 
     // console.log('[GTM upsell]', dataLayerObj)
 }
+
+const LandingPageData: Record<string, string> = {
+    lp1: 'lp1 - Landing Page 1',
+    lp2: 'lp2 - Landing Page 2',
+    lp3: 'lp3 - Landing Page 3',
+    ch1: 'ch1 - checkout-2-a',
+    ch2: 'ch2 - checkout-2-b',
+    ch3: 'ch3 - checkout-2-c',
+    ch4: 'ch4 - yumzy-sales-page',
+}
+
+// viewContent event
+export const viewContentEvent =
+    (pageNumber: string, pageName: string, redirectedOn: string, pageType?: string) => {
+
+        if (import.meta.client) {
+            window.dataLayer = window.dataLayer || [];
+
+            window.dataLayer.push({
+                event: 'ViewContent',
+                page_type: pageType || 'Landing Page',
+                page_name: pageName || 'unknown',
+                page_number: LandingPageData[pageNumber] || 'Landing Page Number Unknown',
+                redirect_on: LandingPageData[redirectedOn] || 'Checkout Page Unknown',
+            });
+        }
+    }
+
+// launchEvent to be called on landing pages
+export const launchEvent = () => {
+    const route = useRoute();
+    const parts = route.path.split('/').filter(Boolean);
+
+    if (parts.length > 0) {
+        viewContentEvent(parts[0]!, parts[1]!, parts[2]!);
+        fbCAPI('ViewContent', parts[0]!, parts[1]!, parts[2]!);
+    } else {
+        console.log("Not enough parts to trigger events")
+    }
+};
+
+// Facebook CAPI event
+export const fbCAPI = async (eventType: string, pageNumber: string, pageName: string, redirectedOn: string, pageType?: string) => {
+    // console.log('fbCAPI Event Triggered:', eventType)
+
+    if (!import.meta.client) return
+
+    const { $metaPixelReady } = useNuxtApp()
+    await $metaPixelReady
+
+    if (!window.fbq) return
+    // console.log('fbq is available')
+
+    const config = useRuntimeConfig().public
+    const fbPixelId = config.pixel_id
+    if (!fbPixelId) return
+
+    const customData: Record<string, any> = {
+        event: 'ViewContent',
+        page_type: pageType || 'Landing Page',
+        page_name: pageName || 'unknown',
+        page_number: LandingPageData[pageNumber] || 'Landing Page Number Unknown',
+        redirect_on: LandingPageData[redirectedOn] || 'Checkout Page Unknown',
+    }
+
+    window.fbq('track', eventType, customData)
+};
