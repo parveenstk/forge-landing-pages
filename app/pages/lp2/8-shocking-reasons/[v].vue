@@ -740,7 +740,7 @@ useHead({
 
                         </div>
 
-                        <img src="/images/p1-8.jpg" alt="p1-8.jpg-img" class="w-full rounded-xl" />
+                        <img src="/images/p1-8.jpeg" alt="p1-8.jpeg-img" class="w-full rounded-xl" />
                     </div>
                     <div>
                         <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">The Solution Your Family Needs

@@ -793,7 +793,7 @@ onMounted(() => {
                                     class="lg:text-3xl text-2xl extrablod mb-0 text-[calc(10vw-0px)] sm:text-[calc(5.7vw-0px)] leading-[calc(1em+1vw)]">
                                     What Smart Moms Are Doing About It</h3>
                             </div>
-                            <img src="/images/p1-8.jpg" class="w-full rounded-xl" alt="p1-8.jpg-img" />
+                            <img src="/images/p1-8.jpeg" class="w-full rounded-xl" alt="p1-8.jpeg-img" />
                         </div>
                         <div>
                             <h3 class="text-3xl extrablod mb-4 lg:block hidden leading-9">What Smart Moms Are Doing

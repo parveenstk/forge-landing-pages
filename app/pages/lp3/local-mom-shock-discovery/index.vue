@@ -297,7 +297,7 @@ onMounted(() => {
                     <h3
                         class="text-[7.5vw] sm:text-[calc(5.5vw-0px)] leading-[calc(1em+1vw)] lg:text-4xl extrablod mt-8">
                         Superfood Gamechanger</h3>
-                    <img src="/images/fl-5.jpg" class="w-full py-6" alt="fl-5.jpg-img" />
+                    <img src="/images/p1-8.jpeg" class="w-full py-6" alt="p1-8.jpeg-img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p><span class="extrablod">After seeing thousands</span> of families struggle with
                             Hidden
