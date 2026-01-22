@@ -373,8 +373,7 @@ onMounted(() => {
                                 <p>But if you consume them every day.</p>
                                 <p>
                                     <a @click="() => goToCheckout('lp1')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">
                                         Once picky eaters get consistent nutrition,
                                     </a>
                                     those meltdowns decrease. Even
@@ -407,8 +406,7 @@ onMounted(() => {
                                     immune health.</p>
                                 <p>But if you consume them every day.</p>
                                 <p><a @click="() => goToCheckout('lp1')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">
                                         Once picky eaters get consistent nutrition,
                                     </a>
                                     those meltdowns decrease. Even
@@ -454,8 +452,7 @@ onMounted(() => {
                                 <p>Because of a lack of vitamins like A, C, and D…</p>
                                 <p>Meanwhile,
                                     <a @click="() => goToCheckout('lp1')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">kids
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">kids
                                         with
                                         strong immune systems
                                     </a>
@@ -484,8 +481,7 @@ onMounted(() => {
                                 <p>Because of a lack of vitamins like A, C, and D…</p>
                                 <p>Meanwhile,
                                     <a @click="() => goToCheckout('lp1')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">kids
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">kids
                                         with
                                         strong immune systems
                                     </a>
@@ -544,8 +540,7 @@ onMounted(() => {
                                 <p>And keep it up so those nutrient levels remain high...</p>
                                 <p>
                                     <a @click="() => goToCheckout('lp1')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">Kids
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">Kids
                                         can
                                         show dramatic reversals.
                                     </a>
@@ -569,8 +564,7 @@ onMounted(() => {
                                 <p>And keep it up so those nutrient levels remain high...</p>
                                 <p>
                                     <a @click="() => goToCheckout('lp1')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">Kids
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">Kids
                                         can show dramatic reversals.
                                     </a>
                                 </p>
@@ -636,8 +630,7 @@ onMounted(() => {
                                             blood sugar</span> for better sleep.</p>
                                     <p>
                                         <a @click="() => goToCheckout('lp1')"
-                                            class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                            style="font-weight:600;">
+                                            class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">
                                             With consistent nutrition,
                                         </a>
                                         bedtime battles decrease.
@@ -672,8 +665,7 @@ onMounted(() => {
                                             blood sugar</span> for better sleep.</p>
                                     <p>
                                         <a @click="() => goToCheckout('lp1')"
-                                            class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                            style="font-weight:600;">With
+                                            class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">With
                                             consistent nutrition,
                                         </a>
                                         bedtime battles decrease.
@@ -734,8 +726,7 @@ onMounted(() => {
                                 <p>When Hidden Hunger is the <span class="extrablod italic">real</span> issue.</p>
                                 <p>That all stops
                                     <a @click="() => goToCheckout('lp1')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">with
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">with
                                         better
                                         nutrition.
                                     </a>
@@ -772,8 +763,7 @@ onMounted(() => {
                                 <p>When Hidden Hunger is the <span class="extrablod italic">real</span> issue.</p>
                                 <p>That all stops
                                     <a @click="() => goToCheckout('lp1')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">with
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">with
                                         better
                                         nutrition.
                                     </a>
@@ -917,8 +907,7 @@ onMounted(() => {
                             </ul>
                             <p>Plus, your order of YOMZ Gummies is backed by Yumzy's famous
                                 <a @click="() => goToCheckout('lp1')"
-                                    class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                    style="font-weight:600;">90-Day
+                                    class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">90-Day
                                     200%
                                     Happiness Guarantee.
                                 </a>
@@ -963,7 +952,7 @@ onMounted(() => {
                                     It's filling the gaps with nutrition that tastes like it's bad for you.</p>
 
                                 <a @click="() => goToCheckout('lp1')"
-                                    class="flex justify-center w-full h-full bg-[#0AA03C]  rounded-full extrablod text-white p-3 lg:text-xl text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
+                                    ref="footerRef" class="flex justify-center w-full h-full bg-[#0AA03C]  rounded-full extrablod text-white p-3 lg:text-xl text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
                                     Apply Discount & <br class="block md:hidden"> Check Availabiity
                                 </a>
 
@@ -997,7 +986,7 @@ onMounted(() => {
         <!-- BodyContent -->
         <div>
             <!-- Your footer -->
-            <footer ref="footerRef" class="bg-[#1EB9F0] lg:py-7 py-3">
+            <footer class="bg-[#1EB9F0] lg:py-7 py-3">
                 <div class="mx-auto max-w-5xl text-center">
                     <img src="/images/logo.png" alt="logo.png-img" class="max-w-30 mx-auto mb-4" />
                     <p class="text-white lg:text-lg text-sm hidden lg:block">
@@ -1019,7 +1008,7 @@ onMounted(() => {
                 isFooterVisible ? 'absolute' : 'fixed'
             ]" :style="{ bottom: isFooterVisible ? `${footerHeight}px` : '1rem', left: 0, right: 0 }">
                 <a @click="() => goToCheckout('lp1')"
-                    class="block w-80 text-center text-white font-semibold text-2xl py-3 bg-[#1EB9F0] rounded-full leading-[calc(1em+1vw)]">
+                    class="mx-5 flex justify-center w-full h-full bg-[#0AA03C] rounded-full extrablod text-white p-3 lg:text-xl text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
                     Apply Discount & <br class="block md:hidden"> Check Availabiity
                 </a>
             </div>

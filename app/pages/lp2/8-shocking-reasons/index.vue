@@ -326,8 +326,7 @@ onMounted(() => {
                                     behavior problems.</p>
                                 <p>Better nutrition
                                     <a @click="() => goToCheckout('lp2')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">makes
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">makes
                                         all the
                                         difference.</a>
                                 </p>
@@ -359,8 +358,7 @@ onMounted(() => {
                                     behavior problems.</p>
                                 <p>Better nutrition
                                     <a @click="() => goToCheckout('lp2')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">
                                         makes all the difference.
                                     </a>
                                 </p>
@@ -413,8 +411,7 @@ onMounted(() => {
 
                             <p><span class="extrablod">Breaking the cycle</span> starts with <a
                                     @click="() => goToCheckout('lp2')"
-                                    class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                    style="font-weight:600;">healing
+                                    class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">healing
                                     the
                                     gut</a>.
                             </p>
@@ -452,8 +449,7 @@ onMounted(() => {
 
                             <p><span class="extrablod">Breaking the cycle</span> starts with <a
                                     @click="() => goToCheckout('lp2')"
-                                    class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                    style="font-weight:600;">healing
+                                    class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">healing
                                     the
                                     gut</a>.
                             </p>
@@ -497,8 +493,7 @@ onMounted(() => {
                                 <p>The hyperactive kid now pays attention in class.</p>
                                 <p>Or sits through dinner without bouncing off the walls.</p>
                                 <p>And it all starts with <a @click="() => goToCheckout('lp2')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">better
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">better
                                         nutrition.</a></p>
 
                             </div>
@@ -524,8 +519,7 @@ onMounted(() => {
                                 <p>The hyperactive kid now pays attention in class.</p>
                                 <p>Or sits through dinner without bouncing off the walls.</p>
                                 <p>And it all starts with <a @click="() => goToCheckout('lp2')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">better
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">better
                                         nutrition.</a></p>
 
                             </div>
@@ -566,8 +560,7 @@ onMounted(() => {
                                 <p>This is <span class="extrablod italic">especially</span> true for kids.</p>
                                 <p>So how to end the emotional meltdowns?</p>
                                 <p><a @click="() => goToCheckout('lp2')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">Restore
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">Restore
                                         gut
                                         balance.</a></p>
                             </div>
@@ -591,8 +584,7 @@ onMounted(() => {
                                 <p>This is <span class="extrablod italic">especially</span> true for kids.</p>
                                 <p>So how to end the emotional meltdowns?</p>
                                 <p><a @click="() => goToCheckout('lp2')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">Restore
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">Restore
                                         gut
                                         balance.</a></p>
                             </div>
@@ -631,8 +623,7 @@ onMounted(() => {
                                 <p>They struggle with friendships. Or feel overwhelmed in groups.</p>
                                 <p>The good news?</p>
                                 <p>Once <a @click="() => goToCheckout('lp2')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">gut
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">gut
                                         health
                                         improves,</a> your kids will be <span class="extrablod">more confident and
                                         outgoing.</span></p>
@@ -656,8 +647,7 @@ onMounted(() => {
                                 <p>They struggle with friendships. Or feel overwhelmed in groups.</p>
                                 <p>The good news?</p>
                                 <p>Once <a @click="() => goToCheckout('lp2')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">gut
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">gut
                                         health
                                         improves,</a> your kids will be <span class="extrablod">more confident and
                                         outgoing.</span></p>
@@ -692,8 +682,7 @@ onMounted(() => {
 
                                 <p>Which is when kids crave junk food even more. </p>
                                 <p> <a @click="() => goToCheckout('lp2')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">Luckily,
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">Luckily,
                                         once
                                         nutrition improves,</a> gut health is restored. </p>
                                 <p>And most kids return to their normal development path.</p>
@@ -711,8 +700,7 @@ onMounted(() => {
 
                                 <p>Which is when kids crave junk food even more. </p>
                                 <p> <a @click="() => goToCheckout('lp2')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">Luckily,
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">Luckily,
                                         once
                                         nutrition improves,</a> gut health is restored. </p>
                                 <p>And most kids return to their normal development path.</p>
@@ -957,7 +945,7 @@ onMounted(() => {
                                 class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white p-3 text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
                                 Apply Discount & <br class="block md:hidden"> Check Availabiity
                             </a> -->
-                            <a @click="() => goToCheckout('lp2')"
+                            <a @click="() => goToCheckout('lp2')" ref="footerRef"
                                 class="flex justify-center w-full h-full bg-[#0AA03C]  rounded-full extrablod text-white p-3 lg:text-xl text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
                                 Apply Discount & <br class="block md:hidden"> Check Availabiity
                             </a>
@@ -986,7 +974,7 @@ onMounted(() => {
     <!-- BodyContent -->
     <div>
         <!-- Your footer -->
-        <footer ref="footerRef" class="bg-[#1EB9F0] lg:py-7 py-3 mt-10">
+        <footer class="bg-[#1EB9F0] lg:py-7 py-3 mt-10">
             <div class="mx-auto max-w-5xl text-center">
                 <img src="/images/logo.png" alt="logo.png-img" class="max-w-30 mx-auto mb-4" />
                 <p class="text-white lg:text-lg text-sm hidden lg:block">
@@ -1007,7 +995,7 @@ onMounted(() => {
             :class="['flex items-center justify-center lg:hidden transition-all duration-300 z-50', isFooterVisible ? 'absolute' : 'fixed']"
             :style="{ bottom: isFooterVisible ? `${footerHeight}px` : '1rem', left: 0, right: 0 }">
             <a @click="() => goToCheckout('lp2')"
-                class="block w-80 text-center text-white font-semibold text-2xl py-3 bg-[#1EB9F0] rounded-full leading-[calc(1em+1vw)]">
+                class="mx-5 flex justify-center w-full h-full bg-[#0AA03C] rounded-full extrablod text-white p-3 lg:text-xl text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
                 Apply Discount & <br class="block md:hidden"> Check Availabiity
             </a>
         </div>

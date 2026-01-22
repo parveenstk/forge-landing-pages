@@ -332,8 +332,7 @@ useHead({
                                     behavior problems.</p>
                                 <p>Better nutrition
                                     <a @click="() => goToCheckout('lp2')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">makes
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">makes
                                         all the
                                         difference.</a>
                                 </p>
@@ -365,8 +364,7 @@ useHead({
                                     behavior problems.</p>
                                 <p>Better nutrition
                                     <a @click="() => goToCheckout('lp2')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">
                                         makes all the difference.
                                     </a>
                                 </p>
@@ -419,8 +417,7 @@ useHead({
 
                             <p><span class="extrablod">Breaking the cycle</span> starts with <a
                                     @click="() => goToCheckout('lp2')"
-                                    class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                    style="font-weight:600;">healing
+                                    class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">healing
                                     the
                                     gut</a>.
                             </p>
@@ -458,8 +455,7 @@ useHead({
 
                             <p><span class="extrablod">Breaking the cycle</span> starts with <a
                                     @click="() => goToCheckout('lp2')"
-                                    class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                    style="font-weight:600;">healing
+                                    class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">healing
                                     the
                                     gut</a>.
                             </p>
@@ -503,8 +499,7 @@ useHead({
                                 <p>The hyperactive kid now pays attention in class.</p>
                                 <p>Or sits through dinner without bouncing off the walls.</p>
                                 <p>And it all starts with <a @click="() => goToCheckout('lp2')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">better
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">better
                                         nutrition.</a></p>
 
                             </div>
@@ -530,8 +525,7 @@ useHead({
                                 <p>The hyperactive kid now pays attention in class.</p>
                                 <p>Or sits through dinner without bouncing off the walls.</p>
                                 <p>And it all starts with <a @click="() => goToCheckout('lp2')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">better
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">better
                                         nutrition.</a></p>
 
                             </div>
@@ -572,8 +566,7 @@ useHead({
                                 <p>This is <span class="extrablod italic">especially</span> true for kids.</p>
                                 <p>So how to end the emotional meltdowns?</p>
                                 <p><a @click="() => goToCheckout('lp2')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">Restore
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">Restore
                                         gut
                                         balance.</a></p>
                             </div>
@@ -597,8 +590,7 @@ useHead({
                                 <p>This is <span class="extrablod italic">especially</span> true for kids.</p>
                                 <p>So how to end the emotional meltdowns?</p>
                                 <p><a @click="() => goToCheckout('lp2')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">Restore
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">Restore
                                         gut
                                         balance.</a></p>
                             </div>
@@ -637,8 +629,7 @@ useHead({
                                 <p>They struggle with friendships. Or feel overwhelmed in groups.</p>
                                 <p>The good news?</p>
                                 <p>Once <a @click="() => goToCheckout('lp2')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">gut
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">gut
                                         health
                                         improves,</a> your kids will be <span class="extrablod">more confident and
                                         outgoing.</span></p>
@@ -662,8 +653,7 @@ useHead({
                                 <p>They struggle with friendships. Or feel overwhelmed in groups.</p>
                                 <p>The good news?</p>
                                 <p>Once <a @click="() => goToCheckout('lp2')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">gut
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">gut
                                         health
                                         improves,</a> your kids will be <span class="extrablod">more confident and
                                         outgoing.</span></p>
@@ -698,8 +688,7 @@ useHead({
 
                                 <p>Which is when kids crave junk food even more. </p>
                                 <p> <a @click="() => goToCheckout('lp2')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">Luckily,
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">Luckily,
                                         once
                                         nutrition improves,</a> gut health is restored. </p>
                                 <p>And most kids return to their normal development path.</p>
@@ -717,8 +706,7 @@ useHead({
 
                                 <p>Which is when kids crave junk food even more. </p>
                                 <p> <a @click="() => goToCheckout('lp2')"
-                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer"
-                                        style="font-weight:600;">Luckily,
+                                        class="text-blue-600 hover:text-red-500 extrablod cursor-pointer">Luckily,
                                         once
                                         nutrition improves,</a> gut health is restored. </p>
                                 <p>And most kids return to their normal development path.</p>
@@ -963,8 +951,8 @@ useHead({
                                 class="flex justify-center w-full h-full bg-[#0AA03C] lg:hidden  rounded-full  extrablod text-white p-3 text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
                                 Apply Discount & <br class="block md:hidden"> Check Availabiity
                             </a> -->
-                            <a @click="() => goToCheckout('lp2')"
-                                ref="footerRef"  class="flex justify-center w-full h-full bg-[#0AA03C]  rounded-full extrablod text-white p-3 lg:text-xl text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
+                            <a @click="() => goToCheckout('lp2')" ref="footerRef"
+                                class="flex justify-center w-full h-full bg-[#0AA03C]  rounded-full extrablod text-white p-3 lg:text-xl text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
                                 Apply Discount & <br class="block md:hidden"> Check Availabiity
                             </a>
 
