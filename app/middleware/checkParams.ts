@@ -10,8 +10,8 @@ export default defineNuxtRouteMiddleware((to, from) => {
 
     const ch = Number(match[1]); // the number after "ch"
 
-    // ch must be 1–4
-    const isValidCh = ch >= 1 && ch <= 4;
+    // ch must be 1–5
+    const isValidCh = ch >= 1 && ch <= 5;
 
     if (!isValidCh) {
         return navigateTo('/error');
