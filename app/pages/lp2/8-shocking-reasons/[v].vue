@@ -28,9 +28,7 @@ onMounted(() => {
         day: 'numeric',
     }
 
-    const formattedDate = ref(
-        today.toLocaleDateString('en-US', options)
-    )
+    formattedDate.value = pastDate.toLocaleDateString('en-US', options)
 
     // Mobile Screen: floating CTA button "Try Yumzy Today"
     footerHeight.value = footerRef.value?.offsetHeight || 0
