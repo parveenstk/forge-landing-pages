@@ -51,10 +51,8 @@ onMounted(() => {
 
     <!-- BodyContent -->
     <main>
-        <div class="max-w-6xl lg:py-6 py-2 mx-auto">
-            <div class="grid grid-cols-1 lg:grid-cols-10 gap-0">
-                <!-- Column left -->
-                <div class="col-span-10 lg:col-span-7 lg:p-4 p-2 allpragraph-fontsize">
+        <div class="max-w-202 lg:py-6 py-2 mx-auto">
+            <div class="lg:mx-2 mx-2 my-2 allpragraph-fontsize">
                     <p class="mb-2 hidden lg:block">Home > Health > Family Health</p>
                     <p class="mb-2 lg:hidden">Home > Health > Family Health</p>
 
@@ -188,12 +186,12 @@ onMounted(() => {
 
                         <div class=" mb-5">
                             <!-- dekstop -->
-                            <img src="/images/fl-2.jpg"
-                                class="hidden md:block w-full md:h-auto md:object-contain" alt="fl-2.jpg-img" />
-                                <!-- mobile -->
-                            <img src="/images/fl-2-mobile.jpg"
-                                class="block md:hidden w-full md:h-auto" alt="fl-2.jpg-img" />
-                            </div>
+                            <img src="/images/fl-2.jpg" class="hidden md:block w-full md:h-auto md:object-contain"
+                                alt="fl-2.jpg-img" />
+                            <!-- mobile -->
+                            <img src="/images/fl-2-mobile.jpg" class="block md:hidden w-full md:h-auto"
+                                alt="fl-2.jpg-img" />
+                        </div>
 
                         <div class="lg:space-y-4 space-y-2 lg:px-4 font-bold">
 
@@ -464,9 +462,7 @@ onMounted(() => {
                         class="lg:text-4xl text-[10vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">
                         Don’t
                         You Deserve Peace of Mind?</h3>
-                    <img src="/images/fl-7.jpg"
-                        class="w-full py-6"
-                        alt="fl-7.jpg-Img" />
+                    <img src="/images/fl-7.jpg" class="w-full py-6" alt="fl-7.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
 
                         <p><span class="extrablod">The most rewarding part</span> of Yumzy? "Hearing from
@@ -497,8 +493,7 @@ onMounted(() => {
                         class="lg:text-4xl text-[11vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">
                         A
                         Mission Bigger Than Business</h3>
-                    <img src="/images/p1-9.png"
-                        class="w-full py-6" alt="p1-1.jpg-Img" />
+                    <img src="/images/p1-9.png" class="w-full py-6" alt="p1-1.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p>Yumzy wasn't created to solve just <i><u>one</u></i> family's problems.
                         </p>
@@ -553,8 +548,7 @@ onMounted(() => {
                         class="lg:text-4xl text-[11vw] sm:text-[calc(5.5vw-0px)] lg:leading-[52px] leading-[calc(1em+1vw)] extrablod mt-8">
                         Taking
                         Action</h3>
-                    <img src="/images/fl-9.jpg"
-                        class="w-full py-6 h-[300px] md:h-[600px] object-cover"
+                    <img src="/images/fl-9.jpg" class="w-full py-6 h-[300px] md:h-[600px] object-cover"
                         alt="fl-9.jpg-Img" />
                     <div class="lg:space-y-4 space-y-2 mb-8">
                         <p>To discover more about Yumzy and Hidden Hunger, visit the <span class="extrablod">Yumzy
@@ -617,32 +611,26 @@ onMounted(() => {
                             class="flex justify-center w-full h-full bg-[#0AA03C] rounded-full  extrablod text-white capitalize p-3 lg:text-xl text-2xl sm:text-3xl">
                             Try Yumzy Risk-Free
                         </a> -->
-                        <a @click="() => goToCheckout('lp3')"
-                            ref="footerRef" class="flex justify-center w-full h-full bg-[#0AA03C]  rounded-full extrablod text-white p-3 lg:text-xl text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
+                        <a @click="() => goToCheckout('lp3')" ref="footerRef"
+                            class="flex justify-center w-full h-full bg-[#0AA03C]  rounded-full extrablod text-white p-3 lg:text-xl text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
                             Apply Discount & <br class="block md:hidden"> Check Availabiity
                         </a>
                         <!-- Fixed CTA Button (LP3) -->
-                            <div
-                                ref="ctaBarLp3"
-                                :class="[
-                                    'flex items-center justify-center lg:hidden transition-all duration-300 z-50',
-                                    isFooterVisible ? 'absolute' : 'fixed'
-                                ]"
-                                :style="{
+                        <div ref="ctaBarLp3" :class="[
+                            'flex items-center justify-center lg:hidden transition-all duration-300 z-50',
+                            isFooterVisible ? 'absolute' : 'fixed'
+                        ]" :style="{
                                     bottom: isFooterVisible ? `${footerHeight}px` : '1rem',
                                     left: 0,
                                     right: 0
-                                }"
-                            >
-                                <a
-                                    @click="() => goToCheckout('lp3')"
-                                    class="mx-3 flex justify-center w-full bg-[#0AA03C] rounded-full extrablod text-white p-3 lg:text-xl text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer"
-                                >
-                                    Apply Discount & <br class="block md:hidden"> Check Availabiity
-                                </a>
-                            </div>
+                                }">
+                            <a @click="() => goToCheckout('lp3')"
+                                class="mx-3 flex justify-center w-full bg-[#0AA03C] rounded-full extrablod text-white p-3 lg:text-xl text-2xl leading-[calc(1em+1vw)] capitalize cursor-pointer">
+                                Apply Discount & <br class="block md:hidden"> Check Availabiity
+                            </a>
+                        </div>
 
-                        
+
                     </div>
 
                     <div class="lg:text-md text-sm sources-text flex flex-col">
@@ -652,89 +640,7 @@ onMounted(() => {
                         </a>
                     </div>
                 </div>
-
-                <!-- Column right -->
-                <div class="col-span-10 lg:col-span-3 lg:p-4 p-2 hidden">
-                    <div class="border-1 border-[#1EB9F0] p-2 bg-[#F3FBFE] rounded-xl">
-                        <h4 class="text-center text-xl font-bold pt-4 extrablod">FINALLY GET YOUR STRENGTH
-                            AND ENERGY BACK AFTER 40</h4>
-
-                        <img src="/images/yomz-pack.png" class="w-full p-5" alt="yomz-pack.png-Img" />
-
-                        <div class="bg-white  p-4 rounded-xl">
-
-                            <p class="text-lg font-bold mb-2 extrablod">Customer Reviews</p>
-
-                            <p class="flex gap-1 mb-2">
-                                <span class="flex">
-                                    <img v-for="i in 5" :key="i" src="/images/yellow-star.svg" class="h-5"
-                                        alt="yellow-star.svg-Img" />
-                                </span> 4.8 out of 5
-                            </p>
-
-                            <p class="mb-2">6,782 customer ratings</p>
-
-                            <div class="max-w-md mx-auto space-y-3">
-                                <!-- 5 Star -->
-                                <div class="flex items-center gap-1">
-                                    <span class="w-12 text-sm font-medium">5 Star</span>
-                                    <div class="flex-1 h-4 bg-gray-200">
-                                        <div class="h-4 bg-yellow-400 " style="width: 90%"></div>
-                                    </div>
-                                    <span class="w-10 text-sm font-medium text-right">90%</span>
-                                </div>
-
-                                <!-- 4 Star -->
-                                <div class="flex items-center gap-1">
-                                    <span class="w-12 text-sm font-medium">4 Star</span>
-                                    <div class="flex-1 h-4 bg-gray-200">
-                                        <div class="h-4 bg-yellow-400" style="width: 7%"></div>
-                                    </div>
-                                    <span class="w-10 text-sm font-medium text-right">7%</span>
-                                </div>
-
-                                <!-- 3 Star -->
-                                <div class="flex items-center gap-1">
-                                    <span class="w-12 text-sm font-medium">3 Star</span>
-                                    <div class="flex-1 h-4 bg-gray-200">
-                                        <div class="h-4 bg-yellow-400" style="width: 2%"></div>
-                                    </div>
-                                    <span class="w-10 text-sm font-medium text-right">2%</span>
-                                </div>
-
-                                <!-- 2 Star -->
-                                <div class="flex items-center gap-1">
-                                    <span class="w-12 text-sm font-medium">2 Star</span>
-                                    <div class="flex-1 h-4 bg-gray-200">
-                                        <div class="h-4 bg-yellow-400" style="width: 0%"></div>
-                                    </div>
-                                    <span class="w-10 text-sm font-medium text-right">0%</span>
-                                </div>
-
-                                <!-- 1 Star -->
-                                <div class="flex items-center gap-1">
-                                    <span class="w-12 text-sm font-medium">1 Star</span>
-                                    <div class="flex-1 h-4 bg-gray-200">
-                                        <div class="h-4 bg-yellow-400" style="width: 1%"></div>
-                                    </div>
-                                    <span class="w-10 text-sm font-medium text-right">1%</span>
-                                </div>
-                            </div>
-
-                            <!-- By Feature -->
-                            <p class="text-lg extrablod mb-2 mt-4">By Feature</p>
-                            <RatingItem v-for="item in ratings" :key="item.label" :label="item.label"
-                                :rating="item.rating" />
-                        </div>
-
-                        <button @click="() => goToCheckout('lp3')"
-                            class="bg-black text-white w-full p-2 mt-3 mb-4 text-xl font-extrabold uppercase rounded-full cursor-pointer">
-                            Try YOMZ Risk-Free
-                        </button>
-
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </main>
 

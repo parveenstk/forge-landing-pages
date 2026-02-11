@@ -39,8 +39,8 @@ defineProps({
 
     <!-- show when pageName === "LP-3" -->
     <div v-if="pageName === 'LP-3'" class="bg-black lg:gap-3 gap-1 py-3">
-        <div class="max-w-6xl mx-auto">
-            <div class="text-white flex items-center justify-between lg:px-0 px-2">
+        <div class="max-w-202 mx-auto">
+            <div class="text-white flex items-center justify-between lg:px-0 px-2 lg:mx-2">
                 <p class="uppercase font-bold lg:text-sm text-xs">Health & WELLNESS</p>
                 <p class="flex gap-2 uppercase font-bold lg:text-sm text-xs">
                     <img src="/images/us-flag.webp" class="lg:h-5 h-4"> Trending in the US
