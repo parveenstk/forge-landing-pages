@@ -77,8 +77,10 @@ onMounted(() => {
 
     <!-- BodyContent -->
     <main>
-        <div class="max-w-202 lg:py-6 py-2 mx-auto">
-            <div class="lg:mx-2 mx-2 my-2 allpragraph-fontsize">
+        <div class="max-w-6xl lg:py-6 py-2 mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-10 gap-0">
+                <!-- Column left -->
+                <div class="col-span-10 lg:col-span-7 lg:p-4 p-2 allpragraph-fontsize">
                     <p class="mb-2 hidden lg:block">Home > Health > Family Health</p>
                     <p class="mb-2 lg:hidden">Home > Health > Family Health</p>
 
@@ -666,7 +668,89 @@ onMounted(() => {
                         </a>
                     </div>
                 </div>
-            
+
+                <!-- Column right -->
+                <div class="col-span-10 lg:col-span-3 lg:p-4 p-2 hidden">
+                    <div class="border-1 border-[#1EB9F0] p-2 bg-[#F3FBFE] rounded-xl">
+                        <h4 class="text-center text-xl font-bold pt-4 extrablod">FINALLY GET YOUR STRENGTH
+                            AND ENERGY BACK AFTER 40</h4>
+
+                        <img src="/images/yomz-pack.png" class="w-full p-5" alt="yomz-pack.png-Img" />
+
+                        <div class="bg-white  p-4 rounded-xl">
+
+                            <p class="text-lg font-bold mb-2 extrablod">Customer Reviews</p>
+
+                            <p class="flex gap-1 mb-2">
+                                <span class="flex">
+                                    <img v-for="i in 5" :key="i" src="/images/yellow-star.svg" class="h-5"
+                                        alt="yellow-star.svg-Img" />
+                                </span> 4.8 out of 5
+                            </p>
+
+                            <p class="mb-2">6,782 customer ratings</p>
+
+                            <div class="max-w-md mx-auto space-y-3">
+                                <!-- 5 Star -->
+                                <div class="flex items-center gap-1">
+                                    <span class="w-12 text-sm font-medium">5 Star</span>
+                                    <div class="flex-1 h-4 bg-gray-200">
+                                        <div class="h-4 bg-yellow-400 " style="width: 90%"></div>
+                                    </div>
+                                    <span class="w-10 text-sm font-medium text-right">90%</span>
+                                </div>
+
+                                <!-- 4 Star -->
+                                <div class="flex items-center gap-1">
+                                    <span class="w-12 text-sm font-medium">4 Star</span>
+                                    <div class="flex-1 h-4 bg-gray-200">
+                                        <div class="h-4 bg-yellow-400" style="width: 7%"></div>
+                                    </div>
+                                    <span class="w-10 text-sm font-medium text-right">7%</span>
+                                </div>
+
+                                <!-- 3 Star -->
+                                <div class="flex items-center gap-1">
+                                    <span class="w-12 text-sm font-medium">3 Star</span>
+                                    <div class="flex-1 h-4 bg-gray-200">
+                                        <div class="h-4 bg-yellow-400" style="width: 2%"></div>
+                                    </div>
+                                    <span class="w-10 text-sm font-medium text-right">2%</span>
+                                </div>
+
+                                <!-- 2 Star -->
+                                <div class="flex items-center gap-1">
+                                    <span class="w-12 text-sm font-medium">2 Star</span>
+                                    <div class="flex-1 h-4 bg-gray-200">
+                                        <div class="h-4 bg-yellow-400" style="width: 0%"></div>
+                                    </div>
+                                    <span class="w-10 text-sm font-medium text-right">0%</span>
+                                </div>
+
+                                <!-- 1 Star -->
+                                <div class="flex items-center gap-1">
+                                    <span class="w-12 text-sm font-medium">1 Star</span>
+                                    <div class="flex-1 h-4 bg-gray-200">
+                                        <div class="h-4 bg-yellow-400" style="width: 1%"></div>
+                                    </div>
+                                    <span class="w-10 text-sm font-medium text-right">1%</span>
+                                </div>
+                            </div>
+
+                            <!-- By Feature -->
+                            <p class="text-lg extrablod mb-2 mt-4">By Feature</p>
+                            <RatingItem v-for="item in ratings" :key="item.label" :label="item.label"
+                                :rating="item.rating" />
+                        </div>
+
+                        <button @click="() => goToCheckout('lp3')"
+                            class="bg-black text-white w-full p-2 mt-3 mb-4 text-xl font-extrabold uppercase rounded-full cursor-pointer">
+                            Try YOMZ Risk-Free
+                        </button>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
@@ -676,10 +760,9 @@ onMounted(() => {
     <footer class="bg-[#1EB9F0] lg:py-7 py-3">
         <div class="mx-auto max-w-5xl text-center">
             <img src="/images/logo.png" class="max-w-30 mx-auto mb-4" alt="logo.png-Img" />
-            <p class="text-white lg:text-lg text-sm">By filling out the field, you consent for YOMZ™
-                to use automated technology, including texts and prerecorded messages, to contact you at the number
-                and
-                email provided about YOMZ™ offers. </p>
+            <p class="text-white lg:text-lg text-sm">By filling out the field, you consent for Yumzy™ to use automated technology,
+                        including texts and prerecorded messages, to contact you at the number and
+                        email provided about Yumzy™ offers. </p>
         </div>
     </footer>
     <!-- Fixed CTA Button -->
